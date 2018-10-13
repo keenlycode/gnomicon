@@ -1,4 +1,5 @@
 import os
+import re
 from xml.etree import ElementTree
 
 walk = os.walk('adwaita-scalable')
@@ -12,25 +13,52 @@ f = open('adwaita.svg', 'w')
 f.write('<svg></svg>')
 f.close()
 ElementTree.register_namespace('', 'http://www.w3.org/2000/svg')
-svg_def = ElementTree.parse('adwaita.svg')
+svg_symbol = ElementTree.parse('adwaita.svg')
 for icon in icons:
-    print(icon)
     f = open(icon)
     icon = f.read()
     f.close()
     svg = ElementTree.fromstring(icon)
-    svg = svg.getchildren()[0]
-    try:
-        del(svg.attrib['color'])
-    except:
-        pass
-    symbol = ElementTree.fromstring('<symbol></symbol>')
-    symbol.set('viewbox', '0 0 16 16')
-    symbol.set('id', f.name.split('/')[-1].replace('.svg', ''))
-    symbol.append(svg)
-    svg_def.getroot().append(symbol)
+    # Fix node attrib
+    for node in svg.iter('*'):
+        keys = []
+        for key in node.attrib:
+            if re.match('^font-.*', key):
+                keys.append(key)
+            if re.match('style', key):
+                keys.append(key)
+            if re.match('color', key):
+                keys.append(key)
+        for key in keys:
+            del node.attrib[key]
 
-svg_def.write('adwaita.svg')
+    symbol = ElementTree.fromstring('<symbol></symbol>')
+    symbol.set('viewBox', '0 0 16 16')
+    id_ = f.name.split('/')[-1].replace('.svg', '')
+    symbol.set('id', id_)
+    title = ElementTree.fromstring('<title></title>')
+    title.text = id_
+    for t in svg.iter('{http://www.w3.org/2000/svg}title'):
+        svg.remove(t)
+    symbol.append(title)
+    for node in svg.getchildren():
+        symbol.append(node)
+    # try:
+    #     del symbol.attrib['width']
+    # except:
+    #     pass
+    # try:
+    #     del symbol.attrib['height']
+    # except:
+    #     pass
+    for metadata in symbol.iter('{http://www.w3.org/2000/svg}metadata'):
+        symbol.remove(metadata)
+    svg_symbol.getroot().append(symbol)
+    for metadata in svg_symbol.getroot().iter('metadata'):
+        print(metadata)
+        symbol.remove(metadata)
+
+svg_symbol.write('adwaita.svg')
 
 f = open('adwaita.svg', 'r')
 svg = f.read()

@@ -1,6 +1,6 @@
 # adwaita-icon-web
 
-**adwaita-icon-web** contains symbolic icons from <a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">adwaita-icon-theme</a> to provide svg icons for web. It simplify Icons color so it can be modified by CSS, for example: `<svg style="color: red"></svg>`
+**adwaita-icon-web** contains symbolic icons from <a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">adwaita-icon-theme</a> to provide svg icons for web.
 
 ## Usage
 
@@ -9,6 +9,25 @@ Put `adwaita.svg` somewhere which is can be accessed by web browser then use it 
 ```xml
 <svg viewBox="0 0 16 16">
    <use xlink:href="adwaita.svg#airplane-mode"></use>
+</svg>
+```
+
+### Icon color
+
+```html
+<div style="color: red;">
+    <svg viewBox="0 0 16 16" style="color: red;">
+       <use xlink:href="adwaita.svg#airplane-mode"></use>
+</svg>
+</div>
+```
+
+### Icon Size
+
+```html
+
+<svg viewBox="0 0 16 16" style="width: 2em; height: 2em;">
+    <use xlink:href="adwaita.svg#airplane-mode"></use>
 </svg>
 ```
 

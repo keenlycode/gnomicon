@@ -8,7 +8,7 @@ Put `adwaita.svg` somewhere which is can be accessed by web browser then use it 
 
 ```xml
 <svg viewBox="0 0 16 16">
-   <use xlink:href="adwaita.svg#icon-1"></use>
+   <use xlink:href="adwaita.svg#airplane-mode"></use>
 </svg>
 ```
 
@@ -17,5 +17,3 @@ Put `adwaita.svg` somewhere which is can be accessed by web browser then use it 
 To make `adwaita.svg` accessible by web browser, in most case, the file should be served by web server since most web browser will block external file access.
 
 For unsupport web browser, <a href="https://github.com/jonathantneal/svg4everybody">svg4everybody</a> is recommended.
-
-

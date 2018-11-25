@@ -18,14 +18,13 @@ Put `adwaita.svg` somewhere which is can be accessed by web browser then use it 
 <div style="color: red;">
     <svg viewBox="0 0 16 16" style="color: red;">
        <use xlink:href="adwaita.svg#airplane-mode"></use>
-</svg>
+    </svg>
 </div>
 ```
 
 ### Icon Size
 
 ```html
-
 <svg viewBox="0 0 16 16" style="width: 2em; height: 2em;">
     <use xlink:href="adwaita.svg#airplane-mode"></use>
 </svg>
@@ -39,4 +38,4 @@ For unsupport web browser, <a href="https://github.com/jonathantneal/svg4everybo
 
 ## Demo
 
-Live demo can be seen at https://bits-ui.com/guide/icon/
+Live demo can be seen at <https://bits-ui.com/guide/icon/>

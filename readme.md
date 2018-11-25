@@ -17,11 +17,9 @@ Put `adwaita.svg` somewhere which is can be accessed by web browser then use it 
 ### Icon color
 
 ```html
-<div style="color: red;">
-    <svg viewBox="0 0 16 16" style="color: red;">
-       <use xlink:href="adwaita.svg#airplane-mode"></use>
-    </svg>
-</div>
+<svg viewBox="0 0 16 16" style="color: red;">
+   <use xlink:href="adwaita.svg#airplane-mode"></use>
+</svg>
 ```
 
 ### Icon Size

@@ -1,5 +1,7 @@
 # adwaita-icon-web
 
+<img src="adwaita.png">
+
 **adwaita-icon-web** contains symbolic icons from <a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">adwaita-icon-theme</a> to provide svg icons for web.
 
 ## Usage

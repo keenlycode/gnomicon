@@ -47,7 +47,6 @@ for icon in icons:
         symbol.remove(metadata)
     svg_symbol.getroot().append(symbol)
     for metadata in svg_symbol.getroot().iter('metadata'):
-        print(metadata)
         symbol.remove(metadata)
 
 svg_symbol.write('adwaita.svg')

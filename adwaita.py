@@ -43,14 +43,6 @@ for icon in icons:
     symbol.append(title)
     for node in svg.getchildren():
         symbol.append(node)
-    # try:
-    #     del symbol.attrib['width']
-    # except:
-    #     pass
-    # try:
-    #     del symbol.attrib['height']
-    # except:
-    #     pass
     for metadata in symbol.iter('{http://www.w3.org/2000/svg}metadata'):
         symbol.remove(metadata)
     svg_symbol.getroot().append(symbol)

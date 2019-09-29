@@ -38,4 +38,4 @@ For unsupport web browser, <a href="https://github.com/jonathantneal/svg4everybo
 
 ## Demo
 
-Live demo can be seen at <https://bits-ui.com/guide/icon/>
+Live demo can be seen at <https://bits-ui.com/bits-ui/guide/icon/adwaita.html>

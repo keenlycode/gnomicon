@@ -35,13 +35,14 @@ for icon in icons:
     symbol = ElementTree.fromstring('<symbol></symbol>')
     symbol.set('viewBox', '0 0 16 16')
     id_ = f.name.split('/')[-1].replace('.svg', '')
+    id_ = id_.replace('-symbolic', '')
     symbol.set('id', id_)
     title = ElementTree.fromstring('<title></title>')
     title.text = id_
     for t in svg.iter('{http://www.w3.org/2000/svg}title'):
         svg.remove(t)
     symbol.append(title)
-    for node in svg.getchildren():
+    for node in svg:
         symbol.append(node)
     for metadata in symbol.iter('{http://www.w3.org/2000/svg}metadata'):
         symbol.remove(metadata)
@@ -55,6 +56,7 @@ f = open('adwaita.svg', 'r')
 svg = f.read()
 f.close()
 svg = svg.replace('fill="#474747"', 'fill="currentColor"')
+svg = svg.replace('fill="#2e3436"', 'fill="currentColor"')
 svg = svg.replace('stroke="#474747"', 'stroke="currentColor"')
 f = open('adwaita.svg', 'w')
 f.write(svg)

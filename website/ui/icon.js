@@ -22,6 +22,7 @@ class Icon extends HTMLElement {
             'xlink:href',
             `${link.getAttribute('href')}#${this.name}`);
         svg.style.width = '1em';
+        svg.style.height = '1em';
         svg.appendChild(use);
         this.appendChild(svg);
     };

@@ -3,7 +3,7 @@ from os import makedirs
 from pathlib import Path
 from xml.etree import ElementTree
 
-icon_path = Path(__file__).parent.joinpath('adwaita-scalable')
+icon_dir = Path(__file__).parent.joinpath('adwaita-scalable')
 dist_path = Path(__file__).parent.joinpath('dist', 'adwaita.svg')
 
 makedirs(dist_path.parent, exist_ok=True)
@@ -13,8 +13,10 @@ with open(dist_path, 'w') as f:
 
 ElementTree.register_namespace('', 'http://www.w3.org/2000/svg')
 svg_symbol = ElementTree.parse(dist_path)
-for icon in icon_path.glob('**/*.svg'):
-    svg = ElementTree.fromstring(open(icon).read())
+for icon in icon_dir.glob('**/*.svg'):
+    with open(icon) as f:
+        icon = f.read()
+    svg = ElementTree.fromstring(icon)
     # Fix node attrib
     for node in svg.iter('*'):
         keys = []

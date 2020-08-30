@@ -34,10 +34,10 @@ async def ui():
     src_base_dir = base_dir.joinpath('ui')
     dest_dir = base_dir.joinpath('static', 'ui')
     
-    for path in src_dir.glob('**/*.js'):
+    for path in src_base_dir.glob('**/*.js'):
         copy_to_dir(path, dest_dir, src_base_dir)
 
-    async for changes in awatch(src_dir):
+    async for changes in awatch(src_base_dir):
         for change, path in changes:
             path = Path(path)
             if path.suffix != '.js':
@@ -47,6 +47,9 @@ async def ui():
 
 
 async def main():
-    await copy_adwaita_icon()
+    await asyncio.gather(
+        copy_adwaita_icon(),
+        ui(),
+    )
 
 asyncio.run(main())

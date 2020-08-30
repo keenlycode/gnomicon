@@ -31,7 +31,7 @@ async def copy_adwaita_icon():
 
 
 async def ui():
-    src_base_dir = base_dir.joinpath('ui')
+    src_base_dir = base_dir.parent.joinpath('src', 'web-components')
     dest_dir = base_dir.joinpath('static', 'ui')
     
     for path in src_base_dir.glob('**/*.js'):

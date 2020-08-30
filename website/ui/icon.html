@@ -1,0 +1,16 @@
+<!-- Usage -->
+<link rel="icon-svg" theme="adwaita" href="adwaita.svg">
+
+<script>
+    import {Icon} from '/static/ui/icon.js';
+    customElements.define('el-icon', Icon);
+</script>
+
+<el-icon theme="adwaita" name="airplane-mode" />
+
+<!-- Render -->
+<el-icon>
+    <svg style="width: 1em;">
+        <use xlink:href="/static/adwaita.svg#airplane-mode"></use>
+    </svg>
+</icon>

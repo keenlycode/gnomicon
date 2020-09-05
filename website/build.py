@@ -30,7 +30,7 @@ async def copy_adwaita_icon():
                 copy_to_dir(path, dest_dir)
 
 
-async def ui():
+async def web_components():
     src_base_dir = base_dir.parent.joinpath('src', 'web-components')
     dest_dir = base_dir.joinpath('static', 'ui')
     
@@ -46,10 +46,17 @@ async def ui():
                 copy_to_dir(path, dest_dir, src_base_dir)
 
 
+async def sass():
+    src_dir = base_dir.joinpath('template/').resolve()
+    dest_dir = base_dir.joinpath('static', 'template')
+    await shell(f'sass --watch {src_dir}:{dest_dir}')
+
+
 async def main():
     await asyncio.gather(
         copy_adwaita_icon(),
-        ui(),
+        web_components(),
+        sass(),
     )
 
 asyncio.run(main())

@@ -1,4 +1,4 @@
-# adwaita-icon-web 3.34
+# adwaita-icon-web 3.36
 
 <img src="adwaita.png">
 

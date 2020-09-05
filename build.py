@@ -32,6 +32,7 @@ for icon in icon_dir.glob('**/*.svg'):
 
     symbol = ElementTree.fromstring('<symbol></symbol>')
     symbol.set('viewBox', '0 0 16 16')
+    symbol.set('fill', 'currentColor')
     id_ = f.name.split('/')[-1].replace('.svg', '')
     id_ = id_.replace('-symbolic', '')
     symbol.set('id', id_)

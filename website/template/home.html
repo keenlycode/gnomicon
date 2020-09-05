@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="Adwaita Icon Web" />
+<link rel="icon-svg" theme="adwaita" href="/static/adwaita.svg" />
+<title>Adwaita Icon Web</title>
+<script type="module">
+import {Icon} from '/static/ui/icon.js';
+customElements.define('el-icon', Icon);
+</script>
+</head>
+
+<body>
+<div id="icons" style="font-size: 2rem;">
+{% for icon in icons %}
+    <el-icon theme="adwaita" name="{{icon}}" />
+{% endfor %}
+</div>
+</body>
+
+</html>

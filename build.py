@@ -3,7 +3,7 @@ from os import makedirs
 from pathlib import Path
 from xml.etree import ElementTree
 
-icon_dir = Path(__file__).parent.joinpath('adwaita-scalable')
+icon_dir = Path(__file__).parent.joinpath('src', 'adwaita-scalable')
 dist_path = Path(__file__).parent.joinpath('dist', 'adwaita.svg')
 
 makedirs(dist_path.parent, exist_ok=True)

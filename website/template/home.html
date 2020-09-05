@@ -13,7 +13,11 @@ customElements.define('el-icon', Icon);
 </head>
 
 <body>
-<el-icon theme="adwaita" name="airplane-mode" />
+<div id="icons" style="font-size: 2rem;">
+{% for icon in icons %}
+    <el-icon theme="adwaita" name="{{icon}}" />
+{% endfor %}
+</div>
 </body>
 
 </html>

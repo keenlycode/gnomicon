@@ -6,7 +6,7 @@
 
 ## Quick Use
 
-This is an example using svg from cdn.jsdeliver.net
+This is an example using svg from https://www.jsdelivr.com/
 
 ```xml
 <svg viewBox="0 0 16 16">

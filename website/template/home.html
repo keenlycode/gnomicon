@@ -3,7 +3,10 @@
 <input type="search">
 <div id="icons">
 {% for icon in icons %}
-    <el-icon theme="adwaita" name="{{icon}}"></el-icon>
+    <div class="icon-grid">
+        <el-icon theme="adwaita" name="{{icon}}"></el-icon>
+        <div class="name">{{icon}}</div>
+    </div>
 {% endfor %}
 </div>
 {% endblock body %}

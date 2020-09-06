@@ -19,6 +19,13 @@ def copy_to_dir(src: Path, dest_dir: Path, src_base_dir: Path = None):
     print(f'copy {src} -> {dest}')
 
 
+async def asset():
+    asset_dir = base_dir.joinpath('asset')
+    dest_dir = base_dir.joinpath('static', 'asset')
+    shutil.copytree(asset_dir, dest_dir, dirs_exist_ok=True)
+    print('copy asset: {asset_dir} -> {dest_dir}')
+
+
 async def copy_adwaita_icon():
     adwaita_icon_path = base_dir.parent.joinpath('dist', 'adwaita.svg')
     dest_dir = base_dir.joinpath('static')
@@ -55,6 +62,7 @@ async def sass():
 async def main():
     await asyncio.gather(
         copy_adwaita_icon(),
+        asset(),
         web_components(),
         sass(),
     )

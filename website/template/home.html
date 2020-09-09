@@ -1,6 +1,27 @@
 {% extends '_base.html' %}
+
+{% block head %}
+<script type="module">
+class Search extends HTMLElement {
+    constructor() {
+        super();
+        this.el_input = this.querySelector('input');
+        this.el_input.addEventListener('keyup', function() {
+            for (let icon of document.querySelectorAll('.icon-grid')) {
+                icon.style.display = 'none';
+            }
+            // this.value;
+        })
+    }
+}
+
+customElements.define('el-search', Search);
+
+</script>
+{% endblock %}
+
 {% block body %}
-<input type="search">
+<el-search type="search"><input type="search"></el-search>
 <div id="icons">
 {% for icon in icons %}
     <div class="icon-grid">

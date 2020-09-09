@@ -4,6 +4,15 @@
 
 **adwaita-icon-web** contains symbolic icons from <a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">adwaita-icon-theme</a> to provide svg icons for web.
 
+## Quick Use
+
+This is an example using svg from https://www.jsdelivr.com/
+
+```xml
+<svg viewBox="0 0 16 16">
+   <use xlink:href="https://cdn.jsdelivr.net/gh/nitipit/adwaita-icon-web@3.36/dist/adwaita.svg#airplane-mode"></use>
+</svg>
+```
 ## Usage
 
 Put `adwaita.svg` somewhere which is can be accessed by web browser then use it as symbol definitions in your html code. For example:
@@ -38,4 +47,4 @@ For unsupport web browser, <a href="https://github.com/jonathantneal/svg4everybo
 
 ## Demo
 
-Live demo can be seen at <https://bits-ui.com/bits-ui/guide/icon/adwaita.html>
+Live demo can be seen at https://bits-ui.com/bits-ui/guide/icon/adwaita.html

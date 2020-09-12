@@ -16,8 +16,8 @@ sanic = Sanic("Adwaita")
 sanic.static('/static', str(app_dir.joinpath('static')))
 
 
-@sanic.route("/")
-async def home(request):
+@sanic.route("/icon/")
+async def icon(request):
     adwaita = app_dir.joinpath('static', 'adwaita.svg')
     adwaita = ElementTree.parse(adwaita)
     adwaita = adwaita.getroot()
@@ -25,7 +25,7 @@ async def home(request):
     for icon in adwaita.iter('{http://www.w3.org/2000/svg}title'):
         icons.append(icon.text)
 
-    return response.html(template('home.html').render({'icons': icons}))
+    return response.html(template('icon.html').render({'icons': icons}))
 
 if __name__ == "__main__":
     sanic.run(host="0.0.0.0", port=8000, debug=True)

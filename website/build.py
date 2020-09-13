@@ -19,12 +19,6 @@ def copy_to_dir(src: Path, dest_dir: Path, src_base_dir: Path = None):
     print(f'copy {src} -> {dest}')
 
 
-async def node_modules():
-    src_dir = base_dir.joinpath('node_modules/lit-html')
-    dest = base_dir.joinpath('static', 'lib', 'lit-html')
-    shutil.copytree(src_dir, dest, dirs_exist_ok=True)
-
-
 async def asset():
     asset_dir = base_dir.joinpath('asset')
     dest_dir = base_dir.joinpath('static', 'asset')
@@ -69,7 +63,6 @@ async def main():
     await asyncio.gather(
         copy_adwaita_icon(),
         asset(),
-        node_modules(),
         web_components(),
         sass(),
     )

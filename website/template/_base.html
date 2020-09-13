@@ -1,13 +1,15 @@
 <!doctype html>
 <html lang="en">
-{% set _v = 2 %}
+{% set _v = 3 %}
 
 <head>
 <meta charset="utf-8" />
 <meta name="description" content="Adwaita Icon Web" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-<link rel="icon-svg" theme="adwaita" href="/static/adwaita.svg?v={{_v}}" />
-<link rel="stylesheet" href="/static/template/base.css?v={{_v}}" />
+<link rel="preload" icon theme="adwaita" href="./static/adwaita.svg?v={{_v}}" as="image" type="image/svg+xml">
+<link rel="stylesheet" href="./static/template/base.css?v={{_v}}" />
+
+<!-- Bits UI Setup -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bits-ui@2.0.5/dist/normalize.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bits-ui@2.0.5/dist/bits-ui.min.css">
 <style>
@@ -18,6 +20,13 @@
     }
 </style>
 <script defer src="https://cdn.jsdelivr.net/npm/bits-ui@2.0.5/dist/bits-ui.min.js"></script>
+<!-- / Bits UI Setup -->
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.0/build/styles/atom-one-dark.min.css">
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.0/build/highlight.min.js"></script>
+<script>
+hljs.initHighlightingOnLoad();
+</script>
 
 <title>Adwaita Icon Web</title>
 {% block head %}

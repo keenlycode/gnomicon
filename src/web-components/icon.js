@@ -9,10 +9,10 @@ class Icon extends HTMLElement {
         let link = null;
         try {
             link = document.querySelector(
-                `link[rel="icon-svg"][theme="${this.theme}"]`);
+                `link[icon][theme="${this.theme}"]`);
             link.getAttribute('href');
         } catch (err) {
-            console.error(`<link rel="icon-svg"> ${err}`);
+            console.error(`<link icon theme="${this.theme}"> ${err}`);
         };
         let use = document.createElementNS(
             'http://www.w3.org/2000/svg',

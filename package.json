@@ -1,0 +1,9 @@
+{
+  "name": "adwaita-icon-web",
+  "version": "1.0.0",
+  "description": "Symbolic Adwaita icons for website",
+  "main": "index.js",
+  "repository": "git@github.com:nitipit/adwaita-icon-web.git",
+  "author": "Nitipit Nontasuwan <nitipit@gmail.com>",
+  "license": "CC BY 4.0"
+}

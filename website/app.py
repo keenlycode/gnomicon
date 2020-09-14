@@ -2,22 +2,36 @@ from pathlib import Path
 from xml.etree import ElementTree
 from sanic import Sanic
 from sanic import response
-from jinja2 import Environment, FileSystemLoader, select_autoescape
+from jinja2 import (
+    Environment, FileSystemLoader, select_autoescape,
+    contextfunction, Markup)
+import mistune
 
 
-app_dir = Path(__file__).parent.resolve()
+app_dir = Path(__file__).parent
+
+
+@contextfunction
+def markdown(context, path):
+    path = app_dir.joinpath('template', context.name).parent.joinpath(path)
+    html = open(path).read()
+    html = mistune.html(html)
+    return Markup(html)
+
 
 template = Environment(
     loader=FileSystemLoader(app_dir.joinpath('template')),
     autoescape=select_autoescape(['html', 'xml'])
-).get_template
+)
+template.globals.update(markdown=markdown)
+template = template.get_template
 
 sanic = Sanic("Adwaita")
 sanic.static('/static', str(app_dir.joinpath('static')))
 
 
 @sanic.route("/")
-async def home(request):
+async def icon(request):
     adwaita = app_dir.joinpath('static', 'adwaita.svg')
     adwaita = ElementTree.parse(adwaita)
     adwaita = adwaita.getroot()

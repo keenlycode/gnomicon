@@ -1,12 +1,48 @@
 {% extends '_base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="../static/template/home.css?v={{_v}}">
+<script type="module">
+import { Icon } from '../static/ui/icon.js';
+
+class IconGrid extends HTMLElement {
+    constructor() {
+        super();
+    }
+
+    render(icon) {
+        this.innerHTML = `
+            <el-icon theme="adwaita" name="${icon}"></el-icon>
+            <div class="name">${icon}</div>
+        `
+    }
+}
+
+class IconManager extends HTMLElement {
+    constructor() {
+        super();
+        this.icons = [{% for icon in icons %}'{{icon}}',{% endfor %}];
+    }
+
+    connectedCallback() {
+        for (let icon of this.icons) {
+            let icon_grid = document.createElement('el-icon-grid');
+            icon_grid.render(icon);
+            this.appendChild(icon_grid);
+        };
+    };
+}
+
+customElements.define('el-icon', Icon);
+customElements.define('el-icon-grid', IconGrid);
+customElements.define('el-icon-manager', IconManager);
+
+</script>
+{% endblock %}
+
 {% block body %}
-<input type="search">
-<div id="icons">
-{% for icon in icons %}
-    <div class="icon-grid">
-        <el-icon theme="adwaita" name="{{icon}}"></el-icon>
-        <div class="name">{{icon}}</div>
-    </div>
-{% endfor %}
+<div class="container">
+{{ markdown('home.md') }}
 </div>
+<el-icon-manager class="container"></el-icon-manager>
 {% endblock body %}

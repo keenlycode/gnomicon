@@ -1,30 +1,39 @@
-input[type="search"]
-    font-size: 1.25rem
-    margin: auto
-
-#icons
+el-icon-manager
     display: flex
     flex-wrap: wrap
     justify-content: center
     box-sizing: border-box
     padding-top: 2rem
 
-.icon-grid
+el-icon-grid
     display: flex
     flex-wrap: wrap
     justify-content: center
-    align-content: end
-    width: 8rem
-    margin: 0.5rem
+    align-content: flex-start
+    @media (max-width: 480px)
+        width: 3rem
+        margin: 0.3rem
+    @media (min-width: 480px)
+        width: 5rem
+        margin: 0.3rem
     el-icon
         display: inline-flex
-        width: 5rem
-        height: 5rem
         border: 1px solid
         justify-content: center
         align-items: center
-        font-size: 3rem
+        @media (max-width: 480px)
+            width: 3rem
+            height: 3rem
+            font-size: 2rem
+        @media (min-width: 480px)
+            width: 4rem
+            height: 4rem
+            font-size: 2rem
+
     div.name
         display: flex
         text-align: center
-        font-size: 0.9rem
+        @media (max-width: 480px)
+            font-size: 0.7rem
+        @media (min-width: 480px)
+            font-size: 0.9rem

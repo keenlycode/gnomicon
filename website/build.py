@@ -27,8 +27,8 @@ async def asset():
 
 
 async def node_modules():
-    src_dir =  base_dir.joinpath('node_modules', 'highlight.js')
-    dest_dir = base_dir.joinpath('static', 'lib', 'highlight.js')
+    src_dir = base_dir.joinpath('node_modules', 'bits-ui', 'dist')
+    dest_dir = base_dir.joinpath('static', 'lib', 'bits-ui')
     shutil.copytree(src_dir, dest_dir, dirs_exist_ok=True)
 
 
@@ -69,7 +69,7 @@ async def main():
     await asyncio.gather(
         copy_adwaita_icon(),
         asset(),
-        # node_modules(),
+        node_modules(),
         web_components(),
         sass(),
     )

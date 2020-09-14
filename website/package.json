@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bits-ui": "^2.0.6",
     "highlight.js": "^10.2.0"
   }
 }

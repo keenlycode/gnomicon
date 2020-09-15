@@ -1,8 +1,21 @@
 # Adwaita Icon Web
 > Symbolic Adwaita icons for website
 
-## Get it
-### CDN
+## Install
+```
+npm install adwaita-icon-web
+```
+
+## Set Up
+
+```html
+<link rel="preload" icon theme="adwaita" href="path/to/adwaita.svg"
+    as="image" type="image/svg+xml">
+<script type="module">
+import {Icon} from 'path/to/icon.js';
+</script>
+
+```
 
 ## Usage
 

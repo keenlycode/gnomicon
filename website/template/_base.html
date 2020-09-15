@@ -6,8 +6,18 @@
 <meta charset="utf-8" />
 <meta name="description" content="Adwaita Icon Web" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-<link rel="preload" icon theme="adwaita" href="./static/adwaita.svg?v={{_v}}" as="image" type="image/svg+xml">
 <link rel="stylesheet" href="./static/template/base.css?v={{_v}}" />
+
+<!-- Icon Setup -->
+<link rel="preload" icon theme="adwaita"
+    href="./static/adwaita.svg?v={{_v}}"
+    as="image" type="image/svg+xml">
+
+<script type="module">
+import {Icon} from './static/ui/icon.js';
+
+customElements.define('el-icon', Icon);
+</script>
 
 <!-- Bits UI Setup -->
 <link rel="stylesheet" href="./static/lib/bits-ui/normalize.css?v={{_v}}">

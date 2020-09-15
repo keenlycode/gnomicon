@@ -3,8 +3,6 @@
 {% block head %}
 <link rel="stylesheet" href="../static/template/home.css?v={{_v}}">
 <script type="module">
-import { Icon } from '../static/ui/icon.js';
-
 class IconGrid extends HTMLElement {
     constructor() {
         super();
@@ -33,10 +31,8 @@ class IconManager extends HTMLElement {
     };
 }
 
-customElements.define('el-icon', Icon);
 customElements.define('el-icon-grid', IconGrid);
 customElements.define('el-icon-manager', IconManager);
-
 </script>
 {% endblock %}
 

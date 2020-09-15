@@ -1,6 +1,6 @@
 {
   "name": "adwaita-icon-web",
-  "version": "1.0.0",
+  "version": "1.0.1dev",
   "description": "Symbolic Adwaita icons for website",
   "main": "index.js",
   "repository": {

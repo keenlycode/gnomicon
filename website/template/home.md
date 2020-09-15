@@ -11,8 +11,8 @@
 
 - Use <strong>[SVG Icons]</strong> for sharpness, scalable, easily to customize
   and make animation with css & javascript.
-- Use <strong>[Web Components]</strong> for speed and less dependencies
-  since it becomes a standard technology.
+- Use <strong>[Web Components]</strong> since it becomes a standard technology
+  for speed and less dependencies, also make it easy to integrate with other libraries.
 
 ## Install
 ---
@@ -24,28 +24,43 @@ $ npm install adwaita-icon-web
 ## Set Up
 ---
 
+### :: Use from local resources
+
 ```html
 <!-- In HTML <head> section -->
-<link rel="preload" icon theme="adwaita" href="path/to/adwaita.svg"
+
+<!-- Load adwaita.svg -->
+<link rel="preload"
+    icon theme="adwaita"
+    href="/path/to/node_modules/adwaita-icon-web/dist/adwaita.svg"
     as="image" type="image/svg+xml">
+
+<!-- Import Icon from icon.js -->
 <script type="module">
-import {Icon} from 'path/to/icon.js';
+import {Icon} from '/path/to/node_modules/adwaita-icon-web/dist/icon.js';
 customElements.define('el-icon', Icon);  // Can regist on whatever elements.
 </script>
 ```
 
-### > Use Resources from NPM CDN
+### :: Use Resources from NPM CDN
 
-Since many **CDN** use **https://**, please note that webpage have to serve on
+Use resources from NPM CDN doesn't require installation via **npm**. However, Since many
+**CDN** use **https://**, please note that webpage have to serve on
 **https://** otherwise browsers will rejected to load **CDN** resources.
 
 ```html
 <!-- In HTML <head> section -->
-<link rel="preload" icon theme="adwaita" href="//unpkg.com/adwaita-icon-web@1.0.0/dist/adwaita.svg"
+
+<!-- Load adwaita.svg -->
+<link rel="preload"
+    icon theme="adwaita"
+    href="//unpkg.com/adwaita-icon-web@1.0.0/dist/adwaita.svg"
     as="image" type="image/svg+xml">
+
+<!-- Import Icon from icon.js -->
 <script type="module">
 import {Icon} from '//unpkg.com/adwaita-icon-web@1.0.0/dist/icon.js';
-customElements.define('el-icon', Icon);  // Can regist on whatever elements.
+customElements.define('el-icon', Icon);  // Can be defined with whatever elements.
 </script>
 ```
 
@@ -67,7 +82,7 @@ customElements.define('el-icon', Icon);  // Can regist on whatever elements.
 <el-icon theme="adwaita" name="call-outgoing"></el-icon>
 </div>
 
-### > Color
+### :: Color
 
 ```html
 <el-icon theme="adwaita" name="call-outgoing" style="color: blue;"></el-icon>
@@ -80,7 +95,7 @@ customElements.define('el-icon', Icon);  // Can regist on whatever elements.
     <el-icon theme="adwaita" name="call-outgoing"></el-icon>
 </div>
 
-### > Scale
+### :: Scale
 
 ```html
 <el-icon theme="adwaita" name="printer-error" style="font-size: 1rem;"></el-icon>
@@ -99,7 +114,8 @@ customElements.define('el-icon', Icon);  // Can regist on whatever elements.
 ## Note
 ---
 
-To make `adwaita.svg` accessible by web browser, in most case, the file should be served by web server since most web browser will block external file access.
+Since most web browser will block external file access,
+`adwaita.svg` should be served by web server.
 
 For unsupport web browser, <a href="https://github.com/jonathantneal/svg4everybody">svg4everybody</a> is recommended.
 

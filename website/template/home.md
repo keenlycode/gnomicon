@@ -9,6 +9,8 @@
 ## Features <el-icon theme="adwaita" name="starred"></el-icon>
 ---
 
+- 500+ well designed icons from
+  [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme)
 - Use <strong>[SVG Icons]</strong> for sharpness, scalable, easily to customize
   and make animation with css & javascript.
 - Use <strong>[Web Components]</strong> since it becomes a standard technology

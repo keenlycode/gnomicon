@@ -20,6 +20,11 @@ def copy_to_dir(src: Path, dest_dir: Path, src_base_dir: Path = None):
 
 
 async def asset():
+    src = base_dir.parent.joinpath('adwaita.png')
+    dest = base_dir.joinpath('static')
+    shutil.copy(src, dest)
+    print('copy adwaita.png')
+
     asset_dir = base_dir.joinpath('asset')
     dest_dir = base_dir.joinpath('static', 'asset')
     shutil.copytree(asset_dir, dest_dir, dirs_exist_ok=True)

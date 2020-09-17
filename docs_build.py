@@ -54,6 +54,12 @@ async def node_modules():
     dest_dir = docs_dir.joinpath('_static', 'lib', 'bits-ui')
     shutil.copytree(src_dir, dest_dir, dirs_exist_ok=True)
 
+    src = base_dir.joinpath(
+        'node_modules', 'highlight.js', 'styles', 'atom-one-dark.css')
+    dest_dir = docs_dir.joinpath('_static', 'lib', 'highlight.js')
+    os.makedirs(dest_dir, exist_ok=True)
+    shutil.copy(src, dest_dir.joinpath('atom-one-dark.css'))
+
 
 async def copy_adwaita_icon():
     adwaita_icon_path = base_dir.joinpath('dist', 'adwaita.svg')
@@ -86,6 +92,11 @@ async def sass():
     src_dir = docs_src_dir.joinpath('template').resolve()
     dest_dir = docs_dir
     await shell(f'sass --watch {src_dir}:{dest_dir}')
+
+
+async def parcel():
+    await shell('yarn parcel build'
+                '--dist-dir=docs docs-src/template/**/*.js')
 
 
 async def docs_html():

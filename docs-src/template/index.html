@@ -1,7 +1,7 @@
 {% extends '_base.html' %}
 
 {% block head %}
-<link rel="stylesheet" href="../static/template/home.css?v={{_v}}">
+<link rel="stylesheet" href="./index.css?v={{_v}}">
 <script type="module">
 class IconGrid extends HTMLElement {
     constructor() {
@@ -38,7 +38,7 @@ customElements.define('el-icon-manager', IconManager);
 
 {% block body %}
 <div class="container">
-{{ markdown('home.md') }}
+{{ markdown('index.md') }}
 </div>
 <el-icon-manager class="container"></el-icon-manager>
 {% endblock body %}

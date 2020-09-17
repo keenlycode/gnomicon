@@ -44,26 +44,26 @@ def copy_to_dir(src: Path, dest_dir: Path, src_base_dir: Path = None):
 
 async def asset():
     asset_dir = docs_src_dir.joinpath('asset')
-    dest_dir = docs_dir.joinpath('_static', 'asset')
+    dest_dir = docs_dir.joinpath('static', 'asset')
     shutil.copytree(asset_dir, dest_dir, dirs_exist_ok=True)
     print('copy asset: {asset_dir} -> {dest_dir}')
 
 
 async def node_modules():
     src_dir = base_dir.joinpath('node_modules', 'bits-ui', 'dist')
-    dest_dir = docs_dir.joinpath('_static', 'lib', 'bits-ui')
+    dest_dir = docs_dir.joinpath('static', 'lib', 'bits-ui')
     shutil.copytree(src_dir, dest_dir, dirs_exist_ok=True)
 
     src = base_dir.joinpath(
         'node_modules', 'highlight.js', 'styles', 'atom-one-dark.css')
-    dest_dir = docs_dir.joinpath('_static', 'lib', 'highlight.js')
+    dest_dir = docs_dir.joinpath('static', 'lib', 'highlight.js')
     os.makedirs(dest_dir, exist_ok=True)
     shutil.copy(src, dest_dir.joinpath('atom-one-dark.css'))
 
 
 async def copy_adwaita_icon():
     adwaita_icon_path = base_dir.joinpath('dist', 'adwaita.svg')
-    dest_dir = docs_dir.joinpath('_static')
+    dest_dir = docs_dir.joinpath('static')
     copy_to_dir(adwaita_icon_path, dest_dir)
     async for changes in awatch(adwaita_icon_path):
         for change, path in changes:
@@ -74,7 +74,7 @@ async def copy_adwaita_icon():
 
 async def web_components():
     src_dir = base_dir.joinpath('src', 'web-components')
-    dest_dir = docs_dir.joinpath('_static', 'ui')
+    dest_dir = docs_dir.joinpath('static', 'ui')
     
     for path in src_dir.glob('**/*.js'):
         copy_to_dir(path, dest_dir, src_dir)

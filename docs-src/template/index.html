@@ -1,10 +1,8 @@
 {% extends '_base.html' %}
 
 {% block head %}
-<link rel="stylesheet" href="../static/template/home.css?v={{_v}}">
+<link rel="stylesheet" href="./index.css?v={{_v}}">
 <script type="module">
-import { Icon } from '../static/ui/icon.js';
-
 class IconGrid extends HTMLElement {
     constructor() {
         super();
@@ -33,16 +31,14 @@ class IconManager extends HTMLElement {
     };
 }
 
-customElements.define('el-icon', Icon);
 customElements.define('el-icon-grid', IconGrid);
 customElements.define('el-icon-manager', IconManager);
-
 </script>
 {% endblock %}
 
 {% block body %}
 <div class="container">
-{{ markdown('home.md') }}
+{{ markdown('index.md') }}
 </div>
 <el-icon-manager class="container"></el-icon-manager>
 {% endblock body %}

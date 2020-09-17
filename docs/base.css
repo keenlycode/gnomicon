@@ -1,0 +1,43 @@
+@font-face {
+  font-family: fira-sans;
+  src: url("./static/font/Fira_Sans/FiraSans-Regular.ttf");
+}
+body {
+  font-family: "Fira Sans";
+}
+
+.container {
+  max-width: 50rem;
+  margin: auto;
+  width: 90%;
+}
+
+pre > code.hljs {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 5px;
+  max-width: 50rem;
+}
+
+code {
+  color: #ffd0a3;
+  background-color: #282c34;
+}
+
+h2 ~ hr {
+  margin-top: -1rem;
+  height: 3px;
+}
+
+h1, h2 {
+  color: #E91E63;
+}
+
+el-icon svg {
+  display: inline-flex;
+}
+
+p {
+  max-width: 50rem;
+}
+
+/*# sourceMappingURL=base.css.map */

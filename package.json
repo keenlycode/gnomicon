@@ -1,9 +1,32 @@
 {
   "name": "adwaita-icon-web",
-  "version": "1.0.0",
+  "version": "1.0.1dev",
   "description": "Symbolic Adwaita icons for website",
-  "main": "index.js",
-  "repository": "git@github.com:nitipit/adwaita-icon-web.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nitipit/adwaita-icon-web.git"
+  },
   "author": "Nitipit Nontasuwan <nitipit@gmail.com>",
-  "license": "CC BY 4.0"
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/nitipit/adwaita-icon-web/issues"
+  },
+  "homepage": "https://github.com/nitipit/adwaita-icon-web#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bits-ui": "^2.0.6",
+    "highlight.js": "^10.2.0",
+    "parcel": "^2.0.0-beta.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Adwaita",
+    "SVG",
+    "Icons"
+  ],
+  "files": [
+    "dist/**/*"
+  ]
 }

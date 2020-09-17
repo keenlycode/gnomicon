@@ -95,8 +95,8 @@ async def sass():
 
 
 async def parcel():
-    await shell('yarn parcel build'
-                '--dist-dir=docs docs-src/template/**/*.js')
+    await shell('yarn parcel build '
+                '--dist-dir=docs "docs-src/template/**/*.js"')
 
 
 async def docs_html():
@@ -135,6 +135,7 @@ async def main():
         asset(),
         node_modules(),
         web_components(),
+        parcel(),
         sass(),
         docs_html(),
         http_server(),

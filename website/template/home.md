@@ -51,7 +51,6 @@ $ npm install adwaita-icon-web
 
 ```html
 <!-- In HTML <head> section -->
-
 <!-- Load adwaita.svg -->
 <link icon
     rel="preload"

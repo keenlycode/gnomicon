@@ -1,4 +1,5 @@
 from pathlib import Path
+import asyncio
 from xml.etree import ElementTree
 from sanic import Sanic
 from sanic import response
@@ -6,6 +7,7 @@ from jinja2 import (
     Environment, FileSystemLoader, select_autoescape,
     contextfunction, Markup)
 import mistune
+import web_build
 
 
 app_dir = Path(__file__).parent
@@ -41,5 +43,22 @@ async def icon(request):
 
     return response.html(template('home.html').render({'icons': icons}))
 
-if __name__ == "__main__":
-    sanic.run(host="0.0.0.0", port=8000, debug=True)
+
+# if __name__ == '__main__':
+#     sanic_server = sanic.create_server(
+#         host='0.0.0.0', port=8000, return_asyncio_server=True)
+#     asyncio.run(sanic_server)
+
+
+async def main():
+    sanic_server = await sanic.create_server(
+        host='0.0.0.0', port=8000, return_asyncio_server=True)
+    await asyncio.gather(
+        sanic_server.serve_forever(),
+        web_build.main())
+
+if __name__ == '__main__':
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        pass

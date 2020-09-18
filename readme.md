@@ -1,50 +1,21 @@
-# adwaita-icon-web 3.36
+<h1 style="text-align: center;">Adwaita Icon Web 1.0.1</h1>
+<h2 style="text-align: center;">Adwaita Symbolic Icons for Website</h2>
 
-<img src="adwaita.png">
+<p style="text-align: center;">
+    <img src="https://nitipit.github.io/adwaita-icon-web/static/asset/adwaita.png"
+        style="width: 100%; max-width: 800px;">
+</p>
 
-**adwaita-icon-web** contains symbolic icons from <a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">adwaita-icon-theme</a> to provide svg icons for web.
+## Features <el-icon theme="adwaita" name="starred"></el-icon>
+---
 
-## Quick Use
+- 500+ well designed icons from
+  [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v3.36
+- Use <strong>[SVG Icons]</strong> for sharpness, scalable, easily to customize
+  and make animation with css & javascript.
+- Use <strong>[Web Components]</strong> since it becomes a standard technology
+  for speed and less dependencies, also make it easy to integrate with other libraries.
 
-This is an example using svg from https://www.jsdelivr.com/
+## Documentation
 
-```xml
-<svg viewBox="0 0 16 16">
-   <use xlink:href="https://cdn.jsdelivr.net/gh/nitipit/adwaita-icon-web@3.36/dist/adwaita.svg#airplane-mode"></use>
-</svg>
-```
-## Usage
-
-Put `adwaita.svg` somewhere which is can be accessed by web browser then use it as symbol definitions in your html code. For example:
-
-```xml
-<svg viewBox="0 0 16 16">
-   <use xlink:href="adwaita.svg#airplane-mode"></use>
-</svg>
-```
-
-### Icon color
-
-```html
-<svg viewBox="0 0 16 16" style="color: red;">
-   <use xlink:href="adwaita.svg#airplane-mode"></use>
-</svg>
-```
-
-### Icon Size
-
-```html
-<svg viewBox="0 0 16 16" style="width: 2em; height: 2em;">
-    <use xlink:href="adwaita.svg#airplane-mode"></use>
-</svg>
-```
-
-## Note
-
-To make `adwaita.svg` accessible by web browser, in most case, the file should be served by web server since most web browser will block external file access.
-
-For unsupport web browser, <a href="https://github.com/jonathantneal/svg4everybody">svg4everybody</a> is recommended.
-
-## Demo
-
-Live demo can be seen at https://bits-ui.com/bits-ui/guide/icon/adwaita.html
+https://nitipit.github.io/adwaita-icon-web/

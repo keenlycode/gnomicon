@@ -22,6 +22,7 @@ customElements.define('el-icon', Icon);
 <!-- Bits UI Setup -->
 <link rel="stylesheet" href="./static/lib/bits-ui/normalize.css?v=3">
 <link rel="stylesheet" href="./static/lib/bits-ui/bits-ui.css?v=3">
+<script async defer src="https://buttons.github.io/buttons.js?v=3"></script>
 <style>
     @font-face {
         /* Set UI font, Cantarell is recommended */
@@ -75,17 +76,24 @@ customElements.define('el-icon-manager', IconManager);
 <body>
 
 <div class="container">
-<h1 style="text-align: center;">Adwaita Icon Web</h1>
+<h1 style="text-align: center;">Adwaita Icon Web 1.0.0</h1>
 <h2 style="text-align: center;">Adwaita Symbolic Icons for Website</h2>
 <p style="text-align: center;">
-    <img src="./static/asset/adwaita.png"
+    <a class="github-button"
+            href="https://github.com/nitipit/adwaita-icon-web"
+            data-size="large" aria-label="Star nitipit/adwaita-icon-web on GitHub">
+        Github
+    </a>
+</p>
+<p style="text-align: center;">
+    <img src="https://nitipit.github.io/adwaita-icon-web/static/asset/adwaita.png"
         style="width: 100%; max-width: 800px;">
 </p>
 <h2>Features <el-icon theme="adwaita" name="starred"></el-icon></h2>
 <hr />
 <ul>
 <li>500+ well designed icons from
-<a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">adwaita-icon-theme</a></li>
+<a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">adwaita-icon-theme</a> v3.36</li>
 <li>Use <strong>[SVG Icons]</strong> for sharpness, scalable, easily to customize
 and make animation with css &amp; javascript.</li>
 <li>Use <strong>[Web Components]</strong> since it becomes a standard technology

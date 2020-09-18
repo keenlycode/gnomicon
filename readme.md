@@ -2,7 +2,7 @@
 <h2 style="text-align: center;">Adwaita Symbolic Icons for Website</h2>
 
 <p style="text-align: center;">
-    <img src="./static/asset/adwaita.png"
+    <img src="https://nitipit.github.io/adwaita-icon-web/static/asset/adwaita.png"
         style="width: 100%; max-width: 800px;">
 </p>
 

@@ -7,20 +7,26 @@ import shutil
 
 
 async def adwaita_svg():
-    icon_dir = Path(__file__).parent.joinpath('src', 'adwaita-scalable')
-    dist_path = Path(__file__).parent.joinpath('dist', 'adwaita.svg')
+    src_dir = Path(__file__).parent.joinpath('src', 'adwaita-scalable')
+    dist_dir = Path(__file__).parent.joinpath('dist')
+    adwaita_path = dist_dir.joinpath('adwaita.svg')
 
-    makedirs(dist_path.parent, exist_ok=True)
+    makedirs(dist_dir.parent, exist_ok=True)
 
-    with open(dist_path, 'w') as f:
+    with open(adwaita_path, 'w') as f:
         f.write('<svg></svg>')
 
     ElementTree.register_namespace('', 'http://www.w3.org/2000/svg')
-    svg_symbol = ElementTree.parse(dist_path)
-    for icon in icon_dir.glob('**/*.svg'):
-        with open(icon) as f:
-            icon = f.read()
-        svg = ElementTree.fromstring(icon)
+    svg_symbol = ElementTree.parse(adwaita_path)
+    for svg in src_dir.glob('**/*.svg'):
+        with open(svg) as f:
+            svg = f.read()
+        
+        svg = svg.replace('fill="#474747"', 'fill="currentColor"')
+        svg = svg.replace('fill="#2e3436"', 'fill="currentColor"')
+        svg = svg.replace('fill="#bebebe"', 'fill="currentColor"')
+        svg = svg.replace('stroke="#474747"', 'stroke="currentColor"')
+        svg = ElementTree.fromstring(svg)
         # Fix node attrib
         for node in svg.iter('*'):
             keys = []
@@ -53,18 +59,7 @@ async def adwaita_svg():
         for metadata in svg_symbol.getroot().iter('metadata'):
             symbol.remove(metadata)
 
-    svg_symbol.write(dist_path)
-
-    f = open(dist_path, 'r')
-    svg = f.read()
-    f.close()
-    svg = svg.replace('fill="#474747"', 'fill="currentColor"')
-    svg = svg.replace('fill="#2e3436"', 'fill="currentColor"')
-    svg = svg.replace('fill="#bebebe"', 'fill="currentColor"')
-    svg = svg.replace('stroke="#474747"', 'stroke="currentColor"')
-    f = open(dist_path, 'w')
-    f.write(svg)
-    f.close()
+    svg_symbol.write(adwaita_path)
 
 
 async def icon_web_component():

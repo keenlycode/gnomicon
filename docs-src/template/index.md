@@ -95,6 +95,7 @@ provide with specific `theme` and icon's `name` which are listed in
 <el-icon theme="adwaita" name="battery-level-20"></el-icon>
 <el-icon theme="adwaita" name="call-outgoing"></el-icon>
 ```
+
 <div style="font-size: 3rem;">
 <el-icon theme="adwaita" name="printer-error"></el-icon>
 <el-icon theme="adwaita" name="dialog-warning"></el-icon>

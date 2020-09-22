@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" version="1.1" id="svg7384" height="16">
+  <metadata id="metadata90">
+    <rdf:RDF>
+      <ns2:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icons</dc:title>
+        <ns2:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </ns2:Work>
+      <ns2:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <ns2:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <ns2:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <ns2:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+        <ns2:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <ns2:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <ns2:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </ns2:License>
+    </rdf:RDF>
+  </metadata>
+  <title id="title8473">Gnome Symbolic Icons</title>
+  <defs id="defs7386" />
+  <g transform="translate(-32,-91.999995)" id="layer10" />
+  <g transform="translate(-32,-27.999995)" id="layer1" />
+  <g transform="translate(-32,-91.999995)" id="layer11" />
+  <g transform="translate(-32,-27.999995)" id="layer7" />
+  <g transform="translate(-32,-27.999995)" id="layer6" />
+  <g transform="translate(-32,-27.999995)" id="layer5" />
+  <g transform="translate(-32,-27.999995)" id="layer9" />
+  <g transform="translate(-32,-27.999995)" id="layer2">
+    <path id="path3434-5" d="m 37.46875,28.039062 c -0.488278,10e-7 -0.794026,0.213658 -1.029297,0.453126 C 36.204182,28.731655 36,29.046428 36,29.519531 v 0.501953 H 34 V 43.9375 l 12.001953,0.002 V 42.941406 30.021484 H 44 v -0.390625 -0.02734 c -0.02404,-0.430715 -0.181757,-0.733579 -0.417969,-1.011719 -0.236212,-0.278141 -0.620819,-0.582745 -1.197265,-0.550781 l 0.05469,-0.002 z m 0.529297,1.996094 4.005859,0.002 v 1.980469 h 2 v 9.923828 h -8.007812 v -9.923828 h 2.001953 z" />
+    <path id="path12871-7" d="m 40.957031,33.001953 a 1.0001,1.0001 0 0 0 -0.664062,0.291016 l -3,3 A 1.0001,1.0001 0 0 0 38,38 h 0.984375 l 0.169922,0.002 -0.980469,1.433594 a 1.0001,1.0001 0 0 0 1.533203,1.271484 l 3,-3 A 1.0001,1.0001 0 0 0 42,36 h -1.130859 l 0.96289,-1.445312 a 1.0001,1.0001 0 0 0 -0.875,-1.552735 z" />
+    <path id="rect12928" d="m 37,36.999996 h 1 v 1 h -1 z" />
+    <path id="rect12930" d="m 41,32.999996 h 1 v 1 h -1 z" />
+    <path id="rect12932" d="m 38,39.999996 h 1 v 1 h -1 z" />
+    <path id="rect12934" d="m 42,35.999996 h 1 v 1 h -1 z" />
+  </g>
+  <g transform="translate(-32,-27.999995)" id="layer8" />
+  <g transform="translate(-32,-27.999995)" id="layer3" />
+  <g transform="translate(-32,-27.999995)" id="layer4" />
+</svg>

@@ -96,21 +96,26 @@ customElements.define('el-icon-manager', IconManager);
 <a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">adwaita-icon-theme</a> v3.36</li>
 <li>Use <strong>[SVG Icons]</strong> for sharpness, scalable, easily to customize
 and make animation with css &amp; javascript.</li>
-<li>Use <strong>[Web Components]</strong> since it becomes a standard technology
-for speed and less dependencies, also make it easy to integrate with other libraries.</li>
+<li>Provide icon.js to use SVG Sprite as <strong>[Web Components]</strong></li>
 </ul>
 <h2>SVG icon explain</h2>
 <hr />
-<p><strong>Adwaita Icons</strong> can be used by codes below. Even though
+<p><strong>Adwaita Icon Web</strong> can be used by codes below. Even though
 <strong>it's not recommended</strong>, this is how <strong>SVG Icons</strong> work on browser
 without other libraries or dependencies.</p>
-<pre><code class="language-html">&lt;svg style=&quot;width: 1em; height: 1em;&quot;&gt;
+<pre><code class="language-html">&lt;!-- Using from SVG Sprite --&gt;
+&lt;svg style=&quot;width: 1em; height: 1em;&quot;&gt;
     &lt;use xlink:href=&quot;/path/to/adwaita-icon-web/dist/adwaita.svg#call-outgoing&quot;&gt;&lt;/use&gt;
 &lt;/svg&gt;
 </code></pre>
-<p>You can read furthur information about <strong>SVG Symbol</strong> at
-<a href="https://css-tricks.com/svg-symbol-good-choice-icons/">css-trick.com</a></p>
-<p><strong>Adwaita Icon Web</strong> provides javascript libraries to make it easier to use.
+<blockquote>
+<p>You can also use each SVG Icons in <code>adwaita-icon-web/dist/svg/</code>,<br />
+Read furthur information about SVG in HTML at
+<a href="https://css-tricks.com/using-svg/">Using SVG</a>,
+<a href="https://css-tricks.com/svg-symbol-good-choice-icons/">SVG Symbol</a>
+from <a href="https://css-tricks.com">CSS Tricks</a></p>
+</blockquote>
+<p>However, this project provides javascript libraries to make it easier to use.
 With some setup codes, we can use icons by codes below.</p>
 <pre><code class="language-html">&lt;el-icon theme=&quot;adwaita&quot; name=&quot;call-outgoing&quot;&gt;&lt;/el-icon&gt;
 </code></pre>

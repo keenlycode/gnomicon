@@ -21,26 +21,28 @@
   [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v3.36
 - Use <strong>[SVG Icons]</strong> for sharpness, scalable, easily to customize
   and make animation with css & javascript.
-- Use <strong>[Web Components]</strong> since it becomes a standard technology
-  for speed and less dependencies, also make it easy to integrate with other libraries.
+- Provide icon.js to use SVG Sprite as <strong>[Web Components]</strong>
 
 ## SVG icon explain
 ---
 
-**Adwaita Icons** can be used by codes below. Even though
+**Adwaita Icon Web** can be used by codes below. Even though
 **it's not recommended**, this is how **SVG Icons** work on browser
 without other libraries or dependencies.
 
 ```html
+<!-- Using from SVG Sprite -->
 <svg style="width: 1em; height: 1em;">
     <use xlink:href="/path/to/adwaita-icon-web/dist/adwaita.svg#call-outgoing"></use>
 </svg>
 ```
+> You can also use each SVG Icons in `adwaita-icon-web/dist/svg/`,  
+> Read furthur information about SVG in HTML at
+> [Using SVG](https://css-tricks.com/using-svg/),
+> [SVG Symbol](https://css-tricks.com/svg-symbol-good-choice-icons/)
+> from [CSS Tricks](https://css-tricks.com)
 
-You can read furthur information about **SVG Symbol** at
-[css-trick.com](https://css-tricks.com/svg-symbol-good-choice-icons/)
-
-**Adwaita Icon Web** provides javascript libraries to make it easier to use.
+However, this project provides javascript libraries to make it easier to use.
 With some setup codes, we can use icons by codes below.
 
 ```html

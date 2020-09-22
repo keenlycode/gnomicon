@@ -153,12 +153,12 @@ to load **CDN** resources. (You can check error on browser debug console)
 <!-- Load adwaita.svg -->
 <link rel="preload"
     icon theme="adwaita"
-    href="//unpkg.com/adwaita-icon-web@1.0.0/dist/adwaita.svg"
+    href="//unpkg.com/adwaita-icon-web@1.0.2/dist/adwaita.svg"
     as="image" type="image/svg+xml">
 
 <!-- Import icon.js -->
 <script type="module">
-import {Icon} from '//unpkg.com/adwaita-icon-web@1.0.0/dist/icon.js';
+import {Icon} from '//unpkg.com/adwaita-icon-web@1.0.2/dist/icon.js';
 customElements.define('el-icon', Icon);  // define custom element for icons
 </script>
 ```

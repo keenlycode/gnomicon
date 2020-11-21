@@ -16,7 +16,8 @@
   "devDependencies": {
     "bits-ui": "^2.0.6",
     "highlight.js": "^10.2.0",
-    "parcel": "^2.0.0-beta.1"
+    "parcel": "^2.0.0-nightly.454",
+    "sass": "^1.29.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

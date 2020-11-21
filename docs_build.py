@@ -91,11 +91,11 @@ async def web_components():
 async def sass():
     src_dir = docs_src_dir.joinpath('template').resolve()
     dest_dir = docs_dir
-    await shell(f'sass --watch {src_dir}:{dest_dir}')
+    await shell(f'npx sass --watch {src_dir}:{dest_dir}')
 
 
 async def parcel():
-    await shell('yarn parcel build '
+    await shell('npx parcel build '
                 '--dist-dir=docs "docs-src/template/**/*.js"')
 
 

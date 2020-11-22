@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Adwaita Icon Web 1.0.2</h1>
+<h1 style="text-align: center;">Adwaita Icon Web 2.0.0</h1>
 <h2 style="text-align: center;">Adwaita Symbolic Icons for Website</h2>
 
 <p style="text-align: center;">
@@ -86,7 +86,7 @@ In the codes above, there're 3 steps to set up icons.
 ---
 
 Icon can be rendered by using `<el-icon>` (or whatever it has been defined to)
-provide with specific `theme` and icon's `name` which are listed in
+provide with specific `set` and icon's `name` which are listed in
 [**Icon List**](#icon-list) section.
 
 ```html

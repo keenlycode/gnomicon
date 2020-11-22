@@ -1,7 +1,7 @@
 class Icon extends HTMLElement {
     constructor() {
         super()
-        this.theme = this.getAttribute('theme')
+        this.set = this.getAttribute('set')
         this.name = this.getAttribute('name')
     };
     connectedCallback() {
@@ -9,10 +9,10 @@ class Icon extends HTMLElement {
         let link = null;
         try {
             link = document.querySelector(
-                `link[icon][theme="${this.theme}"]`);
+                `link[icon][set="${this.set}"]`);
             link.getAttribute('href');
         } catch (err) {
-            console.error(`<link icon theme="${this.theme}"> ${err}`);
+            console.error(`<link icon set="${this.set}"> ${err}`);
         };
         let use = document.createElementNS(
             'http://www.w3.org/2000/svg',

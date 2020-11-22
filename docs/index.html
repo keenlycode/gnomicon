@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="./base.css?v=3" />
 
 <!-- Icon Setup -->
-<link rel="preload" icon theme="adwaita"
+<link rel="preload" icon set="adwaita"
     href="./static/adwaita.svg?v=3"
     as="image" type="image/svg+xml">
 
@@ -47,7 +47,7 @@ class IconGrid extends HTMLElement {
 
     render(icon) {
         this.innerHTML = `
-            <el-icon theme="adwaita" name="${icon}"></el-icon>
+            <el-icon set="adwaita" name="${icon}"></el-icon>
             <div class="name">${icon}</div>
         `
     }
@@ -56,7 +56,7 @@ class IconGrid extends HTMLElement {
 class IconManager extends HTMLElement {
     constructor() {
         super();
-        this.icons = ['dialog-warning','battery-level-20-charging','view-wrapped-symbolic-rtl','battery-level-50','network-cellular-edge','printer-error','user-offline','mail-unread','network-error','network-wireless-offline','mail-read','screen-shared','mail-attachment','display-brightness','network-wireless-acquiring','user-status-pending','network-no-route','network-cellular-offline','user-away','microphone-sensitivity-low','user-trash-full','network-wireless-disabled','battery-level-40-charging','weather-showers','network-cellular-3g','network-cellular-disabled','system-lock-screen','avatar-default','microphone-sensitivity-high','battery-level-60','battery-level-90','weather-showers-scattered','network-wireless-signal-good','folder-open','user-available','folder-drag-accept','channel-secure','touch-disabled','orientation-landscape-inverse','daytime-sunset','appointment-soon','content-loading','changes-allow','network-cellular-2g','mail-replied','location-services-disabled','network-idle','starred','network-vpn-acquiring','printer-warning','printer-printing','auth-sim-missing','media-playlist-repeat','network-cellular-hardware-disabled','network-cellular-hspa','call-outgoing','user-idle','battery-level-90-charging','weather-overcast','microphone-sensitivity-muted','rotation-allowed','rotation-locked','network-vpn','dialog-information','weather-clear-night','network-cellular-signal-good','call-incoming','network-cellular-signal-ok','dialog-question','audio-volume-overamplified','battery-level-100-charged','battery-level-10','weather-clear','battery-level-70','weather-fog','task-due','battery-level-0-charging','battery-level-60-charging','network-wired-no-route','camera-disabled','network-wired-offline','user-busy','network-cellular-signal-excellent','dialog-password','network-cellular-signal-none','semi-starred','software-update-urgent','network-wireless-signal-none','battery-level-80','weather-few-clouds','audio-volume-muted','orientation-portrait-right','network-wired-disconnected','orientation-portrait-left','appointment-missed','image-loading','weather-severe-alert','battery-level-40','microphone-sensitivity-medium','user-invisible','daytime-sunrise','weather-storm','network-wireless-connected','battery-level-20','network-wireless-hotspot','auth-sim-locked','touchpad-disabled','network-wireless-no-route','location-services-active','battery-level-80-charging','network-offline','battery-level-10-charging','audio-volume-high','network-cellular-connected','security-low','bluetooth-disabled','battery-level-30','microphone-disabled','weather-windy','network-wireless-encrypted','bluetooth-active','battery-level-70-charging','network-wired-acquiring','network-receive','battery-level-30-charging','audio-volume-medium','network-wireless-signal-ok','network-transmit-receive','night-light','camera-hardware-disabled','task-past-due','non-starred','network-vpn-no-route','battery-level-100','network-wireless-signal-excellent','media-playlist-shuffle','weather-snow','orientation-landscape','view-wrapped','computer-fail','audio-volume-low','battery-missing','changes-prevent','security-medium','dialog-error','weather-few-clouds-night','network-cellular-signal-weak','network-wireless-hardware-disabled','channel-insecure','network-cellular-4g','call-missed','bluetooth-hardware-disabled','keyboard-brightness','network-cellular-acquiring','airplane-mode','weather-tornado','media-playlist-repeat-song','microphone-hardware-disabled','thunderbolt-acquiring','security-high','media-playlist-consecutive','network-transmit','network-cellular-gprs','alarm','battery-level-50-charging','notifications-disabled','folder-visiting','battery-level-0','network-cellular-no-route','network-wireless-signal-weak','user-not-tracked','software-update-available','semi-starred-symbolic-rtl','folder-pictures','folder-templates','folder-documents','folder-publicshare','folder-download','user-home','user-bookmarks','network-workgroup','folder-remote','network-server','user-trash','folder-saved-search','start-here','folder-music','folder','folder-videos','user-desktop','preferences-desktop-apps','preferences-system-search','gnome-power-manager','preferences-desktop-wallpaper','preferences-system-parental-controls','preferences-desktop-screensaver','goa-panel','help-faq','text-editor','system-file-manager','help-browser','user-info','accessories-dictionary','multimedia-volume-control','preferences-system-privacy','preferences-desktop-font','preferences-desktop-accessibility','preferences-desktop-remote-desktop','web-browser','preferences-system-network-proxy','preferences-system-network','preferences-desktop-display','preferences-system-time','system-software-install','accessories-text-editor','accessories-calculator','preferences-system-sharing','applets-screenshooter','accessories-character-map','help-contents','utilities-terminal','preferences-desktop-locale','preferences-system-notifications','preferences-system-details','system-users','preferences-color','preferences-system-devices','preferences-desktop-keyboard','preferences-desktop-keyboard-shortcuts','emblem-favorite','emblem-videos','emblem-system','emblem-default','emblem-synchronizing','emblem-photos','emblem-documents','emblem-ok','emblem-shared','emblem-music','emblem-important','emoji-travel','emoji-nature','emoji-recent','preferences-other','applications-multimedia','applications-science','applications-engineering','emoji-food','preferences-system','emoji-flags','emoji-body','emoji-activities','applications-games','emoji-symbols','emoji-people','emoji-objects','system-help','applications-system','applications-utilities','applications-graphics','checkbox-checked','pan-end','pan-start','tab-new','window-restore','window-maximize','focus-top-bar','window-new','focus-windows','checkbox-mixed','pan-end-symbolic-rtl','radio-checked','pan-down','selection-start','window-close','list-drag-handle','selection-end','radio','selection-end-symbolic-rtl','window-minimize','selection-start-symbolic-rtl','focus-legacy-systray','radio-mixed','pan-start-symbolic-rtl','checkbox','pan-up','face-confused','face-yawn','face-shutmouth','face-raspberry','face-devilish','face-uncertain','face-tired','face-glasses','face-angry','face-cool','face-embarrassed','emote-love','face-monkey','face-plain','face-wink','face-surprise','face-smile','face-sad','face-smile-big','face-laugh','face-angel','face-smirk','face-kiss','face-sick','face-crying','face-worried','battery-full','battery-good-charging','battery-good','battery-empty','battery-low-charging','battery-full-charged','battery-low','battery-caution','battery-full-charging','battery-empty-charging','battery-caution-charging','mail-reply-sender','edit-redo-symbolic-rtl','document-save','tools-check-spelling','edit-paste','mail-send-receive','system-log-out','go-first-symbolic-rtl','go-last-symbolic-rtl','format-indent-more-symbolic-rtl','list-remove-all','format-text-direction','system-search','object-flip-vertical','go-jump-symbolic-rtl','view-more','edit-find','edit-clear','object-rotate-right','tab-new','media-skip-backward','view-conceal','open-menu','insert-link','list-remove','format-indent-less','error-correct','chat-message-new','zoom-original','edit-select','mail-mark-notjunk','document-print-preview','edit-undo','insert-image','document-open-recent','send-to','document-print','go-home','mail-mark-important','view-more-horizontal','mail-message-new','document-revert','action-unavailable','bookmark-new','go-top','edit-find-replace','object-rotate-left','view-sort-ascending','zoom-fit-best','object-select','camera-switch','format-text-italic','mail-forward','media-playback-pause','media-record','sidebar-hide','view-app-grid','document-properties','format-text-bold','go-down','edit-delete','color-select','view-mirror','view-list-bullet','media-seek-backward','edit-undo-symbolic-rtl','format-justify-left','system-run','view-sort-descending','document-send','go-jump','format-text-underline','view-list-ordered','format-justify-center','application-exit','object-flip-horizontal','edit-cut','media-eject','value-decrease','view-refresh','font-select','media-view-subtitles','media-skip-forward','zoom-in','edit-redo','edit-copy','list-add','mail-send','system-switch-user','document-save-as','go-previous','insert-object','address-book-new','media-playback-start','format-indent-more','view-continuous','go-up','go-first','insert-text','view-reveal','format-text-strikethrough','edit-clear-all','find-location','value-increase','go-previous-symbolic-rtl','mark-location','format-text-direction-symbolic-rtl','media-playback-stop','view-fullscreen','view-restore','system-reboot','appointment-new','go-last','view-grid','view-dual','zoom-out','sidebar-show','go-next-symbolic-rtl','call-stop','help-about','document-page-setup','edit-clear-symbolic-rtl','view-list','view-paged','document-revert-symbolic-rtl','format-justify-right','process-stop','call-start','contact-new','mail-reply-all','mail-mark-junk','system-shutdown','star-new','edit-select-all','format-justify-fill','folder-new','document-edit','go-next','document-open','go-bottom','format-indent-less-symbolic-rtl','media-seek-forward','document-new','view-pin','media-removable','drive-removable-media','drive-optical','input-dialpad','camera-web','tv','input-keyboard','computer-apple-ipad','media-optical','colorimeter-colorhug','audio-speakers','audio-headphones','uninterruptible-power-supply','video-single-display','media-optical-bd','printer','pda','video-display','drive-harddisk','input-mouse','network-wireless','auth-smartcard','network-cellular','audio-input-microphone','media-flash','input-tablet','media-optical-dvd','computer','drive-harddisk-usb','multimedia-player','battery','phone','media-optical-cd-audio','multimedia-player-apple-ipod-touch','auth-fingerprint','auth-sim','bluetooth','thunderbolt','media-tape','camera-photo','audio-headset','camera-video','phone-old','video-joined-displays','media-floppy','drive-harddisk-solidstate','media-zip','drive-harddisk-ieee1394','drive-harddisk-system','input-touchpad','input-gaming','phone-apple-iphone','audio-card','drive-multidisk','printer-network','display-projector','modem','scanner','ac-adapter','network-wired','x-office-drawing','x-office-address-book','video-x-generic','package-x-generic','application-x-executable','x-office-spreadsheet','application-rss+xml','image-x-generic','x-office-calendar','x-office-document','application-x-appliance','application-x-addon','x-office-presentation','application-x-firmware','text-x-generic','application-certificate','inode-directory','font-x-generic','audio-x-generic',];
+        this.icons = ['action-unavailable','address-book-new','application-exit','appointment-new','bookmark-new','call-start','call-stop','camera-switch','chat-message-new','color-select','contact-new','document-edit','document-new','document-open-recent','document-open','document-page-setup','document-print-preview','document-print','document-properties','document-revert-symbolic-rtl','document-revert','document-save-as','document-save','document-send','edit-clear-all','edit-clear-symbolic-rtl','edit-clear','edit-copy','edit-cut','edit-delete','edit-find-replace','edit-find','edit-paste','edit-redo-symbolic-rtl','edit-redo','edit-select-all','edit-select','edit-undo-symbolic-rtl','edit-undo','error-correct','find-location','folder-new','font-select','format-indent-less-symbolic-rtl','format-indent-less','format-indent-more-symbolic-rtl','format-indent-more','format-justify-center','format-justify-fill','format-justify-left','format-justify-right','format-text-bold','format-text-direction-symbolic-rtl','format-text-direction','format-text-italic','format-text-strikethrough','format-text-underline','go-bottom','go-down','go-first-symbolic-rtl','go-first','go-home','go-jump-symbolic-rtl','go-jump','go-last-symbolic-rtl','go-last','go-next-symbolic-rtl','go-next','go-previous-symbolic-rtl','go-previous','go-top','go-up','help-about','insert-image','insert-link','insert-object','insert-text','list-add','list-remove-all','list-remove','mail-forward','mail-mark-important','mail-mark-junk','mail-mark-notjunk','mail-message-new','mail-reply-all','mail-reply-sender','mail-send-receive','mail-send','mark-location','media-eject','media-playback-pause','media-playback-start','media-playback-stop','media-record','media-seek-backward','media-seek-forward','media-skip-backward','media-skip-forward','media-view-subtitles','object-flip-horizontal','object-flip-vertical','object-rotate-left','object-rotate-right','object-select','open-menu','process-stop','send-to','sidebar-hide','sidebar-show','star-new','system-log-out','system-reboot','system-run','system-search','system-shutdown','system-switch-user','tab-new','tools-check-spelling','value-decrease','value-increase','view-app-grid','view-conceal','view-continuous','view-dual','view-fullscreen','view-grid','view-list-bullet','view-list-ordered','view-list','view-mirror','view-more-horizontal','view-more','view-paged','view-pin','view-refresh','view-restore','view-reveal','view-sort-ascending','view-sort-descending','zoom-fit-best','zoom-in','zoom-original','zoom-out','accessories-calculator','accessories-character-map','accessories-dictionary','accessories-text-editor','applets-screenshooter','gnome-power-manager','goa-panel','help-browser','help-contents','help-faq','multimedia-volume-control','preferences-color','preferences-desktop-accessibility','preferences-desktop-apps','preferences-desktop-display','preferences-desktop-font','preferences-desktop-keyboard-shortcuts','preferences-desktop-keyboard','preferences-desktop-locale','preferences-desktop-remote-desktop','preferences-desktop-screensaver','preferences-desktop-wallpaper','preferences-system-details','preferences-system-devices','preferences-system-network-proxy','preferences-system-network','preferences-system-notifications','preferences-system-parental-controls','preferences-system-privacy','preferences-system-search','preferences-system-sharing','preferences-system-time','system-file-manager','system-software-install','system-users','text-editor','user-info','utilities-terminal','web-browser','applications-engineering','applications-games','applications-graphics','applications-multimedia','applications-science','applications-system','applications-utilities','emoji-activities','emoji-body','emoji-flags','emoji-food','emoji-nature','emoji-objects','emoji-people','emoji-recent','emoji-symbols','emoji-travel','preferences-other','preferences-system','system-help','ac-adapter','audio-card','audio-headphones','audio-headset','audio-input-microphone','audio-speakers','auth-fingerprint','auth-sim','auth-smartcard','battery','bluetooth','camera-photo','camera-video','camera-web','colorimeter-colorhug','computer-apple-ipad','computer','display-projector','drive-harddisk-ieee1394','drive-harddisk-solidstate','drive-harddisk','drive-harddisk-system','drive-harddisk-usb','drive-multidisk','drive-optical','drive-removable-media','input-dialpad','input-gaming','input-keyboard','input-mouse','input-tablet','input-touchpad','media-flash','media-floppy','media-optical-bd','media-optical-cd-audio','media-optical-dvd','media-optical','media-removable','media-tape','media-zip','modem','multimedia-player-apple-ipod-touch','multimedia-player','network-cellular','network-wired','network-wireless','pda','phone-apple-iphone','phone-old','phone','printer-network','printer','scanner','thunderbolt','tv','uninterruptible-power-supply','video-display','video-joined-displays','video-single-display','emblem-default','emblem-documents','emblem-favorite','emblem-important','emblem-music','emblem-ok','emblem-photos','emblem-shared','emblem-synchronizing','emblem-system','emblem-videos','emote-love','face-angel','face-angry','face-confused','face-cool','face-crying','face-devilish','face-embarrassed','face-glasses','face-kiss','face-laugh','face-monkey','face-plain','face-raspberry','face-sad','face-shutmouth','face-sick','face-smile-big','face-smile','face-smirk','face-surprise','face-tired','face-uncertain','face-wink','face-worried','face-yawn','battery-caution-charging','battery-caution','battery-empty-charging','battery-empty','battery-full-charged','battery-full-charging','battery-full','battery-good-charging','battery-good','battery-low-charging','battery-low','application-certificate','application-rss+xml','application-x-addon','application-x-appliance','application-x-executable','application-x-firmware','audio-x-generic','font-x-generic','image-x-generic','inode-directory','package-x-generic','text-x-generic','video-x-generic','x-office-address-book','x-office-calendar','x-office-document','x-office-drawing','x-office-presentation','x-office-spreadsheet','folder-documents','folder-download','folder-music','folder-pictures','folder-publicshare','folder-remote','folder-saved-search','folder','folder-templates','folder-videos','network-server','network-workgroup','start-here','user-bookmarks','user-desktop','user-home','user-trash','airplane-mode','alarm','appointment-missed','appointment-soon','audio-volume-high','audio-volume-low','audio-volume-medium','audio-volume-muted','audio-volume-overamplified','auth-sim-locked','auth-sim-missing','avatar-default','battery-level-0-charging','battery-level-0','battery-level-10-charging','battery-level-10','battery-level-100-charged','battery-level-100','battery-level-20-charging','battery-level-20','battery-level-30-charging','battery-level-30','battery-level-40-charging','battery-level-40','battery-level-50-charging','battery-level-50','battery-level-60-charging','battery-level-60','battery-level-70-charging','battery-level-70','battery-level-80-charging','battery-level-80','battery-level-90-charging','battery-level-90','battery-missing','bluetooth-active','bluetooth-disabled','bluetooth-hardware-disabled','call-incoming','call-missed','call-outgoing','camera-disabled','camera-hardware-disabled','changes-allow','changes-prevent','channel-insecure','channel-secure','computer-fail','content-loading','daytime-sunrise','daytime-sunset','dialog-error','dialog-information','dialog-password','dialog-question','dialog-warning','display-brightness','folder-drag-accept','folder-open','folder-visiting','image-loading','keyboard-brightness','location-services-active','location-services-disabled','mail-attachment','mail-read','mail-replied','mail-unread','media-playlist-consecutive','media-playlist-repeat-song','media-playlist-repeat','media-playlist-shuffle','microphone-disabled','microphone-hardware-disabled','microphone-sensitivity-high','microphone-sensitivity-low','microphone-sensitivity-medium','microphone-sensitivity-muted','network-cellular-2g','network-cellular-3g','network-cellular-4g','network-cellular-acquiring','network-cellular-connected','network-cellular-disabled','network-cellular-edge','network-cellular-gprs','network-cellular-hardware-disabled','network-cellular-hspa','network-cellular-no-route','network-cellular-offline','network-cellular-signal-excellent','network-cellular-signal-good','network-cellular-signal-none','network-cellular-signal-ok','network-cellular-signal-weak','network-error','network-idle','network-no-route','network-offline','network-receive','network-transmit-receive','network-transmit','network-vpn-acquiring','network-vpn-no-route','network-vpn','network-wired-acquiring','network-wired-disconnected','network-wired-no-route','network-wired-offline','network-wireless-acquiring','network-wireless-connected','network-wireless-disabled','network-wireless-encrypted','network-wireless-hardware-disabled','network-wireless-hotspot','network-wireless-no-route','network-wireless-offline','network-wireless-signal-excellent','network-wireless-signal-good','network-wireless-signal-none','network-wireless-signal-ok','network-wireless-signal-weak','night-light','non-starred','notifications-disabled','orientation-landscape-inverse','orientation-landscape','orientation-portrait-left','orientation-portrait-right','printer-error','printer-printing','printer-warning','rotation-allowed','rotation-locked','screen-shared','security-high','security-low','security-medium','semi-starred-symbolic-rtl','semi-starred','software-update-available','software-update-urgent','starred','system-lock-screen','task-due','task-past-due','thunderbolt-acquiring','touch-disabled','touchpad-disabled','user-available','user-away','user-busy','user-idle','user-invisible','user-not-tracked','user-offline','user-status-pending','user-trash-full','view-wrapped-symbolic-rtl','view-wrapped','weather-clear-night','weather-clear','weather-few-clouds-night','weather-few-clouds','weather-fog','weather-overcast','weather-severe-alert','weather-showers-scattered','weather-showers','weather-snow','weather-storm','weather-tornado','weather-windy','checkbox-checked','checkbox-mixed','checkbox','focus-legacy-systray','focus-top-bar','focus-windows','list-drag-handle','pan-down','pan-end-symbolic-rtl','pan-end','pan-start-symbolic-rtl','pan-start','pan-up','radio-checked','radio-mixed','radio','selection-end-symbolic-rtl','selection-end','selection-start-symbolic-rtl','selection-start','tab-new','window-close','window-maximize','window-minimize','window-new','window-restore',];
     }
 
     connectedCallback() {
@@ -76,7 +76,7 @@ customElements.define('el-icon-manager', IconManager);
 <body>
 
 <div class="container">
-<h1 style="text-align: center;">Adwaita Icon Web 1.0.2</h1>
+<h1 style="text-align: center;">Adwaita Icon Web 2.0.0</h1>
 <h2 style="text-align: center;">Adwaita Symbolic Icons for Website</h2>
 <p style="text-align: center;">
     <a class="github-button"
@@ -89,7 +89,7 @@ customElements.define('el-icon-manager', IconManager);
     <img src="https://nitipit.github.io/adwaita-icon-web/static/asset/adwaita.png"
         style="width: 100%; max-width: 800px;">
 </p>
-<h2>Features <el-icon theme="adwaita" name="starred"></el-icon></h2>
+<h2>Features <el-icon set="adwaita" name="starred"></el-icon></h2>
 <hr />
 <ul>
 <li>500+ well designed icons from
@@ -117,7 +117,7 @@ from <a href="https://css-tricks.com">CSS Tricks</a></p>
 </blockquote>
 <p>However, this project provides javascript libraries to make it easier to use.
 With some setup codes, we can use icons by codes below.</p>
-<pre><code class="language-html">&lt;el-icon theme=&quot;adwaita&quot; name=&quot;call-outgoing&quot;&gt;&lt;/el-icon&gt;
+<pre><code class="language-html">&lt;el-icon set=&quot;adwaita&quot; name=&quot;call-outgoing&quot;&gt;&lt;/el-icon&gt;
 </code></pre>
 <h2>Install</h2>
 <hr />
@@ -129,7 +129,7 @@ With some setup codes, we can use icons by codes below.</p>
 &lt;!-- Load adwaita.svg --&gt;
 &lt;link icon
     rel=&quot;preload&quot;
-    theme=&quot;adwaita&quot;
+    set=&quot;adwaita&quot;
     href=&quot;/path/to/adwaita-icon-web/dist/adwaita.svg&quot;
     as=&quot;image&quot; type=&quot;image/svg+xml&quot;&gt;
 
@@ -142,53 +142,52 @@ customElements.define('el-icon', Icon);  // define custom element for icons
 <h3>:: Explanation</h3>
 <p>In the codes above, there're 3 steps to set up icons.</p>
 <ol>
-<li>Set icon theme by <code>theme</code> attribute in <code>&lt;link icon&gt;</code>
-which is set to <strong>adwaita</strong>.</li>
+<li>Use <code>set</code> attribute to indentify icon set in <code>&lt;link icon&gt;</code> (adwaita).</li>
 <li>Provide icon url by <code>href</code> attribute in <code>&lt;link icon&gt;</code>.</li>
 <li>Define custom elements for icons using javascript.</li>
 </ol>
 <h2>Usage</h2>
 <hr />
 <p>Icon can be rendered by using <code>&lt;el-icon&gt;</code> (or whatever it has been defined to)
-provide with specific <code>theme</code> and icon's <code>name</code> which are listed in
+provide with specific <code>set</code> and icon's <code>name</code> which are listed in
 <a href="#icon-list"><strong>Icon List</strong></a> section.</p>
-<pre><code class="language-html">&lt;el-icon theme=&quot;adwaita&quot; name=&quot;printer-error&quot;&gt;&lt;/el-icon&gt;
-&lt;el-icon theme=&quot;adwaita&quot; name=&quot;dialog-warning&quot;&gt;&lt;/el-icon&gt;
-&lt;el-icon theme=&quot;adwaita&quot; name=&quot;appointment-soon&quot;&gt;&lt;/el-icon&gt;
-&lt;el-icon theme=&quot;adwaita&quot; name=&quot;battery-level-20&quot;&gt;&lt;/el-icon&gt;
-&lt;el-icon theme=&quot;adwaita&quot; name=&quot;call-outgoing&quot;&gt;&lt;/el-icon&gt;
+<pre><code class="language-html">&lt;el-icon set=&quot;adwaita&quot; name=&quot;printer-error&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;dialog-warning&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;appointment-soon&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;battery-level-20&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;call-outgoing&quot;&gt;&lt;/el-icon&gt;
 </code></pre>
 <div style="font-size: 3rem;">
-<el-icon theme="adwaita" name="printer-error"></el-icon>
-<el-icon theme="adwaita" name="dialog-warning"></el-icon>
-<el-icon theme="adwaita" name="appointment-soon"></el-icon>
-<el-icon theme="adwaita" name="battery-level-20"></el-icon>
-<el-icon theme="adwaita" name="call-outgoing"></el-icon>
+<el-icon set="adwaita" name="printer-error"></el-icon>
+<el-icon set="adwaita" name="dialog-warning"></el-icon>
+<el-icon set="adwaita" name="appointment-soon"></el-icon>
+<el-icon set="adwaita" name="battery-level-20"></el-icon>
+<el-icon set="adwaita" name="call-outgoing"></el-icon>
 </div>
 <h3>:: Color</h3>
 <p><strong>CSS</strong> <code>color</code> property can be used to set icon's color.</p>
-<pre><code class="language-html">&lt;el-icon theme=&quot;adwaita&quot; name=&quot;call-outgoing&quot; style=&quot;color: #2196F3;&quot;&gt;&lt;/el-icon&gt;
+<pre><code class="language-html">&lt;el-icon set=&quot;adwaita&quot; name=&quot;call-outgoing&quot; style=&quot;color: #2196F3;&quot;&gt;&lt;/el-icon&gt;
 </code></pre>
 <div style="color: #2196F3; font-size: 3rem;">
-    <el-icon theme="adwaita" name="printer-error"></el-icon>
-    <el-icon theme="adwaita" name="dialog-warning"></el-icon>
-    <el-icon theme="adwaita" name="appointment-soon"></el-icon>
-    <el-icon theme="adwaita" name="battery-level-20"></el-icon>
-    <el-icon theme="adwaita" name="call-outgoing"></el-icon>
+    <el-icon set="adwaita" name="printer-error"></el-icon>
+    <el-icon set="adwaita" name="dialog-warning"></el-icon>
+    <el-icon set="adwaita" name="appointment-soon"></el-icon>
+    <el-icon set="adwaita" name="battery-level-20"></el-icon>
+    <el-icon set="adwaita" name="call-outgoing"></el-icon>
 </div>
 <h3>:: Scale</h3>
 <p><strong>CSS</strong> <code>font-size</code> property can be used to scale icons.</p>
-<pre><code class="language-html">&lt;el-icon theme=&quot;adwaita&quot; name=&quot;printer-error&quot; style=&quot;font-size: 1rem;&quot;&gt;&lt;/el-icon&gt;
-&lt;el-icon theme=&quot;adwaita&quot; name=&quot;dialog-warning&quot; style=&quot;font-size: 1.5rem;&quot;&gt;&lt;/el-icon&gt;
-&lt;el-icon theme=&quot;adwaita&quot; name=&quot;appointment-soon&quot; style=&quot;font-size: 2.0rem;&quot;&gt;&lt;/el-icon&gt;
-&lt;el-icon theme=&quot;adwaita&quot; name=&quot;battery-level-20&quot; style=&quot;font-size: 2.5rem;&quot;&gt;&lt;/el-icon&gt;
-&lt;el-icon theme=&quot;adwaita&quot; name=&quot;call-outgoing&quot; style=&quot;font-size: 3rem;&quot;&gt;&lt;/el-icon&gt;
+<pre><code class="language-html">&lt;el-icon set=&quot;adwaita&quot; name=&quot;printer-error&quot; style=&quot;font-size: 1rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;dialog-warning&quot; style=&quot;font-size: 1.5rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;appointment-soon&quot; style=&quot;font-size: 2.0rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;battery-level-20&quot; style=&quot;font-size: 2.5rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;call-outgoing&quot; style=&quot;font-size: 3rem;&quot;&gt;&lt;/el-icon&gt;
 </code></pre>
-<p><el-icon theme="adwaita" name="printer-error" style="font-size: 1rem;"></el-icon>
-<el-icon theme="adwaita" name="dialog-warning" style="font-size: 1.5rem;"></el-icon>
-<el-icon theme="adwaita" name="appointment-soon" style="font-size: 2.0rem;"></el-icon>
-<el-icon theme="adwaita" name="battery-level-20" style="font-size: 2.5rem;"></el-icon>
-<el-icon theme="adwaita" name="call-outgoing" style="font-size: 3rem;"></el-icon></p>
+<p><el-icon set="adwaita" name="printer-error" style="font-size: 1rem;"></el-icon>
+<el-icon set="adwaita" name="dialog-warning" style="font-size: 1.5rem;"></el-icon>
+<el-icon set="adwaita" name="appointment-soon" style="font-size: 2.0rem;"></el-icon>
+<el-icon set="adwaita" name="battery-level-20" style="font-size: 2.5rem;"></el-icon>
+<el-icon set="adwaita" name="call-outgoing" style="font-size: 3rem;"></el-icon></p>
 <h2>Use resources from CDN</h2>
 <hr />
 <p>Using resources from NPM CDN doesn't require installation via <strong>npm</strong>.
@@ -199,7 +198,7 @@ to load <strong>CDN</strong> resources. (You can check error on browser debug co
 
 &lt;!-- Load adwaita.svg --&gt;
 &lt;link rel=&quot;preload&quot;
-    icon theme=&quot;adwaita&quot;
+    icon set=&quot;adwaita&quot;
     href=&quot;//unpkg.com/adwaita-icon-web@1.0.2/dist/adwaita.svg&quot;
     as=&quot;image&quot; type=&quot;image/svg+xml&quot;&gt;
 

@@ -29,5 +29,10 @@
   ],
   "files": [
     "dist/**/*"
-  ]
+  ],
+  "type": "module",
+  "main": "dist/icon.js",
+  "directories": {
+    "doc": "docs"
+  }
 }

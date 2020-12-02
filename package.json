@@ -12,11 +12,10 @@
     "url": "https://github.com/nitipit/adwaita-icon-web/issues"
   },
   "homepage": "https://github.com/nitipit/adwaita-icon-web#readme",
-  "dependencies": {},
   "devDependencies": {
-    "bits-ui": "^2.0.6",
     "highlight.js": "^10.2.0",
-    "parcel": "^2.0.0-nightly.454",
+    "packet-ui": "0.0.1",
+    "parcel": "^2.0.0-beta.1",
     "sass": "^1.29.0"
   },
   "scripts": {
@@ -31,7 +30,7 @@
     "dist/**/*"
   ],
   "type": "module",
-  "main": "dist/icon.js",
+  "exports": "./dist/icon.js",
   "directories": {
     "doc": "docs"
   }

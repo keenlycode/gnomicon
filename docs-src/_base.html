@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-{% set _v = 3 %}
+{% set _v = 4 %}
 
 <head>
 <meta charset="utf-8" />
@@ -10,31 +10,25 @@
 
 <!-- Icon Setup -->
 <link rel="preload" icon set="adwaita"
-    href="./static/adwaita.svg?v={{_v}}"
+    href="./lib/adwaita-icon-web/adwaita.svg?v={{_v}}"
     as="image" type="image/svg+xml">
 
-<script type="module">
-import {Icon} from './static/ui/icon.js';
-
-customElements.define('el-icon', Icon);
-</script>
-
 <!-- Bits UI Setup -->
-<link rel="stylesheet" href="./static/lib/bits-ui/normalize.css?v={{_v}}">
-<link rel="stylesheet" href="./static/lib/bits-ui/bits-ui.css?v={{_v}}">
+<link rel="stylesheet" href="./lib/packet-ui/dist/normalize.css?v={{_v}}">
+<link rel="stylesheet" href="../lib/packet-ui/dist/packet-ui.css?v={{_v}}">
 <script async defer src="https://buttons.github.io/buttons.js?v={{_v}}"></script>
 <style>
     @font-face {
         /* Set UI font, Cantarell is recommended */
         font-family: bits-ui;
-        src: url('./static/lib/bits-ui/font/Cantarell/Cantarell-Regular.ttf');
+        src: url('./lib/packet-ui/dist/font/Cantarell/Cantarell-Regular.ttf');
     }
 </style>
-<script defer src="./lib.js"></script>
-<script defer src="./static/lib/bits-ui/bits-ui.js"></script>
+<script defer src="./base.js"></script>
+<script defer src="./lib/packet-ui/dist/packet-ui.js?v={{_v}}"></script>
 <!-- / Bits UI Setup -->
 
-<link rel="stylesheet" href="./static/lib/highlight.js/atom-one-dark.css">
+<link rel="stylesheet" href="./lib/highlight.js/styles/atom-one-dark.css?v={{_v}}">
 
 <title>Adwaita Icon Web</title>
 {% block head %}

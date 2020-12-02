@@ -1,0 +1,15 @@
+@use '../_var';
+@use '../_mixin';
+
+@mixin badge($bg-color: var.$ui-color) {
+    @include mixin.font-ui();
+    @include mixin.bg-color($bg-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+    border-radius: 20em;
+    padding: 0.2em;
+    width: 1.6em;
+    height: 1.6em;
+}

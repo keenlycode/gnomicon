@@ -1,0 +1,19 @@
+@use 'sass:color';
+@use '../_var';
+@use '../_mixin';
+
+@mixin tag(
+        $bg-color: var.$ui-color,
+        $radius: var.$border-radius) {
+    @include mixin.font-ui();
+    @include mixin.bg-color($bg-color);
+    display: inline-flex;
+    align-items: center;
+    border-radius: $radius;
+    padding: 0 0.4em;
+    font-size: 0.9em;
+    box-shadow: 0 0.17em 0 0 color.adjust($bg-color, $lightness: -25%);
+    pkt-icon {
+        cursor: pointer;
+    }
+}

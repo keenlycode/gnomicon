@@ -1,0 +1,73 @@
+@use 'sass:color';
+@use '../_var';
+@use '../_mixin';
+
+@mixin input-radio($color: var.$ui-color) {
+    $width: 1.1em;
+    $height: 1.1em;
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    user-select: none;
+    width: $width;
+    height: $height;
+    input {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        cursor: pointer;
+        width: $width;
+        height: $height;
+        vertical-align: middle;
+    }
+
+    /* Create a custom radio button */
+    span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: $width;
+        height: $height;
+        background-color: color.adjust(var.$grey, $lightness: 50%);
+        border-radius: 50%;
+        box-shadow: 0 1px 1px 0 var.$grey;
+    }
+
+    /* On mouse-over, add a background color */
+    &:hover input ~ span {
+        background-color: color.adjust($color, $lightness: 20%);
+    }
+
+    /* When the radio button is checked, add background color */
+    input:checked ~ span {
+        background-color: $color;
+    }
+
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    span:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    /* Show the indicator (dot/circle) when checked */
+    input:checked ~ span:after {
+        display: block;
+    }
+
+    /* Style the indicator (dot/circle) */
+    span:after {
+        top: 0.35em;
+        left: 0.35em;
+        width: 0.4em;
+        height: 0.4em;
+        border-radius: 50%;
+        @if mixin.darkshade($color) {
+            background-color: white;
+        } @else {
+            background-color: black;
+        }
+    }
+}

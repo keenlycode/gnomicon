@@ -1,0 +1,1179 @@
+/* Small Screen */
+/* Medium Screen */
+/* Large Screen */
+pkt-badge, .pkt-badge {
+  font-family: packet-ui;
+  font-size: 1em;
+  background-color: #FFC107;
+  color: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7em;
+  border-radius: 20em;
+  padding: 0.2em;
+  width: 1.6em;
+  height: 1.6em;
+}
+
+pkt-box-arrow-top, .pkt-box-arrow-top {
+  display: block;
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #cccccc;
+  color: black;
+  position: relative;
+}
+pkt-box-arrow-top:after, pkt-box-arrow-top:before, .pkt-box-arrow-top:after, .pkt-box-arrow-top:before {
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+}
+pkt-box-arrow-top:after, .pkt-box-arrow-top:after {
+  border-width: 7px;
+  border-bottom-color: #cccccc;
+  margin-left: -7px;
+}
+pkt-box-arrow-top:before, .pkt-box-arrow-top:before {
+  border-width: calc(7px + 1px);
+  border-bottom-color: black;
+  margin-left: calc(-1*(7px + 1px));
+}
+
+pkt-box-arrow-right, .pkt-box-arrow-right {
+  display: block;
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #cccccc;
+  color: black;
+  position: relative;
+}
+pkt-box-arrow-right:after, pkt-box-arrow-right:before, .pkt-box-arrow-right:after, .pkt-box-arrow-right:before {
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+}
+pkt-box-arrow-right:after, .pkt-box-arrow-right:after {
+  border-width: 7px;
+  border-left-color: #cccccc;
+  margin-top: -7px;
+}
+pkt-box-arrow-right:before, .pkt-box-arrow-right:before {
+  border-width: calc(7px + 1px);
+  border-left-color: black;
+  margin-top: calc(-1*(7px + 1px));
+}
+
+pkt-box-arrow-bottom, .pkt-box-arrow-bottom {
+  display: block;
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #cccccc;
+  color: black;
+  position: relative;
+}
+pkt-box-arrow-bottom:after, pkt-box-arrow-bottom:before, .pkt-box-arrow-bottom:after, .pkt-box-arrow-bottom:before {
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+pkt-box-arrow-bottom:after, .pkt-box-arrow-bottom:after {
+  border-width: 7px;
+  border-top-color: #cccccc;
+  margin-left: -7px;
+}
+pkt-box-arrow-bottom:before, .pkt-box-arrow-bottom:before {
+  border-width: calc(7px + 1px);
+  border-top-color: black;
+  margin-left: calc(-1*(7px + 1px));
+}
+
+pkt-box-arrow-left, .pkt-box-arrow-left {
+  display: block;
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #cccccc;
+  color: black;
+  position: relative;
+}
+pkt-box-arrow-left:after, pkt-box-arrow-left:before, .pkt-box-arrow-left:after, .pkt-box-arrow-left:before {
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+}
+pkt-box-arrow-left:after, .pkt-box-arrow-left:after {
+  border-width: 7px;
+  border-right-color: #cccccc;
+  margin-top: -7px;
+}
+pkt-box-arrow-left:before, .pkt-box-arrow-left:before {
+  border-width: calc(7px + 1px);
+  border-right-color: black;
+  margin-top: calc(-1*(7px + 1px));
+}
+
+button, .button, input[type=button] {
+  font-family: packet-ui;
+  font-size: 1em;
+  box-shadow: 0 1px 3px 0 #404040;
+  background-color: #FFC107;
+  color: black;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 4px;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  height: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+button:hover, .button:hover, input[type=button]:hover {
+  background-color: #ffce3a;
+}
+button:active, .button:active, input[type=button]:active {
+  background-color: #c8990b;
+}
+button:hover, .button:hover, input[type=button]:hover {
+  box-shadow: 0 2px 5px 0 #404040;
+}
+button:active, .button:active, input[type=button]:active {
+  box-shadow: 0 1px 3px 0 #404040;
+}
+button[disabled]:hover, .button[disabled]:hover, input[type=button][disabled]:hover {
+  cursor: not-allowed;
+}
+button a, .button a, input[type=button] a {
+  text-decoration: none;
+}
+
+pkt-button-pin, .pkt-button-pin {
+  font-family: packet-ui;
+  font-size: 1em;
+  box-shadow: 0 1px 3px 0 #404040;
+  background-color: orange;
+  color: black;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 4px;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  height: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 #404040;
+}
+pkt-button-pin:hover, .pkt-button-pin:hover {
+  background-color: #ffb733;
+}
+pkt-button-pin:active, .pkt-button-pin:active {
+  background-color: #c2810a;
+}
+pkt-button-pin:hover, .pkt-button-pin:hover {
+  box-shadow: 0 2px 5px 0 #404040;
+}
+pkt-button-pin:active, .pkt-button-pin:active {
+  box-shadow: 0 1px 3px 0 #404040;
+}
+pkt-button-pin[disabled]:hover, .pkt-button-pin[disabled]:hover {
+  cursor: not-allowed;
+}
+pkt-button-pin a, .pkt-button-pin a {
+  text-decoration: none;
+}
+pkt-button-pin:hover, .pkt-button-pin:hover {
+  box-shadow: 0 4px 9px 0 #404040;
+}
+pkt-button-pin:active, .pkt-button-pin:active {
+  box-shadow: 0 2px 5px 0 #404040;
+}
+pkt-button-pin a, .pkt-button-pin a {
+  text-decoration: none;
+}
+
+pkt-button-square, .pkt-button-square {
+  font-family: packet-ui;
+  font-size: 1em;
+  box-shadow: 0 1px 3px 0 #404040;
+  background-color: orange;
+  color: black;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 4px;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  height: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 2em;
+  height: 2em;
+}
+pkt-button-square:hover, .pkt-button-square:hover {
+  background-color: #ffb733;
+}
+pkt-button-square:active, .pkt-button-square:active {
+  background-color: #c2810a;
+}
+pkt-button-square:hover, .pkt-button-square:hover {
+  box-shadow: 0 2px 5px 0 #404040;
+}
+pkt-button-square:active, .pkt-button-square:active {
+  box-shadow: 0 1px 3px 0 #404040;
+}
+pkt-button-square[disabled]:hover, .pkt-button-square[disabled]:hover {
+  cursor: not-allowed;
+}
+pkt-button-square a, .pkt-button-square a {
+  text-decoration: none;
+}
+pkt-button-square a, .pkt-button-square a {
+  text-decoration: none;
+}
+
+pkt-button-group, .pkt-button-group {
+  display: flex;
+}
+pkt-button-group > button, pkt-button-group > .button, .pkt-button-group > button, .pkt-button-group > .button {
+  width: 100%;
+  border-radius: 0;
+}
+pkt-button-group > button:first-of-type, pkt-button-group > .button:first-of-type, .pkt-button-group > button:first-of-type, .pkt-button-group > .button:first-of-type {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+pkt-button-group > button:last-of-type, pkt-button-group > .button:last-of-type, .pkt-button-group > button:last-of-type, .pkt-button-group > .button:last-of-type {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+pkt-button-group > pkt-button-square, pkt-button-group > .pkt-button-square, .pkt-button-group > pkt-button-square, .pkt-button-group > .pkt-button-square {
+  border-radius: 0;
+}
+pkt-button-group > pkt-button-square:first-of-type, pkt-button-group > .pkt-button-square:first-of-type, .pkt-button-group > pkt-button-square:first-of-type, .pkt-button-group > .pkt-button-square:first-of-type {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+pkt-button-group > pkt-button-square:last-of-type, pkt-button-group > .pkt-button-square:last-of-type, .pkt-button-group > pkt-button-square:last-of-type, .pkt-button-group > .pkt-button-square:last-of-type {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+pkt-button-group > pkt-input-radio-btn button, pkt-button-group > .pkt-input-radio-btn button,
+pkt-button-group > pkt-tab button, pkt-button-group > .pkt-tab button, .pkt-button-group > pkt-input-radio-btn button, .pkt-button-group > .pkt-input-radio-btn button,
+.pkt-button-group > pkt-tab button, .pkt-button-group > .pkt-tab button {
+  border-radius: 0;
+}
+pkt-button-group > pkt-input-radio-btn:first-of-type button, pkt-button-group > .pkt-input-radio-btn:first-of-type button,
+pkt-button-group > pkt-tab:first-of-type button, pkt-button-group > .pkt-tab:first-of-type button, .pkt-button-group > pkt-input-radio-btn:first-of-type button, .pkt-button-group > .pkt-input-radio-btn:first-of-type button,
+.pkt-button-group > pkt-tab:first-of-type button, .pkt-button-group > .pkt-tab:first-of-type button {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+pkt-button-group > pkt-input-radio-btn:last-of-type button, pkt-button-group > .pkt-input-radio-btn:last-of-type button,
+pkt-button-group > pkt-tab:last-of-type button, pkt-button-group > .pkt-tab:last-of-type button, .pkt-button-group > pkt-input-radio-btn:last-of-type button, .pkt-button-group > .pkt-input-radio-btn:last-of-type button,
+.pkt-button-group > pkt-tab:last-of-type button, .pkt-button-group > .pkt-tab:last-of-type button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+pkt-card, .pkt-card {
+  display: block;
+  border-radius: 4px;
+  box-shadow: 0 4px 9px 0 #404040;
+}
+pkt-card > h1, pkt-card > h2, pkt-card > h3, .pkt-card > h1, .pkt-card > h2, .pkt-card > h3 {
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+pkt-card > p, .pkt-card > p {
+  padding: 1rem;
+  margin: 0;
+}
+pkt-card > button:last-of-type, pkt-card > .button:last-of-type, .pkt-card > button:last-of-type, .pkt-card > .button:last-of-type {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 100%;
+}
+pkt-card > pkt-button-group:last-of-type, pkt-card > .button-group:last-of-type, .pkt-card > pkt-button-group:last-of-type, .pkt-card > .button-group:last-of-type {
+  border-top: 1px solid grey;
+}
+pkt-card > pkt-button-group > button:first-of-type, pkt-card > pkt-button-group > .button:first-of-type, pkt-card > .button-group > button:first-of-type, pkt-card > .button-group > .button:first-of-type, .pkt-card > pkt-button-group > button:first-of-type, .pkt-card > pkt-button-group > .button:first-of-type, .pkt-card > .button-group > button:first-of-type, .pkt-card > .button-group > .button:first-of-type {
+  border-top-left-radius: 0;
+}
+pkt-card > pkt-button-group > button:last-of-type, pkt-card > pkt-button-group > .button:last-of-type, pkt-card > .button-group > button:last-of-type, pkt-card > .button-group > .button:last-of-type, .pkt-card > pkt-button-group > button:last-of-type, .pkt-card > pkt-button-group > .button:last-of-type, .pkt-card > .button-group > button:last-of-type, .pkt-card > .button-group > .button:last-of-type {
+  border-top-right-radius: 0;
+}
+
+pkt-checkbox {
+  font-family: packet-ui;
+  font-size: 1em;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  user-select: none;
+  display: inline-block;
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add background color */
+  /* When the checkbox is checked, add background color */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+pkt-checkbox input {
+  opacity: 0;
+  cursor: pointer;
+  width: 1em;
+  height: 1em;
+  margin: 0;
+  position: absolute;
+  top: 1;
+  left: 0;
+  z-index: 1;
+}
+pkt-checkbox span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  background-color: #cccccc;
+  box-shadow: 0 1px 1px 0 #9E9E9E;
+}
+pkt-checkbox:hover input ~ span {
+  background-color: #ffdb6d;
+}
+pkt-checkbox input:checked ~ span {
+  background-color: #FFC107;
+}
+pkt-checkbox span:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+pkt-checkbox input:checked ~ span:after {
+  display: block;
+}
+pkt-checkbox span:after {
+  border: solid black;
+  left: 0.25em;
+  width: 0.3em;
+  height: 0.6em;
+  border-width: 0 0.2em 0.2em 0;
+  transform: rotate(45deg);
+}
+
+pkt-file {
+  font-family: packet-ui;
+  font-size: 1em;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+pkt-file input[type=file] {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+}
+
+pkt-icon {
+  display: inline-flex;
+  align-items: center;
+}
+pkt-icon svg {
+  width: 1em;
+  height: 1em;
+}
+
+input {
+  font-family: packet-ui;
+  font-size: 1em;
+  border: 1px solid #9E9E9E;
+  border-radius: 4px;
+  padding: 0.4em;
+}
+input:focus {
+  box-shadow: 0 1px 3px 0 #404040;
+  outline-color: #FFC107;
+}
+input[type=text], input[type=password], input[type=email] {
+  font-family: packet-ui;
+  font-size: 1em;
+  border: 1px solid #9E9E9E;
+  border-radius: 4px;
+  padding: 0.4em;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+  box-shadow: 0 1px 3px 0 #404040;
+  outline-color: #FFC107;
+}
+
+input[type=range] {
+  appearance: none;
+  height: 0.2em;
+  background-color: white;
+  outline: none;
+  transition: opacity 0.2s;
+  padding: 0;
+}
+input[type=range]::-webkit-slider-thumb {
+  appearance: none;
+  width: 1.2em;
+  height: 1.2em;
+  background-color: white;
+  border: 1px solid;
+  border-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb:hover {
+  background-color: #FFC107;
+}
+input[type=range]::-webkit-slider-thumb:active {
+  background-color: #FFC107;
+}
+input[type=range]::-moz-range-thumb {
+  appearance: none;
+  width: 1.2em;
+  height: 1.2em;
+  background-color: white;
+  border: 1px solid;
+  border-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+input[type=range]::-moz-range-thumb:hover {
+  background-color: #FFC107;
+}
+input[type=range]::-moz-range-thumb:active {
+  background-color: #FFC107;
+}
+
+pkt-input-number {
+  display: flex;
+}
+pkt-input-number input[type=number] {
+  -moz-appearance: textfield;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  min-width: 3em;
+  box-sizing: border-box;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 0;
+}
+pkt-input-number input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+pkt-input-number pkt-button-group, pkt-input-number .pkt-button-group {
+  width: 4em;
+}
+pkt-input-number pkt-button-group pkt-button-square, pkt-input-number pkt-button-group .pkt-button-square, pkt-input-number .pkt-button-group pkt-button-square, pkt-input-number .pkt-button-group .pkt-button-square {
+  background-color: #FFC107;
+  color: black;
+}
+pkt-input-number pkt-button-group pkt-button-square:first-of-type, pkt-input-number pkt-button-group .pkt-button-square:first-of-type, pkt-input-number .pkt-button-group pkt-button-square:first-of-type, pkt-input-number .pkt-button-group .pkt-button-square:first-of-type {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+pkt-input-number pkt-button-group pkt-button-square:hover, pkt-input-number pkt-button-group .pkt-button-square:hover, pkt-input-number .pkt-button-group pkt-button-square:hover, pkt-input-number .pkt-button-group .pkt-button-square:hover {
+  background-color: #ffce3a;
+}
+pkt-input-number pkt-button-group pkt-button-square:active, pkt-input-number pkt-button-group .pkt-button-square:active, pkt-input-number .pkt-button-group pkt-button-square:active, pkt-input-number .pkt-button-group .pkt-button-square:active {
+  background-color: #c8990b;
+}
+
+pkt-input-radio {
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  user-select: none;
+  width: 1.1em;
+  height: 1.1em;
+  /* Create a custom radio button */
+  /* On mouse-over, add a background color */
+  /* When the radio button is checked, add background color */
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  /* Show the indicator (dot/circle) when checked */
+  /* Style the indicator (dot/circle) */
+}
+pkt-input-radio input {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: middle;
+}
+pkt-input-radio span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.1em;
+  height: 1.1em;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px 0 #9E9E9E;
+}
+pkt-input-radio:hover input ~ span {
+  background-color: #ffdb6d;
+}
+pkt-input-radio input:checked ~ span {
+  background-color: #FFC107;
+}
+pkt-input-radio span:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+pkt-input-radio input:checked ~ span:after {
+  display: block;
+}
+pkt-input-radio span:after {
+  top: 0.35em;
+  left: 0.35em;
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 50%;
+  background-color: black;
+}
+
+pkt-input-radio-btn, .pkt-input-radio-btn {
+  display: inline-block;
+  position: relative;
+  font-size: 1em;
+  user-select: none;
+  /* On mouse-over, add a background color */
+  /* When the radio button is checked, add background color */
+}
+pkt-input-radio-btn input[type=radio], .pkt-input-radio-btn input[type=radio] {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+pkt-input-radio-btn button, .pkt-input-radio-btn button {
+  font-family: packet-ui;
+  font-size: 1em;
+  box-shadow: 0 1px 3px 0 #404040;
+  background-color: white;
+  color: black;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 4px;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  height: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+pkt-input-radio-btn button:hover, .pkt-input-radio-btn button:hover {
+  background-color: white;
+}
+pkt-input-radio-btn button:active, .pkt-input-radio-btn button:active {
+  background-color: #e6e6e6;
+}
+pkt-input-radio-btn button:hover, .pkt-input-radio-btn button:hover {
+  box-shadow: 0 2px 5px 0 #404040;
+}
+pkt-input-radio-btn button:active, .pkt-input-radio-btn button:active {
+  box-shadow: 0 1px 3px 0 #404040;
+}
+pkt-input-radio-btn button[disabled]:hover, .pkt-input-radio-btn button[disabled]:hover {
+  cursor: not-allowed;
+}
+pkt-input-radio-btn button a, .pkt-input-radio-btn button a {
+  text-decoration: none;
+}
+pkt-input-radio-btn:hover input[type=radio] ~ button, .pkt-input-radio-btn:hover input[type=radio] ~ button {
+  background-color: #ffdb6d;
+  color: black;
+}
+pkt-input-radio-btn input[type=radio]:checked ~ button, .pkt-input-radio-btn input[type=radio]:checked ~ button {
+  background-color: #FFC107;
+  color: black;
+}
+
+pkt-input-tag {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  cursor: text;
+  border: 1px solid #9E9E9E;
+  border-radius: 4px;
+  background: white;
+  min-height: 2rem;
+}
+pkt-input-tag pkt-tag-x {
+  margin: 0.2em 0.2em 0.3em 0.2em;
+}
+pkt-input-tag input {
+  display: flex;
+  align-items: center;
+  outline: none;
+  min-width: 1px;
+  height: auto;
+  border: 0;
+}
+pkt-input-tag input:focus {
+  box-shadow: none;
+}
+
+label {
+  font-family: packet-ui;
+  font-size: 1em;
+}
+
+pkt-menu > ul {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #FFC107;
+  border-radius: 0.2em;
+}
+pkt-menu > ul i.caret {
+  float: right;
+  border-left: 0.25em solid transparent;
+  border-right: 0.25em solid transparent;
+  border-bottom: 0.25em solid #ff4507;
+  margin-bottom: 0.25em;
+  transform: rotateZ(90deg);
+  will-change: transform;
+}
+pkt-menu > ul li {
+  list-style: none;
+  display: block;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+pkt-menu > ul ul {
+  padding-left: 1em;
+  transition: height 0.2s;
+  will-change: transition;
+}
+pkt-menu > ul a {
+  display: block;
+  cursor: pointer;
+  padding: 0.4em 1em;
+}
+pkt-menu > ul a i.caret {
+  transition: transform 0.2s;
+  margin-top: 0.55em;
+  margin-right: 0.2em;
+}
+pkt-menu > ul a:active {
+  background-color: #FFC107;
+  color: black;
+}
+pkt-menu > ul a ~ ul {
+  height: 0;
+}
+pkt-menu > ul a.on i.caret {
+  transform: rotateZ(180deg);
+}
+
+div.pkt-path {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+div.pkt-path li {
+  display: inline;
+}
+div.pkt-path li + li:before {
+  content: "/ ";
+}
+div.pkt-path li a {
+  color: #FFC107;
+  padding: 0 0.3em;
+  cursor: pointer;
+}
+div.pkt-path li a:hover {
+  color: #FFC107;
+}
+div.pkt-path li:last-of-type a {
+  color: #FFC107;
+}
+
+pkt-dotpulse {
+  min-width: 3.5em;
+}
+pkt-dotpulse div {
+  width: 1em;
+  height: 1em;
+  background-color: #FFC107;
+  border-radius: 100%;
+  margin: 0.1em;
+  display: inline-block;
+  animation: dotpulse-delay 1.4s infinite ease-in-out both;
+}
+pkt-dotpulse div[data-id=p1] {
+  animation-delay: -0.32s;
+}
+pkt-dotpulse div[data-id=p2] {
+  animation-delay: -0.16s;
+}
+@keyframes dotpulse-delay {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+pkt-progress-bar {
+  position: relative;
+  height: 0.25em;
+  display: block;
+  width: 100%;
+  background-color: #d9d9d9;
+  border-radius: 10em;
+  background-clip: padding-box;
+  overflow: hidden;
+}
+pkt-progress-bar .value {
+  background-color: #FFC107;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: width 0.3s linear;
+}
+pkt-progress-bar .loop {
+  background-color: #FFC107;
+}
+pkt-progress-bar .loop:before {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: left, right;
+  animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+}
+pkt-progress-bar .loop:after {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: left, right;
+  animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  animation-delay: 1.15s;
+}
+@keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%;
+  }
+  60% {
+    left: 100%;
+    right: -90%;
+  }
+  100% {
+    left: 100%;
+    right: -90%;
+  }
+}
+@keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%;
+  }
+  60% {
+    left: 107%;
+    right: -8%;
+  }
+  100% {
+    left: 107%;
+    right: -8%;
+  }
+}
+
+pkt-spinner {
+  display: inline-block;
+  color: #FFC107;
+}
+pkt-spinner svg {
+  width: 2em;
+  animation: spinner-rotate 2s linear infinite;
+  transform-origin: center center;
+}
+pkt-spinner circle {
+  stroke: currentColor;
+  stroke-width: 4;
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: spinner-dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+  fill: none;
+}
+@keyframes spinner-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner-dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+
+pkt-sidebar {
+  position: absolute;
+  top: 0;
+}
+pkt-sidebar [el=wrapper] {
+  background-color: #FFC107;
+  color: black;
+  position: fixed;
+  z-index: 101;
+  height: 100%;
+  min-width: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: transform 0.3s;
+  transform: translate3d();
+  transform: translateX(-100%);
+  will-change: transform;
+}
+pkt-sidebar [el=wrapper].show {
+  transform: translateX(0);
+}
+pkt-sidebar ul.sidebar {
+  margin: 0;
+  padding-left: 1rem;
+  list-style: none;
+}
+pkt-sidebar ul.sidebar a {
+  line-height: 2rem;
+  display: block;
+}
+pkt-sidebar ul.sidebar li {
+  padding-left: 0;
+  min-height: 2rem;
+  line-height: 2rem;
+}
+pkt-sidebar ul.sidebar ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 1rem;
+}
+pkt-sidebar [el=overlay] {
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+pkt-sidebar [el=overlay].show {
+  display: block;
+}
+
+pkt-slide {
+  display: block;
+  width: 100%;
+}
+pkt-slide [el=nav] {
+  text-align: center;
+  padding-top: 1.2rem;
+}
+pkt-slide [el=nav] dot {
+  display: inline-block;
+  background-color: #b3b3b3;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 0.4em;
+}
+pkt-slide [el=nav] dot:hover {
+  background-color: #ffe7a0;
+}
+pkt-slide [el=nav] dot.selected {
+  background-color: #FFC107;
+}
+
+pkt-switch {
+  font-family: packet-ui;
+  font-size: 1em;
+  display: inline-flex;
+  font-weight: bold;
+  width: 4.5em;
+  height: 1.5em;
+  align-items: center;
+  position: relative;
+}
+pkt-switch input[type=checkbox] {
+  /* Hide default HTML checkbox */
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+pkt-switch div[el=label] {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2em;
+  background-color: #e0e0e0;
+  box-shadow: 0px 1px 2px 0px #4d4d4d;
+  transition: 0.4s;
+  align-items: center;
+  text-align: center;
+}
+pkt-switch div[el=label] > span {
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+pkt-switch div[el=label] > span:first-of-type {
+  color: black;
+}
+pkt-switch div[el=label] > span:last-of-type {
+  color: black;
+}
+pkt-switch div[el=paddle] {
+  box-sizing: border-box;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  border: 1px solid #9E9E9E;
+  border-radius: 0.2em;
+  background-color: white;
+  transition: 0.2s;
+  top: 0;
+  left: 0;
+}
+pkt-switch input[type=checkbox]:checked ~ div[el=label] {
+  background-color: #FFC107;
+}
+pkt-switch input[type=checkbox]:checked ~ div[el=paddle] {
+  transform: translate(101%, 0);
+  will-change: transform;
+}
+
+pkt-tab, .pkt-tab {
+  display: inline-block;
+  position: relative;
+  font-size: 1em;
+  user-select: none;
+  /* On mouse-over, add a background color */
+  /* When the radio button is checked, add background color */
+}
+pkt-tab input[type=radio], .pkt-tab input[type=radio] {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+pkt-tab button, .pkt-tab button {
+  font-family: packet-ui;
+  font-size: 1em;
+  box-shadow: 0 1px 3px 0 #404040;
+  background-color: white;
+  color: black;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 4px;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  height: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0);
+}
+pkt-tab button:hover, .pkt-tab button:hover {
+  background-color: white;
+}
+pkt-tab button:active, .pkt-tab button:active {
+  background-color: #e6e6e6;
+}
+pkt-tab button:hover, .pkt-tab button:hover {
+  box-shadow: 0 2px 5px 0 #404040;
+}
+pkt-tab button:active, .pkt-tab button:active {
+  box-shadow: 0 1px 3px 0 #404040;
+}
+pkt-tab button[disabled]:hover, .pkt-tab button[disabled]:hover {
+  cursor: not-allowed;
+}
+pkt-tab button a, .pkt-tab button a {
+  text-decoration: none;
+}
+pkt-tab:hover input[type=radio] ~ button, .pkt-tab:hover input[type=radio] ~ button {
+  border-bottom: 0.15em solid #FFC107;
+}
+pkt-tab input[type=radio]:checked ~ button, .pkt-tab input[type=radio]:checked ~ button {
+  border-bottom: 0.15em solid #FFC107;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 4px;
+}
+table thead {
+  font-weight: bold;
+  background-color: #FFC107;
+  color: black;
+  border-bottom: 2px solid;
+}
+table tr {
+  border-left: 0;
+  border-right: 0;
+}
+table tr:not(:last-of-type) {
+  border-bottom: 1px solid;
+}
+table th, table td {
+  padding: 0.5rem;
+}
+table th:not(:first-of-type), table td:not(:first-of-type) {
+  border-left: 1px solid;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #ffe7a0;
+  color: black;
+}
+table tbody tr:hover {
+  background-color: #ffb8a0;
+  color: black;
+}
+
+pkt-tag, .pkt-tag {
+  font-family: packet-ui;
+  font-size: 1em;
+  background-color: #FFC107;
+  color: black;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0 0.4em;
+  font-size: 0.9em;
+  box-shadow: 0 0.17em 0 0 #876500;
+}
+pkt-tag pkt-icon, .pkt-tag pkt-icon {
+  cursor: pointer;
+}
+
+pkt-tag-x {
+  font-family: packet-ui;
+  font-size: 1em;
+  background-color: #FFC107;
+  color: black;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0 0.4em;
+  font-size: 0.9em;
+  box-shadow: 0 0.17em 0 0 #876500;
+  padding-right: 0.2em;
+}
+pkt-tag-x pkt-icon {
+  cursor: pointer;
+}
+pkt-tag-x pkt-icon {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=default.css.map */

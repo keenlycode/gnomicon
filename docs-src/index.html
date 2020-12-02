@@ -19,16 +19,17 @@ class IconGrid extends HTMLElement {
 class IconManager extends HTMLElement {
     constructor() {
         super();
-        this.icons = [{% for icon in icons %}'{{icon}}',{% endfor %}];
     }
 
-    connectedCallback() {
-        for (let icon of this.icons) {
+    async connectedCallback() {
+        let response = await fetch('./icons.json');
+        response = await response.json();
+        for (let icon of response.icons) {
             let icon_grid = document.createElement('el-icon-grid');
             icon_grid.render(icon);
             this.appendChild(icon_grid);
-        };
-    };
+        }
+    }
 }
 
 customElements.define('el-icon-grid', IconGrid);

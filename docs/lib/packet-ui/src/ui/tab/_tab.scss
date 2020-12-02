@@ -1,0 +1,39 @@
+@use 'sass:color';
+@use '../_var';
+@use '../button/_button';
+
+@mixin tab(
+        $button-color: color.adjust(var.$grey, $lightness: 70%),
+        $highlight-color: var.$ui-color) {
+
+    display: inline-block;
+    position: relative;
+    font-size: 1em;
+    user-select: none;
+
+    input[type="radio"] {
+        position: absolute;
+        opacity: 0;
+        left: 0;
+        top: 0;
+        cursor: pointer;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    button {
+        @include button.button($button-color);
+        border-bottom: 0.1em solid rgba(255,255,255,0);
+    }
+
+    /* On mouse-over, add a background color */
+    &:hover input[type="radio"] ~ button {
+        border-bottom: 0.15em solid $highlight-color
+    }
+
+    /* When the radio button is checked, add background color */
+    input[type="radio"]:checked ~ button {
+        border-bottom: 0.15em solid $highlight-color
+    }
+}

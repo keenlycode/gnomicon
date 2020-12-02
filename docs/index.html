@@ -6,39 +6,33 @@
 <meta charset="utf-8" />
 <meta name="description" content="Adwaita Icon Web" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-<link rel="stylesheet" href="./base.css?v=3" />
+<link rel="stylesheet" href="./base.css?v=4" />
 
 <!-- Icon Setup -->
 <link rel="preload" icon set="adwaita"
-    href="./static/adwaita.svg?v=3"
+    href="./lib/adwaita-icon-web/adwaita.svg?v=4"
     as="image" type="image/svg+xml">
 
-<script type="module">
-import {Icon} from './static/ui/icon.js';
-
-customElements.define('el-icon', Icon);
-</script>
-
 <!-- Bits UI Setup -->
-<link rel="stylesheet" href="./static/lib/bits-ui/normalize.css?v=3">
-<link rel="stylesheet" href="./static/lib/bits-ui/bits-ui.css?v=3">
-<script async defer src="https://buttons.github.io/buttons.js?v=3"></script>
+<link rel="stylesheet" href="./lib/packet-ui/dist/normalize.css?v=4">
+<link rel="stylesheet" href="../lib/packet-ui/dist/packet-ui.css?v=4">
+<script async defer src="https://buttons.github.io/buttons.js?v=4"></script>
 <style>
     @font-face {
         /* Set UI font, Cantarell is recommended */
-        font-family: bits-ui;
-        src: url('./static/lib/bits-ui/font/Cantarell/Cantarell-Regular.ttf');
+        font-family: packet-ui;
+        src: url('./lib/packet-ui/dist/font/Cantarell/Cantarell-Regular.ttf');
     }
 </style>
-<script defer src="./lib.js"></script>
-<script defer src="./static/lib/bits-ui/bits-ui.js"></script>
+<script defer src="./base.js"></script>
+<script defer src="./lib/packet-ui/dist/packet-ui.js?v=4"></script>
 <!-- / Bits UI Setup -->
 
-<link rel="stylesheet" href="./static/lib/highlight.js/atom-one-dark.css">
+<link rel="stylesheet" href="./lib/highlight.js/styles/atom-one-dark.css?v=4">
 
 <title>Adwaita Icon Web</title>
 
-<link rel="stylesheet" href="./index.css?v=3">
+<link rel="stylesheet" href="./index.css?v=4">
 <script type="module">
 class IconGrid extends HTMLElement {
     constructor() {
@@ -56,16 +50,17 @@ class IconGrid extends HTMLElement {
 class IconManager extends HTMLElement {
     constructor() {
         super();
-        this.icons = ['action-unavailable','address-book-new','application-exit','appointment-new','bookmark-new','call-start','call-stop','camera-switch','chat-message-new','color-select','contact-new','document-edit','document-new','document-open-recent','document-open','document-page-setup','document-print-preview','document-print','document-properties','document-revert-symbolic-rtl','document-revert','document-save-as','document-save','document-send','edit-clear-all','edit-clear-symbolic-rtl','edit-clear','edit-copy','edit-cut','edit-delete','edit-find-replace','edit-find','edit-paste','edit-redo-symbolic-rtl','edit-redo','edit-select-all','edit-select','edit-undo-symbolic-rtl','edit-undo','error-correct','find-location','folder-new','font-select','format-indent-less-symbolic-rtl','format-indent-less','format-indent-more-symbolic-rtl','format-indent-more','format-justify-center','format-justify-fill','format-justify-left','format-justify-right','format-text-bold','format-text-direction-symbolic-rtl','format-text-direction','format-text-italic','format-text-strikethrough','format-text-underline','go-bottom','go-down','go-first-symbolic-rtl','go-first','go-home','go-jump-symbolic-rtl','go-jump','go-last-symbolic-rtl','go-last','go-next-symbolic-rtl','go-next','go-previous-symbolic-rtl','go-previous','go-top','go-up','help-about','insert-image','insert-link','insert-object','insert-text','list-add','list-remove-all','list-remove','mail-forward','mail-mark-important','mail-mark-junk','mail-mark-notjunk','mail-message-new','mail-reply-all','mail-reply-sender','mail-send-receive','mail-send','mark-location','media-eject','media-playback-pause','media-playback-start','media-playback-stop','media-record','media-seek-backward','media-seek-forward','media-skip-backward','media-skip-forward','media-view-subtitles','object-flip-horizontal','object-flip-vertical','object-rotate-left','object-rotate-right','object-select','open-menu','process-stop','send-to','sidebar-hide','sidebar-show','star-new','system-log-out','system-reboot','system-run','system-search','system-shutdown','system-switch-user','tab-new','tools-check-spelling','value-decrease','value-increase','view-app-grid','view-conceal','view-continuous','view-dual','view-fullscreen','view-grid','view-list-bullet','view-list-ordered','view-list','view-mirror','view-more-horizontal','view-more','view-paged','view-pin','view-refresh','view-restore','view-reveal','view-sort-ascending','view-sort-descending','zoom-fit-best','zoom-in','zoom-original','zoom-out','accessories-calculator','accessories-character-map','accessories-dictionary','accessories-text-editor','applets-screenshooter','gnome-power-manager','goa-panel','help-browser','help-contents','help-faq','multimedia-volume-control','preferences-color','preferences-desktop-accessibility','preferences-desktop-apps','preferences-desktop-display','preferences-desktop-font','preferences-desktop-keyboard-shortcuts','preferences-desktop-keyboard','preferences-desktop-locale','preferences-desktop-remote-desktop','preferences-desktop-screensaver','preferences-desktop-wallpaper','preferences-system-details','preferences-system-devices','preferences-system-network-proxy','preferences-system-network','preferences-system-notifications','preferences-system-parental-controls','preferences-system-privacy','preferences-system-search','preferences-system-sharing','preferences-system-time','system-file-manager','system-software-install','system-users','text-editor','user-info','utilities-terminal','web-browser','applications-engineering','applications-games','applications-graphics','applications-multimedia','applications-science','applications-system','applications-utilities','emoji-activities','emoji-body','emoji-flags','emoji-food','emoji-nature','emoji-objects','emoji-people','emoji-recent','emoji-symbols','emoji-travel','preferences-other','preferences-system','system-help','ac-adapter','audio-card','audio-headphones','audio-headset','audio-input-microphone','audio-speakers','auth-fingerprint','auth-sim','auth-smartcard','battery','bluetooth','camera-photo','camera-video','camera-web','colorimeter-colorhug','computer-apple-ipad','computer','display-projector','drive-harddisk-ieee1394','drive-harddisk-solidstate','drive-harddisk','drive-harddisk-system','drive-harddisk-usb','drive-multidisk','drive-optical','drive-removable-media','input-dialpad','input-gaming','input-keyboard','input-mouse','input-tablet','input-touchpad','media-flash','media-floppy','media-optical-bd','media-optical-cd-audio','media-optical-dvd','media-optical','media-removable','media-tape','media-zip','modem','multimedia-player-apple-ipod-touch','multimedia-player','network-cellular','network-wired','network-wireless','pda','phone-apple-iphone','phone-old','phone','printer-network','printer','scanner','thunderbolt','tv','uninterruptible-power-supply','video-display','video-joined-displays','video-single-display','emblem-default','emblem-documents','emblem-favorite','emblem-important','emblem-music','emblem-ok','emblem-photos','emblem-shared','emblem-synchronizing','emblem-system','emblem-videos','emote-love','face-angel','face-angry','face-confused','face-cool','face-crying','face-devilish','face-embarrassed','face-glasses','face-kiss','face-laugh','face-monkey','face-plain','face-raspberry','face-sad','face-shutmouth','face-sick','face-smile-big','face-smile','face-smirk','face-surprise','face-tired','face-uncertain','face-wink','face-worried','face-yawn','battery-caution-charging','battery-caution','battery-empty-charging','battery-empty','battery-full-charged','battery-full-charging','battery-full','battery-good-charging','battery-good','battery-low-charging','battery-low','application-certificate','application-rss+xml','application-x-addon','application-x-appliance','application-x-executable','application-x-firmware','audio-x-generic','font-x-generic','image-x-generic','inode-directory','package-x-generic','text-x-generic','video-x-generic','x-office-address-book','x-office-calendar','x-office-document','x-office-drawing','x-office-presentation','x-office-spreadsheet','folder-documents','folder-download','folder-music','folder-pictures','folder-publicshare','folder-remote','folder-saved-search','folder','folder-templates','folder-videos','network-server','network-workgroup','start-here','user-bookmarks','user-desktop','user-home','user-trash','airplane-mode','alarm','appointment-missed','appointment-soon','audio-volume-high','audio-volume-low','audio-volume-medium','audio-volume-muted','audio-volume-overamplified','auth-sim-locked','auth-sim-missing','avatar-default','battery-level-0-charging','battery-level-0','battery-level-10-charging','battery-level-10','battery-level-100-charged','battery-level-100','battery-level-20-charging','battery-level-20','battery-level-30-charging','battery-level-30','battery-level-40-charging','battery-level-40','battery-level-50-charging','battery-level-50','battery-level-60-charging','battery-level-60','battery-level-70-charging','battery-level-70','battery-level-80-charging','battery-level-80','battery-level-90-charging','battery-level-90','battery-missing','bluetooth-active','bluetooth-disabled','bluetooth-hardware-disabled','call-incoming','call-missed','call-outgoing','camera-disabled','camera-hardware-disabled','changes-allow','changes-prevent','channel-insecure','channel-secure','computer-fail','content-loading','daytime-sunrise','daytime-sunset','dialog-error','dialog-information','dialog-password','dialog-question','dialog-warning','display-brightness','folder-drag-accept','folder-open','folder-visiting','image-loading','keyboard-brightness','location-services-active','location-services-disabled','mail-attachment','mail-read','mail-replied','mail-unread','media-playlist-consecutive','media-playlist-repeat-song','media-playlist-repeat','media-playlist-shuffle','microphone-disabled','microphone-hardware-disabled','microphone-sensitivity-high','microphone-sensitivity-low','microphone-sensitivity-medium','microphone-sensitivity-muted','network-cellular-2g','network-cellular-3g','network-cellular-4g','network-cellular-acquiring','network-cellular-connected','network-cellular-disabled','network-cellular-edge','network-cellular-gprs','network-cellular-hardware-disabled','network-cellular-hspa','network-cellular-no-route','network-cellular-offline','network-cellular-signal-excellent','network-cellular-signal-good','network-cellular-signal-none','network-cellular-signal-ok','network-cellular-signal-weak','network-error','network-idle','network-no-route','network-offline','network-receive','network-transmit-receive','network-transmit','network-vpn-acquiring','network-vpn-no-route','network-vpn','network-wired-acquiring','network-wired-disconnected','network-wired-no-route','network-wired-offline','network-wireless-acquiring','network-wireless-connected','network-wireless-disabled','network-wireless-encrypted','network-wireless-hardware-disabled','network-wireless-hotspot','network-wireless-no-route','network-wireless-offline','network-wireless-signal-excellent','network-wireless-signal-good','network-wireless-signal-none','network-wireless-signal-ok','network-wireless-signal-weak','night-light','non-starred','notifications-disabled','orientation-landscape-inverse','orientation-landscape','orientation-portrait-left','orientation-portrait-right','printer-error','printer-printing','printer-warning','rotation-allowed','rotation-locked','screen-shared','security-high','security-low','security-medium','semi-starred-symbolic-rtl','semi-starred','software-update-available','software-update-urgent','starred','system-lock-screen','task-due','task-past-due','thunderbolt-acquiring','touch-disabled','touchpad-disabled','user-available','user-away','user-busy','user-idle','user-invisible','user-not-tracked','user-offline','user-status-pending','user-trash-full','view-wrapped-symbolic-rtl','view-wrapped','weather-clear-night','weather-clear','weather-few-clouds-night','weather-few-clouds','weather-fog','weather-overcast','weather-severe-alert','weather-showers-scattered','weather-showers','weather-snow','weather-storm','weather-tornado','weather-windy','checkbox-checked','checkbox-mixed','checkbox','focus-legacy-systray','focus-top-bar','focus-windows','list-drag-handle','pan-down','pan-end-symbolic-rtl','pan-end','pan-start-symbolic-rtl','pan-start','pan-up','radio-checked','radio-mixed','radio','selection-end-symbolic-rtl','selection-end','selection-start-symbolic-rtl','selection-start','tab-new','window-close','window-maximize','window-minimize','window-new','window-restore',];
     }
 
-    connectedCallback() {
-        for (let icon of this.icons) {
+    async connectedCallback() {
+        let response = await fetch('./icons.json');
+        response = await response.json();
+        for (let icon of response.icons) {
             let icon_grid = document.createElement('el-icon-grid');
             icon_grid.render(icon);
             this.appendChild(icon_grid);
-        };
-    };
+        }
+    }
 }
 
 customElements.define('el-icon-grid', IconGrid);

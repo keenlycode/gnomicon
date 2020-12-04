@@ -1,0 +1,43 @@
+@use 'sass:color';
+@use '../_var';
+@use '../_mixin';
+
+@mixin table(
+        $bg-color: var.$color-p,
+        $vertical-line: true,
+        $horizontal-line: true,
+        $border-radius: var.$border-radius) {
+    border-collapse: collapse;
+    border-radius: $border-radius;
+    thead {
+        font-weight: bold;
+        @include mixin.bg-color($bg-color);
+        border-bottom: 2px solid;
+    }
+    tr {
+        border-left: 0;
+        border-right: 0;
+        @if $horizontal-line == true {
+            &:not(:last-of-type) {
+                border-bottom: 1px solid;
+            }
+        }
+    }
+    th, td {
+        @if $vertical-line == true {
+            &:not(:first-of-type) {
+                border-left: 1px solid;
+            }
+        }
+        padding: 0.5rem
+    }
+    tbody {
+        tr:nth-child(odd) {
+            @include mixin.bg-color(color.adjust($bg-color, $lightness: 30%));
+        }
+        tr:hover {
+            @include mixin.bg-color(color.adjust($bg-color,
+                $hue: -30deg, $lightness: 30%));
+        }
+    }
+}

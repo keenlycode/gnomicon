@@ -1,0 +1,35 @@
+@use '../_var';
+@use '../_mixin';
+
+@mixin card($radius: var.$border-radius) {
+    display: block;
+    border-radius: $radius;
+    @include mixin.lift-3();
+    > h1, > h2, > h3 {
+        padding: 0.5rem 1rem;
+        margin: 0;
+    }
+    > p {
+        padding: 1rem;
+        margin: 0;
+    }
+    > button, > .button {
+        &:last-of-type {
+            @include mixin.border-top-radius(0);
+            width: 100%;
+        }
+    }
+    > pkt-button-group, > .button-group {
+        &:last-of-type {
+            border-top: 1px solid grey;
+        }
+        > button, > .button {
+            &:first-of-type {
+                border-top-left-radius: 0;
+            }
+            &:last-of-type {
+                border-top-right-radius: 0;
+            }
+        }
+    }
+}

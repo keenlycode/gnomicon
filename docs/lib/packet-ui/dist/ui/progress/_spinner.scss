@@ -1,0 +1,42 @@
+@use '../_var';
+
+@mixin spinner($color: var.$ui-color) {
+    display: inline-block;
+    color: $color;
+    svg {
+        width: 2em;
+        animation: spinner-rotate 2s linear infinite;
+        transform-origin: center center;
+    }
+
+    circle {
+        stroke: currentColor;
+        stroke-width: 4;
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+        animation: spinner-dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+        stroke-linecap: round;
+        fill: none;
+    }
+
+    @keyframes spinner-rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spinner-dash {
+        0% {
+            stroke-dasharray: 1, 200;
+            stroke-dashoffset: 0;
+        }
+        50% {
+            stroke-dasharray: 89, 200;
+            stroke-dashoffset: -35px;
+        }
+        100% {
+            stroke-dasharray: 89, 200;
+            stroke-dashoffset: -124px;
+        }
+    }
+}

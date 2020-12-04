@@ -1,0 +1,59 @@
+@use "sass:color";
+@use '../_var';
+@use '../_mixin';
+
+@mixin slider-thumb($thumb-color: color.adjust(var.$grey, $lightness: 80%)) {
+    appearance: none;
+    width: 1.2em;
+    height: 1.2em;
+    background-color: $thumb-color;
+    border: 1px solid;
+    border-color: color.adjust($thumb-color, $lightness: -50%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@mixin slider(
+        $thumb-color: color.adjust(var.$grey, $lightness: 80%),
+        $thumb-color-active: var.$ui-color,
+        $bar-color: color.adjust(var.$grey, $lightness: 50%)) {
+    appearance: none;
+    height: 0.2em;
+    background-color: $bar-color;
+    outline: none;
+    transition: opacity .2s;
+    padding: 0;
+
+    &::-webkit-slider-thumb {
+        @include slider-thumb($thumb-color);
+    }
+    &::-webkit-slider-thumb:hover {
+        background-color: $thumb-color-active;
+    }
+    &::-webkit-slider-thumb:active {
+        background-color: $thumb-color-active;
+    }
+    &::-moz-range-thumb {
+        @include slider-thumb($thumb-color);
+    }
+    &::-moz-range-thumb:hover {
+        background-color: $thumb-color-active;
+    }
+    &::-moz-range-thumb:active {
+        background-color: $thumb-color-active;
+    }
+
+}
+@mixin input-text(
+        $border-color: var.$grey,
+        $border-radius: var.$border-radius,
+        $outline-color: var.$ui-color) {
+    @include mixin.font-ui();
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    padding: 0.4em;
+    &:focus {
+        @include mixin.lift-1();
+        outline-color: $outline-color;
+    }
+}

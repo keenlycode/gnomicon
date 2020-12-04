@@ -22,7 +22,7 @@ async def adwaita_svg():
         with open(svg_path) as f:
             svg_path = Path(svg_path)
             svg = f.read()
-        
+
         svg = svg.replace('fill="#474747"', 'fill="currentColor"')
         svg = svg.replace('fill="#2e3436"', 'fill="currentColor"')
         svg = svg.replace('fill="#bebebe"', 'fill="currentColor"')

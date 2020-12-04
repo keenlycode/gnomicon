@@ -1,0 +1,321 @@
+@use "sass:color";
+@use 'style/_var';
+@use 'style/_mixin';
+
+.red {
+    color: var.$red
+}
+.pink {
+    color: var.$pink
+}
+.purple {
+    color: var.$purple
+}
+.deep-purple {
+    color: var.$deep-purple
+}
+.indigo {
+    color: var.$indigo
+}
+.blue {
+    color: var.$blue
+}
+.light-blue {
+    color: var.$light-blue
+}
+.cyan {
+    color: var.$cyan
+}
+.teal {
+    color: var.$teal
+}
+.green {
+    color: var.$green
+}
+.light-green {
+    color: var.$light-green
+}
+.lime {
+    color: var.$lime
+}
+.yellow {
+    color: var.$yellow
+}
+.amber {
+    color: var.$amber
+}
+.orange {
+    color: var.$orange
+}
+.deep-orange {
+    color: var.$deep-orange
+}
+.brown {
+    color: var.$brown
+}
+.grey, .gray {
+    color: var.$grey
+}
+.blue-grey, .blue-gray {
+    color: var.$blue-grey
+}
+
+.bg-red {
+    @include mixin.bg-color(var.$red);
+}
+.bg-pink {
+    @include mixin.bg-color(var.$pink);
+}
+.bg-purple {
+    @include mixin.bg-color(var.$purple);
+}
+.bg-deep-purple {
+    @include mixin.bg-color(var.$deep-purple);
+}
+.bg-indigo {
+    @include mixin.bg-color(var.$indigo);
+}
+.bg-blue {
+    @include mixin.bg-color(var.$blue);
+}
+.bg-light-blue {
+    @include mixin.bg-color(var.$light-blue);
+}
+.bg-cyan {
+    @include mixin.bg-color(var.$cyan);
+}
+.bg-teal {
+    @include mixin.bg-color(var.$teal);
+}
+.bg-green {
+    @include mixin.bg-color(var.$green);
+}
+.bg-light-green {
+    @include mixin.bg-color(var.$light-green);
+}
+.bg-lime {
+    @include mixin.bg-color(var.$lime);
+}
+.bg-yellow {
+    @include mixin.bg-color(var.$yellow);
+}
+.bg-amber {
+    @include mixin.bg-color(var.$amber);
+}
+.bg-orange {
+    @include mixin.bg-color(var.$orange);
+}
+.bg-deep-orange {
+    @include mixin.bg-color(var.$deep-orange);
+}
+.bg-brown {
+    @include mixin.bg-color(var.$brown);
+}
+.bg-grey, .bg-gray {
+    @include mixin.bg-color(var.$grey);
+}
+.bg-blue-grey, .bg-blue-gray {
+    @include mixin.bg-color(var.$blue-grey);
+}
+
+.bg-int-red {
+    @include mixin.bg-int-color(var.$red);
+}
+.bg-int-pink {
+    @include mixin.bg-int-color(var.$pink);
+}
+.bg-int-purple {
+    @include mixin.bg-int-color(var.$purple);
+}
+.bg-int-deep-purple {
+    @include mixin.bg-int-color(var.$deep-purple);
+}
+.bg-int-indigo {
+    @include mixin.bg-int-color(var.$indigo);
+}
+.bg-int-blue {
+    @include mixin.bg-int-color(var.$blue);
+}
+.bg-int-light-blue {
+    @include mixin.bg-int-color(var.$light-blue);
+}
+.bg-int-cyan {
+    @include mixin.bg-int-color(var.$cyan);
+}
+.bg-int-teal {
+    @include mixin.bg-int-color(var.$teal);
+}
+.bg-int-green {
+    @include mixin.bg-int-color(var.$green);
+}
+.bg-int-light-green {
+    @include mixin.bg-int-color(var.$light-green);
+}
+.bg-int-lime {
+    @include mixin.bg-int-color(var.$lime);
+}
+.bg-int-yellow {
+    @include mixin.bg-int-color(var.$yellow);
+}
+.bg-int-amber {
+    @include mixin.bg-int-color(var.$amber);
+}
+.bg-int-orange {
+    @include mixin.bg-int-color(var.$orange);
+}
+.bg-int-deep-orange {
+    @include mixin.bg-int-color(var.$deep-orange);
+}
+.bg-int-brown {
+    @include mixin.bg-int-color(var.$brown);
+}
+.bg-int-grey, .bg-int-gray {
+    @include mixin.bg-int-color(var.$grey);
+}
+.bg-int-blue-grey, .bg-int-blue-gray {
+    @include mixin.bg-int-color(var.$blue-grey);
+}
+.bg-int-white {
+    @include mixin.bg-int-color(white);
+}
+.bg-int-black {
+    @include mixin.bg-int-color(black);
+}
+
+.color-primary, .color-p {
+    $color: var.$color-p;
+    color: $color;
+    &.l1 {
+        color: color.adjust($color, $lightness: 20%);
+    }
+    &.l2 {
+        color: color.adjust($color, $lightness: 40%);
+    }
+    &.l3 {
+        color: color.adjust($color, $lightness: 60%);
+    }
+    &.l4 {
+        color: color.adjust($color, $lightness: 80%);
+    }
+    &.d1 {
+        color: color.adjust($color, $lightness: -20%);
+    }
+    &.d2 {
+        color: color.adjust($color, $lightness: -40%);
+    }
+    &.d3 {
+        color: color.adjust($color, $lightness: -60%);
+    }
+    &.d4 {
+        color: color.adjust($color, $lightness: -80%);
+    }
+}
+
+.bg-primary, .bg-p {
+    $color: var.$color-p;
+    @include mixin.bg-color($color);
+    &.l1 {
+        @include mixin.bg-color(color.adjust($color, $lightness: 20%));
+    }
+    &.l2 {
+        @include mixin.bg-color(color.adjust($color, $lightness: 40%));
+    }
+    &.l3 {
+        @include mixin.bg-color(color.adjust($color, $lightness: 60%));
+    }
+    &.l4 {
+        @include mixin.bg-color(color.adjust($color, $lightness: 80%));
+    }
+    &.d1 {
+        @include mixin.bg-color(color.adjust($color, $lightness: -20%));
+    }
+    &.d2 {
+        @include mixin.bg-color(color.adjust($color, $lightness: -40%));
+    }
+    &.d3 {
+        @include mixin.bg-color(color.adjust($color, $lightness: -60%));
+    }
+    &.d4 {
+        @include mixin.bg-color(color.adjust($color, $lightness: -80%));
+    }
+}
+
+.color-complement, .color-c {
+    color: var.$color-complement;
+}
+.color-analog-left, .color-a1 {
+    color: var.$color-analog-left;
+}
+.color-analog-right, .color-a2 {
+    color: var.$color-analog-right;
+}
+.color-triadic-left, .color-t1 {
+    color: var.$color-triadic-left;
+}
+.color-triadic-right, .color-t2 {
+    color: var.$color-triadic-right;
+}
+
+.bg-complement, .bg-c {
+    @include mixin.bg-color(var.$color-complement);
+}
+.bg-analog-left, .bg-a1 {
+    @include mixin.bg-color(var.$color-analog-left);
+}
+.bg-analog-right, .bg-a2 {
+    @include mixin.bg-color(var.$color-analog-right);
+}
+.bg-triadic-left, .bg-t1 {
+    @include mixin.bg-color(var.$color-triadic-left);
+}
+.bg-triadic-right, .bg-t2 {
+    @include mixin.bg-color(var.$color-triadic-right);
+}
+
+.bg-int-primary, .bg-int-p {
+    @include mixin.bg-int-color(var.$color-p);
+}
+.bg-int-complement, .bg-int-c {
+    @include mixin.bg-int-color(var.$color-complement);
+}
+.bg-int-analog-left, .bg-int-a1 {
+    @include mixin.bg-int-color(var.$color-analog-left);
+}
+.bg-int-analog-right, .bg-int-a2 {
+    @include mixin.bg-int-color(var.$color-analog-right);
+}
+.bg-int-triadic-left, .bg-int-t1 {
+    @include mixin.bg-int-color(var.$color-triadic-left);
+}
+.bg-int-triadic-right, .bg-int-t2 {
+    @include mixin.bg-int-color(var.$color-triadic-right);
+}
+
+.border-top-radius {
+    @include mixin.border-top-radius();
+}
+.border-right-radius {
+    @include mixin.border-right-radius();
+}
+.border-bottom-radius {
+    @include mixin.border-bottom-radius();
+}
+.border-left-radius {
+    @include mixin.border-left-radius();
+}
+
+.lift-1 {
+    @include mixin.lift-1();
+}
+.lift-2 {
+    @include mixin.lift-2();
+}
+.lift-3 {
+    @include mixin.lift-3();
+}
+.lift-4 {
+    @include mixin.lift-4();
+}
+.lift-5 {
+    @include mixin.lift-5();
+}

@@ -1,8 +1,8 @@
-<h1 style="text-align: center;">Adwaita Icon Web 2.0.0</h1>
+<h1 style="text-align: center;">Adwaita Icon Web 2.0.1</h1>
 <h2 style="text-align: center;">Adwaita Symbolic Icons for Website</h2>
 
 <p style="text-align: center;">
-    <img src="https://nitipit.github.io/adwaita-icon-web/static/asset/adwaita.png"
+    <img src="https://nitipit.github.io/adwaita-icon-web/asset/adwaita.png"
         style="width: 100%; max-width: 800px;">
 </p>
 

@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Adwaita Icon Web 2.0.1</h1>
+<h1 style="text-align: center;">Adwaita Icon Web 2.0.2</h1>
 <h2 style="text-align: center;">Adwaita Symbolic Icons for Website</h2>
 
 <p style="text-align: center;">

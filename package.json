@@ -1,6 +1,6 @@
 {
   "name": "adwaita-icon-web",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Symbolic Adwaita icons for website",
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
     "dist/**/*"
   ],
   "type": "module",
-  "exports": "./dist/icon.js",
+  "main": "dist/icon.js",
   "directories": {
     "doc": "docs"
   }

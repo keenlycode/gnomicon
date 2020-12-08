@@ -10,7 +10,7 @@
 </p>
 
 <p style="text-align: center;">
-    <img src="https://nitipit.github.io/adwaita-icon-web/static/asset/adwaita.png"
+    <img src="https://nitipit.github.io/adwaita-icon-web/asset/adwaita.png"
         style="width: 100%; max-width: 800px;">
 </p>
 

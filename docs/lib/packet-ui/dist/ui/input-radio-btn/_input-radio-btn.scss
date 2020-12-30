@@ -21,7 +21,7 @@
 
     button {
         @include button.button(
-            $bg-color: color.adjust(var.$grey, $lightness: 70%));
+            $bg-color: color.adjust(white, $lightness: -10%));
     }
 
     /* On mouse-over, add a background color */

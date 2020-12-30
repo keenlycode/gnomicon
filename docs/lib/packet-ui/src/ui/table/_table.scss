@@ -12,6 +12,7 @@
     thead {
         font-weight: bold;
         @include mixin.bg-color($bg-color);
+        border-top: 1px solid;
         border-bottom: 2px solid;
     }
     tr {
@@ -23,6 +24,10 @@
             }
         }
     }
+    tr:last-of-type {
+        border-bottom: 1px solid;
+    }
+
     th, td {
         @if $vertical-line == true {
             &:not(:first-of-type) {

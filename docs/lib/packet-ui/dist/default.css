@@ -12,8 +12,9 @@ pkt-badge, .pkt-badge {
   font-size: 0.7em;
   border-radius: 20em;
   padding: 0.2em;
-  width: 1.6em;
-  height: 1.6em;
+  min-width: 1.6em;
+  min-height: 1.6em;
+  line-height: 1;
 }
 
 pkt-box-arrow-top, .pkt-box-arrow-top {
@@ -433,15 +434,6 @@ pkt-file input[type=file] {
   width: 0;
 }
 
-pkt-icon {
-  display: inline-flex;
-  align-items: center;
-}
-pkt-icon svg {
-  width: 1em;
-  height: 1em;
-}
-
 input {
   font-family: packet-ui;
   font-size: 1em;
@@ -571,7 +563,7 @@ pkt-input-radio span {
   left: 0;
   width: 1.1em;
   height: 1.1em;
-  background-color: white;
+  background-color: #dedede;
   border-radius: 50%;
   box-shadow: 0 1px 1px 0 #9E9E9E;
 }
@@ -620,7 +612,7 @@ pkt-input-radio-btn button, .pkt-input-radio-btn button {
   font-family: packet-ui;
   font-size: 1em;
   box-shadow: 0 1px 3px 0 #404040;
-  background-color: white;
+  background-color: #e6e6e6;
   color: black;
   outline: none;
   display: inline-flex;
@@ -642,7 +634,7 @@ pkt-input-radio-btn button:hover, .pkt-input-radio-btn button:hover {
   background-color: white;
 }
 pkt-input-radio-btn button:active, .pkt-input-radio-btn button:active {
-  background-color: #e6e6e6;
+  background-color: #cccccc;
 }
 pkt-input-radio-btn button:hover, .pkt-input-radio-btn button:hover {
   box-shadow: 0 2px 5px 0 #404040;
@@ -742,26 +734,26 @@ pkt-menu > ul a.on i.caret {
   transform: rotateZ(180deg);
 }
 
-div.pkt-path {
+ul.pkt-path {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-div.pkt-path li {
+ul.pkt-path li {
   display: inline;
 }
-div.pkt-path li + li:before {
+ul.pkt-path li + li:before {
   content: "/ ";
 }
-div.pkt-path li a {
+ul.pkt-path li a {
   color: #FFC107;
   padding: 0 0.3em;
   cursor: pointer;
 }
-div.pkt-path li a:hover {
+ul.pkt-path li a:hover {
   color: #FFC107;
 }
-div.pkt-path li:last-of-type a {
+ul.pkt-path li:last-of-type a {
   color: #FFC107;
 }
 
@@ -953,30 +945,6 @@ pkt-sidebar [el=overlay].show {
   display: block;
 }
 
-pkt-slide {
-  display: block;
-  width: 100%;
-}
-pkt-slide [el=nav] {
-  text-align: center;
-  padding-top: 1.2rem;
-}
-pkt-slide [el=nav] dot {
-  display: inline-block;
-  background-color: #b3b3b3;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  cursor: pointer;
-  margin: 0 0.4em;
-}
-pkt-slide [el=nav] dot:hover {
-  background-color: #ffe7a0;
-}
-pkt-slide [el=nav] dot.selected {
-  background-color: #FFC107;
-}
-
 pkt-switch {
   font-family: packet-ui;
   font-size: 1em;
@@ -1116,6 +1084,7 @@ table thead {
   font-weight: bold;
   background-color: #FFC107;
   color: black;
+  border-top: 1px solid;
   border-bottom: 2px solid;
 }
 table tr {
@@ -1123,6 +1092,9 @@ table tr {
   border-right: 0;
 }
 table tr:not(:last-of-type) {
+  border-bottom: 1px solid;
+}
+table tr:last-of-type {
   border-bottom: 1px solid;
 }
 table th, table td {
@@ -1150,7 +1122,6 @@ pkt-tag, .pkt-tag {
   border-radius: 4px;
   padding: 0 0.4em;
   font-size: 0.9em;
-  box-shadow: 0 0.17em 0 0 #876500;
 }
 pkt-tag pkt-icon, .pkt-tag pkt-icon {
   cursor: pointer;
@@ -1166,7 +1137,6 @@ pkt-tag-x {
   border-radius: 4px;
   padding: 0 0.4em;
   font-size: 0.9em;
-  box-shadow: 0 0.17em 0 0 #876500;
   padding-right: 0.2em;
 }
 pkt-tag-x pkt-icon {

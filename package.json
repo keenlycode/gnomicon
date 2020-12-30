@@ -1,6 +1,6 @@
 {
   "name": "adwaita-icon-web",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Symbolic Adwaita icons for website",
   "repository": {
     "type": "git",
@@ -14,8 +14,8 @@
   "homepage": "https://github.com/nitipit/adwaita-icon-web#readme",
   "devDependencies": {
     "highlight.js": "^10.2.0",
-    "packet-ui": "0.0.1",
-    "parcel": "^2.0.0-beta.1",
+    "packet-ui": "^1.0.0",
+    "parcel": "^2.0.0-nightly.495",
     "sass": "^1.29.0"
   },
   "scripts": {
@@ -30,8 +30,12 @@
     "dist/**/*"
   ],
   "type": "module",
-  "main": "dist/icon.js",
+  "module": "dist/icon.js",
+  "targets": {
+    "module": false
+  },
   "directories": {
     "doc": "docs"
-  }
+  },
+  "dependencies": {}
 }

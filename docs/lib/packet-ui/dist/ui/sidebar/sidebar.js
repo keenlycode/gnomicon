@@ -35,8 +35,8 @@ export class Sidebar extends HTMLElement {
                 this.show_sidebar_no_overlay()
             }, 0)
         }
-        this.media_query.addListener(() => {
-            this.media_change()
+        this.media_query.addEventListener("change", () => {
+            this.media_change();
         })
     }
 

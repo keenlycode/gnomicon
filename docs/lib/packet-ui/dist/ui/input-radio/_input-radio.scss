@@ -30,7 +30,7 @@
         left: 0;
         width: $width;
         height: $height;
-        background-color: color.adjust(var.$grey, $lightness: 50%);
+        background-color: color.adjust(var.$grey, $lightness: 25%);
         border-radius: 50%;
         box-shadow: 0 1px 1px 0 var.$grey;
     }

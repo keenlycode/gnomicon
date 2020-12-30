@@ -5,7 +5,7 @@
 
 html {
     @include mixin.font-fluid();
-    line-height: 1.75;
+    line-height: 1.7;
 }
 
 h1 {font-size: 2rem;}
@@ -34,6 +34,5 @@ code {
 
 hr {
     border: none;
-    height: 1;
-    background-color: color.adjust(black, $lightness: 20%);
+    border-top: 1px solid color.adjust(black, $lightness: 20%);
 }

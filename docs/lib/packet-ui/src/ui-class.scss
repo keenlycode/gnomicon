@@ -186,28 +186,28 @@
     $color: var.$color-p;
     color: $color;
     &.l1 {
-        color: color.adjust($color, $lightness: 20%);
+        color: color.adjust($color, $lightness: 10%);
     }
     &.l2 {
-        color: color.adjust($color, $lightness: 40%);
+        color: color.adjust($color, $lightness: 20%);
     }
     &.l3 {
-        color: color.adjust($color, $lightness: 60%);
+        color: color.adjust($color, $lightness: 30%);
     }
     &.l4 {
-        color: color.adjust($color, $lightness: 80%);
+        color: color.adjust($color, $lightness: 40%);
     }
     &.d1 {
-        color: color.adjust($color, $lightness: -20%);
+        color: color.adjust($color, $lightness: -10%);
     }
     &.d2 {
-        color: color.adjust($color, $lightness: -40%);
+        color: color.adjust($color, $lightness: -20%);
     }
     &.d3 {
-        color: color.adjust($color, $lightness: -60%);
+        color: color.adjust($color, $lightness: -30%);
     }
     &.d4 {
-        color: color.adjust($color, $lightness: -80%);
+        color: color.adjust($color, $lightness: -40%);
     }
 }
 
@@ -215,28 +215,28 @@
     $color: var.$color-p;
     @include mixin.bg-color($color);
     &.l1 {
-        @include mixin.bg-color(color.adjust($color, $lightness: 20%));
+        @include mixin.bg-color(color.adjust($color, $lightness: 10%));
     }
     &.l2 {
-        @include mixin.bg-color(color.adjust($color, $lightness: 40%));
+        @include mixin.bg-color(color.adjust($color, $lightness: 20%));
     }
     &.l3 {
-        @include mixin.bg-color(color.adjust($color, $lightness: 60%));
+        @include mixin.bg-color(color.adjust($color, $lightness: 30%));
     }
     &.l4 {
-        @include mixin.bg-color(color.adjust($color, $lightness: 80%));
+        @include mixin.bg-color(color.adjust($color, $lightness: 40%));
     }
     &.d1 {
-        @include mixin.bg-color(color.adjust($color, $lightness: -20%));
+        @include mixin.bg-color(color.adjust($color, $lightness: -10%));
     }
     &.d2 {
-        @include mixin.bg-color(color.adjust($color, $lightness: -40%));
+        @include mixin.bg-color(color.adjust($color, $lightness: -20%));
     }
     &.d3 {
-        @include mixin.bg-color(color.adjust($color, $lightness: -60%));
+        @include mixin.bg-color(color.adjust($color, $lightness: -30%));
     }
     &.d4 {
-        @include mixin.bg-color(color.adjust($color, $lightness: -80%));
+        @include mixin.bg-color(color.adjust($color, $lightness: -40%));
     }
 }
 

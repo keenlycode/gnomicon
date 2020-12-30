@@ -407,28 +407,28 @@
   color: #FFC107;
 }
 .color-primary.l1, .color-p.l1 {
-  color: #ffdb6d;
+  color: #ffce3a;
 }
 .color-primary.l2, .color-p.l2 {
-  color: #fff4d3;
+  color: #ffdb6d;
 }
 .color-primary.l3, .color-p.l3 {
-  color: white;
+  color: #ffe7a0;
 }
 .color-primary.l4, .color-p.l4 {
-  color: white;
+  color: #fff4d3;
 }
 .color-primary.d1, .color-p.d1 {
-  color: #a07800;
+  color: #d39e00;
 }
 .color-primary.d2, .color-p.d2 {
-  color: #3a2c00;
+  color: #a07800;
 }
 .color-primary.d3, .color-p.d3 {
-  color: black;
+  color: #6d5200;
 }
 .color-primary.d4, .color-p.d4 {
-  color: black;
+  color: #3a2c00;
 }
 
 .bg-primary, .bg-p {
@@ -436,35 +436,35 @@
   color: black;
 }
 .bg-primary.l1, .bg-p.l1 {
-  background-color: #ffdb6d;
+  background-color: #ffce3a;
   color: black;
 }
 .bg-primary.l2, .bg-p.l2 {
-  background-color: #fff4d3;
+  background-color: #ffdb6d;
   color: black;
 }
 .bg-primary.l3, .bg-p.l3 {
-  background-color: white;
+  background-color: #ffe7a0;
   color: black;
 }
 .bg-primary.l4, .bg-p.l4 {
-  background-color: white;
+  background-color: #fff4d3;
   color: black;
 }
 .bg-primary.d1, .bg-p.d1 {
-  background-color: #a07800;
+  background-color: #d39e00;
   color: white;
 }
 .bg-primary.d2, .bg-p.d2 {
-  background-color: #3a2c00;
+  background-color: #a07800;
   color: white;
 }
 .bg-primary.d3, .bg-p.d3 {
-  background-color: black;
+  background-color: #6d5200;
   color: white;
 }
 .bg-primary.d4, .bg-p.d4 {
-  background-color: black;
+  background-color: #3a2c00;
   color: white;
 }
 

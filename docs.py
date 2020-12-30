@@ -16,7 +16,12 @@ def icon_json():
     for icon in adwaita.iter('{http://www.w3.org/2000/svg}title'):
         icons.append(icon.text)
     icons = {'icons': icons}
-    json.dump(icons, open(_dir.joinpath('docs/icons.json'), 'w'))
+    dest = _dir.joinpath('docs/icons.json')
+    try:
+        dest.parent.mkdir()
+    except Exception:
+        pass
+    json.dump(icons, open(dest, 'w'))
 
 
 async def build():
@@ -44,28 +49,6 @@ def lib():
         dirs_exist_ok=True)
 
 
-# async def docs_html():
-#     def index_render(icons):
-#         html = template('index.html').render({'icons': icons})
-#         with open(docs_dir.joinpath('index.html'), 'w') as f:
-#             f.write(html)
-#             print('Render index.html')
-
-#     adwaita = base_dir.joinpath('dist', 'adwaita.svg')
-#     adwaita = ElementTree.parse(adwaita)
-#     adwaita = adwaita.getroot()
-#     icons = list()
-#     for icon in adwaita.iter('{http://www.w3.org/2000/svg}title'):
-#         icons.append(icon.text)
-
-#     index_render(icons)
-#     async for changes in awatch(docs_src_dir.joinpath('template')):
-#         for change, path in changes:
-#             path = Path(path)
-#             if path.suffix == '.html' or '.md':
-#                 index_render(icons)
-
-
 async def http_server():
     try:
         proc = await asyncio.create_subprocess_shell(
@@ -79,14 +62,6 @@ async def main():
     lib()
     await asyncio.gather(build())
 
-    # await asyncio.gather(
-    #     copy_adwaita_icon(),
-    #     asset(),
-    #     node_modules(),
-    #     web_components(),
-    #     docs_html(),
-    #     http_server(),
-    # )
 
 if __name__ == '__main__':
     asyncio.run(main())

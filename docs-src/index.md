@@ -157,7 +157,7 @@ to load **CDN** resources. (You can check error on browser debug console)
 
 <!-- Import icon.js -->
 <script type="module">
-import {Icon} from '//unpkg.com/adwaita-icon-web@2.0.0/dist/icon.js';
+import {Icon} from '//unpkg.com/adwaita-icon-web@2.0.3/dist/icon.js';
 customElements.define('el-icon', Icon);  // define custom element for icons
 </script>
 ```

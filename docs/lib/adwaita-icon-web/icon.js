@@ -1,10 +1,10 @@
 class Icon extends HTMLElement {
     constructor() {
-        super()
-        this.set = this.getAttribute('set')
-        this.name = this.getAttribute('name')
+        super();
     };
     connectedCallback() {
+        this.set = this.getAttribute('set');
+        this.name = this.getAttribute('name');
         let svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
         let link = null;
         try {

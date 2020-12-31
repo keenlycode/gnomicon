@@ -26,6 +26,7 @@ class Icon extends HTMLElement {
         svg.style.width = '1em';
         svg.style.height = '1em';
         svg.appendChild(use);
+        this.innerHTML = '';
         this.appendChild(svg);
     };
 };

@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Adwaita Icon Web 2.0.5</h1>
+<h1 style="text-align: center;">Adwaita Icon Web 2.1.0</h1>
 <h2 style="text-align: center;">Adwaita Symbolic Icons for Website</h2>
 
 <p style="text-align: center;">
@@ -10,7 +10,7 @@
 </p>
 
 <p style="text-align: center;">
-    <img src="https://nitipit.github.io/adwaita-icon-web/asset/adwaita.png"
+    <img src="./asset/adwaita.png"
         style="width: 100%; max-width: 800px;">
 </p>
 
@@ -18,7 +18,7 @@
 ---
 
 - 500+ well designed icons from
-  [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v3.36
+  [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v40
 - Use <strong>[SVG Icons]</strong> for sharpness, scalable, easily to customize
   and make animation with css & javascript.
 - Provide icon.js to use SVG Sprite as <strong>[Web Components]</strong>
@@ -152,12 +152,12 @@ to load **CDN** resources. (You can check error on browser debug console)
 <!-- Load adwaita.svg -->
 <link rel="preload"
     icon set="adwaita"
-    href="//unpkg.com/adwaita-icon-web@2.0.5/dist/adwaita.svg"
+    href="//unpkg.com/adwaita-icon-web@2.1.0/dist/adwaita.svg"
     as="image" type="image/svg+xml">
 
 <!-- Import icon.js -->
 <script type="module">
-import {Icon} from '//unpkg.com/adwaita-icon-web@2.0.5/dist/icon.js';
+import {Icon} from '//unpkg.com/adwaita-icon-web@2.1.0/dist/icon.js';
 customElements.define('el-icon', Icon);  // define custom element for icons
 </script>
 ```

@@ -1,0 +1,26 @@
+@use '../_var';
+
+@mixin path($color: var.$color-p) {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+        display: inline;
+    }
+    li+li:before {
+        content: "/ ";
+    }
+
+    li a {
+        color: $color;
+        padding: 0 0.3em;
+        cursor: pointer;
+    }
+    li a:hover {
+        color: $color;
+    }
+
+    li:last-of-type a {
+        color: $color;
+    }
+}

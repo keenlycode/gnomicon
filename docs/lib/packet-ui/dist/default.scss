@@ -1,0 +1,142 @@
+@use 'style/_var';
+@use 'style/_mixin';
+@use "ui/_ui";
+
+pkt-badge, .pkt-badge {
+    @include ui.badge($bg-color: var.$ui-color)
+}
+
+pkt-box-arrow-top, .pkt-box-arrow-top {
+    @include ui.box-arrow(
+        $arrow: "top",
+        $radius: var.$border-radius
+    );
+}
+
+pkt-box-arrow-right, .pkt-box-arrow-right {
+    @include ui.box-arrow(
+        $arrow: "right",
+        $radius: var.$border-radius
+    );
+}
+
+pkt-box-arrow-bottom, .pkt-box-arrow-bottom {
+    @include ui.box-arrow(
+        $arrow: "bottom",
+        $radius: var.$border-radius);
+}
+
+pkt-box-arrow-left, .pkt-box-arrow-left {
+    @include ui.box-arrow(
+        $arrow: "left",
+        $radius: var.$border-radius);
+}
+
+button, .button, input[type="button"] {
+    @include ui.button();
+}
+
+pkt-button-pin, .pkt-button-pin {
+    @include ui.button-pin();
+}
+
+pkt-button-square, .pkt-button-square {
+    @include ui.button-square();
+}
+
+pkt-button-group, .pkt-button-group {
+    @include ui.button-group();
+}
+
+pkt-card, .pkt-card {
+    @include ui.card();
+}
+
+pkt-checkbox {
+    @include ui.checkbox();
+}
+
+pkt-file {
+    @include ui.file();
+}
+
+input {
+    @include ui.input-text();
+    &[type="text"], &[type="password"], &[type="email"] {
+        @include ui.input-text();
+    }
+}
+
+input[type="range"] {
+    @include ui.slider();
+}
+
+pkt-input-number {
+    @include ui.input-number();
+}
+
+pkt-input-radio {
+    @include ui.input-radio();
+}
+
+pkt-input-radio-btn, .pkt-input-radio-btn {
+    @include ui.input-radio-btn();
+}
+
+pkt-input-tag {
+    @include ui.input-tag();
+}
+
+label {
+    @include mixin.font-ui();
+}
+
+pkt-menu > ul {
+    @include ui.menu();
+}
+
+ul.pkt-path {
+    @include ui.path();
+}
+
+// progress
+pkt-dotpulse {
+    @include ui.dotpulse();
+}
+
+pkt-progress-bar {
+    @include ui.progress-bar();
+}
+
+pkt-spinner {
+    @include ui.spinner();
+}
+// end : progress
+
+pkt-sidebar {
+    @include ui.sidebar();
+}
+
+pkt-switch {
+    @include ui.switch();
+}
+
+pkt-tab, .pkt-tab {
+    @include ui.tab();
+}
+
+table {
+    @include ui.table();
+}
+
+pkt-tag, .pkt-tag {
+    @include ui.tag();
+}
+
+pkt-tag-x {
+    @include ui.tag();
+    padding-right: 0.2em;
+    pkt-icon {
+        cursor: pointer;
+    }
+}

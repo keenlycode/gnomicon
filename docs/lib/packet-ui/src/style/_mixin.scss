@@ -1,0 +1,102 @@
+@use "sass:color";
+@use "_var";
+
+@function darkshade($color) {
+    @if (color.hue($color) >= 30deg) and (color.hue($color) <= 200deg) {
+        @if color.lightness($color) >= 50% {
+            @return false;
+        } @else {
+            @return true;
+        }
+    } @else {
+        @if color.lightness($color) >= 70% {
+            @return false;
+        } @else {
+            @return true;
+        }
+    }
+}
+
+@mixin bg-color($bg-color) {
+    background-color: $bg-color;
+    @if darkshade($bg-color) {
+        color: white;
+    } @else {
+        color: black;
+    }
+}
+
+@mixin bg-int-color($bg-color: var.$color-p) {
+    @include bg-color($bg-color);
+    &:hover {
+        background-color: color.adjust($bg-color,
+            $saturation: 10%, $lightness: 10%);
+    }
+    &:active {
+        background-color: color.adjust($bg-color,
+            $saturation: -10%, $lightness: -10%);
+    }
+}
+
+@mixin border-top-radius($radius: var.$border-radius) {
+    border-top-left-radius: $radius;
+    border-top-right-radius: $radius;
+}
+
+@mixin border-right-radius($radius: var.$border-radius) {
+    border-top-right-radius: $radius;
+    border-bottom-right-radius: $radius;
+}
+
+@mixin border-bottom-radius($radius: var.$border-radius) {
+    border-bottom-right-radius: $radius;
+    border-bottom-left-radius: $radius;
+}
+
+@mixin border-left-radius($radius: var.$border-radius) {
+    border-top-left-radius: $radius;
+    border-bottom-left-radius: $radius;
+}
+
+$shadow-color: color.adjust(black, $lightness: 25%);
+
+@mixin lift-1() {
+    box-shadow: 0 1px 3px 0 $shadow-color;
+}
+
+@mixin lift-2() {
+    box-shadow: 0 2px 5px 0 $shadow-color;
+}
+
+@mixin lift-3() {
+    box-shadow: 0 4px 9px 0 $shadow-color;
+}
+
+@mixin lift-4() {
+    box-shadow: 0 8px 17px 0 $shadow-color;
+}
+
+@mixin lift-5() {
+    box-shadow: 0 16px 33px 0 $shadow-color;
+}
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@mixin font-ui() {
+    font-family: packet-ui;
+    font-size: 1em;
+}
+
+@mixin font-fluid(
+        $vw-min: 320px, $vw-max: 1200px,
+        $font-size-min: 16px, $font-size-max: 18px) {
+    font-size: $font-size-min;
+    @media screen and (min-width: $vw-min) {
+        font-size: calc(#{$font-size-min} + #{strip-unit($font-size-max - $font-size-min)} * ((100vw - #{$vw-min}) / #{strip-unit($vw-max - $vw-min)}));
+    }
+    @media screen and (min-width: $vw-max) {
+        font-size: $font-size-max;
+    }
+}

@@ -1,0 +1,75 @@
+@use "sass:color";
+@use '../_var';
+@use '../_mixin';
+
+@mixin checkbox(
+        $bg-color: color.adjust(white, $lightness: -20%),
+        $color-active: var.$ui-color) {
+    $size: 1em;
+    @include mixin.font-ui();
+    position: relative;
+    width: $size;
+    height: $size;
+    user-select: none;
+    display: inline-block;
+
+    /* Hide the browser's default checkbox */
+    input {
+        opacity: 0;
+        cursor: pointer;
+        width: $size;
+        height: $size;
+        margin: 0;
+        position: absolute;
+        top: 1;
+        left: 0;
+        z-index: 1;
+    }
+
+    /* Create a custom checkbox */
+    span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: $size;
+        height: $size;
+        background-color: $bg-color;
+        box-shadow: 0 1px 1px 0 var.$grey;
+    }
+
+    /* On mouse-over, add background color */
+    &:hover input ~ span {
+        background-color: color.adjust($color-active, $lightness: 20%);
+    }
+
+    /* When the checkbox is checked, add background color */
+    input:checked ~ span {
+        background-color: $color-active;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    span:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    /* Show the checkmark when checked */
+    input:checked ~ span:after {
+        display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    span:after {
+        @if mixin.darkshade($color-active) {
+            border: solid white;
+        } @else {
+            border: solid black
+        }
+        left: 0.25em;
+        width: 0.3em;
+        height: 0.6em;
+        border-width: 0 0.2em 0.2em 0;
+        transform: rotate(45deg);
+    }
+};

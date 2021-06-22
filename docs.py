@@ -25,7 +25,9 @@ def icon_json():
 
 
 async def build():
-    proc = await asyncio.create_subprocess_shell('pillari dev docs-src docs')
+    proc = await asyncio.create_subprocess_shell(
+        'engrave dev docs-src docs --server=127.0.0.1:8000'
+    )
     await proc.communicate()
     proc.terminate()
 
@@ -50,6 +52,7 @@ def lib():
 
 
 async def http_server():
+    proc = None
     try:
         proc = await asyncio.create_subprocess_shell(
             f'python -m http.server 8000 --directory {_dir.resolve()}')

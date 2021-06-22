@@ -1,3 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-    <path d="M6.819 1.115a1.025 1.025 0 00-.153.018A7.01 7.01 0 001 8c0 3.854 3.146 7 7 7a7.011 7.011 0 006.871-5.676c.199-1.025-1.108-1.63-1.761-.816A3.999 3.999 0 0110 10c-2.22 0-4-1.779-4-4a3.997 3.997 0 011.487-3.107c.749-.605.294-1.816-.668-1.778z" overflow="visible" fill="currentColor" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns1:docname="night-light-symbolic.svg" ns2:export-filename="/home/sam/source-symbolic.png" ns2:export-xdpi="270" ns2:export-ydpi="270" height="16" id="svg7384" version="1.1" ns2:version="1.0.2 (e86c870879, 2021-01-15)" width="16">
+  <ns1:namedview ns2:bbox-nodes="true" ns2:bbox-paths="false" bordercolor="#000000" borderlayer="false" borderopacity="0.50196078" ns2:current-layer="layer1" ns2:cx="165.14999" ns2:cy="183.13664" ns2:document-rotation="0" gridtolerance="10" ns2:guide-bbox="true" guidetolerance="10" id="namedview88" ns2:measure-end="0,0" ns2:measure-start="0,0" ns2:object-nodes="true" ns2:object-paths="true" objecttolerance="10" ns2:pagecheckerboard="1" pagecolor="#e2e2e2" ns2:pageopacity="0" ns2:pageshadow="2" showborder="false" showgrid="false" showguides="false" ns2:showpageshadow="false" ns2:snap-bbox="true" ns2:snap-bbox-edge-midpoints="false" ns2:snap-bbox-midpoints="true" ns2:snap-center="false" ns2:snap-global="true" ns2:snap-grids="true" ns2:snap-intersection-paths="false" ns2:snap-midpoints="true" ns2:snap-nodes="true" ns2:snap-object-midpoints="true" ns2:snap-others="true" ns2:snap-page="false" ns2:snap-smooth-nodes="true" ns2:snap-to-guides="true" ns2:window-height="1376" ns2:window-maximized="0" ns2:window-width="2560" ns2:window-x="26" ns2:window-y="23" ns2:zoom="1">
+    <ns2:grid dotted="false" empcolor="#0800ff" empopacity="0.4627451" empspacing="4" enabled="true" id="grid4866" opacity="0.16470588" originx="-171.99974" originy="-172" snapvisiblegridlinesonly="true" spacingx="1" spacingy="1" type="xygrid" visible="true" />
+    <ns2:grid dotted="true" empcolor="#3f3fff" empopacity="0" empspacing="4" id="grid3540" originx="-171.99974" originy="-172" spacingx="0.5" spacingy="0.5" type="xygrid" />
+  </ns1:namedview>
+  <metadata id="metadata90">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icons</dc:title>
+        <ns4:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </ns4:Work>
+      <ns4:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <ns4:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <ns4:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <ns4:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+        <ns4:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <ns4:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <ns4:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </ns4:License>
+    </rdf:RDF>
+  </metadata>
+  <title id="title8473">Gnome Symbolic Icons</title>
+  <defs id="defs7386" />
+  <g ns2:groupmode="layer" id="layer10" ns2:label="ui" transform="translate(-171.99974,-172)" />
+  <g ns2:groupmode="layer" id="layer1" ns2:label="status" transform="translate(-171.99974,-108)">
+    <path d="m 176.95703,108.60156 c 0,0 -0.53968,1.31683 -0.16406,2.23047 l 0.42187,1.02344 c -0.52895,0.35723 -0.98584,0.81085 -1.3457,1.33789 l -1.02148,-0.42578 c -0.91011,-0.38523 -2.23047,0.15234 -2.23047,0.15234 0,0 0.54929,1.31292 1.46093,1.69336 l 1.01758,0.42383 C 175.0341,115.34922 175,115.67054 175,116 c 0,0.32063 0.0334,0.63322 0.0918,0.9375 l -1.02149,0.41992 c -0.91594,0.37114 -1.46875,1.68555 -1.46875,1.68555 0,0 1.31683,0.53968 2.23047,0.16406 l 1.02344,-0.42187 c 0.357,0.5286 0.81129,0.98399 1.33789,1.34375 l -0.42774,1.02343 c -0.38043,0.91165 0.1543,2.23047 0.1543,2.23047 0,0 1.31543,-0.54696 1.69141,-1.46093 l 0.42578,-1.01758 C 179.34922,120.9659 179.67054,121 180,121 c 0.32063,0 0.63322,-0.0334 0.9375,-0.0918 l 0.41992,1.02149 c 0.37115,0.91595 1.6836,1.46875 1.6836,1.46875 0,0 0.54163,-1.31487 0.16601,-2.22852 l -0.42187,-1.02344 c 0.52893,-0.35708 0.98381,-0.81298 1.34375,-1.33984 l 1.02343,0.42774 c 0.91011,0.38522 2.23047,-0.1543 2.23047,-0.1543 0,0 -0.54929,-1.31097 -1.46093,-1.69141 l -1.01758,-0.42578 C 184.9659,116.65078 185,116.32946 185,116 c 0,-0.32063 -0.0334,-0.63322 -0.0918,-0.9375 l 1.02149,-0.41992 c 0.91594,-0.37115 1.46875,-1.6836 1.46875,-1.6836 0,0 -1.31487,-0.54162 -2.22852,-0.16601 l -1.02344,0.42187 c -0.35708,-0.52893 -0.81298,-0.98381 -1.33984,-1.34375 l 0.42774,-1.02343 c 0.38522,-0.91011 -0.1543,-2.23047 -0.1543,-2.23047 0,0 -1.31096,0.54928 -1.69141,1.46093 l -0.42578,1.01758 C 180.65078,111.0341 180.32946,111 180,111 c -0.32063,0 -0.63322,0.0334 -0.9375,0.0918 l -0.41992,-1.02149 c -0.37115,-0.91594 -1.68555,-1.46875 -1.68555,-1.46875 z M 180,113 c 0.18647,0 0.36631,0.0228 0.54297,0.0547 A 2,2 0 0 0 179,115 a 2,2 0 0 0 2,2 2,2 0 0 0 1.94531,-1.54688 C 182.97762,115.63096 183,115.8122 183,116 c 0,0.1965 -0.0213,0.38674 -0.0566,0.57227 a 3,3 0 0 1 -0.0215,0.0918 c -0.0342,0.15351 -0.0802,0.30197 -0.13672,0.44532 a 3,3 0 0 1 -0.0566,0.13281 c -0.0546,0.12079 -0.11807,0.23623 -0.1875,0.34765 a 3,3 0 0 1 -0.10938,0.16211 c -0.0731,0.10167 -0.15326,0.19763 -0.23828,0.28907 a 3,3 0 0 1 -0.10352,0.11132 3,3 0 0 1 -0.0293,0.0254 c -0.0914,0.0864 -0.18918,0.16588 -0.29102,0.24024 a 3,3 0 0 1 -0.14648,0.10351 3,3 0 0 1 -0.002,0.002 c -0.1198,0.0767 -0.24607,0.14385 -0.37695,0.20312 a 3,3 0 0 1 -0.11914,0.0527 c -0.14805,0.0593 -0.30194,0.10709 -0.46094,0.14258 a 3,3 0 0 1 -0.0918,0.0215 C 180.38679,118.97862 180.1965,119 180,119 c -0.1965,0 -0.38674,-0.0213 -0.57227,-0.0566 a 3,3 0 0 1 -0.0918,-0.0215 c -0.15351,-0.0343 -0.30197,-0.0802 -0.44532,-0.13672 a 3,3 0 0 1 -0.13281,-0.0566 c -0.12079,-0.0546 -0.23623,-0.11807 -0.34765,-0.1875 a 3,3 0 0 1 -0.16211,-0.10938 c -0.10167,-0.0731 -0.19763,-0.15326 -0.28907,-0.23828 a 3,3 0 0 1 -0.11132,-0.10352 3,3 0 0 1 -0.0254,-0.0293 c -0.0864,-0.0914 -0.16588,-0.18918 -0.24024,-0.29102 a 3,3 0 0 1 -0.10351,-0.14648 3,3 0 0 1 -0.002,-0.002 c -0.0767,-0.1198 -0.14385,-0.24607 -0.20312,-0.37695 a 3,3 0 0 1 -0.0527,-0.11914 c -0.0593,-0.14806 -0.1071,-0.30194 -0.14258,-0.46094 a 3,3 0 0 1 -0.0215,-0.0918 C 177.02138,116.38674 177,116.1965 177,116 c 0,-0.1965 0.0213,-0.38674 0.0566,-0.57227 a 3,3 0 0 1 0.0215,-0.0918 c 0.0342,-0.15351 0.0802,-0.30197 0.13672,-0.44532 a 3,3 0 0 1 0.0566,-0.13281 c 0.0546,-0.12079 0.11807,-0.23623 0.1875,-0.34765 a 3,3 0 0 1 0.10938,-0.16211 c 0.0731,-0.10167 0.15326,-0.19763 0.23828,-0.28907 a 3,3 0 0 1 0.10352,-0.11132 3,3 0 0 1 0.0293,-0.0254 c 0.0914,-0.0864 0.18918,-0.16588 0.29102,-0.24024 a 3,3 0 0 1 0.14648,-0.10351 3,3 0 0 1 0.002,-0.002 c 0.1198,-0.0767 0.24607,-0.14385 0.37695,-0.20312 a 3,3 0 0 1 0.11914,-0.0527 c 0.14805,-0.0593 0.30194,-0.10709 0.46094,-0.14258 a 3,3 0 0 1 0.0918,-0.0215 C 179.61321,113.02138 179.8035,113 180,113 Z" id="circle5503" />
+  </g>
+  <g ns2:groupmode="layer" id="layer11" ns2:label="legacy" transform="translate(-171.99974,-172)" />
+  <g ns2:groupmode="layer" id="layer7" ns2:label="places" transform="translate(-171.99974,-108)" />
+  <g ns2:groupmode="layer" id="layer6" ns2:label="mimetypes" transform="translate(-171.99974,-108)" />
+  <g ns2:groupmode="layer" id="layer5" ns2:label="emotes" transform="translate(-171.99974,-108)" />
+  <g ns2:groupmode="layer" id="layer9" ns2:label="emblems" transform="translate(-171.99974,-108)" />
+  <g ns2:groupmode="layer" id="layer2" ns2:label="devices" transform="translate(-171.99974,-108)" />
+  <g ns2:groupmode="layer" id="layer8" ns2:label="categories" transform="translate(-171.99974,-108)" />
+  <g ns2:groupmode="layer" id="layer3" ns2:label="apps" transform="translate(-171.99974,-108)" />
+  <g ns2:groupmode="layer" id="layer4" ns2:label="actions" transform="translate(-171.99974,-108)" />
 </svg>

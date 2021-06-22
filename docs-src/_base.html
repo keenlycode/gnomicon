@@ -1,8 +1,17 @@
 <!doctype html>
 <html lang="en">
-{% set _v = 5 %}
-
+{% set _v = 6 %}
+<base href="http://127.0.0.1:8000">
 <head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KF7F9WZ');</script>
+<!-- End Google Tag Manager -->
+
 <meta charset="utf-8" />
 <meta name="description" content="Adwaita Icon Web" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -13,7 +22,7 @@
     href="./lib/adwaita-icon-web/adwaita.svg?v={{_v}}"
     as="image" type="image/svg+xml">
 
-<!-- Bits UI Setup -->
+<!-- Packet UI Setup -->
 <link rel="stylesheet" href="./lib/packet-ui/dist/normalize.css?v={{_v}}">
 <link rel="stylesheet" href="./lib/packet-ui/dist/packet-ui.css?v={{_v}}">
 <script async defer src="https://buttons.github.io/buttons.js?v={{_v}}"></script>
@@ -35,6 +44,12 @@
 {% endblock %}
 </head>
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KF7F9WZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 {% block body %}
 {% endblock %}
 </body>

@@ -3,7 +3,7 @@
 
 <p style="text-align: center;">
     <img src="https://nitipit.github.io/adwaita-icon-web/adwaita-screenshot.png"
-        style="width: 100%; max-width: 800px;">
+        style="width: 100%; max-width: 600px;">
 </p>
 
 ## Features <el-icon theme="adwaita" name="starred"></el-icon>

@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Adwaita Icon Web 2.0.5</h1>
+<h1 style="text-align: center;">Adwaita Icon Web 2.1.0</h1>
 <h2 style="text-align: center;">Adwaita Symbolic Icons for Website</h2>
 
 <p style="text-align: center;">
@@ -20,6 +20,8 @@
 https://nitipit.github.io/adwaita-icon-web/
 
 ## Changelog ver 2.1.0
+
+Based on [adwaita-icon-theme 40.1](https://gitlab.gnome.org/GNOME/adwaita-icon-theme)
 
 ### Added
 status/bluetooth-disconnected-symbolic.svg

@@ -10,8 +10,8 @@
 </p>
 
 <p style="text-align: center;">
-    <img src="./asset/adwaita.png"
-        style="width: 100%; max-width: 800px;">
+    <img src="adwaita-screenshot.png"
+        style="width: 100%; max-width: 600px;">
 </p>
 
 ## Features <el-icon set="adwaita" name="starred"></el-icon>

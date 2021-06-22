@@ -3,14 +3,14 @@
 
 <p style="text-align: center;">
     <img src="https://nitipit.github.io/adwaita-icon-web/adwaita-screenshot.png"
-        style="width: 100%; max-width: 600px;">
+        style="width: 600px;">
 </p>
 
 ## Features <el-icon theme="adwaita" name="starred"></el-icon>
 ---
 
 - 500+ well designed icons from
-  [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v3.36
+  [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v40.1
 - Use <strong>[SVG Icons]</strong> for sharpness, scalable, easily to customize
   and make animation with **CSS** & **Javascript.**
 - Provide `icon.js` to use **SVG** Sprite as <strong>[Web Components]</strong>

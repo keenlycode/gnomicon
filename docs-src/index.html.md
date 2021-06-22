@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Adwaita Icon Web 2.1.0</h1>
+<h1 style="text-align: center;">Adwaita Icon Web 2.1.1</h1>
 <h2 style="text-align: center;">Adwaita Symbolic Icons for Website</h2>
 
 <p style="text-align: center;">
@@ -152,12 +152,12 @@ to load **CDN** resources. (You can check error on browser debug console)
 <!-- Load adwaita.svg -->
 <link rel="preload"
     icon set="adwaita"
-    href="//unpkg.com/adwaita-icon-web@2.1.0/dist/adwaita.svg"
+    href="//unpkg.com/adwaita-icon-web@2.1.1/dist/adwaita.svg"
     as="image" type="image/svg+xml">
 
 <!-- Import icon.js -->
 <script type="module">
-import {Icon} from '//unpkg.com/adwaita-icon-web@2.1.0/dist/icon.js';
+import {Icon} from '//unpkg.com/adwaita-icon-web@2.1.1/dist/icon.js';
 customElements.define('el-icon', Icon);  // define custom element for icons
 </script>
 ```

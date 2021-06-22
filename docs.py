@@ -21,7 +21,8 @@ def icon_json():
         dest.parent.mkdir()
     except Exception:
         pass
-    json.dump(icons, open(dest, 'w'))
+    with open(dest, 'w') as file:
+        json.dump(icons, file)
 
 
 async def build():

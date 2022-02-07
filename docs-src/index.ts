@@ -1,4 +1,6 @@
-class IconGrid extends HTMLElement {
+import {define, StyledElement} from 'gadjet/src/ui/ui';
+
+class IconGrid extends StyledElement {
     constructor() {
         super();
     }
@@ -11,18 +13,18 @@ class IconGrid extends HTMLElement {
     }
 }
 
-class IconManager extends HTMLElement {
+class IconManager extends StyledElement {
     constructor() {
         super();
     }
 
     async connectedCallback() {
-        let response = await fetch('./icons.json');
+        let response: any = await fetch('./icons.json');
         response = await response.json();
         for (let icon of response.icons) {
-            let icon_grid = document.createElement('el-icon-grid');
-            icon_grid.render(icon);
-            this.appendChild(icon_grid);
+            let iconGrid = document.createElement('el-icon-grid') as IconGrid;
+            iconGrid.render(icon);
+            this.appendChild(iconGrid);
         }
     }
 }

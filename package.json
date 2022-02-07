@@ -1,41 +1,41 @@
 {
-  "name": "adwaita-icon-web",
-  "version": "41.0dev",
-  "description": "Symbolic Adwaita icons for website",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/nitipit/adwaita-icon-web.git"
-  },
-  "author": "Nitipit Nontasuwan <nitipit@gmail.com>",
-  "license": "CC-BY-4.0",
-  "bugs": {
-    "url": "https://github.com/nitipit/adwaita-icon-web/issues"
-  },
-  "homepage": "https://github.com/nitipit/adwaita-icon-web#readme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Adwaita",
-    "SVG",
-    "Icons"
-  ],
-  "files": [
-    "dist/**/*"
-  ],
-  "type": "module",
-  "module": "dist/icon.js",
-  "targets": {
-    "module": false
-  },
-  "directories": {
-    "doc": "docs"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.2.1",
-    "gadjet": "^0.1.6",
-    "highlight.js": "^11.4.0",
-    "parcel": "^2.2.1",
-    "sass": "^1.49.7"
-  }
+    "name": "adwaita-icon-web",
+    "version": "41.0dev",
+    "description": "Symbolic Adwaita icons for website",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/nitipit/adwaita-icon-web.git"
+    },
+    "author": "Nitipit Nontasuwan <nitipit@gmail.com>",
+    "license": "CC-BY-4.0",
+    "bugs": {
+        "url": "https://github.com/nitipit/adwaita-icon-web/issues"
+    },
+    "homepage": "https://github.com/nitipit/adwaita-icon-web#readme",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Adwaita",
+        "SVG",
+        "Icons"
+    ],
+    "files": [
+        "dist/**/*"
+    ],
+    "type": "module",
+    "module": "dist/icon.js",
+    "targets": {
+        "module": false
+    },
+    "directories": {
+        "doc": "docs"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.2.1",
+        "highlight.js": "^11.4.0",
+        "parcel": "^2.2.1",
+        "gadjet": "^0.1.7",
+        "sass": "^1.49.7"
+    }
 }

@@ -1,7 +1,16 @@
 import { addStyle } from 'gadjet/src/style/add-style';
-import {define, StyledElement} from 'gadjet/src/ui/ui';
-import {bgColor} from 'gadjet/src/style/bg-color';
+import { define, StyledElement } from 'gadjet/src/ui/ui';
+import { bgColor} from 'gadjet/src/style/bg-color';
+import { Button } from 'gadjet/src/ui/button/button';
+import { Badge } from 'gadjet/src/ui/badge/badge';
 import { theme } from './color';
+
+define('el-badge', Badge);
+
+Button.initStyle();
+Button.tagStyle({
+    color: theme.blackCoffee
+})
 
 class IconGrid extends StyledElement {
     constructor() {
@@ -49,13 +58,20 @@ addStyle`
         flex-wrap: wrap;
     }
     h1 {
-        margin: 0;
         font-size: 3rem;
         width: 100%;
+        margin: 0;
+        el-badge {
+            font-size: 0.4em;
+        }
     }
     h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         width: 100%;
+        margin: 0;
+    }
+    el-icon {
+        margin: 0.5rem;
     }
 }
 `;

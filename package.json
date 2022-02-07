@@ -32,6 +32,7 @@
     "doc": "docs"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
     "gadjet": "^0.1.6",
     "highlight.js": "^11.4.0",
     "parcel": "^2.2.1",

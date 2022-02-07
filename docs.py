@@ -27,7 +27,7 @@ def icon_json():
 
 async def engrave():
     proc = await asyncio.create_subprocess_shell(
-        'engrave dev docs-src docs --server=127.0.0.1:8000'
+        'engrave dev docs-src docs --server=0.0.0.0:8000'
     )
     await proc.communicate()
     proc.terminate()

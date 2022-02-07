@@ -1,19 +1,3 @@
-<h1 style="text-align: center;">Adwaita Icon Web 2.1.1</h1>
-<h2 style="text-align: center;">Adwaita Symbolic Icons for Website</h2>
-
-<p style="text-align: center;">
-    <a class="github-button"
-            href="https://github.com/nitipit/adwaita-icon-web"
-            data-size="large" aria-label="Star nitipit/adwaita-icon-web on GitHub">
-        Github
-    </a>
-</p>
-
-<p style="text-align: center;">
-    <img src="adwaita-screenshot.png"
-        style="width: 100%; max-width: 600px;">
-</p>
-
 ## Features <el-icon set="adwaita" name="starred"></el-icon>
 ---
 

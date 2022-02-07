@@ -3,6 +3,10 @@
     src: url('./asset/font/Fira_Sans/FiraSans-Regular.ttf');
 }
 
+body {
+    margin: 0;
+}
+
 .container {
     max-width: 50rem;
     margin: auto;

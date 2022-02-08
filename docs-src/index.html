@@ -1,45 +1,34 @@
 {% extends '_base.html' %}
 
 {% block head %}
-<link rel="stylesheet" href="./index.css?v={{_v}}">
-<script type="module">
-class IconGrid extends HTMLElement {
-    constructor() {
-        super();
-    }
-
-    render(icon) {
-        this.innerHTML = `
-            <el-icon set="adwaita" name="${icon}"></el-icon>
-            <div class="name">${icon}</div>
-        `
-    }
-}
-
-class IconManager extends HTMLElement {
-    constructor() {
-        super();
-    }
-
-    async connectedCallback() {
-        let response = await fetch('./icons.json');
-        response = await response.json();
-        for (let icon of response.icons) {
-            let icon_grid = document.createElement('el-icon-grid');
-            icon_grid.render(icon);
-            this.appendChild(icon_grid);
-        }
-    }
-}
-
-customElements.define('el-icon-grid', IconGrid);
-customElements.define('el-icon-manager', IconManager);
-</script>
+<link rel="stylesheet" href="index.css?v={{_v}}">
+<script defer type="module" src="index.js?v={{_v}}"></script>
 {% endblock %}
 
 {% block body %}
-<div class="container">
+<div id="hl1">
+    <div class="container flex" style="position: relative; top: -2rem;">
+        <h1 style="text-align: center;">Adwaita Icon Web <sub><el-badge>v41</el-badge></sub></h1>
+        <h2 style="text-align: center;">Adwaita Symbolic Icons for HTML5</h2>
+        <div class="row flex" style="font-size: 3rem; margin-top: 2rem;">
+            <el-icon set="adwaita" name="alarm"></el-icon>
+            <el-icon set="adwaita" name="ac-adapter" class="red"></el-icon>
+            <el-icon set="adwaita" name="auth-fingerprint"></el-icon>
+            <el-icon set="adwaita" name="emblem-favorite" class="red"></el-icon>
+            <el-icon set="adwaita" name="emoji-body"></el-icon>
+        </div>
+        <div class="row flex" style="margin-top: 2rem;">
+            <a href="https://github.com/nitipit/adwaita-icon-web">
+                <button style="font-size: 1.5rem;">Github</button>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="container text">
 {{ markdown('index.html.md') }}
 </div>
-<el-icon-manager class="container"></el-icon-manager>
+<div id="icons">
+    <h2>Icons</h2>
+    <el-icon-manager class="container text"></el-icon-manager>
+</div>
 {% endblock body %}

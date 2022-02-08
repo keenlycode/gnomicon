@@ -25,13 +25,19 @@ def icon_json():
         json.dump(icons, file)
 
 
-async def build():
+async def engrave():
     proc = await asyncio.create_subprocess_shell(
-        'engrave dev docs-src docs --server=127.0.0.1:8000'
+        'engrave dev docs-src docs --server=0.0.0.0:8000'
     )
     await proc.communicate()
     proc.terminate()
 
+async def parcel():
+    proc = await asyncio.create_subprocess_shell(
+        "npx parcel watch --no-cache 'docs-src/**/*.(css|scss|sass|js|ts|png|jpg)' " + \
+        "--dist-dir=docs"
+    )
+    await proc.communicate()
 
 def lib():
     lib_dir = _dir.joinpath('docs/lib')
@@ -39,11 +45,6 @@ def lib():
     shutil.copytree(
         _dir.joinpath('dist'),
         lib_dir.joinpath('adwaita-icon-web'),
-        dirs_exist_ok=True)
-
-    shutil.copytree(
-        _dir.joinpath('node_modules/packet-ui'),
-        lib_dir.joinpath('packet-ui'),
         dirs_exist_ok=True)
 
     shutil.copytree(
@@ -64,7 +65,10 @@ async def http_server():
 async def main():
     icon_json()
     lib()
-    await asyncio.gather(build())
+    await asyncio.gather(
+        engrave(),
+        parcel()
+    )
 
 
 if __name__ == '__main__':

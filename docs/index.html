@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KF7F9WZ');</script>
+<!-- End Google Tag Manager -->
+
+<meta charset="utf-8" />
+<meta name="description" content="Adwaita symbolic icon for HTML5" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="./base.css?v=6" />
+
+<!-- Icon Setup -->
+<link rel="preload" icon set="adwaita"
+    href="./lib/adwaita-icon-web/adwaita.svg?v=6"
+    as="image" type="image/svg+xml">
+
+<link rel="stylesheet" href="./lib/highlight.js/styles/atom-one-dark.css?v=6">
+<script async defer src="https://buttons.github.io/buttons.js?v=6"></script>
+<script defer src="./base.js?v=6"></script>
+
+<title>Adwaita Icon Web</title>
+
+<link rel="stylesheet" href="index.css?v=6">
+<script defer type="module" src="index.js?v=6"></script>
+
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KF7F9WZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="hl1">
+    <div class="container flex" style="position: relative; top: -2rem;">
+        <h1 style="text-align: center;">Adwaita Icon Web <sub><el-badge>v41</el-badge></sub></h1>
+        <h2 style="text-align: center;">Adwaita Symbolic Icons for HTML5</h2>
+        <div class="row flex" style="font-size: 3rem; margin-top: 2rem;">
+            <el-icon set="adwaita" name="alarm"></el-icon>
+            <el-icon set="adwaita" name="ac-adapter" class="red"></el-icon>
+            <el-icon set="adwaita" name="auth-fingerprint"></el-icon>
+            <el-icon set="adwaita" name="emblem-favorite" class="red"></el-icon>
+            <el-icon set="adwaita" name="emoji-body"></el-icon>
+        </div>
+        <div class="row flex" style="margin-top: 2rem;">
+            <a href="https://github.com/nitipit/adwaita-icon-web">
+                <button style="font-size: 1.5rem;">Github</button>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="container text">
+<h2>Features</h2>
+<hr />
+<ul>
+<li>500+ well designed icons from
+<a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">adwaita-icon-theme</a> v41</li>
+<li>Use <strong>SVG Icons</strong> for sharpness, scalable, easily to customize
+and make animation with <strong>CSS</strong> &amp; <strong>Javascript</strong>.</li>
+<li>Provide <code>icon.js</code> to use SVG Sprite as <strong>[Web Components]</strong></li>
+</ul>
+<h2>Update in v.41</h2>
+<hr />
+<h3 style="text-align: center;">Version skip to 41 follow GNOME version.</h3>
+<h3 style="text-align: center;">New Icons</h3>
+<div class="flex" style="align-items: flex-start; font-size: 2rem;">
+    <el-icon-grid>
+        <el-icon set="adwaita" name="edit-clear-rtl"></el-icon>
+        <div class="name">edit-clear-rtl</div>
+    </el-icon-grid>
+    <el-icon-grid>
+        <el-icon set="adwaita" name="sidebar-show-right-rtl"></el-icon>
+        <div class="name">sidebar-show-right-rtl</div>
+    </el-icon-grid>
+    <el-icon-grid>
+        <el-icon set="adwaita" name="sidebar-show-right"></el-icon>
+        <div class="name">sidebar-show-right</div>
+    </el-icon-grid>
+</div>
+<h2>SVG icon explain</h2>
+<hr />
+<p><strong>Adwaita Icon Web</strong> can be used by codes below. Even though
+<strong>it's not recommended</strong>, this is how <strong>SVG Icons</strong> work on browser
+without other libraries or dependencies.</p>
+<pre><code class="language-html">&lt;!-- Using from SVG Sprite --&gt;
+&lt;svg style=&quot;width: 1em; height: 1em;&quot;&gt;
+    &lt;use xlink:href=&quot;/path/to/adwaita-icon-web/dist/adwaita.svg#call-outgoing&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;
+</code></pre>
+<blockquote>
+<p>You can also use each SVG Icons in <code>adwaita-icon-web/dist/svg/</code>,<br />
+Read furthur information about SVG in HTML at
+<a href="https://css-tricks.com/using-svg/">Using SVG</a>,
+<a href="https://css-tricks.com/svg-symbol-good-choice-icons/">SVG Symbol</a>
+from <a href="https://css-tricks.com">CSS Tricks</a></p>
+</blockquote>
+<p>However, this project provides javascript libraries to make it easier to use.
+With some setup codes, we can use icons by codes below.</p>
+<pre><code class="language-html">&lt;el-icon set=&quot;adwaita&quot; name=&quot;call-outgoing&quot;&gt;&lt;/el-icon&gt;
+</code></pre>
+<h2>Install</h2>
+<hr />
+<pre><code class="language-shell">$ npm install adwaita-icon-web
+</code></pre>
+<h2>Set Up</h2>
+<hr />
+<pre><code class="language-html">&lt;!-- In HTML &lt;head&gt; section --&gt;
+&lt;!-- Load adwaita.svg --&gt;
+&lt;link icon
+    rel=&quot;preload&quot;
+    set=&quot;adwaita&quot;
+    href=&quot;/path/to/adwaita-icon-web/dist/adwaita.svg&quot;
+    as=&quot;image&quot; type=&quot;image/svg+xml&quot;&gt;
+
+&lt;!-- Import icon.js --&gt;
+&lt;script type=&quot;module&quot;&gt;
+import {Icon} from '/path/to/adwaita-icon-web/dist/icon.js';
+customElements.define('el-icon', Icon);  // define custom element for icons
+&lt;/script&gt;
+</code></pre>
+<h3>:: Explanation</h3>
+<p>In the codes above, there're 3 steps to set up icons.</p>
+<ol>
+<li>Use <code>set</code> attribute to indentify icon set in <code>&lt;link icon&gt;</code> (adwaita).</li>
+<li>Provide icon url by <code>href</code> attribute in <code>&lt;link icon&gt;</code>.</li>
+<li>Define custom elements for icons using javascript.</li>
+</ol>
+<h2>Usage</h2>
+<hr />
+<p>Icon can be rendered by using <code>&lt;el-icon&gt;</code> (or whatever it has been defined to)
+provide with specific <code>set</code> and icon's <code>name</code> which are listed in
+<a href="#icon-list"><strong>Icon List</strong></a> section.</p>
+<pre><code class="language-html">&lt;el-icon set=&quot;adwaita&quot; name=&quot;printer-error&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;dialog-warning&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;appointment-soon&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;battery-level-20&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;call-outgoing&quot;&gt;&lt;/el-icon&gt;
+</code></pre>
+<div style="font-size: 3rem;">
+<el-icon set="adwaita" name="printer-error"></el-icon>
+<el-icon set="adwaita" name="dialog-warning"></el-icon>
+<el-icon set="adwaita" name="appointment-soon"></el-icon>
+<el-icon set="adwaita" name="battery-level-20"></el-icon>
+<el-icon set="adwaita" name="call-outgoing"></el-icon>
+</div>
+<h3>:: Color</h3>
+<p><strong>CSS</strong> <code>color</code> property can be used to set icon's color.</p>
+<pre><code class="language-html">&lt;el-icon set=&quot;adwaita&quot; name=&quot;call-outgoing&quot; style=&quot;color: #2196F3;&quot;&gt;&lt;/el-icon&gt;
+</code></pre>
+<div style="color: #2196F3; font-size: 3rem;">
+    <el-icon set="adwaita" name="printer-error"></el-icon>
+    <el-icon set="adwaita" name="dialog-warning"></el-icon>
+    <el-icon set="adwaita" name="appointment-soon"></el-icon>
+    <el-icon set="adwaita" name="battery-level-20"></el-icon>
+    <el-icon set="adwaita" name="call-outgoing"></el-icon>
+</div>
+<h3>:: Scale</h3>
+<p><strong>CSS</strong> <code>font-size</code> property can be used to scale icons.</p>
+<pre><code class="language-html">&lt;el-icon set=&quot;adwaita&quot; name=&quot;printer-error&quot; style=&quot;font-size: 1rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;dialog-warning&quot; style=&quot;font-size: 1.5rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;appointment-soon&quot; style=&quot;font-size: 2.0rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;battery-level-20&quot; style=&quot;font-size: 2.5rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon set=&quot;adwaita&quot; name=&quot;call-outgoing&quot; style=&quot;font-size: 3rem;&quot;&gt;&lt;/el-icon&gt;
+</code></pre>
+<p><el-icon set="adwaita" name="printer-error" style="font-size: 1rem;"></el-icon>
+<el-icon set="adwaita" name="dialog-warning" style="font-size: 1.5rem;"></el-icon>
+<el-icon set="adwaita" name="appointment-soon" style="font-size: 2.0rem;"></el-icon>
+<el-icon set="adwaita" name="battery-level-20" style="font-size: 2.5rem;"></el-icon>
+<el-icon set="adwaita" name="call-outgoing" style="font-size: 3rem;"></el-icon></p>
+<h2>Use resources from CDN</h2>
+<hr />
+<p>Using resources from NPM CDN doesn't require installation via <strong>npm</strong>.
+However, since many <strong>CDN</strong> use <strong>https://</strong>, please note that
+webpage have to serve on <strong>https://</strong> otherwise browsers will reject
+to load <strong>CDN</strong> resources. (You can check error on browser debug console)</p>
+<pre><code class="language-html">&lt;!-- In HTML &lt;head&gt; section --&gt;
+
+&lt;!-- Load adwaita.svg --&gt;
+&lt;link rel=&quot;preload&quot;
+    icon set=&quot;adwaita&quot;
+    href=&quot;//unpkg.com/adwaita-icon-web@41/dist/adwaita.svg&quot;
+    as=&quot;image&quot; type=&quot;image/svg+xml&quot;&gt;
+
+&lt;!-- Import icon.js --&gt;
+&lt;script type=&quot;module&quot;&gt;
+import {Icon} from '//unpkg.com/adwaita-icon-web@41/dist/icon.js';
+customElements.define('el-icon', Icon);  // define custom element for icons
+&lt;/script&gt;
+</code></pre>
+<h2>Note</h2>
+<hr />
+<p>Since most web browser will block external file access,
+<code>adwaita.svg</code> should be served on <strong>http://</strong> or <strong>https://</strong></p>
+<p>For unsupport web browser,
+<a href="https://github.com/jonathantneal/svg4everybody">svg4everybody</a>
+is recommended.</p>
+
+</div>
+<div id="icons">
+    <h2>Icons</h2>
+    <el-icon-manager class="container text"></el-icon-manager>
+</div>
+
+</body>
+</html>

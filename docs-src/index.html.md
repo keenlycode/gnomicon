@@ -3,9 +3,30 @@
 
 - 500+ well designed icons from
   [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v41
-- Use <strong>[SVG Icons]</strong> for sharpness, scalable, easily to customize
-  and make animation with css & javascript.
-- Provide icon.js to use SVG Sprite as <strong>[Web Components]</strong>
+- Use **SVG Icons** for sharpness, scalable, easily to customize
+  and make animation with **CSS** & **Javascript**.
+- Provide `icon.js` to use SVG Sprite as <strong>[Web Components]</strong>
+
+## Update in v.41
+---
+
+<h3 style="text-align: center;">Version skip to 41 follow GNOME version.</h3>
+
+<h3 style="text-align: center;">New Icons</h3>
+<div class="flex" style="align-items: flex-start; font-size: 2rem;">
+    <el-icon-grid>
+        <el-icon set="adwaita" name="edit-clear-rtl"></el-icon>
+        <div class="name">edit-clear-rtl</div>
+    </el-icon-grid>
+    <el-icon-grid>
+        <el-icon set="adwaita" name="sidebar-show-right-rtl"></el-icon>
+        <div class="name">sidebar-show-right-rtl</div>
+    </el-icon-grid>
+    <el-icon-grid>
+        <el-icon set="adwaita" name="sidebar-show-right"></el-icon>
+        <div class="name">sidebar-show-right</div>
+    </el-icon-grid>
+</div>
 
 ## SVG icon explain
 ---

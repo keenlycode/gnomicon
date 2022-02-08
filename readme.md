@@ -6,53 +6,14 @@
         style="width: 100%;">
 </p>
 
-## Features <el-icon theme="adwaita" name="starred"></el-icon>
+## Features
 ---
-
 - 500+ well designed icons from
-  [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v40.1
-- Use <strong>[SVG Icons]</strong> for sharpness, scalable, easily to customize
-  and make animation with **CSS** & **Javascript.**
-- Provide `icon.js` to use **SVG** Sprite as <strong>[Web Components]</strong>
+  [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v41
+- Use **SVG Icons** for sharpness, scalable, easily to customize
+  and make animation with **CSS** & **Javascript**.
+- Provide `icon.js` to use SVG Sprite as <strong>[Web Components]</strong>
 
-## Documentation
+## Website
 ---
 https://nitipit.github.io/adwaita-icon-web/
-
-## Changelog ver 41
----
-
-New icons
-```
-src/adwaita-scalable/actions/edit-clear-rtl-symbolic.svg
-src/adwaita-scalable/actions/sidebar-show-right-rtl-symbolic.svg
-src/adwaita-scalable/actions/sidebar-show-right-symbolic.svg
-src/adwaita-scalable/actions/sidebar-show-rtl-symbolic.svg
-```
-
-## Changelog ver 2.1.1
----
-Based on [adwaita-icon-theme 40.1](https://gitlab.gnome.org/GNOME/adwaita-icon-theme)
-
-### Added :
-```
-status/bluetooth-disconnected-symbolic.svg  
-status/network-cellular-5g-symbolic.svg  
-status/night-light-disabled-symbolic.svg  
-status/power-profile-balanced-symbolic.svg  
-status/power-profile-performance-symbolic.svg  
-status/power-profile-power-saver-symbolic.svg  
-```
-
-### Modified :
-```
-actions/chat-message-new-symbolic.svg  
-actions/contact-new-symbolic.svg  
-status/display-brightness-symbolic.svg  
-status/night-light-symbolic.svg  
-status/weather-snow-symbolic.svg  
-ui/pan-down-symbolic.svg  
-ui/pan-end-symbolic.svg  
-ui/pan-start-symbolic.svg  
-ui/pan-up-symbolic.svg
-```

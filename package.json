@@ -1,7 +1,7 @@
 {
     "name": "adwaita-icon-web",
-    "version": "41.0dev",
-    "description": "Symbolic Adwaita icons for website",
+    "version": "41",
+    "description": "Adwaita symbolic icons for HTML5",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/nitipit/adwaita-icon-web.git"

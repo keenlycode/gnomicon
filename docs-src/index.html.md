@@ -1,8 +1,8 @@
-## Features <el-icon set="adwaita" name="starred"></el-icon>
+## Features
 ---
 
 - 500+ well designed icons from
-  [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v40
+  [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v41
 - Use <strong>[SVG Icons]</strong> for sharpness, scalable, easily to customize
   and make animation with css & javascript.
 - Provide icon.js to use SVG Sprite as <strong>[Web Components]</strong>
@@ -136,12 +136,12 @@ to load **CDN** resources. (You can check error on browser debug console)
 <!-- Load adwaita.svg -->
 <link rel="preload"
     icon set="adwaita"
-    href="//unpkg.com/adwaita-icon-web@2.1.1/dist/adwaita.svg"
+    href="//unpkg.com/adwaita-icon-web@41/dist/adwaita.svg"
     as="image" type="image/svg+xml">
 
 <!-- Import icon.js -->
 <script type="module">
-import {Icon} from '//unpkg.com/adwaita-icon-web@2.1.1/dist/icon.js';
+import {Icon} from '//unpkg.com/adwaita-icon-web@41/dist/icon.js';
 customElements.define('el-icon', Icon);  // define custom element for icons
 </script>
 ```
@@ -152,8 +152,6 @@ customElements.define('el-icon', Icon);  // define custom element for icons
 Since most web browser will block external file access,
 `adwaita.svg` should be served on **http://** or **https://**
 
-For unsupport web browser, <a href="https://github.com/jonathantneal/svg4everybody">svg4everybody</a> is recommended.
-
-<h2 id="icon-list">Icon List</h2>
-
----
+For unsupport web browser,
+<a href="https://github.com/jonathantneal/svg4everybody">svg4everybody</a>
+is recommended.

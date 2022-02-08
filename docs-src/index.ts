@@ -3,7 +3,7 @@ import { define, StyledElement } from 'gadjet/src/ui/ui';
 import { bgColor} from 'gadjet/src/style/bg-color';
 import { Button } from 'gadjet/src/ui/button/button';
 import { Badge } from 'gadjet/src/ui/badge/badge';
-import { theme } from './color';
+import { theme, pallete } from './color';
 
 define('el-badge', Badge);
 
@@ -73,5 +73,13 @@ addStyle`
     el-icon {
         margin: 0.5rem;
     }
+}
+
+#icons {
+    padding-top: 2rem;
+    ${bgColor(theme.eggShell)}
+    h2 {
+        text-align: center;
+        margin: 0;
 }
 `;

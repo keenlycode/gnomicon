@@ -1,9 +1,10 @@
 import hljs from 'highlight.js'
-import { Icon } from '../dist/icon.js';
+import { Icon } from '@nitipit/icon';
 import { addStyle } from 'gadjet/src/style/add-style';
 import { fontFluid } from 'gadjet/src/style/font-fluid';
 import { theme, pallete } from './color';
 
+Icon.href = './lib/gnomicon/icon.svg';
 customElements.define('el-icon', Icon);
 hljs.highlightAll();
 

@@ -44,7 +44,7 @@ def lib():
     lib_dir.mkdir(parents=True, exist_ok=True)
     shutil.copytree(
         _dir.joinpath('dist'),
-        lib_dir.joinpath('gnome-icon'),
+        lib_dir.joinpath('gnomicon'),
         dirs_exist_ok=True)
 
     shutil.copytree(

@@ -19,7 +19,7 @@ class IconGrid extends StyledElement {
 
     render(icon) {
         this.innerHTML = `
-            <el-icon set="gnome" name="${icon}"></el-icon>
+            <el-icon name="${icon}"></el-icon>
             <div class="name">${icon}</div>
         `
     }

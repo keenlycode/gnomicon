@@ -1,8 +1,8 @@
 ## Features
 ---
 
-- 500+ well designed icons from
-  [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) v41
+- 1,200+ well designed icons from https://gitlab.gnome.org/Teams/Design/icon-development-kit-www
+
 - Use **SVG Icons** for sharpness, scalable, easily to customize
   and make animation with **CSS** & **Javascript**.
 - Provide `icon.js` to use SVG Sprite as <strong>[Web Components]</strong>

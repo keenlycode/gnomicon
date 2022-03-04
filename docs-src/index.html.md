@@ -1,11 +1,9 @@
 ## Features
 ---
 
-- 1,200+ well designed icons from https://gitlab.gnome.org/Teams/Design/icon-development-kit-www
-
+- 1,200+ well designed icons from [Gnome project](https://gitlab.gnome.org/Teams/Design/icon-development-kit-www)
 - Use **SVG Icons** for sharpness, scalable, easily to customize
   and make animation with **CSS** & **Javascript**.
-- Provide `icon.js` to use SVG Sprite as <strong>[Web Components]</strong>
 
 ## Update in v.41
 ---

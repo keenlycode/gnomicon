@@ -1,9 +1,10 @@
 {
   "devDependencies": {
     "@parcel/transformer-sass": "^2.3.2",
-    "parcel": "^2.3.2",
     "gadjet": "^0.1.9",
     "highlight.js": "^11.4.0",
-    "sass": "^1.49.9"
+    "parcel": "^2.3.2",
+    "sass": "^1.49.9",
+    "@nitipit/icon": "^0.0.6"
   }
 }

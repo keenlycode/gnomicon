@@ -3,10 +3,16 @@ import { Icon } from '@nitipit/icon';
 import { addStyle } from 'gadjet/src/style/add-style';
 import { fontFluid } from 'gadjet/src/style/font-fluid';
 import { theme, pallete } from './color';
+import { define } from 'gadjet/src/ui/ui';
+import { Tag } from 'gadjet/src/ui/tag/tag';
+import { bgColor } from 'gadjet/src/style';
 
 Icon.href = './lib/gnomicon/icon.svg';
 customElements.define('el-icon', Icon);
 hljs.highlightAll();
+
+define('el-tag', Tag);
+Tag.tagStyle({color: theme.dimGray});
 
 addStyle`
 html {
@@ -26,6 +32,16 @@ h2 ~ hr {
 
 h1, h2 {
     color: ${theme.greenBlueCrayola};
+}
+
+blockquote {
+    margin: 0;
+    border-left: 5px solid ${theme.dimGray};
+    padding: 0.5rem 0.25rem 0.5rem 1rem;
+    ${bgColor(theme.eggShell)}
+    blockquote {
+        padding-right: 0;
+    }
 }
 
 .blue {

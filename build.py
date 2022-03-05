@@ -5,6 +5,7 @@ from xml.etree import ElementTree
 import asyncio
 import shutil
 
+_dir = Path(__file__).parent
 
 async def icon_svg():
     src_dir = Path(__file__).parent.joinpath('src', 'icon')
@@ -70,16 +71,17 @@ async def icon_svg():
     svg_symbol.write(adwaita_path)
 
 
-async def icon_web_component():
-    src = Path(__file__).parent.joinpath('src', 'web-components', 'icon.js')
-    dest = Path(__file__).parent.joinpath('dist')
+async def icon_js():
+    src = _dir.joinpath('node_modules/@nitipit/icon/dist/icon.js')
+    dest = _dir.joinpath('dist')
+    print(f"copy: {src} -> {dest}")
     shutil.copy(src, dest)
 
 
 async def main():
     await asyncio.gather(
         icon_svg(),
-        icon_web_component(),
+        icon_js(),
     )
 
 asyncio.run(main())

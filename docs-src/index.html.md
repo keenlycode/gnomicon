@@ -65,14 +65,18 @@ $ npm install gnomicon
 
 Firstly, we need to import `Icon` and define it to html custom tag.
 
-<el-tag class="title-block">javascript <code>\<script defer></code></el-tag>
+<el-tag class="title-block bg-red">Important !</el-tag>
+> Javascript must be included in html with `<script defer>`
 
+<el-tag class="title-block">javascript <code>\<script defer></code></el-tag>
 ```js
 import { Icon } from 'gnomicon/dist/icon.js';
 
 customElements.define('el-icon', Icon);
 Icon.href = "path/to/gnomicon/dist/icon.svg"
 ```
+
+Then, we can use icon via tag `<el-icon name="icon-name">`, for example.
 
 <el-tag class="title-block">html</el-tag>
 ```html
@@ -91,7 +95,7 @@ Icon.href = "path/to/gnomicon/dist/icon.svg"
 <el-icon name="call-outgoing"></el-icon>
 </div>
 
-### :: Color
+### Color
 
 **CSS** `color` property can be used to set icon's color.
 
@@ -106,7 +110,7 @@ Icon.href = "path/to/gnomicon/dist/icon.svg"
     <el-icon name="call-outgoing"></el-icon>
 </div>
 
-### :: Scale
+### Scale
 
 **CSS** `font-size` property can be used to scale icons.
 
@@ -132,20 +136,12 @@ However, since many **CDN** use **https://**, please note that
 webpage have to serve on **https://** otherwise browsers will reject
 to load **CDN** resources. (You can check error on browser debug console)
 
-```html
-<!-- In HTML <head> section -->
+<el-tag class="title-block">js <code>\<script defer></code></el-tag>
+```js
+import {Icon} from '//unpkg.com/gnomicon@1/dist/icon.js';
+customElements.define('el-icon', Icon);
 
-<!-- Load adwaita.svg -->
-<link rel="preload"
-    icon set="gnomicon"
-    href="//unpkg.com/gnomicon@41/dist/adwaita.svg"
-    as="image" type="image/svg+xml">
-
-<!-- Import icon.js -->
-<script type="module">
-import {Icon} from '//unpkg.com/gnomicon@41/dist/icon.js';
-customElements.define('el-icon', Icon);  // define custom element for icons
-</script>
+Icon.href = '//unpkg.com/gnomicon@1/dist/icon.svg';
 ```
 
 ## Note

@@ -37,7 +37,7 @@ h1, h2 {
 blockquote {
     margin: 0;
     border-left: 5px solid ${theme.dimGray};
-    padding: 0.5rem 0.25rem 0.5rem 1rem;
+    padding: 0.25rem 0.25rem 0.25rem 1rem;
     ${bgColor(theme.eggShell)}
     blockquote {
         padding-right: 0;
@@ -71,5 +71,7 @@ blockquote {
 .dark {
     color: ${pallete.dark}
 }
-.
+.bg-red {
+    ${bgColor(pallete.red)}
+}
 `;

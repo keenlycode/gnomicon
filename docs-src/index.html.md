@@ -16,7 +16,7 @@ without other libraries or dependencies.
 ```html
 <!-- Using from SVG Sprite -->
 <svg style="width: 1em; height: 1em;">
-    <use xlink:href="/path/to/gnomicon/dist/adwaita.svg#call-outgoing"></use>
+    <use xlink:href="/path/to/gnomicon/dist/icon.svg#call-outgoing"></use>
 </svg>
 ```
 > You can also use each SVG Icons in `gnomicon/dist/svg/`,  
@@ -127,7 +127,7 @@ Icon.href = '//unpkg.com/gnomicon@1/dist/icon.svg';
 ---
 
 Since most web browser will block external file access,
-`adwaita.svg` should be served on **http://** or **https://**
+`icon.svg` should be served on **http://** or **https://**
 
 For unsupport web browser,
 <a href="https://github.com/jonathantneal/svg4everybody">svg4everybody</a>

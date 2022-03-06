@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns1:docname="power-profile-power-saver-symbolic.svg" ns2:export-filename="/home/sam/source-symbolic.png" ns2:export-xdpi="270" ns2:export-ydpi="270" height="16" id="svg7384" version="1.1" ns2:version="1.0.1 (3bc2e813f5, 2020-09-07)" width="16">
+  <ns1:namedview ns2:bbox-nodes="true" ns2:bbox-paths="false" bordercolor="#000000" borderlayer="false" borderopacity="0.50196078" ns2:current-layer="layer1" ns2:cx="165.14999" ns2:cy="183.13664" ns2:document-rotation="0" gridtolerance="10" ns2:guide-bbox="true" guidetolerance="10" id="namedview88" ns2:measure-end="0,0" ns2:measure-start="0,0" ns2:object-nodes="true" ns2:object-paths="true" objecttolerance="10" pagecolor="#e2e2e2" ns2:pageopacity="0" ns2:pageshadow="2" showborder="false" showgrid="false" showguides="false" ns2:showpageshadow="false" ns2:snap-bbox="true" ns2:snap-bbox-edge-midpoints="false" ns2:snap-bbox-midpoints="true" ns2:snap-center="false" ns2:snap-global="true" ns2:snap-grids="true" ns2:snap-intersection-paths="false" ns2:snap-midpoints="true" ns2:snap-nodes="true" ns2:snap-object-midpoints="true" ns2:snap-others="true" ns2:snap-page="false" ns2:snap-smooth-nodes="true" ns2:snap-to-guides="true" ns2:window-height="1376" ns2:window-maximized="0" ns2:window-width="2560" ns2:window-x="26" ns2:window-y="23" ns2:zoom="1">
+    <ns2:grid dotted="false" empcolor="#0800ff" empopacity="0.4627451" empspacing="4" enabled="true" id="grid4866" opacity="0.16470588" originx="-292" originy="-72" snapvisiblegridlinesonly="true" spacingx="1" spacingy="1" type="xygrid" visible="true" />
+    <ns2:grid dotted="true" empcolor="#3f3fff" empopacity="0" empspacing="4" id="grid3540" originx="-292" originy="-72" spacingx="0.5" spacingy="0.5" type="xygrid" />
+  </ns1:namedview>
+  <metadata id="metadata90">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icons</dc:title>
+        <ns4:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </ns4:Work>
+      <ns4:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <ns4:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <ns4:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <ns4:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+        <ns4:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <ns4:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <ns4:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </ns4:License>
+    </rdf:RDF>
+  </metadata>
+  <title id="title8473">Gnome Symbolic Icons</title>
+  <defs id="defs7386" />
+  <g ns2:groupmode="layer" id="layer10" ns2:label="ui" transform="translate(-292,-72)" />
+  <g ns2:groupmode="layer" id="layer1" ns2:label="status" transform="translate(-292,-8)">
+    
+    <path d="m 300,9.005859 c -2.049,0 -4.09825,0.779891 -5.65625,2.337891 -3.116,3.116 -3.116,8.1965 0,11.3125 a 1,1 0 0 0 1.69922,-0.890625 c 0.1415,-0.02719 0.28041,-0.09646 0.39648,-0.216797 l 2.72461,-2.732422 A 2,2 0 0 0 300,19 a 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 2,2 0 0 0 -2,2 2,2 0 0 0 0.13477,0.716797 l -2.75977,2.769531 c -0.0532,0.05206 -0.0879,0.117606 -0.12305,0.181641 A 5.984,5.984 0 0 1 294.01562,17.5 H 295 v -1 h -0.98438 a 5.984,5.984 0 0 1 1.40235,-3.375 l 0.69336,0.693359 0.70703,-0.707031 -0.69141,-0.691406 A 5.984,5.984 0 0 1 299.5,11.015625 V 12 h 1 v -0.984375 a 5.984,5.984 0 0 1 3.375,1.402344 l -0.69141,0.693359 0.70703,0.707031 0.69141,-0.693359 a 5.984,5.984 0 0 1 1.40235,3.375 H 305 v 1 h 0.98438 a 5.984,5.984 0 0 1 -1.40235,3.375 l -0.69336,-0.693359 -0.70703,0.707031 0.79688,0.796875 a 1,1 0 0 0 1.67773,0.970703 c 3.116,-3.116 3.116,-8.1965 0,-11.3125 A 7.975,7.975 0 0 0 300,9.005859 Z" id="path2-1" />
+  </g>
+  <g ns2:groupmode="layer" id="layer11" ns2:label="legacy" transform="translate(-292,-72)" />
+  <g ns2:groupmode="layer" id="layer7" ns2:label="places" transform="translate(-292,-8)" />
+  <g ns2:groupmode="layer" id="layer6" ns2:label="mimetypes" transform="translate(-292,-8)" />
+  <g ns2:groupmode="layer" id="layer5" ns2:label="emotes" transform="translate(-292,-8)" />
+  <g ns2:groupmode="layer" id="layer9" ns2:label="emblems" transform="translate(-292,-8)" />
+  <g ns2:groupmode="layer" id="layer2" ns2:label="devices" transform="translate(-292,-8)" />
+  <g ns2:groupmode="layer" id="layer8" ns2:label="categories" transform="translate(-292,-8)" />
+  <g ns2:groupmode="layer" id="layer3" ns2:label="apps" transform="translate(-292,-8)" />
+  <g ns2:groupmode="layer" id="layer4" ns2:label="actions" transform="translate(-292,-8)" />
+</svg>

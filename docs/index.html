@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KF7F9WZ');</script>
+<!-- End Google Tag Manager -->
+
+<meta charset="utf-8" />
+<meta name="description" content="Gnome symbolic icon for HTML5" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="./base.css?v=6" />
+
+<link rel="stylesheet" href="./lib/highlight.js/styles/atom-one-dark.css?v=6">
+<script async defer src="https://buttons.github.io/buttons.js?v=6"></script>
+<script defer src="./base.js?v=6"></script>
+
+<title>Gnomicon</title>
+
+<link rel="stylesheet" href="index.css?v=6">
+<script defer type="module" src="index.js?v=6"></script>
+
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KF7F9WZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="hl1">
+    <div class="container flex" style="position: relative; top: -2rem;">
+        <h1 style="text-align: center;">Gnomicon<sub><el-badge>v1</el-badge></sub></h1>
+        <el-tag>2022-03-03</el-tag>
+        <h2 style="text-align: center; margin-top: 1rem;">Gnome Symbolic Icons for HTML5</h2>
+        <div class="row flex" style="font-size: 3rem; margin-top: 2rem;">
+            <el-icon set="gnome" name="alarm"></el-icon>
+            <el-icon set="gnome" name="ac-adapter" class="red"></el-icon>
+            <el-icon set="gnome" name="auth-fingerprint"></el-icon>
+            <el-icon set="gnome" name="emblem-favorite" class="red"></el-icon>
+            <el-icon set="gnome" name="emoji-body"></el-icon>
+        </div>
+        <div class="row flex" style="margin-top: 2rem;">
+            <a href="https://github.com/nitipit/adwaita-icon-web">
+                <button style="font-size: 1.5rem;">Github</button>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="container text">
+<h2>Features</h2>
+<hr />
+<ul>
+<li>1,200+ well designed icons from <a href="https://gitlab.gnome.org/Teams/Design/icon-development-kit-www">Gnome project</a>
+and <a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">adwaita-icon-theme</a></li>
+<li>Use <strong>SVG Icons</strong> for sharpness, scalable, easily to customize
+and make animation with <strong>CSS</strong> &amp; <strong>Javascript</strong>.</li>
+</ul>
+<h2>SVG icon explain</h2>
+<hr />
+<p><strong>Gnomicon</strong> can be used by codes below. Even though
+<strong>it's not recommended</strong>, this is how <strong>SVG Icons</strong> work on browser
+without other libraries or dependencies.</p>
+<pre><code class="language-html">&lt;!-- Using from SVG Sprite --&gt;
+&lt;svg style=&quot;width: 1em; height: 1em;&quot;&gt;
+    &lt;use xlink:href=&quot;/path/to/gnomicon/dist/adwaita.svg#call-outgoing&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;
+</code></pre>
+<blockquote>
+<p>You can also use each SVG Icons in <code>gnomicon/dist/svg/</code>,<br />
+Read furthur information about SVG in HTML at
+<a href="https://css-tricks.com/using-svg/">Using SVG</a>,
+<a href="https://css-tricks.com/svg-symbol-good-choice-icons/">SVG Symbol</a>
+from <a href="https://css-tricks.com">CSS Tricks</a></p>
+</blockquote>
+<p>However, this project provides javascript libraries to make it easier to use.
+With some setup codes, we can use icons by codes below.</p>
+<pre><code class="language-html">&lt;el-icon name=&quot;call-outgoing&quot;&gt;&lt;/el-icon&gt;
+</code></pre>
+<h2>Install</h2>
+<hr />
+<pre><code class="language-shell">$ npm install gnomicon
+</code></pre>
+<h2>Usage</h2>
+<hr />
+<p>Firstly, we need to import <code>Icon</code> and define it to html custom tag.</p>
+<p><el-tag class="title-block bg-red">Important !</el-tag></p>
+<blockquote>
+<p>Javascript must be included in html with <code>&lt;script defer&gt;</code></p>
+</blockquote>
+<p><el-tag class="title-block">javascript <code>&lt;script defer&gt;</code></el-tag></p>
+<pre><code class="language-js">import { Icon } from 'gnomicon/dist/icon.js';
+
+customElements.define('el-icon', Icon);
+Icon.href = &quot;path/to/gnomicon/dist/icon.svg&quot;
+</code></pre>
+<p>Then, we can use icon via tag <code>&lt;el-icon name=&quot;icon-name&quot;&gt;</code>, for example.</p>
+<p><el-tag class="title-block">html</el-tag></p>
+<pre><code class="language-html">&lt;el-icon name=&quot;printer-error&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon name=&quot;dialog-warning&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon name=&quot;appointment-soon&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon name=&quot;battery-level-20&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon name=&quot;call-outgoing&quot;&gt;&lt;/el-icon&gt;
+</code></pre>
+<div style="font-size: 3rem;">
+<el-icon name="printer-error"></el-icon>
+<el-icon name="dialog-warning"></el-icon>
+<el-icon name="appointment-soon"></el-icon>
+<el-icon name="battery-level-20"></el-icon>
+<el-icon name="call-outgoing"></el-icon>
+</div>
+<h3>Color</h3>
+<p><strong>CSS</strong> <code>color</code> property can be used to set icon's color.</p>
+<pre><code class="language-html">&lt;el-icon name=&quot;call-outgoing&quot; style=&quot;color: #2196F3;&quot;&gt;&lt;/el-icon&gt;
+</code></pre>
+<div style="color: #2196F3; font-size: 3rem;">
+    <el-icon name="printer-error"></el-icon>
+    <el-icon name="dialog-warning"></el-icon>
+    <el-icon name="appointment-soon"></el-icon>
+    <el-icon name="battery-level-20"></el-icon>
+    <el-icon name="call-outgoing"></el-icon>
+</div>
+<h3>Scale</h3>
+<p><strong>CSS</strong> <code>font-size</code> property can be used to scale icons.</p>
+<pre><code class="language-html">&lt;el-icon name=&quot;printer-error&quot; style=&quot;font-size: 1rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon name=&quot;dialog-warning&quot; style=&quot;font-size: 1.5rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon name=&quot;appointment-soon&quot; style=&quot;font-size: 2.0rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon name=&quot;battery-level-20&quot; style=&quot;font-size: 2.5rem;&quot;&gt;&lt;/el-icon&gt;
+&lt;el-icon name=&quot;call-outgoing&quot; style=&quot;font-size: 3rem;&quot;&gt;&lt;/el-icon&gt;
+</code></pre>
+<p><el-icon name="printer-error" style="font-size: 1rem;"></el-icon>
+<el-icon name="dialog-warning" style="font-size: 1.5rem;"></el-icon>
+<el-icon name="appointment-soon" style="font-size: 2.0rem;"></el-icon>
+<el-icon name="battery-level-20" style="font-size: 2.5rem;"></el-icon>
+<el-icon name="call-outgoing" style="font-size: 3rem;"></el-icon></p>
+<h2>Use resources from CDN</h2>
+<hr />
+<p>Using resources from NPM CDN doesn't require installation via <strong>npm</strong>.
+However, since many <strong>CDN</strong> use <strong>https://</strong>, please note that
+webpage have to serve on <strong>https://</strong> otherwise browsers will reject
+to load <strong>CDN</strong> resources. (You can check error on browser debug console)</p>
+<p><el-tag class="title-block">js <code>&lt;script defer&gt;</code></el-tag></p>
+<pre><code class="language-js">import {Icon} from '//unpkg.com/gnomicon@1/dist/icon.js';
+customElements.define('el-icon', Icon);
+
+Icon.href = '//unpkg.com/gnomicon@1/dist/icon.svg';
+</code></pre>
+<h2>Note</h2>
+<hr />
+<p>Since most web browser will block external file access,
+<code>adwaita.svg</code> should be served on <strong>http://</strong> or <strong>https://</strong></p>
+<p>For unsupport web browser,
+<a href="https://github.com/jonathantneal/svg4everybody">svg4everybody</a>
+is recommended.</p>
+<h2>Optimization</h2>
+<hr />
+<ol>
+<li>Use can remove unused icons in <code>src/icon/</code> and run cmd <code>python build.py</code>
+to build <code>dist/icon.svg</code> which contain only icons you need.</li>
+<li>You can go to <a href="https://icomoon.com">icomoon.com</a> and upload svg icon in
+<code>dist/svg</code> to generated <code>symbol-defs.svg</code> which contains only icons you need.</li>
+</ol>
+<div style="display: block; margin-bottom: 3rem;"></div>
+
+</div>
+<div id="icons">
+    <h2>Icons</h2>
+    <el-icon-manager class="container text"></el-icon-manager>
+</div>
+
+</body>
+</html>

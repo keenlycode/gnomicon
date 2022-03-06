@@ -6,27 +6,6 @@
 - Use **SVG Icons** for sharpness, scalable, easily to customize
   and make animation with **CSS** & **Javascript**.
 
-## Update in v.41
----
-
-<h3 style="text-align: center;">Version skip to 41 follow GNOME version.</h3>
-
-<h3 style="text-align: center;">New Icons</h3>
-<div class="flex" style="align-items: flex-start; font-size: 2rem;">
-    <el-icon-grid>
-        <el-icon name="edit-clear-rtl"></el-icon>
-        <div class="name">edit-clear-rtl</div>
-    </el-icon-grid>
-    <el-icon-grid>
-        <el-icon name="sidebar-show-right-rtl"></el-icon>
-        <div class="name">sidebar-show-right-rtl</div>
-    </el-icon-grid>
-    <el-icon-grid>
-        <el-icon name="sidebar-show-right"></el-icon>
-        <div class="name">sidebar-show-right</div>
-    </el-icon-grid>
-</div>
-
 ## SVG icon explain
 ---
 
@@ -153,3 +132,13 @@ Since most web browser will block external file access,
 For unsupport web browser,
 <a href="https://github.com/jonathantneal/svg4everybody">svg4everybody</a>
 is recommended.
+
+## Optimization
+---
+
+1. Use can remove unused icons in `src/icon/` and run cmd `python build.py`
+   to build `dist/icon.svg` which contain only icons you need.
+2. You can go to [icomoon.com](https://icomoon.com) and upload svg icon in
+   `dist/svg` to generated `symbol-defs.svg` which contains only icons you need.
+
+<div style="display: block; margin-bottom: 3rem;"></div>

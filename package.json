@@ -1,10 +1,33 @@
 {
-  "devDependencies": {
+  "name": "gnomicon",
+  "version": "1.0.0",
+  "description": "Gnome symbolic icon for HTML5",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
     "@parcel/transformer-sass": "^2.3.2",
     "gadjet": "^0.1.9",
     "highlight.js": "^11.4.0",
     "parcel": "^2.3.2",
     "sass": "^1.49.9",
     "@nitipit/icon": "^0.0.6"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitipit/gnomicon.git"
+  },
+  "keywords": [
+    "icon",
+    "svg"
+  ],
+  "author": "Nitipit Nontasuwan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nitipit/gnomicon/issues"
+  },
+  "homepage": "https://github.com/nitipit/gnomicon#readme"
 }

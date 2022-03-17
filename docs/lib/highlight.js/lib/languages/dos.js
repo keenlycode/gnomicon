@@ -9,9 +9,7 @@ Website: https://en.wikipedia.org/wiki/Batch_file
 function dos(hljs) {
   const COMMENT = hljs.COMMENT(
     /^\s*@?rem\b/, /$/,
-    {
-      relevance: 10
-    }
+    { relevance: 10 }
   );
   const LABEL = {
     className: 'symbol',
@@ -151,9 +149,7 @@ function dos(hljs) {
         begin: LABEL.begin,
         end: 'goto:eof',
         contains: [
-          hljs.inherit(hljs.TITLE_MODE, {
-            begin: '([_a-zA-Z]\\w*\\.)*([_a-zA-Z]\\w*:)?[_a-zA-Z]\\w*'
-          }),
+          hljs.inherit(hljs.TITLE_MODE, { begin: '([_a-zA-Z]\\w*\\.)*([_a-zA-Z]\\w*:)?[_a-zA-Z]\\w*' }),
           COMMENT
         ]
       },

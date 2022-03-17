@@ -11,7 +11,10 @@ function tcl(hljs) {
 
   const NUMBER = {
     className: 'number',
-    variants: [hljs.BINARY_NUMBER_MODE, hljs.C_NUMBER_MODE]
+    variants: [
+      hljs.BINARY_NUMBER_MODE,
+      hljs.C_NUMBER_MODE
+    ]
   };
 
   const KEYWORDS = [
@@ -137,7 +140,7 @@ function tcl(hljs) {
 
   return {
     name: 'Tcl',
-    aliases: ['tk'],
+    aliases: [ 'tk' ],
     keywords: KEYWORDS,
     contains: [
       hljs.COMMENT(';[ \\t]*#', '$'),
@@ -159,35 +162,29 @@ function tcl(hljs) {
       {
         className: "variable",
         variants: [
-          {
-            begin: regex.concat(
-              /\$/,
-              regex.optional(/::/),
-              TCL_IDENT,
-              '(::',
-              TCL_IDENT,
-              ')*'
-            )
-          },
+          { begin: regex.concat(
+            /\$/,
+            regex.optional(/::/),
+            TCL_IDENT,
+            '(::',
+            TCL_IDENT,
+            ')*'
+          ) },
           {
             begin: '\\$\\{(::)?[a-zA-Z_]((::)?[a-zA-Z0-9_])*',
             end: '\\}',
-            contains: [
-              NUMBER
-            ]
+            contains: [ NUMBER ]
           }
         ]
       },
       {
         className: 'string',
-        contains: [hljs.BACKSLASH_ESCAPE],
-        variants: [
-          hljs.inherit(hljs.QUOTE_STRING_MODE, {illegal: null})
-        ]
+        contains: [ hljs.BACKSLASH_ESCAPE ],
+        variants: [ hljs.inherit(hljs.QUOTE_STRING_MODE, { illegal: null }) ]
       },
       NUMBER
     ]
-  }
+  };
 }
 
 module.exports = tcl;

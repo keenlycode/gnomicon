@@ -73,6 +73,7 @@ hljs.registerLanguage('gml', require('./languages/gml'));
 hljs.registerLanguage('go', require('./languages/go'));
 hljs.registerLanguage('golo', require('./languages/golo'));
 hljs.registerLanguage('gradle', require('./languages/gradle'));
+hljs.registerLanguage('graphql', require('./languages/graphql'));
 hljs.registerLanguage('groovy', require('./languages/groovy'));
 hljs.registerLanguage('haml', require('./languages/haml'));
 hljs.registerLanguage('handlebars', require('./languages/handlebars'));

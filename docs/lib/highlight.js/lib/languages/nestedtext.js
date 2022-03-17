@@ -47,20 +47,16 @@ function nestedtext(hljs) {
   };
   const LIST_ITEM = {
     variants: [
-      {
-        match: [
-          /^\s*/,
-          /-/,
-          /[ ]/,
-          /.*$/
-        ]
-      },
-      {
-        match: [
-          /^\s*/,
-          /-$/
-        ]
-      }
+      { match: [
+        /^\s*/,
+        /-/,
+        /[ ]/,
+        /.*$/
+      ] },
+      { match: [
+        /^\s*/,
+        /-$/
+      ] }
     ],
     className: {
       2: "bullet",

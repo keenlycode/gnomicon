@@ -253,6 +253,7 @@ const ATTRIBUTES = [
   'backface-visibility',
   'background',
   'background-attachment',
+  'background-blend-mode',
   'background-clip',
   'background-color',
   'background-image',
@@ -260,7 +261,20 @@ const ATTRIBUTES = [
   'background-position',
   'background-repeat',
   'background-size',
+  'block-size',
   'border',
+  'border-block',
+  'border-block-color',
+  'border-block-end',
+  'border-block-end-color',
+  'border-block-end-style',
+  'border-block-end-width',
+  'border-block-start',
+  'border-block-start-color',
+  'border-block-start-style',
+  'border-block-start-width',
+  'border-block-style',
+  'border-block-width',
   'border-bottom',
   'border-bottom-color',
   'border-bottom-left-radius',
@@ -275,6 +289,18 @@ const ATTRIBUTES = [
   'border-image-slice',
   'border-image-source',
   'border-image-width',
+  'border-inline',
+  'border-inline-color',
+  'border-inline-end',
+  'border-inline-end-color',
+  'border-inline-end-style',
+  'border-inline-end-width',
+  'border-inline-start',
+  'border-inline-start-color',
+  'border-inline-start-style',
+  'border-inline-start-width',
+  'border-inline-style',
+  'border-inline-width',
   'border-left',
   'border-left-color',
   'border-left-style',
@@ -385,6 +411,7 @@ const ATTRIBUTES = [
   'image-rendering',
   'image-resolution',
   'ime-mode',
+  'inline-size',
   'isolation',
   'justify-content',
   'left',
@@ -396,7 +423,13 @@ const ATTRIBUTES = [
   'list-style-position',
   'list-style-type',
   'margin',
+  'margin-block',
+  'margin-block-end',
+  'margin-block-start',
   'margin-bottom',
+  'margin-inline',
+  'margin-inline-end',
+  'margin-inline-start',
   'margin-left',
   'margin-right',
   'margin-top',
@@ -418,9 +451,13 @@ const ATTRIBUTES = [
   'mask-repeat',
   'mask-size',
   'mask-type',
+  'max-block-size',
   'max-height',
+  'max-inline-size',
   'max-width',
+  'min-block-size',
   'min-height',
+  'min-inline-size',
   'min-width',
   'mix-blend-mode',
   'nav-down',
@@ -445,7 +482,13 @@ const ATTRIBUTES = [
   'overflow-x',
   'overflow-y',
   'padding',
+  'padding-block',
+  'padding-block-end',
+  'padding-block-start',
   'padding-bottom',
+  'padding-inline',
+  'padding-inline-end',
+  'padding-inline-start',
   'padding-left',
   'padding-right',
   'padding-top',
@@ -491,6 +534,9 @@ const ATTRIBUTES = [
   'scroll-snap-align',
   'scroll-snap-stop',
   'scroll-snap-type',
+  'scrollbar-color',
+  'scrollbar-gutter',
+  'scrollbar-width',
   'shape-image-threshold',
   'shape-margin',
   'shape-outside',
@@ -647,11 +693,7 @@ function less(hljs) {
   const MIXIN_GUARD_MODE = {
     beginKeywords: 'when',
     endsWithParent: true,
-    contains: [
-      {
-        beginKeywords: 'and not'
-      }
-    ].concat(VALUE_MODES) // using this form to override VALUE’s 'function' match
+    contains: [ { beginKeywords: 'and not' } ].concat(VALUE_MODES) // using this form to override VALUE’s 'function' match
   };
 
   /* Rule-Level Modes */
@@ -662,9 +704,7 @@ function less(hljs) {
     end: /[;}]/,
     relevance: 0,
     contains: [
-      {
-        begin: /-(webkit|moz|ms|o)-/
-      },
+      { begin: /-(webkit|moz|ms|o)-/ },
       modes.CSS_VARIABLE,
       {
         className: 'attribute',
@@ -704,9 +744,7 @@ function less(hljs) {
         begin: '@' + IDENT_RE + '\\s*:',
         relevance: 15
       },
-      {
-        begin: '@' + IDENT_RE
-      }
+      { begin: '@' + IDENT_RE }
     ],
     starts: {
       end: '[;}]',
@@ -763,9 +801,7 @@ function less(hljs) {
         relevance: 0,
         contains: VALUE_WITH_RULESETS
       }, // argument list of parametric mixins
-      {
-        begin: '!important'
-      }, // eat !important after mixin call or it will be colored as tag
+      { begin: '!important' }, // eat !important after mixin call or it will be colored as tag
       modes.FUNCTION_DISPATCH
     ]
   };

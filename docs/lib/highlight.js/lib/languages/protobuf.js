@@ -50,7 +50,10 @@ function protobuf(hljs) {
     keywords: {
       keyword: KEYWORDS,
       type: TYPES,
-      literal: ['true', 'false']
+      literal: [
+        'true',
+        'false'
+      ]
     },
     contains: [
       hljs.QUOTE_STRING_MODE,
@@ -61,13 +64,13 @@ function protobuf(hljs) {
       {
         className: 'function',
         beginKeywords: 'rpc',
-        end: /[{;]/, excludeEnd: true,
+        end: /[{;]/,
+        excludeEnd: true,
         keywords: 'rpc returns'
       },
       { // match enum items (relevance)
         // BLAH = ...;
-        begin: /^\s*[A-Z_]+(?=\s*=[^\n]+;$)/
-      }
+        begin: /^\s*[A-Z_]+(?=\s*=[^\n]+;$)/ }
     ]
   };
 }

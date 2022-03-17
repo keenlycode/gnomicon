@@ -1550,7 +1550,7 @@ function expandOrCloneMode(mode) {
   return mode;
 }
 
-var version = "11.4.0";
+var version = "11.5.0";
 
 class HTMLInjectionError extends Error {
   constructor(reason, html) {
@@ -1827,8 +1827,8 @@ const HLJS = function(hljs) {
      */
     function emitMultiClass(scope, match) {
       let i = 1;
-      // eslint-disable-next-line no-undefined
-      while (match[i] !== undefined) {
+      const max = match.length - 1;
+      while (i <= max) {
         if (!scope._emit[i]) { i++; continue; }
         const klass = language.classNameAliases[scope[i]] || scope[i];
         const text = match[i];

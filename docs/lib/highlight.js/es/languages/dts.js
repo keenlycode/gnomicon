@@ -11,13 +11,11 @@ function dts(hljs) {
   const STRINGS = {
     className: 'string',
     variants: [
-      hljs.inherit(hljs.QUOTE_STRING_MODE, {
-        begin: '((u8?|U)|L)?"'
-      }),
+      hljs.inherit(hljs.QUOTE_STRING_MODE, { begin: '((u8?|U)|L)?"' }),
       {
         begin: '(u8?|U)?R"',
         end: '"',
-        contains: [hljs.BACKSLASH_ESCAPE]
+        contains: [ hljs.BACKSLASH_ESCAPE ]
       },
       {
         begin: '\'\\\\?.',
@@ -30,12 +28,8 @@ function dts(hljs) {
   const NUMBERS = {
     className: 'number',
     variants: [
-      {
-        begin: '\\b(\\d+(\\.\\d*)?|\\.\\d+)(u|U|l|L|ul|UL|f|F)'
-      },
-      {
-        begin: hljs.C_NUMBER_RE
-      }
+      { begin: '\\b(\\d+(\\.\\d*)?|\\.\\d+)(u|U|l|L|ul|UL|f|F)' },
+      { begin: hljs.C_NUMBER_RE }
     ],
     relevance: 0
   };
@@ -44,9 +38,7 @@ function dts(hljs) {
     className: 'meta',
     begin: '#',
     end: '$',
-    keywords: {
-      keyword: 'if else elif endif define undef ifdef ifndef'
-    },
+    keywords: { keyword: 'if else elif endif define undef ifdef ifndef' },
     contains: [
       {
         begin: /\\\n/,
@@ -55,13 +47,9 @@ function dts(hljs) {
       {
         beginKeywords: 'include',
         end: '$',
-        keywords: {
-          keyword: 'include'
-        },
+        keywords: { keyword: 'include' },
         contains: [
-          hljs.inherit(STRINGS, {
-            className: 'string'
-          }),
+          hljs.inherit(STRINGS, { className: 'string' }),
           {
             className: 'string',
             begin: '<',
@@ -104,7 +92,8 @@ function dts(hljs) {
 
   const NODE = {
     className: 'title.class',
-    begin: /[a-zA-Z_][a-zA-Z\d_@-]*(?=\s\{)/
+    begin: /[a-zA-Z_][a-zA-Z\d_@-]*(?=\s\{)/,
+    relevance: 0.2
   };
 
   const ROOT_NODE = {

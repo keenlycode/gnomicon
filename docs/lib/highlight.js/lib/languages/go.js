@@ -88,7 +88,7 @@ function go(hljs) {
   };
   return {
     name: 'Go',
-    aliases: ['golang'],
+    aliases: [ 'golang' ],
     keywords: KEYWORDS,
     illegal: '</',
     contains: [
@@ -115,8 +115,7 @@ function go(hljs) {
           hljs.C_NUMBER_MODE
         ]
       },
-      {
-        begin: /:=/ // relevance booster
+      { begin: /:=/ // relevance booster
       },
       {
         className: 'function',

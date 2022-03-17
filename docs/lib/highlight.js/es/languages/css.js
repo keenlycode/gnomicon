@@ -253,6 +253,7 @@ const ATTRIBUTES = [
   'backface-visibility',
   'background',
   'background-attachment',
+  'background-blend-mode',
   'background-clip',
   'background-color',
   'background-image',
@@ -260,7 +261,20 @@ const ATTRIBUTES = [
   'background-position',
   'background-repeat',
   'background-size',
+  'block-size',
   'border',
+  'border-block',
+  'border-block-color',
+  'border-block-end',
+  'border-block-end-color',
+  'border-block-end-style',
+  'border-block-end-width',
+  'border-block-start',
+  'border-block-start-color',
+  'border-block-start-style',
+  'border-block-start-width',
+  'border-block-style',
+  'border-block-width',
   'border-bottom',
   'border-bottom-color',
   'border-bottom-left-radius',
@@ -275,6 +289,18 @@ const ATTRIBUTES = [
   'border-image-slice',
   'border-image-source',
   'border-image-width',
+  'border-inline',
+  'border-inline-color',
+  'border-inline-end',
+  'border-inline-end-color',
+  'border-inline-end-style',
+  'border-inline-end-width',
+  'border-inline-start',
+  'border-inline-start-color',
+  'border-inline-start-style',
+  'border-inline-start-width',
+  'border-inline-style',
+  'border-inline-width',
   'border-left',
   'border-left-color',
   'border-left-style',
@@ -385,6 +411,7 @@ const ATTRIBUTES = [
   'image-rendering',
   'image-resolution',
   'ime-mode',
+  'inline-size',
   'isolation',
   'justify-content',
   'left',
@@ -396,7 +423,13 @@ const ATTRIBUTES = [
   'list-style-position',
   'list-style-type',
   'margin',
+  'margin-block',
+  'margin-block-end',
+  'margin-block-start',
   'margin-bottom',
+  'margin-inline',
+  'margin-inline-end',
+  'margin-inline-start',
   'margin-left',
   'margin-right',
   'margin-top',
@@ -418,9 +451,13 @@ const ATTRIBUTES = [
   'mask-repeat',
   'mask-size',
   'mask-type',
+  'max-block-size',
   'max-height',
+  'max-inline-size',
   'max-width',
+  'min-block-size',
   'min-height',
+  'min-inline-size',
   'min-width',
   'mix-blend-mode',
   'nav-down',
@@ -445,7 +482,13 @@ const ATTRIBUTES = [
   'overflow-x',
   'overflow-y',
   'padding',
+  'padding-block',
+  'padding-block-end',
+  'padding-block-start',
   'padding-bottom',
+  'padding-inline',
+  'padding-inline-end',
+  'padding-inline-start',
   'padding-left',
   'padding-right',
   'padding-top',
@@ -491,6 +534,9 @@ const ATTRIBUTES = [
   'scroll-snap-align',
   'scroll-snap-stop',
   'scroll-snap-type',
+  'scrollbar-color',
+  'scrollbar-gutter',
+  'scrollbar-width',
   'shape-image-threshold',
   'shape-margin',
   'shape-outside',
@@ -563,9 +609,7 @@ Website: https://developer.mozilla.org/en-US/docs/Web/CSS
 function css(hljs) {
   const regex = hljs.regex;
   const modes = MODES(hljs);
-  const VENDOR_PREFIX = {
-    begin: /-(webkit|moz|ms|o)-(?=[a-z])/
-  };
+  const VENDOR_PREFIX = { begin: /-(webkit|moz|ms|o)-(?=[a-z])/ };
   const AT_MODIFIERS = "and or not only";
   const AT_PROPERTY_RE = /@-?\w[\w]*(-\w+)*/; // @-webkit-keyframes
   const IDENT_RE = '[a-zA-Z-][a-zA-Z0-9_-]*';
@@ -578,14 +622,11 @@ function css(hljs) {
     name: 'CSS',
     case_insensitive: true,
     illegal: /[=|'\$]/,
-    keywords: {
-      keyframePosition: "from to"
-    },
+    keywords: { keyframePosition: "from to" },
     classNameAliases: {
       // for visual continuity with `tag {}` and because we
       // don't have a great class for this?
-      keyframePosition: "selector-tag"
-    },
+      keyframePosition: "selector-tag" },
     contains: [
       modes.BLOCK_COMMENT,
       VENDOR_PREFIX,
@@ -606,12 +647,8 @@ function css(hljs) {
       {
         className: 'selector-pseudo',
         variants: [
-          {
-            begin: ':(' + PSEUDO_CLASSES.join('|') + ')'
-          },
-          {
-            begin: ':(:)?(' + PSEUDO_ELEMENTS.join('|') + ')'
-          }
+          { begin: ':(' + PSEUDO_CLASSES.join('|') + ')' },
+          { begin: ':(:)?(' + PSEUDO_ELEMENTS.join('|') + ')' }
         ]
       },
       // we may actually need this (12/2020)
@@ -642,9 +679,7 @@ function css(hljs) {
             begin: /(url|data-uri)\(/,
             end: /\)/,
             relevance: 0, // from keywords
-            keywords: {
-              built_in: "url data-uri"
-            },
+            keywords: { built_in: "url data-uri" },
             contains: [
               {
                 className: "string",

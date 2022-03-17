@@ -5,7 +5,7 @@
  Website: https://flix.dev/
  */
 
- /** @type LanguageFn */
+/** @type LanguageFn */
 function flix(hljs) {
   const CHAR = {
     className: 'string',
@@ -14,10 +14,12 @@ function flix(hljs) {
 
   const STRING = {
     className: 'string',
-    variants: [{
-      begin: '"',
-      end: '"'
-    }]
+    variants: [
+      {
+        begin: '"',
+        end: '"'
+      }
+    ]
   };
 
   const NAME = {
@@ -31,7 +33,7 @@ function flix(hljs) {
     beginKeywords: 'def',
     end: /[:={\[(\n;]/,
     excludeEnd: true,
-    contains: [NAME]
+    contains: [ NAME ]
   };
 
   return {

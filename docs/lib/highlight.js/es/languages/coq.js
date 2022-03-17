@@ -437,8 +437,7 @@ function coq(hljs) {
         end: '\\w+'
       },
       { // relevance booster
-        begin: /[-=]>/
-      }
+        begin: /[-=]>/ }
     ]
   };
 }

@@ -4824,6 +4824,6 @@ const pallete = {
     'dark': '#3d3846'
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["irXYc","kD2es"], "kD2es", "parcelRequire217d")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["irXYc","kD2es"], "kD2es", "parcelRequire94c2")
 
 //# sourceMappingURL=index.js.map

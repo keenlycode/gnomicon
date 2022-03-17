@@ -754,15 +754,15 @@ function typescript(hljs) {
     "string",
     "object",
     "never",
-    "enum"
+    "symbol",
+    "bigint",
+    "unknown"
   ];
   const NAMESPACE = {
     beginKeywords: 'namespace',
     end: /\{/,
     excludeEnd: true,
-    contains: [
-      tsLanguage.exports.CLASS_REFERENCE
-    ]
+    contains: [ tsLanguage.exports.CLASS_REFERENCE ]
   };
   const INTERFACE = {
     beginKeywords: 'interface',
@@ -772,9 +772,7 @@ function typescript(hljs) {
       keyword: 'interface extends',
       built_in: TYPES
     },
-    contains: [
-      tsLanguage.exports.CLASS_REFERENCE
-    ]
+    contains: [ tsLanguage.exports.CLASS_REFERENCE ]
   };
   const USE_STRICT = {
     className: 'meta',
@@ -784,7 +782,6 @@ function typescript(hljs) {
   const TS_SPECIFIC_KEYWORDS = [
     "type",
     "namespace",
-    "typedef",
     "interface",
     "public",
     "private",
@@ -792,7 +789,9 @@ function typescript(hljs) {
     "implements",
     "declare",
     "abstract",
-    "readonly"
+    "readonly",
+    "enum",
+    "override"
   ];
   const KEYWORDS$1 = {
     $pattern: IDENT_RE,
@@ -809,6 +808,7 @@ function typescript(hljs) {
   const swapMode = (mode, label, replacement) => {
     const indx = mode.contains.findIndex(m => m.label === label);
     if (indx === -1) { throw new Error("can not find mode to replace"); }
+
     mode.contains.splice(indx, 1, replacement);
   };
 
@@ -834,7 +834,10 @@ function typescript(hljs) {
 
   Object.assign(tsLanguage, {
     name: 'TypeScript',
-    aliases: ['ts', 'tsx']
+    aliases: [
+      'ts',
+      'tsx'
+    ]
   });
 
   return tsLanguage;

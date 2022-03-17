@@ -53,19 +53,17 @@ function capnproto(hljs) {
   ];
   const CLASS_DEFINITION = {
     variants: [
-      {
-        match: [
-          /(struct|enum|interface)/, /\s+/,
-          hljs.IDENT_RE
-        ]
-      },
-      {
-        match: [
-          /extends/, /\s*\(/,
-          hljs.IDENT_RE,
-          /\s*\)/
-        ]
-      }
+      { match: [
+        /(struct|enum|interface)/,
+        /\s+/,
+        hljs.IDENT_RE
+      ] },
+      { match: [
+        /extends/,
+        /\s*\(/,
+        hljs.IDENT_RE,
+        /\s*\)/
+      ] }
     ],
     scope: {
       1: "keyword",
@@ -74,7 +72,7 @@ function capnproto(hljs) {
   };
   return {
     name: 'Cap’n Proto',
-    aliases: ['capnp'],
+    aliases: [ 'capnp' ],
     keywords: {
       keyword: KEYWORDS,
       type: TYPES,

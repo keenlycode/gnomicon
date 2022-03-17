@@ -11,7 +11,7 @@ function diff(hljs) {
   const regex = hljs.regex;
   return {
     name: 'Diff',
-    aliases: ['patch'],
+    aliases: [ 'patch' ],
     contains: [
       {
         className: 'meta',
@@ -37,9 +37,7 @@ function diff(hljs) {
             ),
             end: /$/
           },
-          {
-            match: /^\*{15}$/
-          }
+          { match: /^\*{15}$/ }
         ]
       },
       {

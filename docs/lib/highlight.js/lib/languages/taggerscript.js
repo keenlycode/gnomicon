@@ -9,15 +9,17 @@ function taggerscript(hljs) {
     className: 'comment',
     begin: /\$noop\(/,
     end: /\)/,
-    contains: [{
-      begin: /\\[()]/
-    }, {
-      begin: /\(/,
-      end: /\)/,
-      contains: [{
-        begin: /\\[()]/
-      }, 'self']
-    } ],
+    contains: [
+      { begin: /\\[()]/ },
+      {
+        begin: /\(/,
+        end: /\)/,
+        contains: [
+          { begin: /\\[()]/ },
+          'self'
+        ]
+      }
+    ],
     relevance: 10
   };
 

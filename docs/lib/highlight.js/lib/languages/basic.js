@@ -198,12 +198,8 @@ function basic(hljs) {
     },
     contains: [
       hljs.QUOTE_STRING_MODE,
-      hljs.COMMENT('REM', '$', {
-        relevance: 10
-      }),
-      hljs.COMMENT('\'', '$', {
-        relevance: 0
-      }),
+      hljs.COMMENT('REM', '$', { relevance: 10 }),
+      hljs.COMMENT('\'', '$', { relevance: 0 }),
       {
         // Match line numbers
         className: 'symbol',

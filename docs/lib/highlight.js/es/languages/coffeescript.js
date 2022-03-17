@@ -199,24 +199,22 @@ function coffeescript(hljs) {
   };
   const EXPRESSIONS = [
     hljs.BINARY_NUMBER_MODE,
-    hljs.inherit(hljs.C_NUMBER_MODE, {
-      starts: {
-        end: '(\\s*/)?',
-        relevance: 0
-      }
-    }), // a number tries to eat the following slash to prevent treating it as a regexp
+    hljs.inherit(hljs.C_NUMBER_MODE, { starts: {
+      end: '(\\s*/)?',
+      relevance: 0
+    } }), // a number tries to eat the following slash to prevent treating it as a regexp
     {
       className: 'string',
       variants: [
         {
           begin: /'''/,
           end: /'''/,
-          contains: [hljs.BACKSLASH_ESCAPE]
+          contains: [ hljs.BACKSLASH_ESCAPE ]
         },
         {
           begin: /'/,
           end: /'/,
-          contains: [hljs.BACKSLASH_ESCAPE]
+          contains: [ hljs.BACKSLASH_ESCAPE ]
         },
         {
           begin: /"""/,
@@ -254,12 +252,10 @@ function coffeescript(hljs) {
         {
           // regex can't start with space to parse x / 2 / 3 as two divisions
           // regex can't start with *, and it supports an "illegal" in the main mode
-          begin: /\/(?![ *]).*?(?![\\]).\/[gim]{0,3}(?=\W)/
-        }
+          begin: /\/(?![ *]).*?(?![\\]).\/[gim]{0,3}(?=\W)/ }
       ]
     },
-    {
-      begin: '@' + JS_IDENT_RE // relevance booster
+    { begin: '@' + JS_IDENT_RE // relevance booster
     },
     {
       subLanguage: 'javascript',
@@ -279,9 +275,7 @@ function coffeescript(hljs) {
   ];
   SUBST.contains = EXPRESSIONS;
 
-  const TITLE = hljs.inherit(hljs.TITLE_MODE, {
-    begin: JS_IDENT_RE
-  });
+  const TITLE = hljs.inherit(hljs.TITLE_MODE, { begin: JS_IDENT_RE });
   const POSSIBLE_PARAMS_RE = '(\\(.*\\)\\s*)?\\B[-=]>';
   const PARAMS = {
     className: 'params',
@@ -289,30 +283,28 @@ function coffeescript(hljs) {
     returnBegin: true,
     /* We need another contained nameless mode to not have every nested
     pair of parens to be called "params" */
-    contains: [{
-      begin: /\(/,
-      end: /\)/,
-      keywords: KEYWORDS$1,
-      contains: ['self'].concat(EXPRESSIONS)
-    }]
+    contains: [
+      {
+        begin: /\(/,
+        end: /\)/,
+        keywords: KEYWORDS$1,
+        contains: [ 'self' ].concat(EXPRESSIONS)
+      }
+    ]
   };
 
   const CLASS_DEFINITION = {
     variants: [
-      {
-        match: [
-          /class\s+/,
-          JS_IDENT_RE,
-          /\s+extends\s+/,
-          JS_IDENT_RE
-        ]
-      },
-      {
-        match: [
-          /class\s+/,
-          JS_IDENT_RE
-        ]
-      }
+      { match: [
+        /class\s+/,
+        JS_IDENT_RE,
+        /\s+extends\s+/,
+        JS_IDENT_RE
+      ] },
+      { match: [
+        /class\s+/,
+        JS_IDENT_RE
+      ] }
     ],
     scope: {
       2: "title.class",
@@ -348,13 +340,15 @@ function coffeescript(hljs) {
         // anonymous function start
         begin: /[:\(,=]\s*/,
         relevance: 0,
-        contains: [{
-          className: 'function',
-          begin: POSSIBLE_PARAMS_RE,
-          end: '[-=]>',
-          returnBegin: true,
-          contains: [PARAMS]
-        }]
+        contains: [
+          {
+            className: 'function',
+            begin: POSSIBLE_PARAMS_RE,
+            end: '[-=]>',
+            returnBegin: true,
+            contains: [ PARAMS ]
+          }
+        ]
       },
       CLASS_DEFINITION,
       {

@@ -166,10 +166,12 @@ function ada(hljs) {
         className: 'string',
         begin: /"/,
         end: /"/,
-        contains: [{
-          begin: /""/,
-          relevance: 0
-        }]
+        contains: [
+          {
+            begin: /""/,
+            relevance: 0
+          }
+        ]
       },
       // characters ''
       {

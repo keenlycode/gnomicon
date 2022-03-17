@@ -49,9 +49,7 @@ function smalltalk(hljs) {
         returnBegin: true,
         end: /\|/,
         illegal: /\S/,
-        contains: [ {
-          begin: '(\\|[ ]*)?' + VAR_IDENT_RE
-        } ]
+        contains: [ { begin: '(\\|[ ]*)?' + VAR_IDENT_RE } ]
       },
       {
         begin: '#\\(',

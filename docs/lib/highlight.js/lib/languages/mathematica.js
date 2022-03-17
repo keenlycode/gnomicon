@@ -6666,23 +6666,21 @@ function mathematica(hljs) {
   const SYMBOL_RE = /[a-zA-Z$][a-zA-Z0-9$]*/;
   const SYSTEM_SYMBOLS_SET = new Set(SYSTEM_SYMBOLS);
   /** @type {Mode} */
-  const SYMBOLS = {
-    variants: [
-      {
-        className: 'builtin-symbol',
-        begin: SYMBOL_RE,
-        // for performance out of fear of regex.either(...Mathematica.SYSTEM_SYMBOLS)
-        "on:begin": (match, response) => {
-          if (!SYSTEM_SYMBOLS_SET.has(match[0])) response.ignoreMatch();
-        }
-      },
-      {
-        className: 'symbol',
-        relevance: 0,
-        begin: SYMBOL_RE
+  const SYMBOLS = { variants: [
+    {
+      className: 'builtin-symbol',
+      begin: SYMBOL_RE,
+      // for performance out of fear of regex.either(...Mathematica.SYSTEM_SYMBOLS)
+      "on:begin": (match, response) => {
+        if (!SYSTEM_SYMBOLS_SET.has(match[0])) response.ignoreMatch();
       }
-    ]
-  };
+    },
+    {
+      className: 'symbol',
+      relevance: 0,
+      begin: SYMBOL_RE
+    }
+  ] };
 
   const NAMED_CHARACTER = {
     className: 'named-character',
@@ -6734,9 +6732,7 @@ function mathematica(hljs) {
       'message-name': 'string'
     },
     contains: [
-      hljs.COMMENT(/\(\*/, /\*\)/, {
-        contains: [ 'self' ]
-      }),
+      hljs.COMMENT(/\(\*/, /\*\)/, { contains: [ 'self' ] }),
       PATTERNS,
       SLOTS,
       MESSAGES,

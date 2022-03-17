@@ -27,7 +27,7 @@ function juliaRepl(hljs) {
     name: 'Julia REPL',
     contains: [
       {
-        className: 'meta',
+        className: 'meta.prompt',
         begin: /^julia>/,
         relevance: 10,
         starts: {
@@ -43,8 +43,8 @@ function juliaRepl(hljs) {
     // either REPL-like or script-like, but are usually REPL-like and therefore we apply
     // julia-repl highlighting to them. More information can be found in Documenter's
     // manual: https://juliadocs.github.io/Documenter.jl/latest/man/doctests.html
-    aliases: ['jldoctest'],
-  }
+    aliases: [ 'jldoctest' ],
+  };
 }
 
 export { juliaRepl as default };

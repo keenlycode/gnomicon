@@ -98,9 +98,7 @@ function haml(hljs) {
           }
         ]
       },
-      {
-        begin: '^\\s*[=~]\\s*'
-      },
+      { begin: '^\\s*[=~]\\s*' },
       {
         begin: /#\{/,
         end: /\}/,

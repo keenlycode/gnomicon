@@ -44,11 +44,11 @@ var NUMERIC = {
 function kotlin(hljs) {
   const KEYWORDS = {
     keyword:
-      'abstract as val var vararg get set class object open private protected public noinline ' +
-      'crossinline dynamic final enum if else do while for when throw try catch finally ' +
-      'import package is in fun override companion reified inline lateinit init ' +
-      'interface annotation data sealed internal infix operator out by constructor super ' +
-      'tailrec where const inner suspend typealias external expect actual',
+      'abstract as val var vararg get set class object open private protected public noinline '
+      + 'crossinline dynamic final enum if else do while for when throw try catch finally '
+      + 'import package is in fun override companion reified inline lateinit init '
+      + 'interface annotation data sealed internal infix operator out by constructor super '
+      + 'tailrec where const inner suspend typealias external expect actual',
     built_in:
       'Byte Short Char Int Long Boolean Float Double Void Unit Nothing',
     literal:
@@ -57,14 +57,12 @@ function kotlin(hljs) {
   const KEYWORDS_WITH_LABEL = {
     className: 'keyword',
     begin: /\b(break|continue|return|this)\b/,
-    starts: {
-      contains: [
-        {
-          className: 'symbol',
-          begin: /@\w+/
-        }
-      ]
-    }
+    starts: { contains: [
+      {
+        className: 'symbol',
+        begin: /@\w+/
+      }
+    ] }
   };
   const LABEL = {
     className: 'symbol',
@@ -127,11 +125,7 @@ function kotlin(hljs) {
       {
         begin: /\(/,
         end: /\)/,
-        contains: [
-          hljs.inherit(STRING, {
-            className: 'string'
-          })
-        ]
+        contains: [ hljs.inherit(STRING, { className: 'string' }) ]
       }
     ]
   };
@@ -142,30 +136,29 @@ function kotlin(hljs) {
   const KOTLIN_NUMBER_MODE = NUMERIC;
   const KOTLIN_NESTED_COMMENT = hljs.COMMENT(
     '/\\*', '\\*/',
-    {
-      contains: [ hljs.C_BLOCK_COMMENT_MODE ]
-    }
+    { contains: [ hljs.C_BLOCK_COMMENT_MODE ] }
   );
-  const KOTLIN_PAREN_TYPE = {
-    variants: [
-      {
-        className: 'type',
-        begin: hljs.UNDERSCORE_IDENT_RE
-      },
-      {
-        begin: /\(/,
-        end: /\)/,
-        contains: [] // defined later
-      }
-    ]
-  };
+  const KOTLIN_PAREN_TYPE = { variants: [
+    {
+      className: 'type',
+      begin: hljs.UNDERSCORE_IDENT_RE
+    },
+    {
+      begin: /\(/,
+      end: /\)/,
+      contains: [] // defined later
+    }
+  ] };
   const KOTLIN_PAREN_TYPE2 = KOTLIN_PAREN_TYPE;
   KOTLIN_PAREN_TYPE2.variants[1].contains = [ KOTLIN_PAREN_TYPE ];
   KOTLIN_PAREN_TYPE.variants[1].contains = [ KOTLIN_PAREN_TYPE2 ];
 
   return {
     name: 'Kotlin',
-    aliases: [ 'kt', 'kts' ],
+    aliases: [
+      'kt',
+      'kts'
+    ],
     keywords: KEYWORDS,
     contains: [
       hljs.COMMENT(
@@ -246,9 +239,7 @@ function kotlin(hljs) {
         excludeEnd: true,
         illegal: 'extends implements',
         contains: [
-          {
-            beginKeywords: 'public protected internal private constructor'
-          },
+          { beginKeywords: 'public protected internal private constructor' },
           hljs.UNDERSCORE_TITLE_MODE,
           {
             className: 'type',

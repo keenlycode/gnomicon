@@ -22,7 +22,3 @@ Under the following terms:
 ## Author
 
 Nitipit Nontasuwan
-
-## Notice
-
-**adwaita-icon-web** is a a modified work from <a href="https://gitlab.gnome.org/GNOME/adwaita-icon-theme">gnome-adwaita-theme</a> (Gnome Project)

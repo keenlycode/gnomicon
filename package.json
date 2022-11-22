@@ -1,10 +1,32 @@
 {
-  "dependencies": {
+  "name": "gnomicon",
+  "version": "43.0.0",
+  "description": "Gnome Symbolic Icon for WebApp Platform",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitipit/gnomicon.git"
+  },
+  "keywords": [
+    "icon",
+    "svg"
+  ],
+  "author": "Nitipit Nontasuwan",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/nitipit/gnomicon/issues"
+  },
+  "homepage": "https://github.com/nitipit/gnomicon#readme",
+  "devDependencies": {
     "@nitipit/icon": "^0.0.6",
-    "@parcel/transformer-sass": "^2.3.2",
-    "gadjet": "^0.1.9",
-    "highlight.js": "^11.5.0",
-    "parcel": "^2.3.2",
-    "sass": "^1.49.9"
+    "@parcel/transformer-sass": "^2.8.0",
+    "gadjet": "^0.1.11",
+    "highlight.js": "^11.6.0",
+    "parcel": "^2.8.0"
   }
 }

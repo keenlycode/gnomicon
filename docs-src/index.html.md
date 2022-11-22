@@ -1,10 +1,9 @@
 ## Features
 ---
 
-- 1,200+ well designed icons from [Gnome project](https://gitlab.gnome.org/Teams/Design/icon-development-kit-www)
+- 1,400+ well designed SVG icons from [Gnome project](https://gitlab.gnome.org/World/design/icon-library/-/tree/master/data/resources/icon-dev-kit)
   and [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme)
-- Use **SVG Icons** for sharpness, scalable, easily to customize
-  and make animation with **CSS** & **Javascript**.
+- Icons are modified to work with WebApp Platform, easy to change color or size.
 
 ## SVG icon explain
 ---
@@ -25,12 +24,8 @@ without other libraries or dependencies.
 > [SVG Symbol](https://css-tricks.com/svg-symbol-good-choice-icons/)
 > from [CSS Tricks](https://css-tricks.com)
 
-However, this project provides javascript libraries to make it easier to use.
-With some setup codes, we can use icons by codes below.
-
-```html
-<el-icon name="call-outgoing"></el-icon>
-```
+However, this project provides javascript libraries to use icons
+as web-components with some setup codes.
 
 ## Install
 ---
@@ -42,7 +37,7 @@ $ npm install gnomicon
 ## Usage
 ---
 
-Firstly, we need to import `Icon` and define it to html custom tag.
+We need to import `Icon` and define it to html custom tag.
 
 <el-tag class="title-block bg-red">Important !</el-tag>
 > Javascript must be included in html with `<script defer>`
@@ -126,19 +121,19 @@ Icon.href = '//unpkg.com/gnomicon@1/dist/icon.svg';
 ## Note
 ---
 
-Since most web browser will block external file access,
+Since most web browsers will block external file access,
 `icon.svg` should be served on **http://** or **https://**
 
 For unsupport web browser,
 <a href="https://github.com/jonathantneal/svg4everybody">svg4everybody</a>
 is recommended.
 
-## Optimization
+## Optimization options
 ---
 
-1. Use can remove unused icons in `src/icon/` and run cmd `python build.py`
-   to build `dist/icon.svg` which contain only icons you need.
-2. You can go to [icomoon.com](https://icomoon.com) and upload svg icon in
-   `dist/svg` to generated `symbol-defs.svg` which contains only icons you need.
+1. Unused icons can be removed from `src/icon/` and run cmd `python build.py`
+   to build `dist/icon.svg`.
+2. Icons in `gnomicon/dist/svg/*.svg` can be uploaded to
+   [icomoon.com](https://icomoon.com) to generated `symbol-defs.svg`.
 
 <div style="display: block; margin-bottom: 3rem;"></div>

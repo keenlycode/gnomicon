@@ -27,10 +27,7 @@ async def icon_svg():
         svg = svg.replace('fill="#474747"', 'fill="currentColor"')
         svg = svg.replace('fill="#2e3436"', 'fill="currentColor"')
         svg = svg.replace('fill="#2e3434"', 'fill="currentColor"')
-        svg = svg.replace('fill="#241f31"', 'fill="currentColor"')
-        svg = svg.replace('fill="#bebebe"', 'fill="currentColor"')
-        svg = svg.replace('stroke="#474747"', 'stroke="currentColor"')
-        svg = svg.replace('stroke="#2e3436"', 'stroke="currentColor"')
+        
         svg = ElementTree.parse(io.StringIO(svg))
         svg_root = svg.getroot()
 

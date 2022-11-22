@@ -19,7 +19,11 @@ async def icon_svg():
 
     ElementTree.register_namespace('', 'http://www.w3.org/2000/svg')
     svg_symbol = ElementTree.parse(adwaita_path)
-    for svg_path in src_dir.glob('**/*.svg'):
+
+    def sort_by_name_caseless(path):
+        return str.casefold(str(path))
+
+    for svg_path in sorted(src_dir.glob('**/*.svg'), key=sort_by_name_caseless):
         with open(svg_path) as f:
             svg_path = Path(svg_path)
             svg = f.read()
@@ -27,6 +31,8 @@ async def icon_svg():
         svg = svg.replace('fill="#474747"', 'fill="currentColor"')
         svg = svg.replace('fill="#2e3436"', 'fill="currentColor"')
         svg = svg.replace('fill="#2e3434"', 'fill="currentColor"')
+        svg = svg.replace('fill="#222222"', 'fill="currentColor"')
+        svg = svg.replace('fill="#212121"', 'fill="currentColor"')
         
         svg = ElementTree.parse(io.StringIO(svg))
         svg_root = svg.getroot()
@@ -54,6 +60,7 @@ async def icon_svg():
         symbol.set('id', id_)
         title = ElementTree.fromstring('<title></title>')
         title.text = id_
+        # print(id_)
         for t in svg_root.iter('{http://www.w3.org/2000/svg}title'):
             svg_root.remove(t)
         symbol.append(title)
@@ -61,7 +68,9 @@ async def icon_svg():
             symbol.append(node)
         for metadata in symbol.iter('{http://www.w3.org/2000/svg}metadata'):
             symbol.remove(metadata)
+
         svg_symbol.getroot().append(symbol)
+
         for metadata in svg_symbol.getroot().iter('metadata'):
             symbol.remove(metadata)
 

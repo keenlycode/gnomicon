@@ -8,7 +8,7 @@
 ## SVG icon explain
 ---
 
-**Gnomicon** can be used by codes below. Even though
+**Gnomicon** can be used by codes below. Although 
 **it's not recommended**, this is how **SVG Icons** work on browser
 without other libraries or dependencies.
 
@@ -50,7 +50,7 @@ customElements.define('el-icon', Icon);
 Icon.href = "path/to/gnomicon/dist/icon.svg"
 ```
 
-Then, we can use icon via tag `<el-icon name="icon-name">`, for example.
+Then, we can use icon in web-component `<el-icon name="icon-name">`, for example.
 
 <el-tag class="title-block">html</el-tag>
 ```html
@@ -131,9 +131,8 @@ is recommended.
 ## Optimization options
 ---
 
-1. Unused icons can be removed from `src/icon/` and run cmd `python build.py`
-   to build `dist/icon.svg`.
-2. Icons in `gnomicon/dist/svg/*.svg` can be uploaded to
-   [icomoon.com](https://icomoon.com) to generated `symbol-defs.svg`.
+1. Icons in `gnomicon/dist/svg/*.svg` can be uploaded to
+   [icomoon.com](https://icomoon.com) to generated `symbol-defs.svg`. This
+   file can be use in `Icon.href`
 
 <div style="display: block; margin-bottom: 3rem;"></div>

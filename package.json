@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/nitipit/gnomicon/issues"
   },
-  "homepage": "https://github.com/nitipit/gnomicon#readme",
+  "homepage": "https://nitipit.github.io/gnomicon/",
   "devDependencies": {
     "@nitipit/icon": "^0.0.6",
     "@parcel/transformer-sass": "^2.8.0",

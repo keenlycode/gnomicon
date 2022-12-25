@@ -3,7 +3,7 @@ import { define, StyledElement } from 'gadjet/src/ui/ui';
 import { bgColor} from 'gadjet/src/style/bg-color';
 import { Button } from 'gadjet/src/ui/button/button';
 import { Badge } from 'gadjet/src/ui/badge/badge';
-import { theme, pallete } from './color';
+import { pallete, theme } from './color';
 
 define('el-badge', Badge);
 

@@ -28,11 +28,11 @@ async def icon_svg():
             svg_path = Path(svg_path)
             svg = f.read()
 
-        svg = svg.replace('fill="#474747"', 'fill="currentColor"')
-        svg = svg.replace('fill="#2e3436"', 'fill="currentColor"')
-        svg = svg.replace('fill="#2e3434"', 'fill="currentColor"')
-        svg = svg.replace('fill="#222222"', 'fill="currentColor"')
-        svg = svg.replace('fill="#212121"', 'fill="currentColor"')
+        svg = svg.replace('fill="#474747"', '')
+        svg = svg.replace('fill="#2e3436"', '')
+        svg = svg.replace('fill="#2e3434"', '')
+        svg = svg.replace('fill="#222222"', '')
+        svg = svg.replace('fill="#212121"', '')
         
         svg = ElementTree.parse(io.StringIO(svg))
         svg_root = svg.getroot()
@@ -56,11 +56,9 @@ async def icon_svg():
 
         symbol = ElementTree.fromstring('<symbol></symbol>')
         symbol.set('viewBox', '0 0 16 16')
-        symbol.set('fill', 'currentColor')
         symbol.set('id', id_)
         title = ElementTree.fromstring('<title></title>')
         title.text = id_
-        # print(id_)
         for t in svg_root.iter('{http://www.w3.org/2000/svg}title'):
             svg_root.remove(t)
         symbol.append(title)

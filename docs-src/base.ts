@@ -1,5 +1,5 @@
 import hljs from 'highlight.js'
-import { Icon } from '@nitipit/icon';
+import { Icon } from '@nitipit/icon/dist/icon';
 import { addStyle } from 'gadjet/src/style/add-style';
 import { fontFluid } from 'gadjet/src/style/font-fluid';
 import { theme, pallete } from './color';
@@ -9,14 +9,24 @@ import { bgColor } from 'gadjet/src/style';
 
 Icon.href = './lib/gnomicon/icon.svg';
 customElements.define('el-icon', Icon);
+Icon.tagName = 'el-icon';
+
 hljs.highlightAll();
 
 define('el-tag', Tag);
 Tag.tagStyle({color: theme.dimGray});
+Tag.classStyle('alert', {
+    color: pallete.red
+})
 
 addStyle`
 html {
-    ${fontFluid()}
+    ${fontFluid({
+        fontSizeMax: 20,
+        fontSizeMin: 14,
+        vwMax: 1000,
+        vwMin: 300
+    })}
 }
 
 code {
@@ -42,6 +52,10 @@ blockquote {
     blockquote {
         padding-right: 0;
     }
+}
+
+${Icon.tagName} {
+    fill: currentColor;
 }
 
 .blue {

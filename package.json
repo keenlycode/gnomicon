@@ -1,6 +1,6 @@
 {
   "name": "gnomicon",
-  "version": "43.1.0",
+  "version": "44.0.0dev",
   "description": "Gnome Symbolic Icon for WebApp Platform",
   "directories": {
     "doc": "docs"
@@ -24,9 +24,8 @@
   "homepage": "https://nitipit.github.io/gnomicon/",
   "devDependencies": {
     "@nitipit/icon": "^0.0.6",
-    "@parcel/transformer-sass": "^2.8.0",
-    "gadjet": "^0.1.11",
-    "highlight.js": "^11.6.0",
-    "parcel": "^2.8.0"
+    "gadjet": "^1.0.4",
+    "highlight.js": "^11.7.0",
+    "parcel": "^2.8.3"
   }
 }

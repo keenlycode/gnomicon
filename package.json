@@ -23,7 +23,7 @@
   },
   "homepage": "https://nitipit.github.io/gnomicon/",
   "devDependencies": {
-    "@nitipit/icon": "^0.0.6",
+    "@nitipit/icon": "^1.0.0",
     "gadjet": "^1.0.4",
     "highlight.js": "^11.7.0",
     "parcel": "^2.8.3"

@@ -1,4 +1,50 @@
-@use 'sass:color';
+import {
+    addStyle,
+    bgColor
+} from 'gadjet/src/gadjet';
+
+import { theme } from './color';
+
+const css = addStyle;
+
+css`
+#hl1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    ${bgColor(theme.eggShell)}
+    min-height: 100vh;
+    > div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    h1 {
+        font-size: 3rem;
+        width: 100%;
+        margin: 0;
+        el-badge {
+            font-size: 0.4em;
+        }
+    }
+    h2 {
+        font-size: 1.5rem;
+        width: 100%;
+        margin: 0;
+    }
+    el-icon {
+        margin: 0.5rem;
+    }
+}
+
+#icons {
+    padding-top: 2rem;
+    ${bgColor(theme.eggShell)}
+    h2 {
+        text-align: center;
+        margin: 0;
+}
 
 el-icon-manager {
     display: flex;
@@ -45,4 +91,4 @@ el-icon-grid {
             font-size: 0.9rem;
         }
     }
-}
+}`;

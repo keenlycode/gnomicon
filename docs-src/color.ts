@@ -6,7 +6,7 @@ export const theme = {
     'dimGray': '#77685d'
 }
 
-export const pallete = {
+export const palette = {
     'blue': '#3584e4',
     'green': '#33d17a',
     'yellow': '#f6d32d',

@@ -1,15 +1,16 @@
 {% extends '_base.html' %}
 
+{% set to_root = './' %}
+
 {% block head %}
-<link rel="stylesheet" href="index.css?v={{_v}}">
-<script defer type="module" src="index.js?v={{_v}}"></script>
+<script defer type="module" src="{{to_root}}index.js?v={{_v}}"></script>
 {% endblock %}
 
 {% block body %}
 <div id="hl1">
     <div class="container flex" style="position: relative; top: -2rem;">
-        <h1 style="text-align: center;">Gnomicon<sub><el-badge>v43.1.0</el-badge></sub></h1>
-        <el-tag>2022-12-25</el-tag>
+        <h1 style="text-align: center;">Gnomicon<sub><el-badge>v44.0.0</el-badge></sub></h1>
+        <el-tag>2023-03-28</el-tag>
         <h2 style="text-align: center; margin-top: 1rem;">Gnome Symbolic Icons for WebApp Platform</h2>
         <div class="row flex" style="font-size: 3rem; margin-top: 2rem;">
             <el-icon set="gnome" name="alarm"></el-icon>

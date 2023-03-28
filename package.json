@@ -22,6 +22,7 @@
     "url": "https://github.com/nitipit/gnomicon/issues"
   },
   "homepage": "https://nitipit.github.io/gnomicon/",
+  "files": ["dist/**/*"],
   "devDependencies": {
     "@nitipit/icon": "^1.0.0",
     "gadjet": "^1.0.4",

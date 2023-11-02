@@ -1,7 +1,7 @@
 ## Features
 ---
 
-- 1,400+ well designed SVG icons from [Gnome project](https://gitlab.gnome.org/World/design/icon-library/-/tree/master/data/resources/icon-dev-kit)
+- 1,500+ well designed SVG icons from [Gnome project](https://gitlab.gnome.org/World/design/icon-library/-/tree/master/data/resources/icon-dev-kit)
   and [adwaita-icon-theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme)
 - Icons are modified to work with WebApp Platform, easy to change color or size.
 

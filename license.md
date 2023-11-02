@@ -19,3 +19,6 @@ See full license here: https://creativecommons.org/licenses/by-sa/4.0/
 ## Author
 
 Nitipit Nontasuwan
+
+This project is a derivative work from "GNOME Project" - http://www.gnome.org
+- https://gitlab.gnome.org/GNOME/adwaita-icon-theme

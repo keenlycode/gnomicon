@@ -1,6 +1,6 @@
 {
   "name": "gnomicon",
-  "version": "44.0.0",
+  "version": "45.0.0",
   "description": "Gnome Symbolic Icon for WebApp Platform",
   "directories": {
     "doc": "docs"
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nitipit/gnomicon.git"
+    "url": "git+https://github.com/keenly-coding/gnomicon.git"
   },
   "keywords": [
     "icon",
@@ -19,9 +19,9 @@
   "author": "Nitipit Nontasuwan",
   "license": "CC-BY-SA-4.0",
   "bugs": {
-    "url": "https://github.com/nitipit/gnomicon/issues"
+    "url": "https://github.com/keenly-coding/gnomicon/issues"
   },
-  "homepage": "https://nitipit.github.io/gnomicon/",
+  "homepage": "https://keenly-coding.github.io/gnomicon/",
   "files": ["dist/**/*"],
   "devDependencies": {
     "@nitipit/icon": "^1.0.0",

@@ -19,3 +19,5 @@ See full license here: https://creativecommons.org/licenses/by-sa/4.0/
 ## Author
 
 Nitipit Nontasuwan
+
+This project is derived from "GNOME Project" - http://www.gnome.org

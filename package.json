@@ -1,6 +1,6 @@
 {
   "name": "gnomicon",
-  "version": "45.1.0dev",
+  "version": "45.1.0",
   "description": "Gnome Symbolic Icon for WebApp",
   "directories": {
     "doc": "docs"

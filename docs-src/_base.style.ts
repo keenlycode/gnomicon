@@ -6,19 +6,20 @@ import {
 
 import { theme, palette } from './color';
 
-let _scriptSrc = new URL(
-    document.currentScript!.getAttribute('src')!,
-    window.location.href
-);
+
+console.log(import.meta.url);
+
+const __file_url = new URL(import.meta.url);
+console.log(__file_url);
 
 const font_sans_url = new URL(
     './asset/font/Fira_Sans/FiraSans-Regular.ttf',
-    _scriptSrc
+    __file_url
 ).toString();
 
 css`
 @font-face {
-    font-family: fira-sans;
+    font-family: sans;
     src: url(${font_sans_url});
 }
 

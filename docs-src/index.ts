@@ -5,7 +5,7 @@ import {
 } from 'gadjet/src/gadjet';
 import { theme } from './color';
 
-import './index.style.ts';
+import './_index.style.ts';
 
 Badge.define('el-badge');
 

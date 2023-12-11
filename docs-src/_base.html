@@ -11,16 +11,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <meta charset="utf-8" />
-<meta name="description" content="Gnome symbolic icon for HTML5" />
+<meta name="description" content="Gnome Symbolic Icon for WebApp" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-<link rel="stylesheet" href="{{to_root}}lib/highlight.js/styles/atom-one-dark.css?v={{_v}}">
-<script async defer src="https://buttons.github.io/buttons.js?v={{_v}}"></script>
-<script defer src="{{to_root}}base.js?v={{_v}}"></script>
+<link rel="stylesheet" href="{{to_root}}base.css?v={{_v}}">
+<script defer type="module" src="{{to_root}}base.js?v={{_v}}"></script>
 
 <title>Gnomicon</title>
-{% block head %}
-{% endblock %}
+{% block head %}{% endblock %}
 </head>
 <body>
 
@@ -29,7 +27,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-{% block body %}
-{% endblock %}
+{% block body %}{% endblock %}
 </body>
 </html>

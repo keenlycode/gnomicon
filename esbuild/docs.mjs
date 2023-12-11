@@ -16,12 +16,13 @@ let ignores = [
 ];
 
 files = await glob(files, {ignore: ignores});
-console.log(files);
 
 let server = await esbuild.context({
     entryPoints: files,
     outdir: docs_dir,
-    bundle: true
+    bundle: true,
+    format: "esm",
+    keepNames: true,
 })
   
 let { host, port } = await server.serve({

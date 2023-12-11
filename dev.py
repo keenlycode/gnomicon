@@ -32,10 +32,9 @@ async def engrave():
     await proc.communicate()
     proc.terminate()
 
-async def parcel():
+async def esbuild():
     proc = await asyncio.create_subprocess_shell(
-        "npx parcel watch --no-cache 'docs-src/**/*.(css|scss|sass|js|ts|png|jpg)' " + \
-        "--dist-dir=docs"
+        f"node {_dir.joinpath('esbuild/docs.mjs')}"
     )
     await proc.communicate()
 
@@ -47,27 +46,13 @@ def lib():
         lib_dir.joinpath('gnomicon'),
         dirs_exist_ok=True)
 
-    shutil.copytree(
-        _dir.joinpath('node_modules/highlight.js'),
-        lib_dir.joinpath('highlight.js'),
-        dirs_exist_ok=True)
-
-
-async def http_server():
-    proc = None
-    try:
-        proc = await asyncio.create_subprocess_shell(
-            f'python -m http.server 8000 --directory {_dir.resolve()}')
-    except KeyboardInterrupt:
-        proc.terminate()
-
 
 async def main():
     icon_json()
     lib()
     await asyncio.gather(
         engrave(),
-        parcel()
+        esbuild()
     )
 
 

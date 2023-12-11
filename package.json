@@ -1,7 +1,7 @@
 {
   "name": "gnomicon",
-  "version": "45.0.0",
-  "description": "Gnome Symbolic Icon for WebApp Platform",
+  "version": "45.1.0dev",
+  "description": "Gnome Symbolic Icon for WebApp",
   "directories": {
     "doc": "docs"
   },
@@ -26,6 +26,7 @@
     "dist/**/*"
   ],
   "devDependencies": {
+    "@devcapsule/adapter": "^2.1.0",
     "@devcapsule/deficon": "^2.0.2",
     "esbuild": "^0.19.9",
     "gadjet": "^1.0.4",

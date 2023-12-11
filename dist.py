@@ -2,13 +2,14 @@ import re
 import io
 from pathlib import Path
 from xml.etree import ElementTree
+import asyncio
 
 _dir = Path(__file__).parent
 
 def icon_svg():
     src_dir = _dir.joinpath('src', 'icon')
     dist_dir = _dir.joinpath('dist')
-    dist_icon_path = dist_dir.joinpath('icon.svg')
+    dist_icon_path = dist_dir.joinpath('icon.tmp.svg')
     svg_dir = dist_dir.joinpath('svg')
     svg_dir.mkdir(parents=True, exist_ok=True)
 
@@ -74,5 +75,19 @@ def icon_svg():
     svg_symbol.write(dist_icon_path)
 
 
-if __name__ == '__main__':
+async def svg_optimize():
+    src = _dir.joinpath('dist/icon.tmp.svg')
+    dest = _dir.joinpath('dist/icon.svg')
+    cmd = f"scour {src} {dest}"
+    print(cmd)
+    proc = await asyncio.subprocess.create_subprocess_shell(cmd)
+    await proc.communicate()
+    Path.unlink(src)
+
+
+async def main():
     icon_svg()
+    await svg_optimize()
+
+if __name__ == '__main__':
+    asyncio.run(main())

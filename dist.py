@@ -2,7 +2,6 @@ import re
 import io
 from pathlib import Path
 from xml.etree import ElementTree
-import asyncio
 
 _dir = Path(__file__).parent
 

@@ -1,5 +1,4 @@
 import hljs from 'highlight.js'
-import { Icon } from '@nitipit/icon/dist/icon';
 import {
     addStyle,
     Tag
@@ -7,7 +6,7 @@ import {
 
 import { theme, palette } from './color';
 
-import './base.style.ts';
+import './_base.style.ts';
 
 Icon.href = './lib/gnomicon/icon.svg';
 customElements.define('el-icon', Icon);

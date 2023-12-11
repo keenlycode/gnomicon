@@ -3,27 +3,27 @@ import io
 from pathlib import Path
 from xml.etree import ElementTree
 import asyncio
-import shutil
 
 _dir = Path(__file__).parent
 
-async def icon_svg():
-    src_dir = Path(__file__).parent.joinpath('src', 'icon')
-    dist_dir = Path(__file__).parent.joinpath('dist')
-    adwaita_path = dist_dir.joinpath('icon.svg')
+def icon_svg():
+    src_dir = _dir.joinpath('src', 'icon')
+    dist_dir = _dir.joinpath('dist')
+    dist_icon_path = dist_dir.joinpath('icon.svg')
     svg_dir = dist_dir.joinpath('svg')
     svg_dir.mkdir(parents=True, exist_ok=True)
 
-    with open(adwaita_path, 'w') as f:
+    with open(dist_icon_path, 'w') as f:
         f.write('<svg></svg>')
 
     ElementTree.register_namespace('', 'http://www.w3.org/2000/svg')
-    svg_symbol = ElementTree.parse(adwaita_path)
+    svg_symbol = ElementTree.parse(dist_icon_path)
 
     def sort_by_name_caseless(path):
         return str.casefold(str(path))
 
-    for svg_path in sorted(src_dir.glob('**/*.svg'), key=sort_by_name_caseless):
+    for svg_path in sorted(
+            src_dir.glob('**/*.svg'), key=sort_by_name_caseless):
         with open(svg_path) as f:
             svg_path = Path(svg_path)
             svg = f.read()
@@ -72,20 +72,8 @@ async def icon_svg():
         for metadata in svg_symbol.getroot().iter('metadata'):
             symbol.remove(metadata)
 
-    svg_symbol.write(adwaita_path)
+    svg_symbol.write(dist_icon_path)
 
 
-async def icon_js():
-    src = _dir.joinpath('node_modules/@nitipit/icon/dist/icon.js')
-    dest = _dir.joinpath('dist')
-    print(f"copy: {src} -> {dest}")
-    shutil.copy(src, dest)
-
-
-async def main():
-    await asyncio.gather(
-        icon_svg(),
-        icon_js(),
-    )
-
-asyncio.run(main())
+if __name__ == '__main__':
+    icon_svg()

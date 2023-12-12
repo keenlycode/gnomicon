@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block body %}
-<div id="hl1">
+<el-impress>
     <div class="container flex" style="position: relative; top: -2rem;">
         <h1 style="text-align: center;">Gnomicon<sub><el-badge>v45.0.0</el-badge></sub></h1>
         <el-tag>2023-11-02</el-tag>
@@ -19,9 +19,15 @@
             <el-icon set="gnome" name="emblem-favorite" class="red"></el-icon>
             <el-icon set="gnome" name="emoji-body"></el-icon>
         </div>
-        <div class="row flex" style="margin-top: 2rem;">
+        <div el="buttons" class="row flex" style="margin-top: 2rem;">
             <a href="https://github.com/keenly-coding/gnomicon">
                 <button style="font-size: 1.5rem;">Github</button>
+            </a>
+            <a href="https://unpkg.com/gnomicon@45.1.1/dist/icon.svg">
+                <button style="font-size: 1.5rem;">Download</button>
+            </a>
+            <a href="https://unpkg.com/browse/gnomicon@45.1.1/dist/svg/">
+                <button style="font-size: 1.5rem;">Browse</button>
             </a>
         </div>
         <div class="row flex" style="margin-top: 2rem;">
@@ -41,7 +47,7 @@
             &nbsp;instead
         </p>
     </div>
-</div>
+</el-impress>
 <div class="container text">
 {{ markdown('index.html.md') }}
 </div>

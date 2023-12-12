@@ -57,10 +57,16 @@ Then, we can use icon in web-component `<el-icon name="icon-name">`, for example
 
 ### Color
 
-**CSS** `color` property can be used to set icon's color.
+Use style `color` property can be used to set icon's color.
+
+<el-tag class="title-block">html</el-tag>
 
 ```html
-<el-icon name="call-outgoing" style="color: #2196F3;"></el-icon>
+<!-- Use style "fill" to change icon color -->
+<el-icon name="call-outgoing" style="fill: #2196F3;"></el-icon>
+
+<!-- Or if you want to inherit color from parent node -->
+<el-icon name="call-outgoing" style="fill: currentColor;"></el-icon>
 ```
 <div style="color: #2196F3; font-size: 3rem;">
     <el-icon name="printer-error"></el-icon>
@@ -72,7 +78,9 @@ Then, we can use icon in web-component `<el-icon name="icon-name">`, for example
 
 ### Scale
 
-**CSS** `font-size` property can be used to scale icons.
+Use style `font-size` property can be used to scale icons.
+
+<el-tag class="title-block">html</el-tag>
 
 ```html
 <el-icon name="printer-error" style="font-size: 1rem;"></el-icon>

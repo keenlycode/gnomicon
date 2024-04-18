@@ -1,13 +1,12 @@
 import {
     bgColor
 } from 'gadjet/src/gadjet';
-import { addStyle } from '@devcapsule/adapter';
 
 import { theme } from './color';
 
 const css = String.raw;
 
-addStyle(css`
+const style = css`
 #icons {
     padding-top: 2rem;
     ${bgColor(theme.eggShell)}
@@ -63,4 +62,8 @@ el-icon-grid {
         }
     }
 }
-`);
+`
+
+const cssStyleSheet = new CSSStyleSheet();
+cssStyleSheet.replaceSync(style);
+document.adoptedStyleSheets.push(cssStyleSheet);

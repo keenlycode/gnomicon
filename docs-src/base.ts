@@ -1,6 +1,5 @@
 import { Tag } from 'gadjet/src/gadjet';
 import { DefIcon } from '@devcapsule/deficon';
-import { addStyle } from '@devcapsule/adapter';
 
 import hljs from 'highlight.js';
 import html from 'highlight.js/lib/languages/xml';
@@ -22,14 +21,18 @@ if (["localhost", "127.0.0.1", "0.0.0.0"].includes(__file_url.hostname)) {
 class Icon extends DefIcon({url: './lib/gnomicon/icon.svg'}) {};
 customElements.define('el-icon', Icon);
 
-addStyle(css`
+const style = css`
 el-icon {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     fill: currentColor;
 }
-`);
+`;
+
+const cssStyleSheet = new CSSStyleSheet();
+cssStyleSheet.replaceSync(style);
+document.adoptedStyleSheets.push(cssStyleSheet);
 
 Tag.define('el-tag');
 Tag.tagStyle({color: theme.dimGray});

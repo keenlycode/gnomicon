@@ -1,5 +1,6 @@
 import { Base, Button, Card, html, reactive } from "./vendor/adaptive-ui.js";
 import { styles } from "./styles.ts";
+import { loadGitHubStars } from "./github-stars.ts";
 
 type Icon = {
   name: string;
@@ -59,6 +60,7 @@ class GnomiconApp extends Base {
       ),
     );
     this.bindEvents();
+    void loadGitHubStars(this);
     const total = this.querySelector("#total")!;
     total.replaceChildren();
     html`

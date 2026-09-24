@@ -39,11 +39,37 @@ export const styles = String.raw`
 .topbar nav{
   display:flex;
   flex-wrap:wrap;
-  gap:24px}
+  align-items:center;
+  gap:12px 24px}
 .topbar nav a{
   font-size:var(--font-small);
   color:#52615b;
   text-decoration:none}
+.topbar nav .repo-button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  min-height:44px;
+  padding:9px 14px;
+  border:1px solid #c8d3cd;
+  border-radius:9px;
+  font-weight:600;
+  color:#35483e}
+.topbar nav .star-button{
+  background:#eef5ff;
+  border-color:#b9d4f5;
+  color:#245fa3}
+#star-count{
+  border-left:1px solid #b9d4f5;
+  padding-left:10px;
+  margin-left:4px;
+  font-variant-numeric:tabular-nums}
+.topbar nav .repo-button:hover{
+  background:#e4eee8}
+.topbar nav a:focus-visible{
+  outline:2px solid #245fa3;
+  outline-offset:3px}
 main{
   max-width:1320px;
   margin:auto;

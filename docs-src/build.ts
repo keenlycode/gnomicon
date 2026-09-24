@@ -97,10 +97,13 @@ export async function build({ source, output }: BuildOptions) {
       await copyTree(licenses, join(lib, "licenses"));
     }
     await Deno.copyFile(join(HERE, "index.html"), join(stage, "index.html"));
-    await Deno.copyFile(
-      join(HERE, "vendor", "README.md"),
+    // Source-relative notice links need a different prefix at the docs root.
+    const notices = await Deno.readTextFile(join(HERE, "vendor", "README.md"));
+    await Deno.writeTextFile(
       join(stage, "UI-NOTICES.md"),
+      notices.replaceAll("](./licenses/", "](./vendor/licenses/"),
     );
+    await copyTree(join(HERE, "vendor", "licenses"), join(stage, "vendor", "licenses"));
     const result = await new Deno.Command(Deno.execPath(), {
       args: ["bundle", join(HERE, "app.ts"), "-o", join(stage, "app.js")],
       stdout: "inherit",
@@ -198,6 +201,21 @@ Deno.test("build copies manifest, icon assets, licenses and standalone app into 
     ) throw new Error("license was not copied");
     if (!await fileExists(join(output, "app.js"))) {
       throw new Error("bundle missing");
+    }
+    const outputNotices = await Deno.readTextFile(join(output, "UI-NOTICES.md"));
+    const sourceNotices = await Deno.readTextFile(join(HERE, "vendor", "README.md"));
+    for (const license of [
+      "adaptive-ui.MIT.txt",
+      "arrow-js-core-1.0.6.LICENSE.txt",
+      "devcapsule-adapter-4.0.0.LICENSE.md",
+      "edictor-0.4.0.LICENSE.md",
+    ]) {
+      if (
+        !sourceNotices.includes(`](./licenses/${license})`) ||
+        !await fileExists(join(HERE, "vendor", "licenses", license)) ||
+        !outputNotices.includes(`](./vendor/licenses/${license})`) ||
+        !await fileExists(join(output, "vendor", "licenses", license))
+      ) throw new Error(`UI dependency notice link broken: ${license}`);
     }
   } finally {
     await Deno.remove(temp, { recursive: true });

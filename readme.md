@@ -7,6 +7,9 @@ exact revisions and `dist/icons.json` for each icon's provenance and export name
 
 ## Use with npm
 
+Version 51.0.0 is prepared but **not published yet**. The following commands
+and imports are for use after release approval and publication.
+
 ```sh
 npm install gnomicon
 ```
@@ -47,17 +50,17 @@ inherit the surrounding page's `color`; use inline SVG for recoloring.
 
 ## JSR
 
-The same build produces TypeScript modules under `dist/jsr/`. The JSR scope is
-**not yet selected**; the following is the proposed API, not a published package:
+The same build produces TypeScript modules under `dist/jsr/` for
+`@devcapsule/gnomicon`. **This version is not published yet**; after publication,
+use a JSR-compatible runtime or bundler (not a raw browser script):
 
 ```ts
-import { folder, printer } from 'jsr:@your-scope/gnomicon';
-import { svg } from 'jsr:@your-scope/gnomicon/icons/folder';
+import { folder, printer } from 'jsr:@devcapsule/gnomicon';
+import { svg } from 'jsr:@devcapsule/gnomicon/icons/folder';
 ```
 
-JSR imports need a compatible runtime or bundler, not a raw browser script.
-Before publishing, rebuild with `--jsr-scope YOUR-SCOPE`. npm and JSR share the
-same version, names, SVG data, source revisions and upstream licenses.
+npm and JSR share the same version, names, SVG data, source revisions and
+upstream licenses.
 
 ## Color, size and animation
 
@@ -130,11 +133,10 @@ requires the Python environment above. Check packaging without publishing:
 
 ```sh
 npm pack --dry-run
-python scripts/build.py --jsr-scope YOUR-SCOPE
 (cd dist/jsr && deno publish --dry-run --allow-dirty)
 ```
 
-The explicit JSR scope must be owned by the publisher. A dry-run is not a registry
+The JSR scope must be owned by the publisher. A dry-run is not a registry
 publication or proof that a scope/package is available.
 
 ## Sources and licensing

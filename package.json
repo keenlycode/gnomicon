@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keenly-coding/gnomicon.git"
+    "url": "git+https://github.com/keenlycode/gnomicon.git"
   },
   "keywords": [
     "icon",
@@ -33,9 +33,9 @@
   "author": "Nitipit Nontasuwan",
   "license": "SEE LICENSE IN license.md",
   "bugs": {
-    "url": "https://github.com/keenly-coding/gnomicon/issues"
+    "url": "https://github.com/keenlycode/gnomicon/issues"
   },
-  "homepage": "https://keenly-coding.github.io/gnomicon/",
+  "homepage": "https://keenlycode.github.io/gnomicon/",
   "files": [
     "dist/**/*",
     "!dist/jsr/**"

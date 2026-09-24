@@ -58,6 +58,7 @@ class DistributionTests(unittest.TestCase):
     def test_jsr_exports_and_licenses(self):
         config = json.loads((self.output / "jsr/jsr.json").read_text())
         self.assertEqual(config["version"], self.catalog["version"])
+        self.assertEqual(config["name"], "@devcapsule/gnomicon")
         self.assertEqual(len(config["exports"]), len(self.catalog["icons"]) + 1)
         for entry in config["exports"].values():
             self.assertTrue((self.output / "jsr" / entry).is_file())

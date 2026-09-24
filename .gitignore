@@ -5,3 +5,5 @@ dist/
 docs/
 __pycache__/
 *.pyc
+.agents/
+discord-webhook.txt

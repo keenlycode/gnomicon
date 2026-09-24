@@ -64,8 +64,8 @@ def optimize(element):
     return scourString(svg.serialize(element), options=options).strip()
 
 
-def build(output=None, jsr_scope=None):
-    if jsr_scope and not re.fullmatch(r"[a-z0-9][a-z0-9-]{0,30}[a-z0-9]", jsr_scope):
+def build(output=None, jsr_scope="devcapsule"):
+    if not isinstance(jsr_scope, str) or not re.fullmatch(r"[a-z0-9][a-z0-9-]{0,30}[a-z0-9]", jsr_scope):
         raise ValueError("JSR scope must be 2–32 lowercase letters, digits or hyphens")
     config = json.loads((ROOT / "upstream.json").read_text())
     manifest = json.loads((ROOT / "package.json").read_text())
@@ -115,14 +115,12 @@ def build(output=None, jsr_scope=None):
             shutil.rmtree(output)
         shutil.move(str(stage), str(output))
     print(f"Built {len(icons)} icons; {len(collisions)} source-name collisions recorded")
-    if not jsr_scope:
-        print("JSR scope is a placeholder. Rebuild with --jsr-scope YOUR-SCOPE before publishing.")
     return catalog
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--out", type=Path)
-    parser.add_argument("--jsr-scope")
+    parser.add_argument("--jsr-scope", default="devcapsule")
     args = parser.parse_args()
     build(args.out, args.jsr_scope)

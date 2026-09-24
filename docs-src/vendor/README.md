@@ -1,5 +1,23 @@
-# Adaptive UI runtime bundle
+# Documentation UI runtime notices
 
-`adaptive-ui.js` is a generated browser bundle copied from the provided local Adaptive UI build at `/tmp/gnomicon-diagram-SVO7Oh/website/lib/adaptive-ui.js` (106,944 bytes, supplied 2026-09-24). It exposes Base, Button, Card, and Arrow's `reactive`/`html`/`component` APIs. The installed source used to generate it lives under the Automata adaptive-ui skill; it was not modified.
+`adaptive-ui.js` is a browser bundle used only by the Gnomicon documentation
+site. It is not included in the npm or JSR icon packages. The vendored file
+(SHA-256 `71546e5dae6eba3caf8d889d72912a4b4ddcdbc0c0c97807815f69ee0aa9ac3c`)
+was supplied as a local Adaptive UI build on 2026-09-24. Its original source
+is maintained by the owner's Adaptive UI skill; that source was not changed
+for this release. The source manifest and lockfile identify the
+following dependencies. These bundled components retain their own licenses:
 
-The bundle's source license/third-party notice metadata was not present alongside the supplied build, and has not been independently verified. This vendoring is for the approved local documentation implementation only. **Do not publish this bundle until its license and required notices are confirmed and preserved.** Replace it with an appropriately licensed generated bundle if necessary.
+| Component | Version | License and notice |
+| --- | --- | --- |
+| Adaptive UI original code | local source | MIT, Copyright (c) 2026 Nitipit Nontasuwan; [full notice](./licenses/adaptive-ui.MIT.txt) |
+| Arrow (`@arrow-js/core`) | 1.0.6 | MIT, [full notice](./licenses/arrow-js-core-1.0.6.LICENSE.txt) |
+| Adapter (`@devcapsule/adapter`) | 4.0.0 | ISC, [full notice](./licenses/devcapsule-adapter-4.0.0.LICENSE.md) |
+| Edictor (`edictor`) | 0.4.0 | ISC, [full notice](./licenses/edictor-0.4.0.LICENSE.md) |
+
+The dependency notices above are copied from the locally cached packages at
+the versions in the Adaptive UI source manifest and lockfile. The original-code
+MIT notice uses the copyright holder and year confirmed by the owner for this
+release. MIT for original Adaptive UI code does **not** relicense Arrow,
+Adapter, Edictor, the icon artwork, or Gnomicon contributions. Icon artwork
+has separate upstream licenses in `lib/gnomicon/licenses/`.

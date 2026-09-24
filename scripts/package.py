@@ -41,7 +41,7 @@ def module_paths(names):
     return result
 
 
-def emit_modules(dist, icons, version, jsr_scope=None):
+def emit_modules(dist, icons, version, jsr_scope):
     js = dist / "modules"
     ts = dist / "jsr" / "icons"
     js.mkdir(parents=True)
@@ -65,7 +65,7 @@ def emit_modules(dist, icons, version, jsr_scope=None):
     (dist / "jsr/mod.ts").write_text("\n".join(ts_exports) + "\n")
     # A separate generated tree keeps docs tooling and npm metadata out of JSR.
     config = {
-        "name": f"@{jsr_scope or 'your-scope'}/gnomicon",
+        "name": f"@{jsr_scope}/gnomicon",
         "version": version,
         "exports": config_exports,
         "publish": {"include": ["mod.ts", "icons/", "icons.json", "upstream.json",

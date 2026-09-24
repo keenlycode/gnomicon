@@ -81,13 +81,17 @@
               max="128"
               value="64"
             ></label><div class="snippets">
-            <div class="code-label">npm import · v51 release pending</div>
+            <div class="code-label">npm import · v51.0.0</div>
             <pre id="npm-code"></pre><aui-button
               id="copy-npm"
               label="Copy npm"
               tone="primary"
               type="button"
-            ></aui-button><p class="availability">JSR @devcapsule/gnomicon · Coming soon</p>
+            ></aui-button><p class="availability">
+              Also available on
+              <a href="https://jsr.io/@devcapsule/gnomicon@51.0.0">JSR</a> as
+              @devcapsule/gnomicon.
+            </p>
             <div class="code-label">Inline SVG insertion</div>
             <details class="source-code">
               <summary>View source</summary>
@@ -111,21 +115,22 @@
         <article>
           <h3>1. Install</h3>
           <p class="release-notice">
-            <strong>v51 is not published yet.</strong> This command is for use
-            after release, not for installing the current preview.
+            <strong>v51.0.0 is available on npm and JSR.</strong> Install the
+            npm package to use the imports below.
           </p>
           <pre
             class="example"
-          ># After the v51 release:
-npm install gnomicon@51.0.0</pre>
+          >npm install gnomicon@51.0.0</pre>
           <p>
-            Want an icon now? Select one above and use <strong>Copy SVG
+            Prefer plain HTML? Select an icon above and use <strong>Copy SVG
               source</strong>
             to paste its markup directly into your page. No package is needed.
           </p>
           <p>
-            <strong>JSR @devcapsule/gnomicon · Coming soon.</strong> The v51
-            JSR package is not published yet.
+            Using Deno? Import directly from
+            <a href="https://jsr.io/@devcapsule/gnomicon@51.0.0"
+            >@devcapsule/gnomicon</a>
+            on JSR; no npm installation is required.
           </p>
         </article>
         <article>
@@ -140,6 +145,10 @@ npm install gnomicon@51.0.0</pre>
           <pre
             class="example"
           >import { svg as folder } from 'gnomicon/icons/folder';</pre>
+          <p>For Deno or a JSR-compatible bundler, use this alternative:</p>
+          <pre
+            class="example"
+          >import { folder, printer } from 'jsr:@devcapsule/gnomicon@51.0.0';</pre>
           <p>
             These are alternative imports. Individual SVG files are also
             included in <code>dist/svg/</code>; there is no combined sprite.
@@ -208,8 +217,7 @@ if (target) target.innerHTML = folder;</pre>
               <a href="./UI-NOTICES.md">documentation UI notices</a>. Per-icon
               origins and pinned revisions are recorded in the
               <a href="./lib/gnomicon/icons.json">manifest</a> and
-              <a href="https://github.com/keenlycode/gnomicon"
-              >repository</a>.
+              <a href="https://github.com/keenlycode/gnomicon">repository</a>.
             </p>
           </div>
         </details>

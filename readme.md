@@ -56,12 +56,12 @@ inherit the surrounding page's `color`; use inline SVG for recoloring.
 ## JSR
 
 The same build produces TypeScript modules under `dist/jsr/` for
-`@devcapsule/gnomicon`. **This version is not published yet**; after publication,
-use a JSR-compatible runtime or bundler (not a raw browser script):
+`@devcapsule/gnomicon`. Version **51.0.0** is published on JSR. Use a
+JSR-compatible runtime or bundler (not a raw browser script):
 
 ```ts
-import { folder, printer } from 'jsr:@devcapsule/gnomicon';
-import { svg } from 'jsr:@devcapsule/gnomicon/icons/folder';
+import { folder, printer } from 'jsr:@devcapsule/gnomicon@51.0.0';
+import { svg } from 'jsr:@devcapsule/gnomicon@51.0.0/icons/folder';
 ```
 
 npm and JSR share the same version, names, SVG data, source revisions and

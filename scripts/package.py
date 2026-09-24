@@ -67,6 +67,8 @@ def emit_modules(dist, icons, version, jsr_scope):
     config = {
         "name": f"@{jsr_scope}/gnomicon",
         "version": version,
+        # Project contributions only; LICENSE.md preserves upstream exceptions.
+        "license": "CC-BY-SA-4.0",
         "exports": config_exports,
         "publish": {"include": ["mod.ts", "icons/", "icons.json", "upstream.json",
                                 "licenses/", "LICENSE.md", "README.md"]},

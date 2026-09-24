@@ -5,13 +5,18 @@ or individual files. Version **51.0.0** follows GNOME 51, using Adwaita 51.0 and
 an independently pinned Icon Development Kit snapshot. See `upstream.json` for
 exact revisions and `dist/icons.json` for each icon's provenance and export name.
 
+> **Licensing:** JSR's primary `CC-BY-SA-4.0` label covers Gnomicon
+> contributions only, not all bundled artwork. Adwaita icons retain
+> **CC BY-SA 3.0 US**; Icon Development Kit icons remain **CC0 1.0**.
+> See `LICENSE.md` in the package (`license.md` in this repository), the upstream
+> license texts, and the per-icon manifest for the applicable terms.
+
 ## Use with npm
 
-Version 51.0.0 is prepared but **not published yet**. The following commands
-and imports are for use after release approval and publication.
+Version **51.0.0** is published on npm.
 
 ```sh
-npm install gnomicon
+npm install gnomicon@51.0.0
 ```
 
 ```js

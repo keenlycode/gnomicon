@@ -59,6 +59,11 @@ class DistributionTests(unittest.TestCase):
         config = json.loads((self.output / "jsr/jsr.json").read_text())
         self.assertEqual(config["version"], self.catalog["version"])
         self.assertEqual(config["name"], "@devcapsule/gnomicon")
+        self.assertEqual(config["license"], "CC-BY-SA-4.0")
+        for filename in ("LICENSE.md", "README.md"):
+            notice = (self.output / "jsr" / filename).read_text()
+            for license_name in ("CC-BY-SA-4.0", "CC BY-SA 3.0 US", "CC0 1.0"):
+                self.assertIn(license_name, notice)
         self.assertEqual(len(config["exports"]), len(self.catalog["icons"]) + 1)
         for entry in config["exports"].values():
             self.assertTrue((self.output / "jsr" / entry).is_file())

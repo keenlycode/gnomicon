@@ -3,6 +3,11 @@
 Gnomicon contains artwork from independently licensed upstream collections.
 The original upstream licenses are not replaced by Gnomicon's contribution license.
 
+**JSR's primary license label, `CC-BY-SA-4.0`, applies to Gnomicon contributions
+only. It is not a blanket license for the bundled artwork.** Adwaita artwork
+retains CC BY-SA 3.0 US, and Icon Development Kit artwork remains CC0 1.0.
+The per-source notices below and per-icon manifest identify the applicable terms.
+
 - **Icon Development Kit:** CC0 1.0 Universal. See
   `licenses/icon-dev-kit/COPYING.md`.
 - **Adwaita Icon Theme:** upstream offers GNU LGPL v3 or CC BY-SA 3.0 US.

@@ -48,7 +48,7 @@ class GnomiconApp extends Base {
 
   static {
     this.css =
-      `display:block;color:#1d2924;font:15px/1.55 Inter,ui-sans-serif,system-ui,sans-serif;background:#f5f7f6;min-height:100vh;${styles}`;
+      `display:block;color:#1d2924;font:var(--font-body)/1.55 Inter,ui-sans-serif,system-ui,sans-serif;background:#f5f7f6;min-height:100vh;${styles}`;
   }
 
   override connectedCallback() {
@@ -120,7 +120,7 @@ class GnomiconApp extends Base {
       item.append(
         link,
         document.createTextNode(
-          ` · ${source.license} · ${source.revision.slice(0, 12)}`,
+          ` · ${source.license}`,
         ),
       );
       list.append(item);
@@ -219,8 +219,6 @@ class GnomiconApp extends Base {
 
   private updateSnippets(icon: Icon) {
     const npm = `import { ${icon.exportName} } from 'gnomicon';`;
-    const jsr =
-      `import { ${icon.exportName} } from 'jsr:@your-scope/gnomicon';`;
     const svg = new DOMParser().parseFromString(this.#svgText, "image/svg+xml")
       .documentElement;
     svg.setAttribute("role", "img");
@@ -228,13 +226,12 @@ class GnomiconApp extends Base {
     svg.style.color = "currentColor";
     const html = new XMLSerializer().serializeToString(svg);
     for (
-      const [id, value] of [["npm-code", npm], ["jsr-code", jsr], [
+      const [id, value] of [["npm-code", npm], [
         "html-code",
         html,
       ]] as const
     ) this.text(id, value);
     (this.querySelector("#copy-npm") as HTMLElement)!.dataset.copy = npm;
-    (this.querySelector("#copy-jsr") as HTMLElement)!.dataset.copy = jsr;
     (this.querySelector("#copy-html") as HTMLElement)!.dataset.copy = html;
   }
 
@@ -315,7 +312,7 @@ class GnomiconApp extends Base {
         );
       },
     );
-    (this.querySelectorAll("#copy-npm, #copy-jsr, #copy-html") as NodeListOf<
+    (this.querySelectorAll("#copy-npm, #copy-html") as NodeListOf<
       HTMLElement
     >).forEach((
       button,

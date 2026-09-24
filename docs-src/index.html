@@ -21,9 +21,7 @@
     <header class="topbar">
       <a class="brand" href="#top"><span class="mark">g</span><strong
         >Gnomicon</strong><span class="version">51.0.0</span></a><nav>
-        <a href="#gallery">Gallery</a><a href="#guide">Usage</a><a
-          href="#sources"
-        >Sources</a>
+        <a href="#gallery">Gallery</a><a href="#guide">Get started</a>
       </nav>
     </header>
     <main id="top">
@@ -83,22 +81,18 @@
               max="128"
               value="64"
             ></label><div class="snippets">
-            <div class="code-label">npm import</div>
+            <div class="code-label">npm import · v51 release pending</div>
             <pre id="npm-code"></pre><aui-button
               id="copy-npm"
               label="Copy npm"
               tone="primary"
               type="button"
-            ></aui-button><div class="code-label">
-              JSR (placeholder namespace)
-            </div>
-            <pre id="jsr-code"></pre><aui-button
-              id="copy-jsr"
-              label="Copy JSR"
-              tone="primary"
-              type="button"
-            ></aui-button><div class="code-label">Inline SVG insertion</div>
-            <pre id="html-code"></pre><aui-button
+            ></aui-button><p class="availability">JSR · Coming soon</p>
+            <div class="code-label">Inline SVG insertion</div>
+            <details class="source-code">
+              <summary>View source</summary>
+              <pre id="html-code"></pre>
+            </details><aui-button
               id="copy-html"
               label="Copy HTML"
               tone="primary"
@@ -112,51 +106,112 @@
           </div><p id="copy-status" role="status" aria-live="polite">
           </p></aui-card>
       </section>
-      <section class="info-grid" id="guide">
+      <section class="info-grid" id="guide" aria-labelledby="guide-title">
+        <h2 id="guide-title">Get started</h2>
         <article>
-          <h2>Use it in your project</h2>
-          <p>
-            Import one or several SVG strings. A bundler resolves package
-            imports; browsers cannot load bare npm or JSR specifiers directly.
+          <h3>1. Install</h3>
+          <p class="release-notice">
+            <strong>v51 is not published yet.</strong> This command is for use
+            after release, not for installing the current preview.
           </p>
           <pre
             class="example"
-          >import { folder, printer } from 'gnomicon';
-// Insert only trusted package SVG:
-document.querySelector('.icon').innerHTML = folder;</pre>
+          ># After the v51 release:
+npm install gnomicon@51.0.0</pre>
           <p>
-            For a direct per-icon entry point, use <code>import { svg } from
-              'gnomicon/icons/folder'</code>. Individual files remain available
-            in <code>dist/svg/</code>; there is no combined sprite.
+            Want an icon now? Select one above and use <strong>Copy SVG
+              source</strong>
+            to paste its markup directly into your page. No package is needed.
           </p>
           <p>
-            Inline SVG snippets copy the icon markup; set <code>color</code> on
-            the inserted SVG to apply currentColor. Add your own CSS or
-            JavaScript animations. Grappa's initial state is static; GTK
-            animations are not included.
-          </p>
-          <p>
-            JSR namespace is not chosen; <code>@your-scope</code> shown here is
-            a placeholder, not a published package.
+            <strong>JSR · Coming soon.</strong> No JSR package is available yet.
           </p>
         </article>
-        <article id="sources">
-          <h2>Sources &amp; provenance</h2>
+        <article>
+          <h3>2. Import</h3>
           <p>
-            Each manifest entry records its source, original path and license.
-            Overlaps prioritize icon-development-kit.
+            After installing v51, import SVG strings in your app's JavaScript or
+            TypeScript entry point. Use a bundler; browsers cannot resolve bare
+            package names directly.
           </p>
-          <ul id="source-list"></ul>
+          <pre class="example">import { folder, printer } from 'gnomicon';</pre>
+          <p>Or use a per-icon entry point:</p>
+          <pre
+            class="example"
+          >import { svg as folder } from 'gnomicon/icons/folder';</pre>
           <p>
-            Review the applicable license and attribution obligations before
-            redistribution. License texts and source provenance ship with the
-            generated docs.
+            These are alternative imports. Individual SVG files are also
+            included in <code>dist/svg/</code>; there is no combined sprite.
+          </p>
+        </article>
+        <article>
+          <h3>3. Render</h3>
+          <p>Add a container to your page:</p>
+          <pre
+            class="example"
+          >&lt;span class="icon" role="img" aria-label="Folder"&gt;&lt;/span&gt;</pre>
+          <p>
+            Then insert the imported SVG string from your app's entry point:
+          </p>
+          <pre
+            class="example"
+          >// Insert only trusted package SVG, never user input.
+const target = document.querySelector('.icon');
+if (target) target.innerHTML = folder;</pre>
+        </article>
+        <article>
+          <h3>Style it your way</h3>
+          <p>
+            Inline icons inherit <code>currentColor</code>. Set color and size
+            with CSS:
+          </p>
+          <pre
+            class="example"
+          >.icon { color: #3584e4; }
+.icon svg { width: 1.5rem; height: 1.5rem; }</pre>
+          <p>
+            Icons are static SVGs. Add your own CSS or JavaScript animations
+            when needed.
           </p>
         </article>
       </section>
       <footer>
-        Gnomicon 51.0.0 · Current GNOME snapshot · Icon names follow the
-        manifest, without backward aliases.
+        <p>
+          Gnomicon 51.0.0 · Artwork by <a href="https://www.gnome.org/"
+          >GNOME Project</a>.
+        </p>
+        <details id="sources">
+          <summary>Sources &amp; licenses</summary>
+          <div class="license-notes">
+            <p>Icons come from these upstream collections:</p>
+            <ul id="source-list"></ul>
+            <p>
+              Adwaita artwork is distributed under
+              <a href="https://creativecommons.org/licenses/by-sa/3.0/us/"
+              >CC BY-SA 3.0 US</a>. Credit GNOME Project, link to the license,
+              indicate modifications, and follow its ShareAlike terms. Icon
+              Development Kit artwork uses
+              <a href="https://creativecommons.org/publicdomain/zero/1.0/"
+              >CC0 1.0</a>. Gnomicon contributions use
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+              >CC BY-SA 4.0</a>; upstream licenses still apply.
+            </p>
+            <p>
+              Our changes include static initial-state conversion, color
+              normalization, metadata cleanup, SVG optimization and JS/TS
+              wrappers.
+            </p>
+            <p>
+              Read the <a href="./lib/gnomicon/LICENSE.md">licensing notes</a>
+              and
+              <a href="./UI-NOTICES.md">documentation UI notices</a>. Per-icon
+              origins and pinned revisions are recorded in the
+              <a href="./lib/gnomicon/icons.json">manifest</a> and
+              <a href="https://github.com/keenlycode/gnomicon/tree/dev"
+              >repository</a>.
+            </p>
+          </div>
+        </details>
       </footer>
     </main>
   </body>

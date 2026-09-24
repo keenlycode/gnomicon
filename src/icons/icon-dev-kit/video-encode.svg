@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" gpa:version="1" gpa:state-names="outline empty" gpa:state="0" width="16" height="16">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>video encode compress gstreamer ffmpeg film strip binary codec</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="binary" fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 11.4789 7 L 11.4789 9 L 13.5271 9 L 13.5271 7 Z M 15 7 L 15.4893 7 L 15.4893 9 M 13.4789 11 L 13.4789 13 L 15.5271 13 L 15.5271 11 Z M 11 11 L 11.4893 11 L 11.4893 13 M 13.4789 3 L 13.4789 5 L 15.5271 5 L 15.5271 3 Z M 11 3 L 11.4893 3 L 11.4893 5" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+  </path>
+  <path id="filmstrip" fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" paint-order="stroke fill markers" d="M 3 15 L 3 11 M 0 15 L 9 15 M 9 11 L 0 11 M 7 15 L 7 1 M 3 5 L 3 1 M 0 5 L 9 5 M 9 1 L 0 1" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

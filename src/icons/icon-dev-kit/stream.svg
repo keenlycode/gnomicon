@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="airplay" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="22.5589" d="M 5.39106321 15.0148993 L 10.6089373 15.0148993 C 10.9142313 15.0148993, 11.1933231 14.842412, 11.329854 14.5693474 C 11.4663858 14.2962837, 11.4369211 13.9695177, 11.2537441 13.7252827 L 8.96721268 10.6765728 C 8.73888397 10.3721361, 8.38054657 10.1929674, 8 10.1929674 C 7.61945391 10.1929674, 7.26111555 10.3721361, 7.0327878 10.6765728 L 4.74625492 13.7252827 C 4.5630784 13.9695177, 4.53361368 14.2962837, 4.67014599 14.5693474 C 4.80667734 14.842412, 5.08576918 15.0148993, 5.39106321 15.0148993 Z M 2.95278072 11.6996727 C 1.88112652 11.6996727, 1.01838708 10.8651295, 1.01838708 9.82849693 L 1.01838708 2.91927266 C 1.01838708 1.88264024, 1.88112652 1.04809582, 2.95278072 1.04809582 L 13.0472202 1.04809582 C 14.1188717 1.04809582, 14.9816132 1.88264024, 14.9816132 2.91927266 L 14.9816132 9.82849693 C 14.9816132 10.8651295, 14.1188717 11.6996727, 13.0472202 11.6996727" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>stream airplay radio audio cast</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

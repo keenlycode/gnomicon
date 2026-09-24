@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="curve" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 15 2 C 14.0829706 2.01104808, 12.7401485 2.23527718, 12.3665991 2.35817027 M 9.50032234 2.98466349 C 6.98189878 3.66388321, 4.34509516 4.77150106, 3.38127565 6.53142643 M 3.3285346 9.46584129 C 4.24558115 11.386611, 6.93448877 12.468359, 9.5023613 13.074688 M 12.3896303 13.595396 C 13.000001 13.7415209, 13.9569206 13.8337841, 15.017581 13.8337841" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="nodes" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="3.20001" d="M 3.00769901 9.50000095 C 2.17499781 9.5, 1.49995935 8.82496166, 1.49995995 7.9922595 C 1.49995923 7.1595583, 2.17499804 6.48451948, 3.00769973 6.48451996 C 3.84040141 6.48451948, 4.51543951 7.1595583, 4.51543951 7.99225998 C 4.51543999 8.82496166, 3.8404007 9.5, 3.00769901 9.50000095 Z M 11.00774 14.5000401 C 10.1750383 14.5000401, 9.5 13.8250008, 9.5 12.9923 C 9.49999905 12.1595984, 10.1750383 11.48456, 11.0077391 11.48456 C 11.8404417 11.484561, 12.5154791 12.1595993, 12.51548 12.992301 C 12.5154791 13.8250017, 11.8404408 14.5000401, 11.00774 14.5000401 Z M 11.00774 4.51919031 C 10.1750383 4.51919031, 9.5 3.84415197, 9.5 3.01144981 C 9.5 2.17874789, 10.1750383 1.50370991, 11.00774 1.50370991 C 11.8404408 1.50370967, 12.51548 2.17874813, 12.51548 3.01145005 C 12.51548 3.84415197, 11.8404417 4.51919031, 11.00774 4.51919031 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>function graph parabolic parable</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

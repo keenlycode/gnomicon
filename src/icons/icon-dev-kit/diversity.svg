@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" class="" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0">
+    </defs>
+  <path id="diversity" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="22.5589" d="M 2.38122249 12.1748457 Q 7.99999952 9.82515526, 13.6187782 12.1748457 M 4 8 L 1.00000036 8 L 1.00000036 7 C 1.00000036 5.34314585, 2.34314609 4, 4 4 C 4.76877022 4, 5.47000217 4.28916597, 6.00086117 4.76466417 M 12 8 L 15 8 L 15 7 C 15 5.34314585, 13.6568537 4, 12 4 C 11.2312298 4, 10.5299988 4.28916597, 9.99913883 4.76466417 M 5 8 L 11 8 L 11 7 C 11 5.34314585, 9.65685463 4, 8 4 C 6.34314585 4, 5 5.34314585, 5 7 Z M 14 2.5 C 14 3.32842708, 13.3284273 4, 12.5 4 C 11.6715727 4, 11 3.32842708, 11 2.5 C 11 1.67157292, 11.6715727 1, 12.5 1 C 13.3284273 1, 14 1.67157292, 14 2.5 Z M 5 2.5 C 5 3.32842708, 4.32842731 4, 3.5 4 C 2.67157292 4, 2 3.32842708, 2 2.5 C 2 1.67157292, 2.67157292 1, 3.5 1 C 4.32842731 1, 5 1.67157292, 5 2.5 Z M 9.5 2.5 C 9.5 3.32842708, 8.82842731 4, 8 4 C 7.17157269 4, 6.5 3.32842708, 6.5 2.5 C 6.5 1.67157292, 7.17157269 1, 8 1 C 8.82842731 1, 9.5 1.67157292, 9.5 2.5 Z M 11.0000858 8 C 11.0000858 10.5008593, 10.4282722 12.8117485, 9.50004292 14.0621777 C 8.57181358 15.3126068, 7.42818689 15.3126068, 6.49995708 14.0621777 C 5.57172728 12.8117485, 4.99991417 10.5008593, 4.99991417 8 M 15 8 C 15 10.5008593, 13.6658077 12.8117485, 11.5 14.0621777 C 9.33419228 15.3126068, 6.66580772 15.3126068, 4.5 14.0621777 C 2.33419251 12.8117485, 1.00000012 10.5008593, 1 8" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>diversity equity inclusion dei</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

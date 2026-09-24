@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="strobe" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M 8.34465504 1.27609885 L 3.17634344 8.38252735 C 2.68676972 9.05569172, 3.16763496 10, 4 10 L 7.03847599 10 C 7.52033567 10, 7.86822605 10.4612083, 7.7358489 10.9245281 L 6.77595472 14.2841578 C 6.62234783 14.8217764, 7.33243656 15.167901, 7.66130161 14.7157106 L 12.823657 7.61747217 C 13.3132315 6.94430828, 12.832365 6, 12 6 L 8.96152401 6 C 8.47966385 6, 8.13177395 5.53879166, 8.26415062 5.07547188 L 9.22682762 1.70610356 C 9.37988186 1.17041409, 8.67234039 0.825531423, 8.34465504 1.27609885 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>camera-photo dslr flsh strobe strobist</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

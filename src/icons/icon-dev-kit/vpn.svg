@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 6 13.9999828 L 3 13.9999828 M 10 13.9999828 L 13 13.9999828" id="path1-5" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path d="M 6.48275805 13.9999828 L 6.48275805 14.0344629 C 6.482759 14.8533678, 7.14661312 15.5172215, 7.96551704 15.5172215 L 8 15.5172215 C 8.81890392 15.5172215, 9.48275661 14.8533697, 9.48275757 14.0344658 L 9.48275757 13.9999857 C 9.48275948 13.181078, 8.81890488 12.5172243, 8 12.5172243 L 7.96551991 12.5172243 C 7.14661503 12.5172243, 6.48276091 13.181078, 6.48276091 13.9999828 Z" id="path5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path d="M 8 1 L 3 2 L 3 6 C 3.00000024 7.8611908, 3.97652054 9.58591175, 5.57247877 10.5434866 L 8 12 L 10.4275208 10.5434866 C 12.0234795 9.58591175, 13 7.86119127, 13 6 L 13 2 Z" id="path3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>network-vpn shield tunnel</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

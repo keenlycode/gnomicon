@@ -1,0 +1,65 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline state1 empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>audio-speakers sound audio volume high loud speaker</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='speaker'
+          class='transparent-fill'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          d='M 10.9578 11 L 12.9578 11 C 14.0624 11, 14.9578 10.1046, 14.9578 9 L 14.9578 7 C 14.9578 5.89543, 14.0624 5, 12.9578 5 L 9.95781 5 L 6.95781 1 L 6.95781 7 M 6.95781 10.3901 L 6.95781 15 L 9.33002 12.7058'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'>
+  </path>
+  <path
+          id='no'
+          class='transparent-fill'
+          style=''
+          fill='none'
+          fill-rule='nonzero'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 1 1 L 15 15'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'>
+  </path>
+</svg>

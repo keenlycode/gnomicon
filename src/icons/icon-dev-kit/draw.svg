@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="pen" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 4 11.1806822 L 4 13.2931032 C 3.99999976 14.235796, 4.76420355 15, 5.70689678 15 L 10.2931032 15 C 11.235796 15, 12 14.235796, 12 13.2931032 L 12 11.170929 M 13.2140312 8.9649229 L 12.7859688 10.0350771 C 12.3112707 11.2218227, 11.1618776 12, 9.88371372 12 L 6.11628628 12 C 4.83812237 12, 3.68872905 11.2218227, 3.21403098 10.0350771 L 2.78596902 8.9649229 C 2.30284047 7.75710154, 2.53067017 6.38088512, 3.37726092 5.39319563 L 6.62273884 1.60680449 C 6.96735907 1.20474768, 7.47045994 0.973353982, 8 0.973353982 C 8.52954006 0.973353982, 9.03264141 1.20474768, 9.37726116 1.60680449 L 12.6227388 5.39319563 C 13.4693298 6.38088512, 13.6971598 7.75710106, 13.2140312 8.9649229 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path1" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 8 5.49176693 L 8 1 M 9.51386452 7.00563097 C 9.51386452 7.84171534, 8.83608341 8.51949501, 8 8.51949501 C 7.16391611 8.51949501, 6.48613596 7.84171534, 6.48613596 7.00563097 C 6.48613596 6.16954708, 7.16391611 5.49176693, 8 5.49176693 C 8.83608341 5.49176693, 9.51386452 6.16954708, 9.51386452 7.00563097 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>draw graphic illustration path tool gfx graphics pen ink</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

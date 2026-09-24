@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="radio" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="22.5589" d="M 3.05025196 12.9497471 C 0.31658271 10.2160769, 0.31658271 5.78392267, 3.05025196 3.05025268 M 4.81802273 11.1819773 C 3.06066513 9.42461967, 3.06066513 6.57538033, 4.81802273 4.81802273 M 12.949748 12.9497471 C 15.6834173 10.2160769, 15.6834173 5.78392267, 12.949748 3.05025268 M 11.1819773 11.1819773 C 12.9393349 9.42461967, 12.9393349 6.57538033, 11.1819773 4.81802273 M 6 8 C 6 9.10456944, 6.89543056 10, 8 10 C 9.10456944 10, 10 9.10456944, 10 8 C 10 6.89543056, 9.10456944 6, 8 6 C 6.89543056 6, 6 6.89543056, 6 8 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>radio waves transmit receive</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

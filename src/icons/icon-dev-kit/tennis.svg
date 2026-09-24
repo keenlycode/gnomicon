@@ -1,0 +1,73 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>tennis ball circle category activities emoji-activities gnome-maps</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='path0'
+          class='transparent-fill'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M 1 8 C 1 11.866, 4.13401 15, 8 15 C 11.866 15, 15 11.866, 15 8 C 15 4.13401, 11.866 1, 8 1 C 4.13401 1, 1 4.13401, 1 8 Z'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+  <path
+          id='path1'
+          class='transparent-fill'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-width='1'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M 1.21348 9.71185 C 2.7407 8.65393, 4.7953 8.78681, 6.17353 10.0326 C 7.55175 11.2785, 7.89075 13.3093, 6.99191 14.9352'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='200%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+  <path
+          id='path2'
+          class='transparent-fill'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-width='1'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M 14.7545 6.18365 C 13.196 7.32042, 11.0674 7.26498, 9.57016 6.04863 C 8.07295 4.83228, 7.58272 2.76013, 8.37618 1.00184'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='200%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+</svg>

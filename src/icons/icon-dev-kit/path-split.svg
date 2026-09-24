@@ -1,0 +1,27 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state13 empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="path1" opacity="1" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" d="M 3.99980211 1 L 11.5036459 1 C 12.4691381 1, 13.3432264 1.39134276, 13.9759417 2.02405834 M 2.02405834 13.9759417 C 2.65677404 14.6086569, 3.53086233 15, 4.49635363 15 L 11 15" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state13" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="x" opacity="1" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" d="M 5 5 L 11 11 M 11 5 L 5 11" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state13" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path10" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 15.4753265 4.53184414 C 15.4753265 4.80798578, 15.2514687 5.03184414, 14.9753265 5.03184414 C 14.6991844 5.03184414, 14.4753265 4.80798578, 14.4753265 4.53184414 C 14.4753265 4.25570202, 14.6991844 4.03184223, 14.9753265 4.03184223 C 15.2514687 4.03184223, 15.4753265 4.25570202, 15.4753265 4.53184414 M 13.4856644 7.98566484 C 13.4856644 8.26180649, 13.2618055 8.48566437, 12.9856644 8.48566437 C 12.7095213 8.48566437, 12.4856644 8.26180649, 12.4856644 7.98566484 C 12.4856644 7.70952272, 12.7095213 7.48566294, 12.9856644 7.48566294 C 13.2618055 7.48566294, 13.4856644 7.70952272, 13.4856644 7.98566484 M 4.03184652 7.98566484 C 4.03184652 8.26180649, 3.80798841 8.48566437, 3.53184628 8.48566437 C 3.25570345 8.48566437, 3.03184652 8.26180649, 3.03184652 7.98566484 C 3.03184652 7.70952272, 3.25570345 7.48566294, 3.53184628 7.48566294 C 3.80798841 7.48566294, 4.03184652 7.70952272, 4.03184652 7.98566484 M 1.56369281 10.5318441 C 1.56369281 10.8079863, 1.33983481 11.0318441, 1.06369281 11.0318441 C 0.787549853 11.0318441, 0.563692927 10.8079863, 0.563692927 10.5318441 C 0.563692927 10.255702, 0.787549853 10.0318422, 1.06369281 10.0318422 C 1.33983481 10.0318422, 1.56369281 10.255702, 1.56369281 10.5318441" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state13" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>path erase split</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

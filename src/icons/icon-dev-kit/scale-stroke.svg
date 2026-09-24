@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" version="1.1" ns1:docname="scale-stroke.svg" ns2:version="1.4.3 (0d15f75042, 2025-12-25)" gpa:state-names="outline empty">
+  <defs id="defs1"></defs>
+  <ns1:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="true" ns2:zoom="25.632621" ns2:cx="-0.09753197" ns2:cy="16.814512" ns2:window-width="5120" ns2:window-height="1371" ns2:window-x="0" ns2:window-y="0" ns2:window-maximized="1" ns2:current-layer="svg1">
+    <ns2:grid id="grid1" units="px" originx="0" originy="0" spacingx="1" spacingy="1" empcolor="#0099e5" empopacity="0.30196078" color="#0099e5" opacity="0.14901961" empspacing="5" enabled="true" visible="true"></ns2:grid>
+  </ns1:namedview>
+  <metadata id="metadata1">
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>inkscape stroke scale toggle</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="outer" opacity="1" fill="none" fill-opacity="0.303663" stroke="#000000" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" paint-order="stroke fill markers" d="m 4,1 c 6.07513,0 11,4.92487 11,11 M 1,11 h 4 v 4 m 0,-4 -4,4" class="transparent-fill foreground-stroke" ns1:nodetypes="ccccccc" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" ></path>
+  <path id="inner" opacity="1" fill="none" fill-opacity="0.303663" stroke="#000000" gpa:stroke="foreground" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" paint-order="stroke fill markers" d="m 3.5318505,5.5201553 c 3.865996,0 6.9999965,3.13396 6.9999965,6.9999597" class="transparent-fill foreground-stroke" ns1:nodetypes="cc" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" ></path>
+</svg>

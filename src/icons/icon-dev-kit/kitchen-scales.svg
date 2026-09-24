@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="rect2" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="3.20001" d="M 2 1 L 14 1 C 14 2.65685415, 12.6568546 4, 11 4 L 5 4 C 3.34314585 4, 2 2.65685415, 2 1 Z M 5.24137926 7 L 10.7586212 7 C 12.0758953 7, 13.2241287 7.89651394, 13.5436144 9.17445755 L 14.4563856 12.8255434 C 14.5870857 13.3483448, 14.4696331 13.9022083, 14.1379929 14.3269653 C 13.8063526 14.7517223, 13.297513 15, 12.7586212 15 L 3.24137926 15 C 2.70248771 15, 2.19364786 14.7517223, 1.86200738 14.3269653 C 1.53036678 13.9022083, 1.41291404 13.3483448, 1.54361415 12.8255434 L 2.45638561 9.17445755 C 2.77587128 7.89651394, 3.92410517 7, 5.24137926 7 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path6" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="3.20001" d="M 8.50737762 10.9822521 C 8.50737762 11.2507372, 8.28972721 11.4683876, 8.02124214 11.4683876 C 7.7527566 11.4683876, 7.53510618 11.2507372, 7.53510618 10.9822521 C 7.53510571 10.7137661, 7.7527566 10.4961157, 8.02124214 10.4961157 C 8.28972721 10.4961157, 8.50737762 10.7137671, 8.50737762 10.9822521 Z M 8.36323452 10.6367664 L 10 9 M 9 4 L 9 7 M 7 4 L 7 7" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>kitchen scales measure weight</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

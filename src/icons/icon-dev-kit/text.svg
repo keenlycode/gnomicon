@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" gpa:version="1" gpa:state-names="outline empty" gpa:state="0" width="16" height="16">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>text font a graphics inkscape</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="path0" class="transparent-fill foreground-stroke" fill="none" fill-opacity="1" fill-rule="nonzero" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 4.32291 10.9406 L 11.6884 10.9406 M 12.5003 14.0146 L 9.67947 3.27363 C 9.23005 1.56237, 6.80368 1.55994, 6.35012 3.27011 L 3.50307 14.005" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

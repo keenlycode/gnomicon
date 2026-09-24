@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <path id="path0" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" fill-opacity="0.25" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 10 7 L 10 13 L 12 11 L 14 14 L 12 11 L 14.5862074 10.5034475 Z" class="foreground foreground-fill foreground-stroke" gpa:stroke="foreground" gpa:states="outline" gpa:transition-type="morph" gpa:transition-duration="100ms" gpa:transition-delay="200ms" gpa:origin="1" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path1" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 2 11 L 2 12 L 3 12 L 3 11 Z M 2 7 L 2 8 L 3 8 L 3 7 Z M 2 3 L 2 4 L 3 4 L 3 3 Z M 10 3 L 10 4 L 11 4 L 11 3 Z M 6 3 L 6 4 L 7 4 L 7 3 Z M 6 7 L 6 8 L 7 8 L 7 7 Z M 6 11 L 6 12 L 7 12 L 7 11 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:transition-type="animate" gpa:transition-duration="300ms" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>cursor accessibility-mouse-keys a11y</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

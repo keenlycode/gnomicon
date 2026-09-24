@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="O" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 12.4981861 11.9707909 C 11.3988152 13.2152309, 9.79105377 14, 8 14 C 4.68629169 14, 2 11.3137083, 2 8 C 2 4.68629169, 4.68629169 2, 8 2 C 9.76863956 2, 11.3585453 2.76524973, 12.4566727 3.98270535" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="R" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 8.5 8 L 9.5 9.484375 M 6.5 9.5 L 6.5 6 L 8.5 6 C 9.05228519 6, 9.5 6.44771528, 9.5 7 C 9.5 7.55228472, 9.05228519 8, 8.5 8 L 6.5 8" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path6" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" fill-opacity="1" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 12.764678 6.81725597 L 12.764678 9.18274403 C 12.764678 9.29474163, 12.8279581 9.3971262, 12.9281292 9.44721317 C 13.0283031 9.49730206, 13.1481781 9.48649216, 13.2377758 9.41929436 L 14.6570683 8.35482311 C 14.7687511 8.27105999, 14.8344803 8.13960457, 14.8344803 8 C 14.8344803 7.86039591, 14.7687502 7.72893953, 14.6570683 7.64517689 L 13.2377758 6.58070707 C 13.1481762 6.51350784, 13.0283031 6.5026989, 12.9281292 6.55278587 C 12.8279562 6.60287285, 12.764678 6.70525789, 12.764678 6.81725597 Z" class="foreground foreground-fill foreground-stroke" gpa:stroke-minwidth='25%' gpa:stroke-maxwidth='150%' gpa:stroke="foreground" gpa:states="outline" gpa:fill="foreground">
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>controller input analog stick right</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

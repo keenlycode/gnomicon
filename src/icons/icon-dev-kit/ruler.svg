@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="ruler" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 1.99999964 12 L 13.999999 12.000001 C 14.5522861 12, 15.000001 11.5522861, 15 11 L 15 5 C 15 4.44771576, 14.5522852 3.99999928, 14.000001 4 L 2 4.00000048 C 1.44771504 4.00000048, 0.999999881 4.44771528, 0.99999994 5.00000048 L 1 11 C 1 11.5522852, 1.44771528 12.000001, 1.99999964 12 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="detail" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 3.49999976 7.00000048 L 3.5 4 M 5.5 8 L 5.5 4 M 7.5 7 L 7.5 4 M 9.5 8 L 9.50000095 3.99999952 M 11.5 7.00000095 L 11.5 4 M 12 8.5 C 12.2761431 8.5, 12.499999 8.72385788, 12.5 9 C 12.5 9.27614212, 12.2761393 9.49999809, 12 9.50000095 C 11.7238588 9.50000191, 11.500001 9.27614307, 11.500001 9.00000095 C 11.5 8.72385883, 11.7238598 8.50000286, 12 8.5 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>measure scale ruler right straight horizontal</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

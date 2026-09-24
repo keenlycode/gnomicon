@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="handgun" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M 14 5 L 15 5 L 15 4 L 14 4 M 6.25875711 11 L 9 11 C 10.1045694 11, 11 10.1045704, 11 9 L 11 7 M 2.95862079 7 L 1.63245547 11.1026344 C 1.48592603 11.542222, 1.55964398 12.0254498, 1.83057928 12.4013519 C 2.10151458 12.7772551, 2.53663325 13, 3 13 L 4.51895475 13 C 5.16188097 13, 5.7326746 12.5885944, 5.93598557 11.9786606 L 7.59553957 7 M 2.95862079 7 C 2.64750624 7, 2.0068264 6.89623928, 2.0068264 6.04820538 L 2.0068264 3.95179439 C 2.0068264 3.42450023, 2.43132639 3, 2.95862079 3 L 13.041379 3 C 13.5686731 3, 13.9931726 3.42450023, 13.9931726 3.95179439 L 13.9931726 6.04820538 C 13.9931726 6.57549953, 13.5686731 7, 13.041379 7 L 7.59553957 7" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="trigger" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" d="M 8 7 C 8 8, 8.52667236 8.62592888, 9 9" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>violence rating gun revolver pistol shoot uzi handgun glock</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

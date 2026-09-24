@@ -1,0 +1,84 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>lan network-wired-disconnected question lan-x</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+          id='g1'
+          opacity='0.25'
+          fill='url(#gpa:foreground) rgb(0,0,0)'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'>
+    <path
+            id='cables'
+            fill='none'
+            stroke='url(#gpa:foreground) rgb(0,0,0)'
+            stroke-opacity='1'
+            stroke-width='2'
+            stroke-linecap='butt'
+            stroke-linejoin='round'
+            d='M 3 8 L 3 12 M 8 8 L 8 4 M 9 8 L 0 8'
+            gpa:stroke-minwidth='25%'
+            gpa:stroke-maxwidth='150%'
+            class='transparent-fill foreground-stroke'
+            gpa:stroke='foreground'
+            gpa:states='outline'>
+    </path>
+    <path
+            id='outline'
+            fill='none'
+            stroke='url(#gpa:foreground) rgb(0,0,0)'
+            stroke-opacity='1'
+            stroke-width='2'
+            stroke-linecap='round'
+            stroke-linejoin='round'
+            d='M 1 13 L 1 14 C 1 14.5523, 1.44772 15, 2 15 L 4 15 C 4.55228 15, 5 14.5523, 5 14 L 5 13 C 5 12.4477, 4.55228 12, 4 12 L 2 12 C 1.44772 12, 1 12.4477, 1 13 Z M 6 2 L 6 3 C 6 3.55228, 6.44772 4, 7 4 L 9 4 C 9.55229 4, 10 3.55228, 10 3 L 10 2 C 10 1.44772, 9.55229 1, 9 1 L 7 1 C 6.44772 1, 6 1.44772, 6 2 Z'
+            gpa:stroke-minwidth='25%'
+            gpa:stroke-maxwidth='150%'
+            class='transparent-fill foreground-stroke'
+            gpa:stroke='foreground'
+            gpa:states='outline'>
+    </path>
+  </g>
+  <path
+          id='question'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M 15 11 L 11 15 M 15 15 L 11 11'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          class='transparent-fill foreground-stroke'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+</svg>

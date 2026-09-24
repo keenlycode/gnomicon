@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1">
+    </defs>
+  <path id="path9" fill="none" fill-opacity="0.315787" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 1 1 L 15 15 M 1 4.5 L 1 5 C 1 6.10456944, 1.89543045 7, 3 7 L 3.5 7 M 6.41421366 6.41421366 C 6.7761426 6.05228472, 7 5.55228472, 7 5 L 7 1 M 4 1 L 4 4 M 4 7.5 L 4 9 M 4 9 L 4.29300022 9.29300022 C 4.74701977 9.74485302, 5.00157213 10.3594513, 5 11 L 5 14 C 5 14.5522852, 4.55228472 15, 4 15 C 3.44771528 15, 3 14.5522852, 3 14 L 3 11 C 2.99842787 10.3594513, 3.25298047 9.74485302, 3.70700002 9.29300022 L 4 9 M 12 12 L 12 10 L 14 10 L 10 10 M 10 10 C 9.9630003 5.24599981, 11.6800003 1.62199998, 14 1 L 14 14" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>fork knife cutlery emoji-food cutlery-no</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

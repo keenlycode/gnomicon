@@ -1,0 +1,29 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" version="1.1" ns1:docname="dpad-up.svg" ns2:version="1.4.3 (0d15f75042, 2025-12-25)" gpa:state-names="outline empty">
+  <defs id="defs1">
+    </defs>
+  <ns1:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" showgrid="true" ns2:zoom="36.25" ns2:cx="-1.9172414" ns2:cy="9.1862069" ns2:window-width="5120" ns2:window-height="1371" ns2:window-x="0" ns2:window-y="0" ns2:window-maximized="1" ns2:current-layer="svg1">
+    <ns2:grid id="grid1" units="px" originx="0" originy="0" spacingx="1" spacingy="1" empcolor="#0099e5" empopacity="0.30196078" color="#0099e5" opacity="0.14901961" empspacing="5" enabled="true" visible="true">
+      </ns2:grid>
+  </ns1:namedview>
+  <metadata id="metadata1">
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>controller dpad input button pad up</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="dpad" fill="none" stroke="#000000" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 5,2 V 5 H 3 C 1.892,5 1,5.892 1,7 v 2 c 0,1.108 0.892,2 2,2 h 2 v 2 c 0,1.108 0.892,2 2,2 h 2 c 1.108,0 2,-0.892 2,-2 v -2 h 2 c 1.108,0 2,-0.892 2,-2 V 7 C 15,5.892 14.108,5 13,5 H 11 V 2" class="transparent-fill foreground-stroke" ns1:nodetypes="ccsssscsssscsssscc" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path6" fill="#000000" gpa:fill="foreground" fill-opacity="1" fill-rule="nonzero" stroke="#000000" gpa:stroke="foreground" stroke-opacity="1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="m 6.81726,3.0698 h 2.36548 c 0.112,0 0.21439,-0.06328 0.26447,-0.16345 C 9.4973,2.80618 9.48649,2.6863 9.41929,2.5967 L 8.35482,1.17741 C 8.27106,1.06573 8.1396,1 8,1 7.8604,1 7.72894,1.06573 7.64518,1.17741 L 6.58071,2.5967 C 6.51351,2.6863 6.5027,2.80618 6.55279,2.90635 6.60287,3.00652 6.70526,3.0698 6.81726,3.0698 Z" gpa:stroke-minwidth="50%" gpa:stroke-maxwidth="150%" class="foreground foreground-fill foreground-stroke" ns1:nodetypes="sscccscccs" gpa:states="outline">
+    </path>
+</svg>

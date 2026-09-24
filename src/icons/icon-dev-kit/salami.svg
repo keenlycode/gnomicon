@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="salami" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 4.56858778 7.2994833 L 5.34182596 8.07272148 C 5.73665953 8.46755505, 6.37681103 8.46755505, 6.77164459 8.07272148 L 8.10198116 6.74238491 C 8.49681473 6.34755135, 8.49681473 5.70739985, 8.10198116 5.31256628 L 7.3287425 4.53932858 M 13.0585184 3 L 15.0125532 2.02645802 L 14.0125532 1.02645802 Z M 2.95403528 13.0264578 L 1 14 L 2 15 Z M 2.90757751 8.96049309 L 8.96049309 2.90757751 C 10.0738974 1.79417408, 11.8665972 1.79417408, 12.9799995 2.90757728 L 13.0729198 3.00049233 C 14.1863241 4.11389637, 14.1863232 5.90659618, 13.0729198 7.0199995 L 7.01999998 13.072916 C 5.90659618 14.1863194, 4.11389637 14.1863203, 3.00049257 13.072916 L 2.90757728 12.9799995 C 1.79417408 11.8665972, 1.79417408 10.0738974, 2.90757751 8.96049309 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>food meat salami</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="waves" opacity="0.5" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 4.56764889 10.5062847 C 3.28710556 8.7525835, 3.53451157 6.31560993, 5.14137316 4.85504341 C 6.74823475 3.39447713, 9.19769192 3.38012004, 10.8215647 4.82175016 C 12.4454374 6.26338053, 12.7213936 8.69728756, 11.4614944 10.4658794 M 2.08478022 12.1919785 C -0.0429421961 9.18959045, 0.416084737 5.06942511, 3.15242481 2.60894132 C 5.88876438 0.148457617, 10.0343714 0.128191561, 12.7946358 2.56180477 C 15.5549011 4.99541807, 16.0541878 9.11089897, 13.9559212 12.1339455" class="transparent-fill foreground-stroke" gpa:stroke-minwidth='25%' gpa:stroke-maxwidth='150%' gpa:stroke="foreground" gpa:fill="none" gpa:states="outline">
+    </path>
+  <path id="person" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 5 15 C 5 13.3431454, 6.34314585 12, 8 12 C 9.65685463 12, 11 13.3431454, 11 15 Z M 9 8 C 9 8.55228424, 8.55228424 9, 8 9 C 7.44771528 9, 7 8.55228424, 7 8 C 7 7.44771528, 7.44771528 7, 8 7 C 8.55228424 7, 9 7.44771528, 9 8 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>audio podcast radio stream</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

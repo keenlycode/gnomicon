@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state1 empty">
+  <path id="detail" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 7.5 12.000001 L 7.5 9 M 5.5 13 L 5.5 9 M 3.5 12 L 3.50000024 9 M 12 3.5 L 9 3.5 M 13 5.5 L 9 5.5 M 12 7.5 L 9 7.5 M 9.49961376 15 L 9.49961376 9.48010731 L 15 9.48010731" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <defs id="defs1" class="" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0">
+    </defs>
+  <path id="right" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 15 2 L 15 14 C 15 14.5522852, 14.5522852 15, 14 15 L 2 15 C 1.44771528 15, 1 14.5522852, 1 14 L 1 10 C 1 9.44771481, 1.44771528 9, 2 9 L 9 9 L 9 2 C 9 1.44771528, 9.44771481 1, 10 1 L 14 1 C 14.5522852 1, 15 1.44771528, 15 2 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>measure scale ruler right-agle</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

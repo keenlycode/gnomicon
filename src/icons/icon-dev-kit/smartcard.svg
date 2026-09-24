@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state1 empty">
+<path d="M 1 10 L 13 10 M 3 7 L 11 7 C 12.1079998 7, 13 7.8920002, 13 9 L 13 13 C 13 14.1079998, 12.1079998 15, 11 15 L 3 15 C 1.89199996 15, 1 14.1079998, 1 13 L 1 9 C 1 7.8920002, 1.89199996 7, 3 7 Z" id="card" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline state1" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path d="M 10.5851851 3.58508825 C 11.4479151 3.35392022, 12.3684378 3.6005733, 13 4.23213577 M 8.98223305 2.10278845 C 11.1345501 0.860148072, 13.8867064 1.59758604, 15.1293468 3.74990249" id="waves" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline state1" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>auth-smartcard card nfc</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <path id="path2" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" d="M 12.8429966 9.49176025 C 12.2754736 12.144907, 10.2826319 14, 8 14 C 5.71661806 14, 3.72332144 12.143712, 3.15650272 9.48941898 M 3.15673089 6.5095129 C 3.58625031 4.49970007, 4.85059834 2.89882016, 6.5 2.2763648 M 9.5 2.2763648 C 11.1494017 2.89882016, 12.4137497 4.49970007, 12.8432693 6.5095129" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="rect2" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" d="M 6.5 0.5 h 3 v 3 h -3 z M 14.5 8 C 14.5 8.82842731, 13.8284273 9.5, 13 9.5 C 12.1715727 9.5, 11.5 8.82842731, 11.5 8 C 11.5 7.17157269, 12.1715727 6.5, 13 6.5 C 13.8284273 6.5, 14.5 7.17157269, 14.5 8 Z M 4.5 8 C 4.5 8.82842731, 3.82842708 9.5, 3 9.5 C 2.17157292 9.5, 1.5 8.82842731, 1.5 8 C 1.5 7.17157269, 2.17157292 6.5, 3 6.5 C 3.82842708 6.5, 4.5 7.17157269, 4.5 8 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>draw shape object ellipse oval circle draw-oval</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

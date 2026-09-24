@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state1 empty">
+  <path id="no" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 1 1 L 15 15" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path visibility="hidden" id="fill" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 5.14648438 8.63867283 C 5.05422544 8.73094845, 4.99788189 8.85922337, 5 9.00000095 L 5 13.4921885 C 5 13.7724857, 5.22751522 14, 5.5078125 14 C 5.78395462 13.9958458, 6.00415421 13.7683306, 6 13.4921885 L 6 9.49218845 Z M 9 12.4921885 L 9 13.4921885 C 9 13.7724857, 9.22751617 14, 9.5078125 14 C 9.78395557 13.9958448, 10.0041552 13.7683306, 10 13.4921885 Z M 1 4.49218798 L 1 13.4921885 C 1 13.7724857, 1.22751606 14, 1.50781298 14 C 1.78395605 13.9958448, 2.00415492 13.7683306, 2 13.4921885 L 2 5.49218798 Z" class="foreground foreground-fill foreground-stroke" gpa:stroke="foreground" gpa:states="state1" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="stroke" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 5.14648438 8.63867283 C 5.05422544 8.73094845, 4.99788189 8.85922337, 5 9.00000095 L 5 13.4921885 C 5 13.7724857, 5.22751522 14, 5.5078125 14 C 5.78395462 13.9958458, 6.00415421 13.7683306, 6 13.4921885 L 6 9.49218845 Z M 9 12.4921885 L 9 13.4921885 C 9 13.7724857, 9.22751617 14, 9.5078125 14 C 9.78395557 13.9958448, 10.0041552 13.7683306, 10 13.4921885 Z M 1 4.49218798 L 1 13.4921885 C 1 13.7724857, 1.22751606 14, 1.50781298 14 C 1.78395605 13.9958448, 2.00415492 13.7683306, 2 13.4921885 L 2 5.49218798 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>network-cellular-disabled-rtl</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

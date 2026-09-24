@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="path2" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 4 4 L 4 7 M 15 7 L 4 7 C 2.89543056 7, 2 7.89543056, 2 9 C 2 10.1045694, 2.89543056 11, 4 11 L 14 11 C 14.5522852 11, 15 10.5522852, 15 10 L 15 3 C 15 1.89543045, 14.1045694 1, 13 1 L 11 1 C 9.89543056 1, 9 1.89543045, 9 3 L 9 7" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="circle2" opacity="1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M 13 14.5034523 C 13 14.7795944, 12.7761421 15.0034523, 12.5 15.0034523 C 12.2238579 15.0034523, 12 14.7795944, 12 14.5034523 C 12 14.2273102, 12.2238579 14.0034523, 12.5 14.0034523 C 12.7761421 14.0034523, 13 14.2273102, 13 14.5034523 Z M 9 14.5034523 C 9 14.7795944, 8.77614212 15.0034523, 8.5 15.0034523 C 8.22385788 15.0034523, 8 14.7795944, 8 14.5034523 C 8 14.2273102, 8.22385788 14.0034523, 8.5 14.0034523 C 8.77614212 14.0034523, 9 14.2273102, 9 14.5034523 Z M 5 14.5034523 C 5 14.7795944, 4.7761426 15.0034523, 4.5 15.0034523 C 4.2238574 15.0034523, 4 14.7795944, 4 14.5034523 C 4 14.2273102, 4.2238574 14.0034523, 4.5 14.0034523 C 4.7761426 14.0034523, 5 14.2273102, 5 14.5034523 Z" class="foreground foreground-fill foreground-stroke" gpa:stroke="foreground" gpa:states="outline" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>transport transit train steam tourist train-old steam-train</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

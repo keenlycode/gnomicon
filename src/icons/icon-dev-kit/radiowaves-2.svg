@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 8 12 L 8 12.0100002" id="path1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground">
+    </path>
+  <path d="M 4 9 C 4 9, 5.5 7, 8 7 C 10.5 7, 12 9, 12 9" id="path2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path d="M 1 6 C 1 6, 3.5 3, 8 3 C 12.5 3, 15 6, 15 6" id="path3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.35" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>wifi network connection signal ok network-wireless-signal-ok radiowaves-2</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

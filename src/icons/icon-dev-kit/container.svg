@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>container kubernetes flatpak sandbox hexagon</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="hex" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 12.829 12.247 L 9.13763 14.3554 C 8.41368 14.7688, 7.52414 14.7647, 6.80407 14.3445 L 3.13249 12.2019 C 2.41242 11.7817, 1.97123 11.0093, 1.9751 10.1756 L 1.99486 5.92458 C 1.99873 5.09088, 2.44709 4.32257, 3.17103 3.90908 L 6.86237 1.8007 C 7.58632 1.38721, 8.47586 1.39134, 9.19593 1.81155 L 12.8675 3.95415 C 13.5876 4.37435, 14.0288 5.14679, 14.0249 5.98049 L 14.0051 10.2315 C 14.0012 11.0652, 13.5529 11.8335, 12.829 12.247 Z" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

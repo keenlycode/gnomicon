@@ -1,0 +1,61 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>snapshot boxes time save state</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='snashot'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-width='2'
+          stroke-linecap='butt'
+          stroke-linejoin='round'
+          d='M 5 15 L 4 15 C 2.34315 15, 1 13.6569, 1 12 L 1 11 M 1 5 L 1 4 C 1 2.34315, 2.34315 1, 4 1 L 5 1 M 11 1 L 12 1 C 13.6569 1, 15 2.34315, 15 4 L 15 5 M 15 11 L 15 12 C 15 13.6569, 13.6569 15, 12 15 L 11 15'
+          class='transparent-fill foreground-stroke'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+  <path
+          id='computer'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          paint-order='markers stroke fill'
+          d='M 6 9 L 10 9 C 10.5523 9, 11 8.55228, 11 8 L 11 5 C 11 4.44772, 10.5523 4, 10 4 L 6 4 C 5.44772 4, 5 4.44772, 5 5 L 5 8 C 5 8.55228, 5.44772 9, 6 9 Z M 5 12 L 11 12'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          class='transparent-fill foreground-stroke'
+          gpa:stroke='foreground'>
+  </path>
+</svg>

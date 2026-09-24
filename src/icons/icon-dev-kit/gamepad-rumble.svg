@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="gamepad" fill="none" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-dasharray="none" d="M 2.23205948 6.99646425 L 2.00090098 10.8787575 C 1.96811044 11.4294701, 2.16400313 11.9693098, 2.54233503 12.3708391 C 2.92066693 12.7723684, 3.44790983 13, 3.9995985 13 C 5.11817122 13, 6.03851461 12.1194324, 6.08790159 11.0019503 L 6.1321826 10 L 9.86701775 10 L 9.9112978 11.0019503 C 9.96068382 12.1194305, 10.8810263 12.999999, 11.9995975 13 C 12.5926085 12.9363298, 13.1341887 12.6341209, 13.4997787 12.1628876 C 13.8653679 11.6916571, 14.0234957 11.0919619, 13.9377937 10.5017328 L 13.8259211 7.49826908 C 13.7739773 6.10372162, 12.6283789 5, 11.2328644 5 L 4.3509326 5 C 3.22763872 5, 2.29882407 5.8751564, 2.23205948 6.99646425 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="rumble" fill="none" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-dasharray="none" d="M 14.9995995 14 C 14.4996014 14.7421885, 13.4136639 15.5, 11.9996033 15.5 C 11.1497412 15.5, 10.4860888 15.3222561, 9.96308708 15.0782623 M 0.999599993 14 C 1.49959826 14.7421885, 2.58553576 15.5, 3.9995966 15.5 C 4.84945726 15.5, 5.51310921 15.3222561, 6.03610992 15.0782633 M 14.9913635 1.5 C 14.4913664 1.14453125, 13.228652 0.5, 11.9913683 0.5 L 10.9913664 0.5 M 14.9913635 4 C 14.4913664 3.2578125, 13.4054289 2.5, 11.9913683 2.5 L 9.49136353 2.5 M 0.999599993 1.5 C 1.49959826 1.14453125, 2.76231241 0.5, 3.9995966 0.5 L 4.9995985 0.5 M 0.999599993 4 C 1.49959826 3.2578125, 2.58553576 2.5, 3.9995966 2.5 L 6.4995985 2.5" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>gamepad controller rumble vibration force feedback</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

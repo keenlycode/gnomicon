@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 3 9.50689697 L 13 9.50689697" id="path6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path d="M 15 12.006897 L 1 12.006897 M 3 2.0068965 L 13 2.0068965 C 14.1045694 2.0068965, 15 2.90232706, 15 4.0068965 L 15 12.006897 C 15 13.1114664, 14.1045694 14.006897, 13 14.006897 L 3 14.006897 C 1.89543045 14.006897, 1 13.1114664, 1 12.006897 L 1 4.0068965 C 1 2.90232706, 1.89543045 2.0068965, 3 2.0068965 Z" id="path2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>drive-removable-media drive-harddisk-system drive-harddisk-ieee1394 hdd ssd nvme media cd dvd bluray disc</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>controller dpad input button pad down</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="dpad" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 5 14 L 5 11 L 3 11 C 1.892 11, 1 10.108, 1 9 L 1 7 C 1 5.892, 1.892 5, 3 5 L 5 5 L 5 3 C 5 1.892, 5.892 1, 7 1 L 9 1 C 10.108 1, 11 1.892, 11 3 L 11 5 L 13 5 C 14.108 5, 15 5.892, 15 7 L 15 9 C 15 10.108, 14.108 11, 13 11 L 11 11 L 11 14" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path6" fill="rgb(0,0,0)" gpa:fill="foreground" fill-opacity="1" fill-rule="nonzero" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 6.81726 12.9302 L 9.18274 12.9302 C 9.29474 12.9302, 9.39713 12.9935, 9.44721 13.0936 C 9.4973 13.1938, 9.48649 13.3137, 9.41929 13.4033 L 8.35482 14.8226 C 8.27106 14.9343, 8.1396 15, 8 15 C 7.8604 15, 7.72894 14.9343, 7.64518 14.8226 L 6.58071 13.4033 C 6.51351 13.3137, 6.5027 13.1938, 6.55279 13.0936 C 6.60287 12.9935, 6.70526 12.9302, 6.81726 12.9302 Z" gpa:stroke-minwidth="50%" gpa:stroke-maxwidth="150%" class="foreground foreground-fill foreground-stroke" gpa:states="outline">
+    </path>
+</svg>

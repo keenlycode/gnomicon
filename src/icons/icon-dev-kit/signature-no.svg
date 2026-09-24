@@ -1,0 +1,29 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state10 empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="line" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="0.25" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" d="M 0.764585316 12.5 L 9.41099739 12.5" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state10" gpa:transition-type="animate" gpa:transition-duration="200ms" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="x" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 1.56991196 10.5 L 4.5 7.50000048 M 1.56991196 7.50000048 L 4.5 10.5" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:transition-duration="200ms" gpa:transition-delay="200ms" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="sign" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 3.9008615 3.92296076 C 4.38455105 3.30052304, 5.21919537 2.59336233, 6.51490021 2.59336233 C 8.72360802 2.59336233, 9.89759064 6.41822243, 9.80067062 9.82051277 M 9.3643961 12.6523066 C 8.92321968 14.0391788, 8.1449995 15, 7 15 C 5.27143574 15, 4.40984154 13.6289406, 4.40984154 12.1803102 C 4.40984154 11.1130419, 4.93383551 10.0083237, 5.72430801 9.02354813 M 7.38497972 7.41013336 C 9.04928303 6.12932587, 11.0116138 5.42233133, 12.1465559 5.9769907 C 13.771534 6.77113628, 12.4579554 10.4884958, 12.4579554 10.4884958 C 12.4579554 10.4884958, 12.6535931 8.12562943, 14.9351397 7.10486698" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:transition-easing="ease-out" gpa:transition-duration="500ms" gpa:transition-delay="500ms" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="no" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="22.5589" d="M 1 1 L 15 15" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state10" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>signature no missing unsigned</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

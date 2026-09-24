@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<circle cx="8" cy="8" r="7" id="path1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </circle>
+  <path d="M 9 5 L 11 5 M 5 5 L 7 4 M 10.5 7.5 C 10.5 7.7761426, 10.2761421 8, 10 8 C 9.72385788 8, 9.5 7.7761426, 9.5 7.5 C 9.5 7.2238574, 9.72385788 7, 10 7 C 10.2761421 7, 10.5 7.2238574, 10.5 7.5 Z M 6.5 7.5 C 6.5 7.7761426, 6.2761426 8, 6 8 C 5.7238574 8, 5.5 7.7761426, 5.5 7.5 C 5.5 7.2238574, 5.7238574 7, 6 7 C 6.2761426 7, 6.5 7.2238574, 6.5 7.5 Z M 6 11 L 10 11" id="path3" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>face emote smiley face-confused</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

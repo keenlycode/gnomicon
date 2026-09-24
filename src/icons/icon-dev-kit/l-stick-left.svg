@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="O" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 3.50956202 11.9707909 C 4.60893297 13.2152309, 6.21669436 14, 8.00774765 14 C 11.321456 14, 14.0077477 11.3137083, 14.0077477 8 C 14.0077477 4.68629169, 11.321456 2, 8.00774765 2 C 6.23910856 2, 4.64920282 2.76524973, 3.5510745 3.98270535" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path6" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" fill-opacity="1" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 3.24306941 6.81725597 L 3.24306941 9.18274403 C 3.24306941 9.29474163, 3.1797924 9.3971262, 3.07961845 9.44721317 C 2.97944474 9.49730206, 2.85956955 9.48649216, 2.76997185 9.41929436 L 1.35067976 8.35482311 C 1.23899639 8.27105999, 1.17326748 8.13960457, 1.17326748 8 C 1.17326748 7.86039591, 1.23899651 7.72893953, 1.35067976 7.64517689 L 2.76997185 6.58070707 C 2.85956979 6.51350784, 2.97944474 6.5026989, 3.07961893 6.55278587 C 3.17979217 6.60287285, 3.24306941 6.70525789, 3.24306941 6.8172555 Z" class="foreground foreground-fill foreground-stroke" gpa:stroke-minwidth='25%' gpa:stroke-maxwidth='150%' gpa:stroke="foreground" gpa:states="outline" gpa:fill="foreground">
+    </path>
+  <path id="L" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 7 6 L 7 9.5 L 9.5 9.5" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>controller input analog stick left</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>inkscape fill and stroke dialog panel property</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="stroke" opacity="1" fill="none" fill-opacity="1" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" paint-order="stroke fill markers" d="M 15 1 L 6 1 A 5 5 135 0 0 1 6 L 1 15" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+  <path id="fill" opacity="0.5" fill="rgb(0,0,0)" gpa:fill="foreground" fill-opacity="1" fill-rule="nonzero" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" paint-order="stroke fill markers" d="M 6 4 L 15 4 L 15 15 L 4 15 L 4 6 A 2 2 135 0 1 6 4 Z" class="foreground foreground-fill" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

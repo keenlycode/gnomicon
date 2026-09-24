@@ -1,3 +1,7 @@
 venv/
 .vscode/
 node_modules
+dist/
+docs/
+__pycache__/
+*.pyc

@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>bicycle bike twowheeler</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="bike" fill="none" fill-opacity="0.372549" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3.1" stroke-dasharray="none" paint-order="markers fill stroke" d="M 9 6 L 11 6 C 11.5523 6, 12 5.55228, 12 5 M 3.3931 7 C 2.59446 6.97074, 1.97074 6.29959, 2 5.50095 L 2 5.49905 C 2 4.67115, 2.67115 4, 3.49905 4 L 7 4 L 5.66051 8 M 10.0008 12.5621 L 8 12.5621 L 5.66051 8 L 6 7 L 10 7 L 11.4628 10.2247 M 15 12.5 C 15 13.8807, 13.8807 15, 12.5 15 C 11.1193 15, 10 13.8807, 10 12.5 C 10 11.1193, 11.1193 10, 12.5 10 C 13.8807 10, 15 11.1193, 15 12.5 Z M 6 12.5 C 6 13.8807, 4.88071 15, 3.5 15 C 2.11929 15, 1 13.8807, 1 12.5 C 1 11.1193, 2.11929 10, 3.5 10 C 4.88071 10, 6 11.1193, 6 12.5 Z" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+</svg>

@@ -1,0 +1,47 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>weather overcast clouds cold ice snow winter</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+<path
+          id='path19'
+          class='transparent-fill foreground-stroke'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='1'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 3.80385 3.26795 L 3.66987 5.5 L 1.80385 6.73205 M 14.1962 9.26795 L 12.3301 10.5 L 12.1962 12.732 M 14.4952 11.75 L 1.50481 4.25 M 1.80385 9.26795 L 3.66987 10.5 L 3.80385 12.7321 M 12.1962 3.26795 L 12.3301 5.5 L 14.1962 6.73205 M 14.4952 4.25 L 1.50481 11.75 M 6 14 L 8 13 L 10 14 M 6 2 L 8 3 L 10 2 M 8 0.5 L 8 15.5'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+</svg>

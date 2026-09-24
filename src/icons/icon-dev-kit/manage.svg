@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>people manage management parents parental</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="people" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3.1" paint-order="markers fill stroke" d="M 6.57086 4 C 6.57086 5.10457, 5.67543 6, 4.57086 6 C 3.46629 6, 2.57086 5.10457, 2.57086 4 C 2.57086 2.89543, 3.46629 2, 4.57086 2 C 5.67543 2, 6.57086 2.89543, 6.57086 4 Z M 13.4682 5 C 13.4682 6.10457, 12.5728 7, 11.4682 7 C 10.3636 7.00003, 9.46815 6.10459, 9.46815 5 C 9.46815 3.89541, 10.3636 2.99997, 11.4682 3 C 12.5728 3, 13.4682 3.89543, 13.4682 5 Z M 9 9 L 8.84932 9.1507 C 8.30552 9.6945, 8.00001 10.432, 8 11.2011 L 8 12 C 8 13.1046, 8.89543 14, 10 14 L 13 14 C 14.1046 14, 15 13.1046, 15 12 L 15 11.2011 C 15 10.4321, 14.6945 9.6945, 14.1507 9.1507 L 14 9 M 2 8 L 1.99153 8.00847 C 1.35667 8.64334, 1 9.5044, 1 10.4022 L 1 12 C 1 13.1046, 1.89543 14, 3 14 L 6 14 C 7.10457 14, 8 13.1046, 8 12" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

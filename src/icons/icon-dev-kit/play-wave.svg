@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state5 empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="wave" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 13.8926754 11.8890877 C 16.0405579 9.74120426, 16.0405579 6.25879622, 13.8926754 4.11091232 M 12.4784603 10.4748726 C 13.845295 9.1080389, 13.845295 6.89196157, 12.4784603 5.52512646 M 2.16425753 11.8890877 C 0.0163742304 9.74120426, 0.0163742304 6.25879622, 2.16425753 4.11091232 M 3.57847261 10.4748726 C 2.2116375 9.1080389, 2.2116375 6.89196157, 3.57847261 5.52512646" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state5" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="play" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 6 5.3867507 L 6 10.6132488 C 5.99999952 10.8869562, 6.15064812 11.1384478, 6.3919692 11.2675982 C 6.63328981 11.3967495, 6.92610788 11.3825951, 7.15384626 11.2307692 L 10.8461542 8.76923084 C 11.1033487 8.59776783, 11.2578344 8.30910969, 11.2578344 8 C 11.2578344 7.69089031, 11.1033487 7.40223217, 10.8461542 7.23076916 L 7.15384626 4.76923084 C 6.92610788 4.61740494, 6.63329029 4.60325003, 6.3919692 4.73240137 C 6.15064812 4.86155224, 6 5.11304331, 6 5.3867507 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state5" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>audio listen podcast audio-only novideo</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

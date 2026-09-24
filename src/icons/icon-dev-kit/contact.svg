@@ -1,0 +1,47 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline state4 empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>addressbook contact person phone call meshy</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='contact'
+          opacity='1'
+          fill='none'
+          fill-rule='nonzero'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 12 12 C 12 10.3431, 10.6569 9, 9 9 C 7.34315 9, 6 10.3431, 6 12 M 11 6 C 11 7.10457, 10.1046 8, 9 8 C 7.89543 8, 7 7.10457, 7 6 C 7 4.89543, 7.89543 4, 9 4 C 10.1046 4, 11 4.89543, 11 6 Z M 3 5 L 1 5 M 3 11 L 1 11 M 4 1 L 13 1 C 14.108 1, 15 1.892, 15 3 L 15 13 C 15 14.108, 14.108 15, 13 15 L 4 15 C 2.892 15, 2 14.108, 2 13 L 2 3 C 2 1.892, 2.892 1, 4 1 Z'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'>
+  </path>
+</svg>

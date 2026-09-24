@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <path id="path3" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" d="M 12.5 4 C 12.5 3.44771528, 12.0522852 3, 11.5 3 C 10.9477148 3, 10.5 3.44771528, 10.5 4 L 10.5 7 C 10.5 7.55228472, 10.9477148 8, 11.5 8 C 12.0522852 8, 12.5 7.55228472, 12.5 7 L 12.5 6 L 12 6 M 6.5 4 L 6.5 7 C 6.5 7.55228472, 6.94771528 8, 7.5 8 L 7.50048542 8 C 8.0527544 8, 8.50044155 7.55226898, 8.50038815 7 L 8.50009727 4 C 8.50004387 3.44769955, 8.05230045 3, 7.5 3 C 6.94771528 3, 6.5 3.44771528, 6.5 4 Z M 3.5 3 L 3.5 8 L 4.5 8" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path6" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 13 11 L 15 13 L 13 15 M 3 11 L 1 13 L 3 15 M 1 13 L 15 13" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>graph function coordinates dataviz science logarithm axis-log-horizontal</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

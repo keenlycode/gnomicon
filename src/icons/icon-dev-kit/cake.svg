@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1">
+    </defs>
+  <path id="path1" fill="none" fill-opacity="0.315787" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" d="M 7.12695312 3.33789062 L 9 2 C 11.46208 2.61552, 13.3844805 4.53792048, 14 7 L 14 14 L 2 14 L 2 7 L 3.87304688 5.66210938" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path4" fill="none" fill-opacity="0.315787" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 2 11.5 L 10.5 11.5 M 2 9.5 L 10.5 9.5 M 7.5 4.5 C 7.5 5.60456944, 6.60456944 6.5, 5.5 6.5 C 4.39543056 6.5, 3.5 5.60456944, 3.5 4.5 C 3.5 3.39543056, 4.39543056 2.5, 5.5 2.5 C 6.60456944 2.5, 7.5 3.39543056, 7.5 4.5 Z" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>sugar sweet cake cakeisalie yum</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

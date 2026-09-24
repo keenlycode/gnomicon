@@ -1,61 +1,163 @@
-{% extends '_base.html' %}
-
-{% set to_root = './' %}
-
-{% block head %}
-<script defer type="module" src="{{to_root}}index.js?v={{_v}}"></script>
-{% endblock %}
-
-{% block body %}
-<el-impress>
-    <div class="container flex" style="position: relative; top: -2rem;">
-        <h1 style="text-align: center;">Gnomicon<sub><el-badge>v46.0.0</el-badge></sub></h1>
-        <el-tag>2024-04-18</el-tag>
-        <h2 style="text-align: center; margin-top: 1rem;">Gnome Symbolic Icons for WebApp Platform</h2>
-        <div class="row flex" style="font-size: 3rem; margin-top: 2rem;">
-            <el-icon set="gnome" name="alarm"></el-icon>
-            <el-icon set="gnome" name="ac-adapter" class="red"></el-icon>
-            <el-icon set="gnome" name="auth-fingerprint"></el-icon>
-            <el-icon set="gnome" name="emblem-favorite" class="red"></el-icon>
-            <el-icon set="gnome" name="emoji-body"></el-icon>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7f6">
+    <meta
+      name="description"
+      content="Browse, preview and use GNOME symbolic icons."
+    >
+    <title>Gnomicon — GNOME Symbolic Icons</title>
+    <style>
+      body {
+        margin: 0;
+        background: #f5f7f6;
+      }
+    </style>
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top"><span class="mark">g</span><strong
+        >Gnomicon</strong><span class="version">51.0.0</span></a><nav>
+        <a href="#gallery">Gallery</a><a href="#guide">Usage</a><a
+          href="#sources"
+        >Sources</a>
+      </nav>
+    </header>
+    <main id="top">
+      <section class="intro">
+        <div>
+          <div class="eyebrow">GNOME SYMBOLIC ICONS · CURRENT SNAPSHOT</div>
+          <h1>Find your symbol.</h1>
+          <p>Browse, preview and copy icons for your next interface.</p>
         </div>
-        <div el="buttons" class="row flex" style="margin-top: 2rem;">
-            <a href="https://github.com/keenly-coding/gnomicon">
-                <button style="font-size: 1.5rem;">Github</button>
-            </a>
+        <div class="total" id="total">Loading catalog…</div>
+      </section>
+      <section class="layout" id="gallery" aria-label="Icon catalog">
+        <div class="catalog">
+          <div class="toolbar">
+            <label class="search-label">Search icons<input
+                id="search"
+                type="search"
+                placeholder="Search by name…"
+              ></label><label>Source<select id="source">
+                <option value="all">All sources</option>
+              </select></label>
+          </div>
+          <div id="grid" class="grid" aria-live="polite"></div>
+          <div class="pager">
+            <span id="range"></span><div>
+              <aui-button
+                id="prev"
+                label="← Previous"
+                tone="primary"
+                type="button"
+              ></aui-button><aui-button
+                id="next"
+                label="Next →"
+                tone="primary"
+                type="button"
+              ></aui-button>
+            </div>
+          </div>
         </div>
-        <h3>Download :</h3>&nbsp;
-        <a href="https://unpkg.com/gnomicon@45.1.3/dist/icon-src.zip"
-            style="margin: 0.5rem;">
-            icon-src.zip
-        </a> | 
-        <a href="https://unpkg.com/gnomicon@45.1.3/dist/icon.zip"
-            style="margin: 0.5rem;">
-            icon.zip
-        </a>
-        <div class="row flex" style="margin-top: 2rem;">
-            <el-tag class="alert">Breaking change ! v 43.0.0 -> 43.1.0</el-tag>
-        </div>
-        <p class="row flex" style="color: red;">
-            Now icons use CSS property
-            <code style="margin-left: 0.5rem; margin-right: 0.5rem;">fill</code>
-            to change color.
-        </p>
-        <div class="row flex" style="margin-top: 2rem;">
-            <el-tag class="alert">Breaking change ! v 45.0.0 -> 45.1.0</el-tag>
-        </div>
-        <p class="row flex" style="color: red; text-align: center;">
-            Gnomicon isn't shipped with &nbsp;<code><b>icons.js</b></code> &nbsp;anymore,
-            Please use&nbsp;<a href="https://keenlycode.github.io/deficon/">DefIcon </a>
-            &nbsp;instead
-        </p>
-    </div>
-</el-impress>
-<div class="container text">
-{{ markdown('index.html.md') }}
-</div>
-<div id="icons">
-    <h2>Icons Pack</h2>
-    <el-icon-manager class="container"></el-icon-manager>
-</div>
-{% endblock body %}
+        <aui-card class="preview-card" variant="surface" padding="lg"><h2>
+            Icon preview
+          </h2><div
+            id="preview"
+            class="preview"
+            role="img"
+            aria-label="Selected icon preview"
+          >
+            <span>Select an icon</span>
+          </div><strong id="selected-name">Choose an icon</strong><label
+            class="field"
+          >Color<input id="color" type="color" value="#3584e4"></label><label
+            class="field"
+          >Size <output id="size-label">64 px</output><input
+              id="size"
+              type="range"
+              min="16"
+              max="128"
+              value="64"
+            ></label><div class="snippets">
+            <div class="code-label">npm import</div>
+            <pre id="npm-code"></pre><aui-button
+              id="copy-npm"
+              label="Copy npm"
+              tone="primary"
+              type="button"
+            ></aui-button><div class="code-label">
+              JSR (placeholder namespace)
+            </div>
+            <pre id="jsr-code"></pre><aui-button
+              id="copy-jsr"
+              label="Copy JSR"
+              tone="primary"
+              type="button"
+            ></aui-button><div class="code-label">Inline SVG insertion</div>
+            <pre id="html-code"></pre><aui-button
+              id="copy-html"
+              label="Copy HTML"
+              tone="primary"
+              type="button"
+            ></aui-button><aui-button
+              id="copy-svg"
+              label="Copy SVG source"
+              tone="primary"
+              type="button"
+            ></aui-button>
+          </div><p id="copy-status" role="status" aria-live="polite">
+          </p></aui-card>
+      </section>
+      <section class="info-grid" id="guide">
+        <article>
+          <h2>Use it in your project</h2>
+          <p>
+            Import one or several SVG strings. A bundler resolves package
+            imports; browsers cannot load bare npm or JSR specifiers directly.
+          </p>
+          <pre
+            class="example"
+          >import { folder, printer } from 'gnomicon';
+// Insert only trusted package SVG:
+document.querySelector('.icon').innerHTML = folder;</pre>
+          <p>
+            For a direct per-icon entry point, use <code>import { svg } from
+              'gnomicon/icons/folder'</code>. Individual files remain available
+            in <code>dist/svg/</code>; there is no combined sprite.
+          </p>
+          <p>
+            Inline SVG snippets copy the icon markup; set <code>color</code> on
+            the inserted SVG to apply currentColor. Add your own CSS or
+            JavaScript animations. Grappa's initial state is static; GTK
+            animations are not included.
+          </p>
+          <p>
+            JSR namespace is not chosen; <code>@your-scope</code> shown here is
+            a placeholder, not a published package.
+          </p>
+        </article>
+        <article id="sources">
+          <h2>Sources &amp; provenance</h2>
+          <p>
+            Each manifest entry records its source, original path and license.
+            Overlaps prioritize icon-development-kit.
+          </p>
+          <ul id="source-list"></ul>
+          <p>
+            Review the applicable license and attribution obligations before
+            redistribution. License texts and source provenance ship with the
+            generated docs.
+          </p>
+        </article>
+      </section>
+      <footer>
+        Gnomicon 51.0.0 · Current GNOME snapshot · Icon names follow the
+        manifest, without backward aliases.
+      </footer>
+    </main>
+  </body>
+</html>

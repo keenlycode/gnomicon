@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state5 empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="path1" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M 8.96704865 2.96649694 L 2.69501996 9.03350353 C 1.57775736 10.1142445, 1.56291544 11.9008474, 2.66206908 13 C 3.77197289 14.1099043, 5.56682968 14.124814, 6.6950202 13.0334997 L 12.9670486 6.96649694 C 14.0843124 5.88575602, 14.0991526 4.09915352, 13 3 C 11.8900957 1.89009607, 10.0952387 1.87518561, 8.96704865 2.96649694 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state5" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path2" fill="none" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M 5.83103418 6 L 9.83103466 9.99999809" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state5" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="filled" opacity="0.25" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" fill-opacity="1" fill-rule="nonzero" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M 8.9670496 2.96649694 L 5.83103466 6 L 9.83103466 10 L 12.9670486 6.96649694 C 14.0843124 5.88575602, 14.0991526 4.09915352, 13 3 C 11.8900957 1.89009595, 10.0952387 1.87518549, 8.9670496 2.96649694 Z" class="foreground foreground-fill" gpa:states="outline state5" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>pill pharmacy medication doctor health dosage</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

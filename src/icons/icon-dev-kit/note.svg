@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state4 empty">
+  <defs id="defs1" class="" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0">
+    </defs>
+  <path id="notepad" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 10.6923084 1 L 5.30769253 1 C 2.92861938 1, 1 2.92861938, 1 5.30769253 L 1 10.6923084 C 1 13.0713806, 2.92861938 15, 5.30769253 15 L 10.6923084 15 C 13.0713806 15, 15 13.0713806, 15 10.6923084 L 15 5.30769253 C 15 3.22790456, 12.921217 1, 10.6923084 1 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state4" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="text" fill="none" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="0.999999" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 4.48765993 4.5 L 8.53184605 4.5 M 4.48765993 11.500001 L 6.53184652 11.500001 M 4.48765993 9.50000095 L 11.531847 9.50000095 M 4.48765993 7.50000048 L 11.531847 7.50000048" class="transparent-fill foreground-stroke" gpa:stroke-minwidth='25%' gpa:stroke-maxwidth='150%' gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state4">
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>note text sticky</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

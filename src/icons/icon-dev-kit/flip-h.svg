@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" gpa:version="1" gpa:state-names="outline empty" gpa:state="0" width="16" height="16">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>flip mirror horizontal graphics inkscape</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="tri" class="transparent-fill foreground-stroke" fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" paint-order="stroke fill markers" d="M 7 4.16552 L 7 12 C 7 12.5523, 6.55228 13, 6 13 L 2 13 C 1.53349 13, 1.22441 12.5161, 1.42055 12.0928 L 6.57945 4.07279 C 6.6788 3.85846, 7 3.92929, 7 4.16552 Z" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+  <path id="tri2" class="transparent-fill foreground-stroke" fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="0.919178" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" paint-order="stroke fill markers" d="M 9.53103 3.66806 L 9.53103 12.1212 C 9.53102 12.6065, 9.92448 13, 10.4098 13 L 14.6483 13 C 15.059 13, 15.3316 12.5746, 15.1601 12.2015 L 9.89803 3.58777 C 9.81192 3.40017, 9.53095 3.46164, 9.53103 3.66806 Z" gpa:stroke-minwidth="27.1982%" gpa:stroke-maxwidth="163.189%" gpa:states="outline" gpa:stroke="foreground">
+  </path>
+</svg>

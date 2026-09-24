@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 8 4 L 5.49655151 4 C 4.67002916 4, 4 4.67002916, 4 5.49655151 L 4 6.5068965 C 4 7.33341932, 4.67002869 8.00344849, 5.49655151 8.00344849 L 6.50344849 8.00344849 C 7.32997084 8.00344849, 8 8.67347717, 8 9.5 L 8 10.5034475 C 8 11.3299704, 7.32997131 12, 6.50344849 12 L 4 12 M 11 5.5 L 11 10.5 C 11 11.3284273, 11.6715727 12, 12.5 12 L 13.5 12 C 14.3284273 12, 15 11.3284273, 15 10.5 L 15 5.5 C 15 4.67157269, 14.3284273 4, 13.5 4 L 12.5 4 C 11.6715727 4, 11 4.67157269, 11 5.5 Z M 1 4 L 1 12" id="path3" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>photography camera-iso-alt</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

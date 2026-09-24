@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>computer laptop notebook netbook thinkpad macbook migration destination data user arrow source</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="migration" fill="none" fill-opacity="0.352963" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" paint-order="stroke fill markers" d="M 9.49655 8.46897 L 11 10 L 12.4759 8.46897 M 4 7 L 4 5 A 3 3 0 0 1 7 2 L 8 2 A 3 3 0 0 1 11 5 L 11 10 M 4.56536 9.98283 L 2.32178 9.98283 C 1.91675 9.98283, 1.54648 10.2123, 1.36533 10.5757 L 1.04057 11.4485 C 0.768961 11.9933, 1.16394 12.6342, 1.77124 12.6342 L 4.56536 12.6342 M 2.32178 9.98283 C 1.59178 9.98283, 1 9.38931, 1 8.65713 L 1 5.34287 C 1.02692 4.8825, 1.19347 4.52685, 1.49966 4.27592 M 7.43463 12.9433 L 7.10987 13.8161 C 6.83826 14.3609, 7.23324 15.0018, 7.84054 15.0018 L 14.1736 15.0018 C 14.7809 15.0018, 15.1759 14.3609, 14.9043 13.8161 L 14.6347 12.9433 C 14.4535 12.5799, 14.0833 12.3504, 13.6782 12.3504 L 8.39108 12.3504 C 7.98605 12.3504, 7.61578 12.5799, 7.43463 12.9433 Z M 13.6782 6.38477 C 14.4082 6.38477, 15 6.97831, 15 7.71047 L 15 11.0247 C 15 11.7569, 14.4082 12.3504, 13.6782 12.3504 L 8.39108 12.3504 C 7.66108 12.3504, 7.0693 11.7569, 7.0693 11.0247 L 7.0693 7.71047 C 7.0693 6.97831, 7.66108 6.38477, 8.39108 6.38477" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

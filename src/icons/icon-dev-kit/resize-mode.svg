@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <path id="path2" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" d="M 4.0174489 14.9954205 L 4.01235914 11.4995613 M 4.00800037 8.49976349 L 4.00290918 4.99999809 C 4.00213766 4.46983337, 4.21220446 3.96111846, 4.58681536 3.58596253 C 4.96142578 3.21080637, 5.4698348 3, 6 3 L 7.5 3 M 10.5 3 L 15 3" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="circle2" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" d="M 10.5 3 C 10.5 3.82842708, 9.82842731 4.5, 9 4.5 C 8.17157269 4.5, 7.5 3.82842708, 7.5 3 C 7.5 2.17157292, 8.17157269 1.5, 9 1.5 C 9.82842731 1.5, 10.5 2.17157292, 10.5 3 Z M 5.5 10 C 5.5 10.8284273, 4.82842731 11.5, 4 11.5 C 3.17157292 11.5, 2.5 10.8284273, 2.5 10 C 2.5 9.17157269, 3.17157292 8.5, 4 8.5 C 4.82842731 8.5, 5.5 9.17157269, 5.5 10 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="rect1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" fill-opacity="0.35" fill-rule="nonzero" stroke="none" d="M 6 3 C 4.89543056 3, 4 3.89543056, 4 5 L 4 8.5 C 4.82842731 8.5, 5.5 9.17157269, 5.5 10 C 5.5 10.8284273, 4.82842731 11.5, 4 11.5 L 4 15 L 15 15 L 15 3 L 10.5 3 C 10.5 3.82842708, 9.82842731 4.5, 9 4.5 C 8.17157269 4.5, 7.5 3.82842708, 7.5 3 L 6 3 Z" class="foreground foreground-fill" gpa:states="outline" gpa:fill="foreground">
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>border ui resize margins size resize-mode</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

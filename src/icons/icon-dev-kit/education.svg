@@ -1,0 +1,62 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>education hat university college learn tuition</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='hat'
+          style=''
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          paint-order='stroke fill markers'
+          d='M 3 6.51514 L 3 9.79365 C 3 14.1058, 13 14.1058, 13 9.79365 L 13 6.51755 M 1.65721 5.74416 L 6.70795 8.65316 C 7.50857 9.11428, 8.49143 9.11428, 9.29205 8.65316 L 14.3428 5.74416 C 14.9141 5.41513, 14.9141 4.58487, 14.3428 4.25584 L 9.29205 1.34684 C 8.49143 0.88572, 7.50857 0.88572, 6.70795 1.34684 L 1.65721 4.25584 C 1.08593 4.58487, 1.08593 5.41513, 1.65721 5.74416 Z'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:states='outline'>
+  </path>
+  <path
+          id='dangling'
+          fill='none'
+          stroke='rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='1'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-dasharray='none'
+          paint-order='stroke fill markers'
+          d='M 14.5128 12 L 13.5179 13 L 13.5179 14.5143 C 13.5179 15.0519, 13.9537 15.4877, 14.4913 15.4877 C 15.0246 15.4834, 15.4534 15.0476, 15.4491 14.5143 L 15.4491 13 Z M 8 5 L 12.9374 5 C 13.7994 5, 14.4982 5.69877, 14.4982 6.56075 L 14.4982 12'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+</svg>

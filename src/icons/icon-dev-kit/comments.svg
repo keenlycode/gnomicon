@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="comment" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 1 2.39012647 L 1 6.58662319 C 1 7.35436869, 1.62238073 7.97674942, 2.39012647 7.97674942 L 2.80716419 7.97674942 C 3.34458637 7.97674942, 3.7802527 8.41241646, 3.7802527 8.94983864 L 3.7802527 9.48613071 C 3.7802527 9.77180672, 3.96227217 10.0257292, 4.2328167 10.1174717 C 4.50336123 10.2092123, 4.80228853 10.1183805, 4.97605371 9.89162922 L 6.02069426 8.52844715 C 6.28720236 8.18067265, 6.70039034 7.97674942, 7.13853741 7.97674942 L 8.62458992 7.97674942 C 9.39233494 7.97674942, 10.0147161 7.35436869, 10.0147161 6.58662319 L 10.0147161 2.39012647 C 10.0147161 1.62238085, 9.39233494 1, 8.62458992 1 L 2.39012647 1 C 1.62238073 1, 1 1.62238085, 1 2.39012647 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path1" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 13.0548296 5.98278666 C 14.1347113 5.98837662, 15.0055933 6.86833048, 15 7.94821119 L 15 11.5820332 C 15 12.3300676, 14.3935976 12.93647, 13.6455631 12.93647 L 13.2392321 12.93647 C 12.7156067 12.93647, 12.2911263 13.2829256, 12.2911263 13.806551 L 12.2911263 14.3290739 C 12.2911263 14.6074171, 12.11378 14.8548203, 11.8501806 14.9442072 C 11.5865822 15.033597, 11.3085184 14.9343071, 11.1260252 14.7241631 L 10.1082039 13.5520296 C 9.82830524 13.2296963, 9.44595814 13.0144958, 9.01906013 13.0144958 L 6.21672297 13.0144958" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>comments public forum discourse</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

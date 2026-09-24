@@ -1,0 +1,47 @@
+<svg
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>arrow right 10 skip media skip-forward-10</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='left'
+          style=''
+          fill='none'
+          fill-rule='nonzero'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 4 10.5089 L 4 13.4911 A 1.50892 1.50892 45 0 0 5.50892 15 A 1.50003 1.50003 134.659 0 0 7 13.4911 L 7 10.5089 A 1.50892 1.50892 45 0 0 5.49108 9 A 1.50003 1.50003 134.659 0 0 4 10.5089 Z M 1 15 L 1 9 M 12 13.0113 A 3 3 0 0 0 15 10.0113 L 15 8 A 3 3 0 0 0 12 5 L 8 5 M 11.008 1.01035 L 7.00797 5.01035 L 11.008 9.01035'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'>
+  </path>
+</svg>

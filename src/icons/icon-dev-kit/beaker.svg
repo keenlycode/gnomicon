@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state1 empty">
+<path d="M 6 1 L 6 5 L 2.05798292 11.5700283 C 1.63819015 12.2696829, 1.62719655 13.1410618, 2.02920437 13.8510838 C 2.43121243 14.5611067, 3.18406963 15, 4 15 L 12 15 C 12.8159304 15, 13.5687876 14.5611057, 13.9707956 13.8510838 C 14.3728027 13.1410618, 14.3618097 12.2696829, 13.9420166 11.5700283 L 10 5 L 10 1 M 5 1 L 11 1" id="beaker" gpa:states="outline state1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path d="M 6 10 L 5 12 L 11 12 L 10 10 Z" id="liquid" gpa:states="outline" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path visibility="hidden" d="M 6 10 L 5 12 L 11 12 L 10 10 Z" id="fill" gpa:states="state1" stroke="none" fill-rule="nonzero" fill-opacity="0.25" fill="rgb(0,0,0)" class="foreground-fill" gpa:fill="foreground">
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>applications-science chemistry glass beaker</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 9 3 L 9 1.33793104 C 9 1.15129697, 8.84870338 1.00000024, 8.66206932 1 L 7.33793116 1 C 7.15129709 0.99999994, 7 1.15129685, 7 1.33793104 L 7 3 M 11 3 L 5 3 C 3.89543056 3, 3 3.89543056, 3 5 L 3 13 C 3 14.1045694, 3.89543056 15, 5 15 L 11 15 C 12.1045694 15, 13 14.1045694, 13 13 L 13 5 C 13 3.89543056, 12.1045694 3, 11 3 Z" id="battery" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" gpa:stroke="foreground" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <rect x="5" y="11.3172" width="6" height="1.68276" id="20" stroke="none" fill-rule="nonzero" fill="rgb(0,0,0)" gpa:fill="foreground" class="foreground-fill" gpa:states="outline">
+    </rect>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>battery battery-level-20 battery-low</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

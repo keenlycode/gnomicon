@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 14.5 6 L 14.5 10 M 1.5 6 L 1.5 10 M 6 14.5 L 10 14.5 M 6 1.5 L 10 1.5 M 11 1.5 L 12 1.5 C 13.3807116 1.5, 14.5 2.61928821, 14.5 4 L 14.5 5 M 11 14.5 L 12 14.5 C 13.3807116 14.5, 14.5 13.3807116, 14.5 12 L 14.5 11 M 5 14.5 L 4 14.5 C 2.61928821 14.5, 1.5 13.3807116, 1.5 12 L 1.5 11 M 5 1.5 L 3.96297956 1.5 C 2.58226752 1.5, 1.46297956 2.61928821, 1.46297956 4 L 1.46297956 5" id="outline" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="0.25" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path d="M 7 6 C 7 6.55228472, 6.55228472 7, 6 7 C 5.44771528 7, 5 6.55228472, 5 6 C 5 5.44771528, 5.44771528 5, 6 5 C 6.55228472 5, 7 5.44771528, 7 6 Z M 4 11 L 6 9 L 7.5 10 L 9.5 8 L 12 10.5" id="hills" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.25" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>image-missing broken</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

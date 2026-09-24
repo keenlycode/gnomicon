@@ -1,0 +1,35 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="path1" fill="none" fill-opacity="1" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 7.50344849 5.05905437 L 7.50344849 2.59034491 C 7.50344849 1.44921041, 6.57837582 0.524138153, 5.43724155 0.524138033 L 2.59034491 0.524137914 C 1.44921041 0.524138093, 0.524138093 1.44921041, 0.524138033 2.59034491 L 0.524137914 5.44399595 C 0.524138153 6.58513021, 1.44921041 7.51020288, 2.59034491 7.51020288 L 5.02758598 7.51020288" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <ellipse id="path2" fill="none" fill-opacity="0" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1.99999" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" cx="7.9932" cy="8.00675" rx="3.00059" ry="3" class="transparent-fill foreground-stroke" gpa:stroke-minwidth='25%' gpa:stroke-maxwidth='150%' gpa:stroke="foreground" gpa:fill="none" gpa:states="outline">
+    </ellipse>
+  <path id="path3" fill="none" fill-opacity="0" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 8.56833172 5.05905437 L 8.56833172 2.59034491 C 8.56833172 1.44921041, 9.49340439 0.524138093, 10.6345387 0.524138033 L 13.4372406 0.524137914 C 14.5783758 0.524137855, 15.5034475 1.44921041, 15.5034475 2.59034491 L 15.5034475 5.44399595 C 15.5034494 6.58513021, 14.5783758 7.51020288, 13.4372406 7.51020288 L 10.9696903 7.51020288" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path4" fill="none" fill-opacity="0" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 4.98807096 7.53342009 C 4.12862206 7.77621603, 3.49881458 8.5662775, 3.49881458 9.50343704 L 3.49881458 11.4703445 C 3.49881458 12.6008139, 4.41524172 13.5172405, 5.54571104 13.5172405 L 10.4592981 13.5172405 C 11.5897684 13.5172405, 12.5061941 12.6008139, 12.5061941 11.4703445 L 12.5061941 9.50343704 C 12.507494 8.54290009, 11.8460665 7.73620701, 10.9533653 7.5159688" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path5" fill="none" fill-opacity="0" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 0.524137974 4.01717043 C 0.524137974 4.01717043, 0.890434504 5.5, 2.50352168 5.5 L 6.34478569 5.5" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path6" fill="none" fill-opacity="0" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 15.4640713 4.01717043 C 15.4640713 4.01717043, 15.0977736 5.5, 13.4846869 5.5 L 9.70971394 5.5" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path8" fill="none" fill-opacity="0" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 12.5222387 11.4482756 L 12.5498285 13.4930325 C 12.5647097 14.5963469, 11.7145643 15.5, 10.5428562 15.5 L 5.4932189 15.5 C 4.34909678 15.5, 3.51383495 14.6244202, 3.51383495 13.5482044 L 3.51383495 11.7195759" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>keyboard thinkpad trackpoint clit nub pointer</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

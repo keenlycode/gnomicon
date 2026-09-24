@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="atom" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 8.50903606 7.99999952 C 8.50903606 8.2811327, 8.2811327 8.50903606, 7.99999952 8.50903606 C 7.71886635 8.50903606, 7.49096251 8.2811327, 7.49096251 7.99999952 C 7.49096251 7.71886635, 7.71886635 7.49096251, 7.99999952 7.49096251 C 8.2811327 7.49096251, 8.50903606 7.71886635, 8.50903606 7.99999952 Z M 1.3597188 14.6401491 C 2.58214855 15.8625793, 6.54604912 13.8806286, 10.2133389 10.2133389 C 13.8806286 6.54604912, 15.8625793 2.58214855, 14.6401491 1.3597188 C 13.4177198 0.137288958, 9.45381832 2.11923933, 5.78652906 5.78652906 C 2.11923933 9.45381832, 0.137288958 13.4177198, 1.3597188 14.6401491 Z M 14.6401491 14.6401491 C 13.4177198 15.8625793, 9.45381832 13.8806286, 5.78652906 10.2133389 C 2.11923933 6.54604912, 0.137288824 2.58214831, 1.35971868 1.35971868 C 2.58214831 0.137288824, 6.54604912 2.11923933, 10.2133389 5.78652906 C 13.8806286 9.45381832, 15.8625793 13.4177198, 14.6401491 14.6401491 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>atom macro microscopic</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

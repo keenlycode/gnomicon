@@ -1,0 +1,58 @@
+<svg
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>view-pin location point of interest libadwaita angled</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='Pin'
+          fill='none'
+          stroke='rgb(0,0,0)'
+          stroke-width='1.17914'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M 15 14.9973 L 10.8311 10.8284'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='200%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+  <path
+          id='head'
+          fill='none'
+          stroke='rgb(0,0,0)'
+          stroke-width='2.43766'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M 6.88656 13.778 L 13.7813 6.8833 L 9.47209 6.02146 L 7.84681 2.22913 C 7.63108 1.72578, 7.17972 1.36221, 6.64197 1.25865 C 6.10422 1.15509, 5.55012 1.32502, 5.16288 1.71226 L 1.71552 5.15962 C 1.32111 5.55402, 1.14352 6.1158, 1.23954 6.66525 C 1.33556 7.21469, 1.69317 7.68293, 2.19797 7.92019 L 6.02472 9.46883 Z'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+</svg>

@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>graphics spiral inkscape</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="ellipse" fill="none" fill-rule="evenodd" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 8 8 C 8.28255 8.48939, 7.47971 8.62232, 7.1866 8.46962 C 6.39228 8.0558, 6.54638 6.93765, 7.06076 6.3732 C 7.98088 5.36353, 9.5915 5.64792, 10.4402 6.59114 C 11.6857 7.97536, 11.257 10.1356, 9.87847 11.2536 C 8.04116 12.7437, 5.31479 12.1648, 3.93299 10.3481 C 2.19415 8.0619, 2.9257 4.76251, 5.18229 3.11959 C 7.91532 1.12979, 11.7913 2.01531, 13.6938 4.71267 C 15.9359 7.89142, 14.8957 12.346, 11.7569 14.5072" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

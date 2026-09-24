@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="path1-3" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 14.510952 0.466108799 L 14.510952 3.00403976 M 12.4764681 0.507488072 L 12.4764681 3.00403976 M 11.2433653 8 C 12.5578022 7.94172382, 13.5761223 6.82891989, 13.5178471 5.51448298 L 13.5178471 4.00403976 M 13.5 10.5 C 13.5 11.0522852, 13.0522852 11.5, 12.5 11.5 C 11.9477148 11.5, 11.5 11.0522852, 11.5 10.5 C 11.5 9.94771576, 11.9477148 9.5, 12.5 9.5 C 13.0522852 9.5, 13.5 9.94771576, 13.5 10.5 Z M 4.5 10.5 C 4.5 11.0522852, 4.05228519 11.5, 3.5 11.5 C 2.94771504 11.5, 2.5 11.0522852, 2.5 10.5 C 2.5 9.94771576, 2.94771504 9.5, 3.5 9.5 C 4.05228519 9.5, 4.5 9.94771576, 4.5 10.5 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path1-2" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 11.9008083 3.00403976 L 14.9008083 3.00403976 C 14.9008083 3.55632448, 14.4530926 4.00403976, 13.9008083 4.00403976 L 12.9008083 4.00403976 C 12.3485231 4.00403976, 11.9008083 3.55632448, 11.9008083 3.00403976 Z M 1.8482759 8 L 2.54125094 4.99157476 C 2.80975699 3.82590461, 3.84753227 3, 5.0437274 3 L 9 3 M 1 9 L 1 12 C 1 12.5522852, 1.44771528 13, 2 13 L 14 13 C 14.5522852 13, 15 12.5522852, 15 12 L 15 9 C 15 8.44771576, 14.5522852 8, 14 8 L 2 8 C 1.44771528 8, 1 8.44771576, 1 9 Z M 4 13 L 4 14 C 4 14.5522852, 3.55228519 15, 3 15 C 2.44771481 15, 2 14.5522852, 2 14 L 2 13 M 14 13 L 14 14 C 14 14.5522852, 13.5522842 15, 13 15 C 12.4477158 15, 12 14.5522852, 12 14 L 12 13" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>car travel transport route category emoji-travel ev electric charge</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

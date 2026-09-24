@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>hand gesture middle finger nvidia</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="hand" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="3.20001" d="M 13.0595 6 L 11 6 L 11 2.44828 C 10.9984 2, 10.5835 0.996191, 9.48276 1 C 8.5432 1.00325, 7.99851 1.82712, 8 2.47586 L 8 6 L 5.93062 6 C 5.66819 6, 5.41693 6.1062, 5.23405 6.29442 C 5.05117 6.48264, 4.95224 6.73685, 4.95979 6.99917 L 4.99058 8.06913 C 5.0064 8.61898, 4.39448 8.89469, 4.00551 8.50572 C 2.05955 6.55976, -0.454318 9.39245, 1.99834 11.8451 L 3.61847 13.5927 C 4.49641 14.5397, 5.78247 15, 7.07381 15 L 12.0595 15 C 13.7164 15, 15.0595 13.6569, 15.0595 12 L 15.0595 8 C 15.0595 6.89543, 14.1641 6, 13.0595 6 Z" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

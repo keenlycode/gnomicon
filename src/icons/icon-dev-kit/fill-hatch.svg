@@ -1,0 +1,104 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:description>open link in a new window</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>gfx inkscape fill hatch pattern</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+<defs
+          id='defs1'>
+    <pattern
+            id='pattern5'
+            patternTransform='rotate(45, 10, 24.1421)'
+            href='#Strips1_1.5'
+            x='0'
+            y='0'
+            preserveAspectRatio='xMidYMid'>
+    </pattern>
+    <pattern
+            id='Strips1_1.5'
+            style='fill:#000000'
+            patternTransform='translate(0, 0) scale(2, 2)'
+            fill='rgb(0,0,0)'
+            patternUnits='userSpaceOnUse'
+            width='2.5'
+            height='1'
+            preserveAspectRatio='xMidYMid'>
+      <rect
+              id='rect140'
+              style='stroke:none'
+              stroke='none'
+              x='0'
+              y='-0.5'
+              width='1'
+              height='2'>
+      </rect>
+    </pattern>
+  </defs>
+  <rect
+          id='rect'
+          class='transparent-fill foreground-stroke'
+          style='font-variation-settings:&apos;opsz&apos; 32, &apos;wght&apos; 900;fill:none;fill-opacity:0.218535;stroke:#000000;stroke-width:2;stroke-linejoin:round;paint-order:stroke fill markers'
+          fill='none'
+          fill-opacity='0.218535'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='butt'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          paint-order='stroke fill markers'
+          x='1'
+          y='1'
+          width='14'
+          height='14'
+          rx='3.9931'
+          ry='3.9931'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'>
+  </rect>
+  <path
+          id='hatch'
+          class='transparent-fill foreground-stroke'
+          style='font-variation-settings:&apos;opsz&apos; 32, &apos;wght&apos; 900;fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='1'
+          stroke-linecap='butt'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          paint-order='stroke fill markers'
+          d='M 14.909 11.909 L 11.9234 14.8947 M 15.007 9.68973 L 9.69318 15.0035 M 15.0084 7.567 L 7.567 15.0084 M 15.027 5.42703 L 5.45117 15.0029 M 14.7319 3.60085 L 3.5839 14.7488 M 13.9363 2.27513 L 2.27123 13.9402 M 12.7002 1.38988 L 1.37584 12.7143 M 10.9844 0.984389 L 0.984389 10.9844 M 8.84097 1.00649 L 1.00304 8.84442 M 6.71824 1.0079 L 0.997551 6.72859 M 4.59551 1.0093 L 0.999164 4.60565'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'>
+  </path>
+</svg>

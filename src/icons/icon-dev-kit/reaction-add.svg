@@ -1,0 +1,29 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" class="" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0">
+    </defs>
+  <path id="path0" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 15 8 C 15 4.13400698, 11.8659945 1, 8 1 C 4.13400698 1, 1 4.13400698, 1 8 C 1 11.8659945, 4.13400698 15, 8 15" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path1" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" d="M 10.999999 6.49655151 C 10.999999 6.77459812, 10.7745981 7, 10.4965525 7 C 10.2185049 7, 9.99310303 6.77459812, 9.99310303 6.49655151 C 9.99310303 6.21850491, 10.2185049 5.99310303, 10.4965525 5.99310303 C 10.7745981 5.99310303, 10.999999 6.21850491, 10.999999 6.49655151 Z M 6.03448296 6.49655151 C 6.03448296 6.77459812, 5.80908108 7, 5.53103447 7 C 5.25298786 7, 5.02758598 6.77459812, 5.02758598 6.49655151 C 5.02758598 6.21850491, 5.25298786 5.99310303, 5.53103447 5.99310303 C 5.80908108 5.99310303, 6.03448296 6.21850491, 6.03448296 6.49655151 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path2" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" d="M 6.61254072 10.9473524 C 5.9326086 10.6536741, 5.35149002 10.1467228, 4.96891117 9.48407745" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path2-3" fill="none" fill-opacity="1" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 9 12 L 15 12 M 12 9 L 12 15" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>emoji emote face smile reaction add plus</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <path id="outline" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 1 1 L 15 15 M 2.51044655 5.49427938 C 2.43896222 5.85129833, 2.40146017 6.22055817, 2.40146017 6.59853983 C 2.40873814 7.26190901, 2.52903128 7.91798687, 2.76230359 8.53761768 L 2.74771953 8.53397751 C 3.34183478 10.3892241, 6.27596617 13.2759714, 7.99635077 15 L 8 15 L 8 14.9963999 C 8.56751156 14.4288893, 9.26608658 13.723197, 9.96917915 12.9711838 M 11.3844709 11.3844709 C 11.8986654 10.7730703, 12.3611679 10.1722164, 12.7091894 9.62748814 C 12.9533958 9.24112988, 13.146574 8.87299728, 13.2559204 8.53402328 L 13.2377005 8.53766346 C 13.4709692 7.91798687, 13.5948954 7.26190901, 13.5985403 6.59853983 C 13.5985403 3.50767922, 11.0945053 1, 8 1 C 6.09680605 1, 4.4147234 1.95077837, 3.40304351 3.40304351" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="inner outline" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" d="M 6.01087093 5.6100893 C 6.37505293 4.88639832, 7.12623644 4.38967848, 7.99201393 4.38702345 C 9.21597195 4.38702345, 10.210906 5.38195753, 10.210906 6.60591555 C 10.210906 7.47152138, 9.71328163 8.222579, 8.98895264 8.58817005" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>pin geolocation disabled location-services-active do-not-track location-services-disabled</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

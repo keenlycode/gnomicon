@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state1 empty">
+  <defs id="defs1" class="" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0">
+    </defs>
+  <path id="scissors" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 9.99060249 12.6580629 C 10.5755501 13.0002518, 10.7723455 13.7518415, 10.4301624 14.336791 C 10.0879717 14.9217386, 9.33638096 15.1185341, 8.75143242 14.7763481 C 8.16648388 14.4341593, 7.96968746 13.6825657, 8.31187725 13.0976191 C 8.65406418 12.5126696, 9.40565586 12.3158741, 9.99060249 12.6580629 Z M 4.20506907 12.5934629 C 4.79001713 12.935648, 4.98681355 13.6872396, 4.64462519 14.272192 C 4.30243731 14.8571444, 3.55084491 15.0539408, 2.96589661 14.7117519 C 2.38094902 14.3695927, 2.18415308 13.618, 2.5263412 13.0330505 C 2.86852908 12.4481039, 3.62012172 12.2513065, 4.20507002 12.5934963 Z M 4.78490829 7.95711613 L 8.28576279 14.2892761 M 8.36214161 7.91736841 L 4.64462423 14.2722273" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="line" fill="none" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 14.5053816 1.51368845 L 14.5053816 1.50155652 M 12.5053816 1.51368845 L 12.5053816 1.50155652 M 10.5053816 1.51368845 L 10.5053816 1.50155652 M 8.50538254 1.51368845 L 8.50538254 1.50155652 M 6.50538254 1.51368845 L 6.50538254 1.50155652 M 6.50538254 3.51368809 L 6.50538254 3.50155616 M 6.50538254 5.51368761 L 6.50538254 5.50155592 M 6.50538254 7.51368713 L 6.50538254 7.50155544" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>edit-cut clipboard scissors edit line dotted</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

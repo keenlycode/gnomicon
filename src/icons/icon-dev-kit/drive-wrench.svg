@@ -1,0 +1,62 @@
+<svg
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>drive-harddisk drive-harddisk-system drive-harddisk-ieee1394 hdd ssd nvme media harddisk wrench gnome-disk-utility disks</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='outline'
+          style=''
+          fill='none'
+          fill-rule='nonzero'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 10.9821 7.86719 C 12.1743 8.18664, 12.9651 9.31596, 12.8575 10.5455 C 12.7499 11.7751, 11.7751 12.7499, 10.5455 12.8575 C 9.31596 12.9651, 8.18664 12.1743, 7.86719 10.9821 M 15 15 L 12.1008 12.1417 M 7 15 L 4 15 C 2.89543 15, 2 14.1046, 2 13 L 2 3 C 2 1.9, 2.9 1, 4 1 L 12 1 C 13.1046 1, 14 1.89543, 14 3 L 14 6'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'>
+  </path>
+  <path
+          id='detail'
+          style=''
+          fill='none'
+          fill-rule='nonzero'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='1'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 6.23378 9.42522 C 5.48593 8.87965, 5 7.99657, 5 7 C 5 5.34315, 6.34315 4, 8 4 C 9.16797 4, 10.1801 4.66745, 10.6756 5.64174 M 6 12.75 L 4 12.75 C 2.89543 12.75, 2 11.8546, 2 10.75'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'>
+  </path>
+</svg>

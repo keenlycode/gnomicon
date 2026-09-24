@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>measure scale ruler right straight angled graphics inkscape</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="detail" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 4.96703 10.4464 L 2.84571 8.32503 M 7.08835 9.73924 L 4.25992 6.91081 M 7.79545 7.61792 L 5.67413 5.4966 M 9.91677 6.91081 L 7.08835 4.08239 M 10.6239 4.78949 L 8.50256 2.66817" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+  </path>
+  <path id="ruler" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 6.22811 14.6012 L 14.7134 6.11588 C 15.1039 5.72536, 15.1039 5.09219, 14.7134 4.70167 L 11.2983 1.28661 C 10.9078 0.896089, 10.2746 0.896088, 9.88412 1.28661 L 1.39884 9.77189 C 1.00831 10.1624, 1.00831 10.7956, 1.39884 11.1861 L 4.81389 14.6012 C 5.20442 14.9917, 5.83758 14.9917, 6.22811 14.6012 Z" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

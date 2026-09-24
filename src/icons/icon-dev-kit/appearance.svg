@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state1 empty">
+  <path id="display" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 4 15 L 12 15 M 15 6 L 15 11 C 15 12.1079998, 14.1079998 13, 13 13 L 3 13 C 1.89199996 13, 1 12.1079998, 1 11 L 1 4 C 1 2.89199996, 1.89199996 2, 3 2 L 7 2" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="outline" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 12 7 C 12 8.65685463, 10.6568546 10, 9 10 L 6 10 L 6 7 C 6 5.34314585, 7.34314585 4, 9 4 C 10.6568546 4, 12 5.34314585, 12 7 Z M 15 1 L 11.1213207 4.87867975" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path visibility="hidden" id="fill" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 12 7 C 12 8.65685463, 10.6568546 10, 9 10 L 6 10 L 6 7 C 6 5.34314585, 7.34314585 4, 9 4 C 10.6568546 4, 12 5.34314585, 12 7 Z M 15 1 L 11.1213207 4.87867975" class="foreground foreground-fill foreground-stroke" gpa:stroke="foreground" gpa:states="state1" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>brush display monitor preferences-desktop-appearance</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

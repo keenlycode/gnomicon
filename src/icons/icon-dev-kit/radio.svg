@@ -1,0 +1,27 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state1 state2 state3 empty">
+<path d="M 15 8 C 15 11.8659925, 11.8659925 15, 8 15 C 4.13400698 15, 1 11.8659925, 1 8 C 1 4.13400698, 4.13400698 1, 8 1 C 11.8659925 1, 15 4.13400698, 15 8 Z" id="radio" gpa:states="outline state1 state2 state3" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path visibility="hidden" d="M 12 8 C 12 10.2091389, 10.2091389 12, 8 12 C 5.79086113 12, 4 10.2091389, 4 8 C 4 5.79086113, 5.79086113 4, 8 4 C 10.2091389 4, 12 5.79086113, 12 8 Z" id="on" gpa:states="state1" stroke="none" fill-rule="nonzero" fill="rgb(0,0,0)" class="foreground-fill" gpa:fill="foreground">
+    </path>
+  <path visibility="hidden" d="M 5 8 L 11 8" id="mixed" gpa:states="state2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <circle cx="8" cy="8" r="3" id="outline" gpa:states="outline" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </circle>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>radio radio-checked radio-unchecked radio-mixed</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

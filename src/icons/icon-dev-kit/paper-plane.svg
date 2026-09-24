@@ -1,0 +1,66 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>mail send paper plane</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='send'
+          opacity='0.98'
+          fill='none'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='butt'
+          stroke-linejoin='round'
+          stroke-miterlimit='4.09605'
+          d='M 13.1121 1.04408 L 2.57844 3.31956 C 0.81174 3.65081, 0.455172 5.85676, 1.96014 6.72566 L 6.77938 9.24115 L 9.27071 14.0561 C 10.1579 15.5927, 12.347 15.1493, 12.6529 13.5181 L 14.945 2.87477 C 15.1808 1.7798, 14.2068 0.806957, 13.1121 1.04408 Z'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          class='transparent-fill foreground-stroke'
+          gpa:stroke='foreground'>
+  </path>
+  <path
+          id='separator'
+          fill='none'
+          fill-rule='nonzero'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='1'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 6.77938 9.24115 L 8.93793 7.11724'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          class='transparent-fill foreground-stroke'
+          gpa:stroke='foreground'>
+  </path>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 6.08599472 13.9665775 Q 7.02230167 14.1226292, 8.34873676 14.1226292 M 6.26155233 10.9820995 Q 8.92417526 11.3234625, 11.0406189 10.7285166 M 3.62818933 7.56848097 C 7.82611561 8.35747814, 9.90802193 7.88548279, 12.2500153 7.56848097 M 14 3 C 14 3.85681486, 12.362668 4.61844635, 9.92863655 4.89386034 C 7.49460506 5.16927433, 4.804667 4.89727974, 3.23987985 4.21752262 C 1.67509282 3.53776574, 1.58312023 2.60127497, 3.01118231 1.88885951 C 4.43924475 1.17644405, 7.07005596 0.84638834, 9.55291462 1.06814837" id="tornado" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>storm tornado weather-tornado</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

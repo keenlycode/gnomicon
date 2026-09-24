@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>certificate seal authenticity medal</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="cert" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 12.335 11.3359 L 14 13 L 12 13 L 12 15 L 9.1709 12.1709 M 3.65035 11.3506 L 2 13 L 4 13 L 4 15 L 6.8291 12.1709 M 7.98438 0.832031 C 7.86725 0.832031, 7.7499 0.877051, 7.66016 0.966797 L 6.12695 2.5 L 3.95898 2.5 C 3.70515 2.5, 3.5 2.70515, 3.5 2.95898 L 3.5 5.12695 L 1.9668 6.66016 C 1.78731 6.83965, 1.78731 7.1291, 1.9668 7.30859 L 3.5 8.8418 L 3.5 11.0117 C 3.5 11.2656, 3.70515 11.4688, 3.95898 11.4688 L 6.12695 11.4688 L 7.66016 13.002 C 7.83965 13.1814, 8.1291 13.1814, 8.30859 13.002 L 9.8418 11.4688 L 12.0117 11.4688 C 12.2656 11.4688, 12.4688 11.2656, 12.4688 11.0117 L 12.4688 8.8418 L 14.002 7.30859 C 14.1814 7.1291, 14.1814 6.83965, 14.002 6.66016 L 12.4688 5.12695 L 12.4688 2.95898 C 12.4688 2.70515, 12.2656 2.5, 12.0117 2.5 L 9.8418 2.5 L 8.30859 0.966797 C 8.21885 0.877051, 8.1015 0.832031, 7.98438 0.832031 Z M 10.5 7 C 10.5 8.38071, 9.38071 9.5, 8 9.5 C 6.61929 9.5, 5.5 8.38071, 5.5 7 C 5.5 5.61929, 6.61929 4.5, 8 4.5 C 9.38071 4.5, 10.5 5.61929, 10.5 7 Z" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

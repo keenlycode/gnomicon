@@ -1,0 +1,64 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline state1 empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>privacy private window session browser hat glasses tracking</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='hat'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 4 7 L 4.65949 3.70257 C 4.84186 2.7907, 5.59645 2.10366, 6.52138 2.00736 C 7.4463 1.91105, 8.32624 2.4279, 8.69256 3.28264 L 9 4 C 9.19342 3.35725, 9.78955 2.92064, 10.4607 2.93018 C 11.1319 2.93972, 11.7153 3.3931, 11.8904 4.0411 L 13 7 M 2 7 L 14 7'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          class='transparent-fill foreground-stroke'
+          gpa:stroke='foreground'
+          gpa:states='outline state1'>
+  </path>
+  <path
+          id='glasses'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='butt'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 6.35353 12.2032 C 6.54981 11.3591, 7.31952 10.9806, 8.07788 10.9806 C 8.83624 10.9806, 9.50679 11.5032, 9.67651 12.2354 M 14.0035 12.0587 C 14.0035 13.2555, 13.0333 14.2257, 11.8364 14.2257 C 10.6396 14.2257, 9.66941 13.2555, 9.66941 12.0587 C 9.66941 10.8618, 10.6396 9.89164, 11.8364 9.89164 C 13.0333 9.89164, 14.0035 10.8618, 14.0035 12.0587 Z M 6.35827 12.0587 C 6.35827 13.2555, 5.38805 14.2257, 4.19122 14.2257 C 2.9944 14.2257, 2.02419 13.2555, 2.02419 12.0587 C 2.02419 10.8618, 2.9944 9.89164, 4.19122 9.89164 C 5.38805 9.89164, 6.35827 10.8618, 6.35827 12.0587 Z'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          class='transparent-fill foreground-stroke'
+          gpa:stroke='foreground'
+          gpa:states='outline state1'>
+  </path>
+</svg>

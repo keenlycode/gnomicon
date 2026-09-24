@@ -1,0 +1,65 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>mail envelope open mail-read</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+          id='envelope-group'
+          opacity='0.25'
+          fill='rgb(0,0,0)' gpa:fill='foreground'
+          stroke='none'>
+    <path
+            id='enve'
+            fill='none'
+            stroke='rgb(0,0,0)'
+            stroke-opacity='1'
+            stroke-width='2'
+            stroke-linecap='round'
+            stroke-linejoin='round'
+            d='M 2.11024 5.20697 L 6.88976 1.79303 C 7.55391 1.31864, 8.44609 1.31864, 9.11024 1.79303 L 13.8394 5.17103 C 14.5678 5.69125, 15 6.53119, 15 7.42622 L 15 13 C 15 14.1046, 14.1046 15, 13 15 L 3 15 C 1.89543 15, 1 14.1046, 1 13 L 1 7.36438 C 1 6.50816, 1.4135 5.70464, 2.11024 5.20697 Z'
+            gpa:stroke-minwidth='25%'
+            gpa:stroke-maxwidth='150%'
+            class='transparent-fill foreground-stroke'
+            gpa:states='outline'>
+    </path>
+    <path
+            id='open'
+            fill='none'
+            stroke='rgb(0,0,0)'
+            stroke-opacity='1'
+            stroke-width='1'
+            stroke-linecap='round'
+            stroke-linejoin='round'
+            d='M 14.8115 6.4217 L 9.15011 10.227 C 8.45301 10.6955, 7.54316 10.7013, 6.84019 10.2416 L 1.11316 6.49678'
+            gpa:stroke-minwidth='25%'
+            gpa:stroke-maxwidth='200%'
+            class='transparent-fill foreground-stroke'
+            gpa:states='outline'>
+    </path>
+  </g>
+</svg>

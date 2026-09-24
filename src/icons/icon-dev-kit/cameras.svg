@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state-names="outline empty" gpa:state="0">
+  <path d="M 12.0549526 12.4413786 L 12.0549526 13.2778091 C 12.0549526 14.2035294, 11.258482 15, 10.3327618 15 L 5.72219086 15 C 4.79647112 15, 4 14.2035294, 4 13.2778091 L 4 11 L 4 9 C 4 7.89543056, 4.89543056 7, 6 7 L 10.027586 7 C 11.1321554 7, 12.027586 7.89543056, 12.027586 9 M 12.0549564 12.4413786 L 15.0017281 14 L 15.0017281 8.33793068 L 12.027586 9.77931023 L 12.027586 9" id="path0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path d="M 4 4 L 4 2.72219086 C 4 1.79647064, 4.79841757 1, 5.72413778 1 L 9.27780914 1 C 10.2035294 1, 11 1.79647064, 11 2.72219086 L 11 4 M 4 4 L 1.00172806 2 L 1.00172806 5" id="path1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.25" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>camera multicam switch camera-switch video</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

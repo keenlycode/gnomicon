@@ -1,0 +1,57 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>power performance saving power-profile-power-saver speedometer-low playback speed media</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='path22'
+          fill='url(#gpa:foreground) rgb(0,0,0)'
+          fill-opacity='0.35'
+          fill-rule='nonzero'
+          stroke='none'
+          d='M 12 9 C 12 10.0614, 11.5787 11.0776, 10.8281 11.8281 L 12.9492 13.9492 C 14.2616 12.6369, 15 10.8559, 15 9 Z'
+          class='foreground foreground-fill'
+          gpa:fill='foreground'
+          gpa:states='outline'>
+  </path>
+  <path
+          id='path4'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M 8.21636 7.97359 C 8.75536 8.09399, 9.0947 8.62855, 8.97429 9.16755 C 8.85389 9.70655, 8.31934 10.0459, 7.78034 9.92548 C 7.24134 9.80508, 6.902 9.27052, 7.0224 8.73152 C 7.14281 8.19252, 7.67736 7.85318, 8.21636 7.97359 Z M 4.09456 8.07749 L 7.0224 8.73152 M 3.05025 13.9497 C 1.7375 12.637, 1 10.8565, 1 9 C 1 5.13401, 4.13401 2, 8 2 C 11.866 2, 15 5.13401, 15 9 C 15 10.8565, 14.2625 12.637, 12.9497 13.9497'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          class='transparent-fill foreground-stroke'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+</svg>

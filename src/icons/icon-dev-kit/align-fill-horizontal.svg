@@ -1,0 +1,27 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state1 empty">
+  <path id="dots" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" d="M 15.5 12.5 L 15.5 12.5010004 M 15.5 10.5 L 15.5 10.5010004 M 15.5 8.5 L 15.5 8.5010004 M 15.5 6.5 L 15.5 6.50099993 M 15.5 4.5 L 15.5 4.50099993 M 15.5 2.5 L 15.5 2.50099993 M 15.5 0.5 L 15.5 0.500999987 M 0.5 12.5 L 0.5 12.5010004 M 0.5 10.5 L 0.5 10.5010004 M 0.5 8.5 L 0.5 8.5010004 M 0.5 6.5 L 0.5 6.50099993 M 0.5 4.5 L 0.5 4.50099993 M 0.5 2.5 L 0.5 2.50099993 M 0.5 0.5 L 0.5 0.500999987" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="arr" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" d="M 14 13.5 L 15.500021 14.5 L 14 15.5 M 2 13.5 L 0.5 14.5 L 2 15.5 M 0.5 14.5 L 15.5 14.5" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path visibility="hidden" id="fill" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" fill-opacity="0.15" fill-rule="nonzero" stroke="none" d="M 0 0 L 0 16 L 16 16 L 16 0 Z M 6 1 L 10 1 C 10.5539999 1, 11 1.44599998, 11 2 L 11 4 C 11 4.5539999, 10.5539999 5, 10 5 L 6 5 C 5.4460001 5, 5 4.5539999, 5 4 L 5 2 C 5 1.44599998, 5.4460001 1, 6 1 Z M 4 8 L 12 8 C 12.5539999 8, 13 8.4460001, 13 9 L 13 11 C 13 11.5539999, 12.5539999 12, 12 12 L 4 12 C 3.4460001 12, 3 11.5539999, 3 11 L 3 9 C 3 8.4460001, 3.4460001 8, 4 8 Z" class="foreground foreground-fill" gpa:states="state1" gpa:fill="foreground">
+    </path>
+  <path id="obj" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 4 8 L 12 8 C 12.5539999 8, 13 8.4460001, 13 9 L 13 11 C 13 11.5539999, 12.5539999 12, 12 12 L 4 12 C 3.4460001 12, 3 11.5539999, 3 11 L 3 9 C 3 8.4460001, 3.4460001 8, 4 8 Z M 6 1 L 10 1 C 10.5539999 1, 11 1.44599998, 11 2 L 11 4 C 11 4.5539999, 10.5539999 5, 10 5 L 6 5 C 5.4460001 5, 5 4.5539999, 5 4 L 5 2 C 5 1.44599998, 5.4460001 1, 6 1 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>gtk expand horizontal align fill align-fill-horizontal</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

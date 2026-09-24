@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 10.4570312 13.9226837 L 6.08203077 10.2781534 C 5.39843798 9.70783997, 5 8.86018372, 5 7.96565247 L 5 4.37580872 C 5 3.27033973, 5.89453077 2.37580872, 7 2.37580872 L 9 2.37580872 C 10.1054688 2.37580872, 11 3.27033973, 11 4.37580872 L 11 13.6726837 C 11 13.7976837, 10.9257803 13.9148712, 10.8085938 13.9695587 C 10.6953115 14.0242491, 10.5585938 14.0047188, 10.4570312 13.9226894 Z M 10.4570312 13.9226837" id="path1" gpa:states="outline" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>selection-start</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

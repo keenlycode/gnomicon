@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="nodes" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="3.20001" d="M 3.5 12.9969406 C 3.5 13.823679, 2.82979655 14.4938822, 2.00305891 14.4938822 C 1.17632115 14.4938822, 0.50611788 13.823679, 0.506117821 12.9969406 C 0.50611788 12.1702032, 1.17632115 11.5, 2.00305891 11.5 C 2.82979655 11.5, 3.5 12.1702032, 3.5 12.9969406 Z M 6.5 5.99694109 C 6.5 6.82367897, 5.82979679 7.49388218, 5.00305891 7.49388218 C 4.29901743 7.49388218, 3.70849538 7.00784683, 3.54872346 6.35300732 Q 3.50695753 6.18182468, 3.50611782 5.99694109 C 3.50611782 5.17020321, 4.17632103 4.5, 5.00305891 4.5 C 5.82979679 4.5, 6.5 5.17020321, 6.5 5.99694109 Z M 13.5 9.99694061 C 13.5 10.823678, 12.8297968 11.4938822, 12.0030594 11.4938822 C 11.176321 11.4938822, 10.5061178 10.823678, 10.5061178 9.99694061 C 10.5061178 9.17020321, 11.176321 8.5, 12.0030594 8.49999905 C 12.8297968 8.5, 13.5 9.17020321, 13.5 9.99694061 Z M 15.5078716 3.00305891 C 15.5078716 3.82979655, 14.8376694 4.5, 14.010931 4.5 C 13.1841927 4.5, 12.5139904 3.82979655, 12.5139904 3.00305891 C 12.5139904 2.17632127, 13.1841927 1.50611794, 14.010931 1.50611782 C 14.8376694 1.50611794, 15.5078716 2.17632127, 15.5078716 3.00305891 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="func" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="bevel" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 2 16 C 2 15.5687761, 1.99021995 15.0561409, 1.98261297 14.4941578 M 2.01409292 11.5005369 C 2.11961174 9.33316135, 2.29893732 6.9321084, 3.54880548 6.35311127 M 6.39241076 6.55421686 C 7.8842268 7.48888969, 9 9.63652134, 10.5535011 9.89291859 M 13.1592751 9.0461216 C 14 8.24247646, 14.0603161 6.26204443, 14.089448 4.5012989 M 14.0342569 1.50532305 C 14.0157146 0.961194217, 14 0.451699167, 14 0" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>function graph math third-order</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="circuit" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 13 1 L 3 1 C 1.89542997 1, 1 1.89542997, 1 3 L 1 13 C 1 14.1045694, 1.89542997 15, 3 15 L 13 15 C 14.1045694 15, 15 14.1045694, 15 13 L 15 7 L 13 7 L 13 4 L 15 4 L 15 3 C 15 1.89542997, 14.1045694 1, 13 1 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path1" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 8.48566723 7.52468014 C 8.48566723 6.97239542, 8.93338203 6.52468014, 9.48566723 6.52468014 C 10.0379534 6.52468014, 10.4856682 6.97239542, 10.4856682 7.52468014 C 10.4856682 8.07696533, 10.0379534 8.52468014, 9.48566723 8.52468014 C 8.93338203 8.52468014, 8.48566723 8.07696533, 8.48566723 7.52468014 Z M 7.48566771 15 L 7.48566771 12.0246801 L 9.48566723 10.0246801 L 9.48566723 8.52468014 M 6.5 10 C 6.5 10.5522852, 6.05228472 11, 5.5 11 C 4.94771528 11, 4.5 10.5522852, 4.5 10 C 4.5 9.44771576, 4.94771528 9, 5.5 9 C 6.05228472 9, 6.5 9.44771576, 6.5 10 Z M 7.5 1 L 7.5 5 L 5.5 7 L 5.5 9" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>pcb circuit</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

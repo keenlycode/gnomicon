@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg gpa:rendering="symbolic"
+   width="16"
+   height="16"
+   gpa:version="1"
+   gpa:state="0"
+   gpa:state-names="outline state1 empty"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="private-no.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:gpa="https://www.gtk.org/grappa">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="8.5"
+     inkscape:cy="8"
+     inkscape:window-width="5120"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1"
+     fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)"
+     stroke="none"
+     class="foreground foreground-fill"
+     gpa:states="none"
+     gpa:animation-repeat="0"
+     gpa:animation-segment="0"
+     gpa:fill="foreground" />
+  <path
+     id="hat"
+     fill="none"
+     stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)"
+     stroke-opacity="1"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-miterlimit="4"
+     d="M 4.5 4.5 L 4.65948677 3.7025671 C 4.84185982 2.79070306, 5.59645367 2.1036613, 6.52137566 2.00735664 C 7.44629812 1.91105175, 8.3262434 2.42790198, 8.69255829 3.28263569 L 9 4 C 9.1934166 3.35724735, 9.78955269 2.9206388, 10.4607086 2.93018126 C 11.1318645 2.93972135, 11.7153463 3.39310431, 11.8904114 4.04109621 L 13 7 M 2 7 L 3 7 M 7 7 L 14 7"
+     class="transparent-fill foreground-stroke"
+    
+     gpa:stroke="foreground"
+     gpa:fill="none"
+     gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" />
+  <path
+     id="no"
+     fill="none"
+     fill-rule="nonzero"
+     stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)"
+     stroke-opacity="1"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-miterlimit="4"
+     stroke-dasharray="none"
+     d="M 1 1 L 15 15"
+     class="transparent-fill foreground-stroke"
+    
+     gpa:stroke="foreground"
+     gpa:fill="none"
+     gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+           rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>privacy private window session browser hat glasses tracking</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="glasses"
+     fill="none"
+     stroke="url(#gpa:foreground) #000000"
+     stroke-opacity="1"
+     stroke-width="2"
+     stroke-linecap="butt"
+     stroke-linejoin="round"
+     stroke-miterlimit="4"
+     d="M 6.35353,12.2032 C 6.4973109,11.584872 6.9487941,11.216384 7.4781172,11.063501 M 10.419875,10.418667 C 10.799728,10.090273 11.294866,9.89164 11.8364,9.89164 c 1.1969,0 2.1671,0.97016 2.1671,2.16706 0,0.54558 -0.201621,1.04407 -0.534427,1.425024 M 6.35827,12.0587 c 0,1.1968 -0.97022,2.167 -2.16705,2.167 -1.19682,0 -2.16703,-0.9702 -2.16703,-2.167 0,-1.1969 0.97021,-2.16706 2.16703,-2.16706 1.19683,0 2.16705,0.97016 2.16705,2.16706 z"
+     class="transparent-fill foreground-stroke"
+     gpa:stroke="foreground"
+     gpa:states="outline state1"
+     sodipodi:nodetypes="cccsscsssss"
+     style="stroke-linecap:round" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" />
+</svg>

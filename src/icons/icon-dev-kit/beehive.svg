@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="beehive" fill="none" fill-opacity="0.372549" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 8 3 L 8 2 M 1 7 L 1.02209997 7 M 1 15 L 1.02209997 15 M 14.9778996 7 L 15 7 M 14 5 L 14.0221004 5 M 6.5 12 L 9.5 12 C 10.3310003 12, 11 12.6689997, 11 13.5 C 11 14.3310003, 10.3310003 15, 9.5 15 L 6.5 15 C 5.66900015 15, 5 14.3310003, 5 13.5 C 5 12.6689997, 5.66900015 12, 6.5 12 Z M 3.5 9 L 12.5 9 C 13.3310003 9, 14 9.66899967, 14 10.5 C 14 11.3310003, 13.3310003 12, 12.5 12 L 3.5 12 C 2.66899991 12, 2 11.3310003, 2 10.5 C 2 9.66899967, 2.66899991 9, 3.5 9 Z M 5.49999952 6 L 10.5 6 C 11.3310003 6, 12 6.66900015, 12 7.5 C 12 8.33100033, 11.3310003 9, 10.5 9 L 5.49999952 9 C 4.66899967 9, 3.99999952 8.33100033, 3.99999952 7.5 C 3.99999952 6.66900015, 4.66899967 6, 5.49999952 6 Z M 8 3 C 8.83100033 3, 9.5 3.66899991, 9.5 4.5 C 9.5 5.33099985, 8.83100033 6, 8 6 C 7.16900015 6, 6.5 5.33099985, 6.5 4.5 C 6.5 3.66899991, 7.16900015 3, 8 3 Z M 5 2 L 2 4 M 13 2 L 12 1 M 1 2 L 15 2" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>bee beehive hive swarm</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" gpa:version="1" gpa:state-names="outline empty" gpa:state="0" width="16" height="16">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>ad advertizing rating cash dollar bills usd money-none money-no</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+<path id="path55" fill="none" stroke="rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 1 1 L 15 15 M 8 11.5 L 8 14 M 8 2 L 8 8 M 12 4 L 5 4 C 4.70653 4, 4.42782 4.06321, 4.17675 4.17675 M 3.08776 6.58776 C 3.28175 7.21965, 3.78035 7.71825, 4.41224 7.91224 M 8 8 L 11 8 C 12.1046 8, 13 8.89543, 13 10 C 13 10.8111, 12.5172 11.5094, 11.8232 11.8232 M 8.5 12 L 4 12" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

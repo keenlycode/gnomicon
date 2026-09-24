@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 3.47645974 14.7451687 L 5.75478458 12.4624233 C 6.0693574 12.1472397, 6.0693574 11.6362257, 5.75478506 11.3210449 L 5.23637772 10.801631 C 6.91096354 9.59654617, 9.16029453 9.59697914, 10.8343039 10.7972307 L 10.3114491 11.3210831 C 9.99687386 11.6362667, 9.99687386 12.1472788, 10.3114481 12.4624615 L 12.5897722 14.7452087 C 12.9043417 15.0603933, 13.4143705 15.0603933, 13.7289391 14.7452078 L 14.2985201 14.1745253 C 15.242238 13.2289791, 15.2431517 10.6795492, 14.2985201 9.73491669 C 10.6843786 6.1207757, 5.44581652 6.05618858, 1.76771069 9.73491478 C 0.667506754 10.8346987, 0.823996365 13.2289762, 1.76771069 14.1745234 L 2.33729172 14.7452068 C 2.65186429 15.0603886, 3.16188741 15.0603905, 3.47645974 14.7452059 Z" id="headset" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(255,0,0)" fill="none" class="error-stroke transparent-fill" gpa:stroke="error" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path d="M 9 1 L 12 1 L 12 4 M 5 1 L 7.15147161 3.86862922 C 7.36480999 4.15307999, 7.69108725 4.33095455, 8.04575634 4.35616016 C 8.40042496 4.38136578, 8.74857903 4.25142145, 9 4 L 12 1" id="missed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>call phone unreachable busy call-missed</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

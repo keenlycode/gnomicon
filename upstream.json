@@ -1,0 +1,26 @@
+{
+  "version": "51.0.0",
+  "gnomeRelease": "51",
+  "collisionPolicy": "icon-dev-kit first; within Adwaita prefer non-legacy paths, then canonical -symbolic-rtl spelling",
+  "sources": [
+    {
+      "id": "icon-dev-kit",
+      "repository": "https://gitlab.gnome.org/Teams/Design/icon-development-kit.git",
+      "revision": "e5857f6d796a96571a61030db40f35bfb8815a94",
+      "path": "icons",
+      "extensions": [".svg", ".gpa"],
+      "license": "CC0-1.0",
+      "licenseFiles": ["COPYING.md"]
+    },
+    {
+      "id": "adwaita",
+      "repository": "https://gitlab.gnome.org/GNOME/adwaita-icon-theme.git",
+      "revision": "70ecd52fbe844304ed4f845a04a1757fa6284884",
+      "tag": "51.0",
+      "path": "Adwaita/symbolic",
+      "extensions": [".svg"],
+      "license": "CC-BY-SA-3.0-US",
+      "licenseFiles": ["COPYING", "COPYING_CCBYSA3", "AUTHORS"]
+    }
+  ]
+}

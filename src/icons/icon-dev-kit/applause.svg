@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="path104020" fill="none" fill-opacity="1" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 7.71709442 4.2383523 C 8.68656921 4.24335241, 9.55261993 4.24235249, 10.1123199 4.24137259 C 10.4752121 4.24036264, 10.577076 4.01595926, 10.3398132 3.74134254 L 9.90023041 3.23255444 C 9.3822422 2.63301682, 9.38391876 1.74381554, 9.90412903 1.14622045 C 10.1434479 0.890757501, 10.4760818 0.743174493, 10.8260803 0.737223506 C 11.1760788 0.731241465, 11.5135651 0.867350459, 11.7614594 1.11451244 L 14.3079529 3.47437549 C 14.8846436 3.9885664, 15.2443161 4.75223827, 15.2482758 5.44309568 L 15.2482758 9.52540016 C 15.2482758 11.7071629, 12.9727564 11.7071629, 12.9727564 11.7071629" class="transparent-fill foreground-stroke" gpa:stroke-minwidth='25%' gpa:stroke-maxwidth='150%' gpa:stroke="foreground" gpa:fill="none" gpa:states="outline">
+    </path>
+  <path id="path104024" opacity="1" mask="none" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" fill-opacity="1" fill-rule="nonzero" stroke="none" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M 2.01468658 5.04600048 C 2.29957223 4.76111507, 2.75829339 4.76111841, 3.04319 5.04600048 L 6.38578033 8.38865185 C 6.38578033 8.38865185, 6.64286041 8.64585304, 6.90000153 8.38871288 C 7.15711975 8.13160229, 6.90003204 7.87443066, 6.90003204 7.87443066 L 4.5859375 5.56025171 C 4.30104828 5.2753396, 4.30104065 4.8166604, 4.58592987 4.53174829 C 4.87082672 4.2468667, 5.32953644 4.2468667, 5.61443329 4.53174829 L 9.85897064 8.77634621 C 9.92887211 8.84626293, 9.9859848 8.8227644, 9.98654175 8.72394848 L 9.99534225 6.97721338 C 9.99764156 6.43113232, 10.4409981 5.98844433, 10.9870863 5.98844433 L 11.0095062 5.98844433 C 11.5555954 5.98844433, 11.9982986 6.43113232, 11.9982986 6.97721338 L 11.9982986 10.1885471 C 12.042469 10.95994, 11.7567987 11.7542524, 11.2711039 12.245554 L 8.18560886 15.3310337 C 6.64285326 16.8737812, 5.10011339 15.3310642, 5.10011339 15.3310642 L 2.0146184 12.245554 L 0.986126363 11.2170506 C 0.701236546 10.9321594, 0.701221883 10.4734592, 0.986122549 10.1885471 C 1.27101183 9.9036665, 1.72972155 9.9036665, 2.0146184 10.1885471 L 3.81449175 11.9884129 C 3.81449175 11.9884129, 4.07162523 12.245554, 4.32873583 11.9884443 C 4.58586931 11.7313032, 4.32873583 11.4741917, 4.32873583 11.4741917 L 0.98612988 8.13157177 C 0.701236844 7.84665966, 0.70123297 7.38798046, 0.986126065 7.10306835 C 1.2710191 6.81815672, 1.72972882 6.81815672, 2.01462197 7.10306835 L 4.84298706 9.93143749 C 4.84298706 9.93143749, 5.10012054 10.1885471, 5.3572464 9.93143749 C 5.61436462 9.67429638, 5.35723877 9.41718578, 5.35723877 9.41718578 L 2.01462579 6.07456446 C 1.729725 5.78968334, 1.72971928 5.3309679, 2.01462579 5.04606152 Z" class="foreground foreground-fill" gpa:states="outline" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path1" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 0.5 6 C 0.5 2.96243382, 2.96243382 0.5, 6 0.5" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path2" opacity="1" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="3.20001" d="M 3.52512622 3.52512622 C 4.18150377 2.8687489, 5.07174206 2.5, 6 2.5" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>applause hands clap bravo praise ovation</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

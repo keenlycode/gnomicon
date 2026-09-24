@@ -1,0 +1,65 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>bread loaf bakery baked gnome-maps</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='loaf'
+          opacity='1'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dashoffset='3.20001'
+          d='M 3.08276 6.05517 C -0.535661 9.35567, 1 14, 5 14 L 10.7889 14 C 13.8713 14, 16 11, 14.3586 8 C 11.6142 2.98398, 7.50179 4, 5.6069 4.50345'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+  <path
+          id='ripples'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='1'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          stroke-dashoffset='3.20001'
+          d='M 11.5 9.50937 C 11.4183 7.37435, 10.2932 5.27795, 8.54374 4.06682 M 9.5 9.50937 C 9.41833 7.37435, 8.64415 6, 6.87518 4.21075 M 7.50021 9.50937 C 7.41854 7.37435, 6.42005 5.84137, 5.1485 4.63999'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='200%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+</svg>

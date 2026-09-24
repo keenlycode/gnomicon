@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <path id="path2" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" d="M 2.5 12 L 2.5 9.75 C 2.5 9.05964375, 3.05964398 8.5, 3.75 8.5 L 11.25 8.5 C 11.9403563 8.5, 12.5 9.05964375, 12.5 9.75 L 12.5 12 M 7.5 5 L 7.5 12" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="circle4" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 14 13.5 C 14 14.3284273, 13.3284273 15, 12.5 15 C 11.6715727 15, 11 14.3284273, 11 13.5 C 11 12.6715727, 11.6715727 12, 12.5 12 C 13.3284273 12, 14 12.6715727, 14 13.5 Z M 9 13.5 C 9 14.3284273, 8.32842731 15, 7.5 15 C 6.67157269 15, 6 14.3284273, 6 13.5 C 6 12.6715727, 6.67157269 12, 7.5 12 C 8.32842731 12, 9 12.6715727, 9 13.5 Z M 4 13.5 C 4 14.3284273, 3.32842708 15, 2.5 15 C 1.67157292 15, 1 14.3284273, 1 13.5 C 1 12.6715727, 1.67157292 12, 2.5 12 C 3.32842708 12, 4 12.6715727, 4 13.5 Z M 2 1 L 13 1 C 13.5539999 1, 14 1.44599998, 14 2 L 14 4 C 14 4.5539999, 13.5539999 5, 13 5 L 2 5 C 1.44599998 5, 1 4.5539999, 1 4 L 1 2 C 1 1.44599998, 1.44599998 1, 2 1 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>graph function derivative</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

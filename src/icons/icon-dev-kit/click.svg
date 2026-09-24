@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state6 empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="path6" fill="none" fill-opacity="0" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 8.00837898 14.2257729 L 8.00114727 7.98975039 C 8.0006485 7.55932188, 8.47415543 7.29667902, 8.83904266 7.52498913 L 14.0483494 10.7844524 C 14.6873398 11.184268, 14.459918 12.1662569, 13.7102213 12.2444639 L 11.0446157 12.5501451 L 9.39493752 14.6881399 C 8.9431076 15.273715, 8.00923634 14.9653978, 8.00837898 14.2257729 Z M 2.9931035 4.9931035 L 1.98620689 4.97931051 M 4.73103428 8.01379299 L 4.26206875 8.89655209 M 10 4.97931051 L 11.006896 4.96551704 M 8.73103428 1.10344827 L 8.27586174 1.95862055 M 4.27586222 1.09655166 L 4.73103428 1.97241378" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state6" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>mouse cursor click</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

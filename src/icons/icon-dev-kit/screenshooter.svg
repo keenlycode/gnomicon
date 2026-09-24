@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 5.85685778 8.61303616 C 5.85685778 9.79580688, 6.81637573 10.7546301, 8 10.7546301 C 9.18362617 10.7546301, 10.1431427 9.79580688, 10.1431427 8.61303616 C 10.1431427 7.43026638, 9.18362617 6.47144175, 8 6.47144175 C 6.81637573 6.47144175, 5.85685778 7.43026638, 5.85685778 8.61303616 Z M 4.7857132 12.500001 L 11.2142868 12.500001 C 11.924367 12.500001, 12.5000019 11.9247818, 12.5000019 11.2152147 L 12.5000019 6.03901291 C 12.5000019 5.32944536, 11.924367 4.75422668, 11.2142868 4.75422668 L 10.5714302 4.75422668 L 9.74236584 3.92576146 C 9.44997692 3.6335845, 9.05341339 3.46944094, 8.63991356 3.46944094 L 7.36008644 3.46944094 C 6.94658709 3.46944094, 6.55002356 3.6335845, 6.25763512 3.92576146 L 5.42857075 4.75422668 L 4.7857132 4.75422668 C 4.07563257 4.75422668, 3.49999881 5.32944536, 3.49999881 6.03901291 L 3.49999881 11.2152147 C 3.49999881 11.9247818, 4.07563257 12.500001, 4.7857132 12.500001 Z" id="camera" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path d="M 5 15 L 4 15 C 2.34314585 15, 1 13.6568546, 1 12 L 1 11 M 1 5 L 1 4 C 1 2.34314585, 2.34314585 1, 4 1 L 5 1 M 11 1 L 12 1 C 13.6568546 1, 15 2.34314585, 15 4 L 15 5 M 15 11 L 15 12 C 15 13.6568546, 13.6568546 15, 12 15 L 11 15" id="path1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>screenshot applet-screenshooter</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="path2" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 14 7 L 2 7 C 2 7.55228472, 2.44771528 8, 3 8 L 13 8 C 13.5522852 8, 14 7.55228472, 14 7 Z M 3 7 L 3 3 C 3 1.89543045, 3.89543056 1, 5 1 L 11 1 C 12.1045694 1, 13 1.89543045, 13 3 L 13 7" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path3" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 2.47731209 7.52946806 L 2.47731209 9.45474911 C 2.47731233 10.0397272, 2.95153093 10.5139456, 3.53650904 10.5139456 L 12.5585499 10.5139456 C 13.3792753 10.5139456, 14.0446043 11.1792746, 14.0446043 12 L 14.0446043 12.0318804 C 14.0446024 12.8526039, 13.3792734 13.517931, 12.5585499 13.517931 L 2.60020208 13.517931 C 2.0152235 13.517931, 1.5410049 13.9921503, 1.54100513 14.5771284 C 1.5819428 15.1211691, 2.0561614 15.5290146, 2.60020208 15.4880772 L 6.48977757 15.4880772 C 7.07475615 15.4880772, 7.54897451 15.0138578, 7.54897451 14.4288797 L 7.54897451 13.5374384" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>docking station usb dock thunderbolt</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

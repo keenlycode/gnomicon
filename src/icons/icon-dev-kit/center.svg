@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state1 empty">
+  <path id="path11" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" d="M 5 13 L 11 13 M 13 5 L 13 11 M 5 3 L 11 3 M 3 5 L 3 11 M 15 3 C 15 4.10456944, 14.1045694 5, 13 5 C 11.8954306 5, 11 4.10456944, 11 3 C 11 1.89543045, 11.8954306 1, 13 1 C 14.1045694 1, 15 1.89543045, 15 3 Z M 15 13 C 15 14.1045694, 14.1045694 15, 13 15 C 11.8954306 15, 11 14.1045694, 11 13 C 11 11.8954306, 11.8954306 11, 13 11 C 14.1045694 11, 15 11.8954306, 15 13 Z M 5 13 C 5 14.1045694, 4.10456944 15, 3 15 C 1.89543045 15, 1 14.1045694, 1 13 C 1 11.8954306, 1.89543045 11, 3 11 C 4.10456944 11, 5 11.8954306, 5 13 Z M 5 3 C 5 4.10456944, 4.10456944 5, 3 5 C 1.89543045 5, 1 4.10456944, 1 3 C 1 1.89543045, 1.89543045 1, 3 1 C 4.10456944 1, 5 1.89543045, 5 3 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state1" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path12" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" d="M 9 8 C 9 8.55228519, 8.55228519 9, 8 9 C 7.44771528 9, 7 8.55228519, 7 8 C 7 7.44771528, 7.44771528 7, 8 7 C 8.55228519 7, 9 7.44771528, 9 8 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path visibility="hidden" id="path12" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" fill-rule="nonzero" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" d="M 9 8 C 9 8.55228519, 8.55228519 9, 8 9 C 7.44771528 9, 7 8.55228519, 7 8 C 7 7.44771528, 7.44771528 7, 8 7 C 8.55228519 7, 9 7.44771528, 9 8 Z" class="foreground foreground-fill foreground-stroke" gpa:stroke="foreground" gpa:states="state1" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>graph function center</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <path id="path2" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" d="M 8.5 5 C 8.5 5.82842684, 7.82842731 6.5, 7 6.5 C 6.17157269 6.5, 5.5 5.82842684, 5.5 5 C 5.5 4.17157316, 6.17157269 3.5, 7 3.5 C 7.82842731 3.5, 8.5 4.17157316, 8.5 5 Z M 8.5 13 C 8.5 13.8284273, 7.82842731 14.5, 7 14.5 C 6.17157269 14.5, 5.5 13.8284273, 5.5 13 C 5.5 12.1715727, 6.17157269 11.5, 7 11.5 C 7.82842731 11.5, 8.5 12.1715727, 8.5 13 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path5" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="0.35" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" d="M 7 6.5 L 7 11.5" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path6" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" d="M 7 0 L 7 3.5 M 8.5 13 L 16 13 M 0 13 L 5.5 13" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>lines nodes shape join combine segment line-join</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

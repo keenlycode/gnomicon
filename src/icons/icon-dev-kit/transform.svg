@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <path id="path14" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 7.73632812 6.0078125 L 11.2636719 3.9921875 M 3.89453125 11.2109365 L 5.10546875 8.7890625 M 8 7 C 8 8.10456944, 7.10456944 9, 6 9 C 4.89543056 9, 4 8.10456944, 4 7 C 4 5.89543056, 4.89543056 5, 6 5 C 7.10456944 5, 8 5.89543056, 8 7 Z M 15 3 C 15 4.10456944, 14.1045694 5, 13 5 C 11.8954306 5, 11 4.10456944, 11 3 C 11 1.89543045, 11.8954306 1, 13 1 C 14.1045694 1, 15 1.89543045, 15 3 Z M 15 13 C 15 14.1045694, 14.1045694 15, 13 15 C 11.8954306 15, 11 14.1045694, 11 13 C 11 11.8954306, 11.8954306 11, 13 11 C 14.1045694 11, 15 11.8954306, 15 13 Z M 5 13 C 5 14.1045694, 4.10456944 15, 3 15 C 1.89543045 15, 1 14.1045694, 1 13 C 1 11.8954306, 1.89543045 11, 3 11 C 4.10456944 11, 5 11.8954306, 5 13 Z M 13 5 L 13 11 M 5 13 L 11 13" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>graph function transform</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

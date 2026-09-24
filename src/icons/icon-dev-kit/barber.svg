@@ -1,0 +1,57 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>hair cut hairdresser barber gnome-maps</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='path4'
+          fill='none'
+          stroke='rgb(0,0,0)'
+          stroke-width='1'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M 4 10.5 L 7 10.5'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='200%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+  <path
+          id='path7'
+          fill='none'
+          stroke='rgb(0,0,0)'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='miter'
+          d='M 10 8 L 14 8 M 10 5 L 14 5 M 10 2 L 12.5 2 C 13.3284 2, 14 2.67157, 14 3.5 L 14 15 M 10 13.5 C 10 14.3284, 9.32843 15, 8.5 15 C 7.67157 15, 7 14.3284, 7 13.5 C 7 12.6716, 7.67157 12, 8.5 12 C 9.32843 12, 10 12.6716, 10 13.5 Z M 4 13.5 C 4 14.3284, 3.32843 15, 2.5 15 C 1.67157 15, 1 14.3284, 1 13.5 C 1 12.6716, 1.67157 12, 2.5 12 C 3.32843 12, 4 12.6716, 4 13.5 Z M 4 13.5413 L 4 5 C 4 3.34315, 5.34315 2, 7 2 L 7 13.5'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+</svg>

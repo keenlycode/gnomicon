@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <path id="path3" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" d="M 14.5 6.5 C 14.5 5.94771528, 14.0522852 5.5, 13.5 5.5 C 12.9477148 5.5, 12.5 5.94771528, 12.5 6.5 L 12.5 9.5 C 12.5 10.0522852, 12.9477148 10.5, 13.5 10.5 C 14.0522852 10.5, 14.5 10.0522852, 14.5 9.5 L 14.5 8.5 L 14 8.5 M 8.5 6.5 L 8.5 9.5 C 8.5 10.0522852, 8.94771576 10.5, 9.5 10.5 L 9.50048542 10.5 C 10.0527544 10.5, 10.5004416 10.052269, 10.5003881 9.5 L 10.5000973 6.5 C 10.5000439 5.94769955, 10.0523005 5.5, 9.5 5.5 C 8.94771576 5.5, 8.5 5.94771528, 8.5 6.5 Z M 5.5 5.5 L 5.5 10.5 L 6.5 10.5" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path id="path6" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 5 13 L 3 15 L 1 13 M 5 3 L 3 1 L 1 3 M 3 1 L 3 15" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>graph function coordinates dataviz science logarithm axis-log-vertical</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="buttons" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="22.5589" d="M 5.94482803 6 C 5.94482803 3.77562571, 7.74803972 1.97241366, 9.97241402 1.97241366 C 12.1967878 1.97241366, 14 3.77562547, 14 6 C 14 8.22437477, 12.1967878 10.027586, 9.97241402 10.027586 M 11.0708466 7.11357832 L 11.0910473 7.11357832 M 11.0708466 4.90156746 L 11.0910473 4.90156746 M 8.87398052 4.90156746 L 8.89418125 4.90156746 M 9.98339176 9.99592686 C 9.98339081 12.2203007, 8.1801796 14.0235119, 5.95580578 14.0235119 C 3.73143196 14.0235119, 1.92822039 12.2203007, 1.9282198 9.99592686 C 1.92821956 7.77155256, 3.73143125 5.9683404, 5.95580578 5.9683404 C 8.18018055 5.9683404, 9.98339176 7.77155256, 9.98339176 9.99592686 Z M 7.05423832 11.1095047 L 7.07443953 11.1095047 M 4.85737371 11.1095047 L 4.87757444 11.1095047 M 7.05423832 8.89749432 L 7.07443953 8.89749432 M 4.85737371 8.89749432 L 4.87757444 8.89749432" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>shirt buttons</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

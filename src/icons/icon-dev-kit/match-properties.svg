@@ -1,0 +1,48 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline state8 empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>objects design cad match properties copy duplicate transfer</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='match'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          d='M 12 4 L 10 6 L 8 4 M 14 14 C 14.5523 14, 15 13.5523, 15 13 L 15 3.51379 A 2.51379 2.51379 0 0 0 12.4862 1 A 2.50004 2.50004 0 0 0 10 3.51379 L 10 6 M 1 13.5307 L 3.06896 14.4174 C 4.94066 15.2195, 7.05931 15.2195, 8.931 14.4174 L 11 13.5307 M 4.51849 8.02897 L 1.4607 9.26066 C 0.923397 9.47709, 0.923397 10.2378, 1.4607 10.4542 L 4.51849 11.6859 C 5.46905 12.0688, 6.53094 12.0688, 7.4815 11.6859 L 10.5393 10.4542 C 11.0766 10.2378, 11.0766 9.47709, 10.5393 9.26066 L 7.4815 8.02897 C 6.53094 7.64608, 5.46905 7.64608, 4.51849 8.02897 Z'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          class='transparent-fill foreground-stroke'
+          gpa:stroke='foreground'>
+  </path>
+</svg>

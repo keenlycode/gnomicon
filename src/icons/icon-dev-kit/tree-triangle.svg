@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 3.60316992 12 L 12.3968296 12 C 13.1262608 12, 13.7986469 11.605484, 14.1544647 10.9687243 C 14.5102835 10.3319645, 14.4938803 9.55255699, 14.1115875 8.93133068 L 9.88841248 2.06866956 C 9.48486137 1.41289806, 8.76999378 1.01343358, 8 1.01343358 C 7.23000669 1.01343358, 6.51513958 1.41289806, 6.111588 2.06866956 L 1.888412 8.93133068 C 1.50611889 9.55255699, 1.48971605 10.3319645, 1.84553444 10.9687243 C 2.20135283 11.605484, 2.87373877 12, 3.60316992 12 Z M 8 6 L 8 15" id="path8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path d="M 10.5 7.5 L 8 10" id="path9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill-rule="nonzero" fill="rgb(0,0,0)" class="foreground-stroke foreground-fill" gpa:states="outline" gpa:stroke="foreground" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>nature tree forest tree-triangle</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

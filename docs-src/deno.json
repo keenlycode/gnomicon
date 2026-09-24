@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["deno.ns", "dom", "dom.iterable", "esnext"],
+    "strict": true
+  },
+  "tasks": {
+    "build": "deno run --allow-read --allow-write --allow-run --allow-env=PATH build.ts",
+    "dev": "deno run --allow-read=../docs --allow-net=127.0.0.1:8000 serve.ts",
+    "check": "deno check build.ts serve.ts app.ts",
+    "lint": "deno lint build.ts serve.ts app.ts",
+    "fmt": "deno fmt build.ts serve.ts app.ts",
+    "test": "deno test --allow-read --allow-write --allow-run --allow-env=PATH build.ts"
+  }
+}

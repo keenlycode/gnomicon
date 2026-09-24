@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <rect id="border" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="3.20001" x="1" y="1" width="14" height="14" rx="2.06897" ry="2.06897" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </rect>
+  <path id="dots" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="3.20001" d="M 11.5 11 C 11.5 11.2761421, 11.2761421 11.5, 11 11.5 C 10.7238579 11.5, 10.5 11.2761421, 10.5 11 C 10.5 10.7238579, 10.7238579 10.5, 11 10.5 C 11.2761421 10.5, 11.5 10.7238579, 11.5 11 Z M 8.5 8 C 8.5 8.27614212, 8.27614212 8.5, 8 8.5 C 7.7238574 8.5, 7.5 8.27614212, 7.5 8 C 7.5 7.7238574, 7.7238574 7.5, 8 7.5 C 8.27614212 7.5, 8.5 7.7238574, 8.5 8 Z M 5.5 5 C 5.5 5.2761426, 5.2761426 5.5, 5 5.5 C 4.7238574 5.5, 4.5 5.2761426, 4.5 5 C 4.5 4.7238574, 4.7238574 4.5, 5 4.5 C 5.2761426 4.5, 5.5 4.7238574, 5.5 5 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>dice gambling roll</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

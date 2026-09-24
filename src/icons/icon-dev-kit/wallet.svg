@@ -1,0 +1,48 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline state6 empty'
+        gpa:state='0'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>money wallet finance personal</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='wallet'
+          class='transparent-fill'
+          opacity='1'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 12 10 L 11.9902 10 M 13 5 L 13 3.39946 C 13 2.66576, 12.6592 1.97369, 12.0777 1.52636 C 11.4961 1.07902, 10.7338 0.905979, 10.0306 1.11541 L 3.58928 3.03389 C 1.37279 3.69405, 0.959235 4.77829, 1 7 M 3 15 L 13 15 C 14.1046 15, 15 14.1046, 15 13 L 15 7 C 15 5.89543, 14.1046 5, 13 5 L 3 5 C 1.89543 5, 1 5.89543, 1 7 L 1 13 C 1 14.1046, 1.89543 15, 3 15 Z'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'
+          gpa:states='outline state6'>
+  </path>
+</svg>

@@ -1,0 +1,87 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>donut glazing</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+          id='circle1'
+          class='transparent-fill'
+          fill='none'
+          fill-opacity='0.372549'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          cx='8'
+          cy='8'
+          r='2'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </circle>
+  <path
+          id='path2'
+          class='transparent-fill'
+          fill='none'
+          fill-opacity='0.372549'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          d='M 1 8 L 1 12.45 C 1 13.306, 1.69396 14, 2.55 14 C 3.37843 13.9724, 4.02761 13.2784, 4 12.45 L 4 12 C 4 11.4477, 4.44772 11, 5 11 C 5.55228 11, 6 11.4477, 6 12 L 6 12.45 C 6 13.5511, 7 14.3862, 8 14.3862 C 9.17931 14.3862, 10 13.306, 10 12.45 L 10 12 C 10 11.4477, 10.4477 11, 11 11 C 11.5523 11, 12 11.4477, 12 12 L 12 12.45 C 12 13.306, 12.694 14, 13.55 14 C 14.3784 13.9724, 15.0276 13.2784, 15 12.45 L 15 8 C 15 4.13401, 11.866 1, 8 1 C 4.13401 1, 1 4.13401, 1 8 Z M 12.2258 13.256 C 11.1186 14.2985, 9.5344 15.0018, 7.99301 15 C 6.46977 14.9982, 4.89387 14.2835, 3.79368 13.2612'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+  <path
+          id='path6'
+          class='transparent-fill foreground-stroke'
+          fill='none'
+          fill-opacity='0.372549'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='0'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          d='M 12 6 L 13 7 M 9 4 L 10 4 M 5 5 L 5 4 M 3 8 L 4 7'
+          gpa:stroke-minwidth='0.5'
+          gpa:stroke-maxwidth='0'
+          gpa:stroke='foreground'
+          gpa:states='outline'>
+  </path>
+</svg>

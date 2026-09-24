@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>migrations find computer sharing loupe laptop search find index</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="find" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 13 13 L 15 15 M 13.779 11 C 13.779 12.6569, 12.4359 14, 10.779 14 C 9.12217 14, 7.77903 12.6569, 7.77903 11 C 7.77903 9.34315, 9.12217 8, 10.779 8 C 12.4359 8, 13.779 9.34315, 13.779 11 Z" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+  <path id="comp" fill="none" fill-opacity="0.352963" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" paint-order="stroke fill markers" d="M 4 11 C 3.38714 11, 2.82688 11.3462, 2.55279 11.8944 L 1.89443 13.2111 C 1.48345 14.033, 2.0811 15, 3 15 L 6.97931 15 M 14 6.10345 L 14 4 C 14 2.89543, 13.1046 2, 12 2 L 4 2 C 2.89543 2, 2 2.89543, 2 4 L 2 9 C 2 10.1046, 2.89543 11, 4 11 L 5.37931 11" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

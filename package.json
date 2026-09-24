@@ -1,12 +1,26 @@
 {
   "name": "gnomicon",
-  "version": "46.0.0",
+  "version": "51.0.0",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./icons/*": { "types": "./dist/modules/*.d.ts", "import": "./dist/modules/*.js" },
+    "./icons.json": "./dist/icons.json",
+    "./svg/*": "./dist/svg/*",
+    "./dist/*": "./dist/*"
+  },
   "description": "Gnome Symbolic Icon for WebApp",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "python scripts/build.py",
+    "test": "python -m unittest discover -s tests",
+    "docs": "cd docs-src && deno task build",
+    "prepack": "python scripts/build.py"
   },
   "repository": {
     "type": "git",
@@ -17,21 +31,13 @@
     "svg"
   ],
   "author": "Nitipit Nontasuwan",
-  "license": "CC-BY-SA-4.0",
+  "license": "SEE LICENSE IN license.md",
   "bugs": {
     "url": "https://github.com/keenly-coding/gnomicon/issues"
   },
   "homepage": "https://keenly-coding.github.io/gnomicon/",
   "files": [
-    "dist/**/*"
-  ],
-  "devDependencies": {
-    "@devcapsule/adapter": "^2.1.0",
-    "@devcapsule/deficon": "^2.0.2",
-    "esbuild": "^0.19.9",
-    "gadjet": "^1.0.4",
-    "glob": "^10.3.10",
-    "highlight.js": "^11.9.0",
-    "install": "^0.13.0"
-  }
+    "dist/**/*",
+    "!dist/jsr/**"
+  ]
 }

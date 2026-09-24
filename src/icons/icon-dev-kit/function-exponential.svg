@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="func" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="bevel" stroke-miterlimit="4" stroke-dashoffset="3.20001" d="M 0 13 C 0.507246792 13, 1.47991371 13.0089998, 1.47991371 13.0089998 M 4.36772823 12.3869219 C 5.59486103 12.0276299, 6.74217939 11.5169516, 7.78421497 10.872303 M 10.1296749 9.01734543 C 11.3893661 7.75464058, 12.3872252 6.22446489, 12.8215046 4.48464584 M 13.5103712 1.58273005 C 13.6532774 1.17912471, 13.7646513 0.566606462, 13.7646513 0" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="nodes" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="3.20001" d="M 13.0030594 4.5 C 12.176321 4.49999905, 11.5061178 3.82979798, 11.5061178 3.00305796 C 11.5061178 2.17632008, 12.176321 1.50611806, 13.0030594 1.50611901 C 13.8297968 1.50611806, 14.5 2.17632008, 14.5 3.00305796 C 14.5 3.82979798, 13.8297968 4.49999905, 13.0030594 4.5 Z M 9.00305939 11.5 C 8.17632103 11.499999, 7.50611782 10.8297977, 7.50611782 10.0030584 C 7.50611782 9.17632008, 8.17632103 8.50611782, 9.00305939 8.50611877 C 9.82979679 8.50611782, 10.5 9.17632008, 10.5 10.0030584 C 10.5 10.8297977, 9.82979679 11.499999, 9.00305939 11.5 Z M 3.00305891 14.5 C 2.17632103 14.499999, 1.50611806 13.8297977, 1.50611806 13.0030584 C 1.50611806 12.1763201, 2.17632103 11.5061178, 3.00305891 11.5061188 C 3.82979703 11.5061178, 4.5 12.1763201, 4.5 13.0030584 C 4.5 13.8297977, 3.82979703 14.499999, 3.00305891 14.5 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>function graph math exponential</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

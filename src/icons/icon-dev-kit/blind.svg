@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 15.5 15.5 L 12.5 10.5" id="path10" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" gpa:stroke="foreground" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path d="M 8 2 C 8 2.55228472, 7.55228472 3, 7 3 C 6.44771528 3, 6 2.55228472, 6 2 C 6 1.44771528, 6.44771528 1, 7 1 C 7.55228472 1, 8 1.44771528, 8 2 Z M 3 10 C 3 10, 3.58215737 8.29433155, 4 7.5 C 4.27975988 6.96816778, 5 6, 5 6 L 6 6 M 11 9 L 8 6 L 7 6 M 10 15 L 7 10 M 4 15 L 6 11 M 6 11 L 7 10 L 7 6 L 6 6 Z" id="path11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" gpa:stroke="foreground" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>vision impairment blind</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

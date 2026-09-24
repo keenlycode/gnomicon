@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 12 9 C 12 10.0614424, 11.5786781 11.0775719, 10.828125 11.828125 L 12.9492188 13.9492188 C 14.2615662 12.6368723, 15 10.8559389, 15 9 Z" id="path22" gpa:states="outline" stroke="none" fill-rule="nonzero" fill-opacity="0.35" fill="rgb(0,0,0)" class="foreground-fill" gpa:fill="foreground">
+    </path>
+  <path d="M 7.49547577 9.86150074 C 7.01718283 9.58535862, 6.85330772 8.97376823, 7.12945032 8.49547577 C 7.40559244 8.0171833, 8.01718235 7.85330772, 8.49547577 8.12944984 C 8.97376823 8.40559292, 9.13764286 9.0171833, 8.86150074 9.49547577 C 8.58535862 9.97376919, 7.97376871 10.1376438, 7.49547577 9.86150074 Z M 11.4595776 10.9954758 L 8.86150074 9.49547577 M 3.05025244 13.9497471 C 1.73749793 12.6369934, 1.00000012 10.8565149, 1 9 C 1 5.13400698, 4.13400698 2, 8 2 C 11.8659945 2, 15 5.13400698, 15 9 C 15 10.8565149, 14.2625017 12.6369934, 12.9497471 13.9497471" id="path3" gpa:states="outline" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>power performance saving power-profile-performance speedometer-high</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

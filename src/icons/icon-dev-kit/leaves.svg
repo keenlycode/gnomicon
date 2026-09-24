@@ -1,0 +1,47 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>leaf category nature emoji-nature power-profile-power-saver</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='leaves'
+          style=''
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          paint-order='stroke fill markers'
+          d='M 7 11.031 L 5 11.031 C 2.79086 11.031, 1 9.24017, 1 7.03103 L 1 4.03103 L 3 4.03103 C 5.20914 4.03103, 7 5.82189, 7 8.03103 Z M 4.97241 15.0356 L 6.08411 13.9239 C 6.65288 13.3551, 6.97241 12.5837, 6.97241 11.7793 L 6.97241 6 C 6.97241 3.23858, 9.21099 1, 11.9724 1 L 15 1 L 15 3.01379 C 15 5.77519, 12.7614 8.01379, 10 8.01379 L 6.99996 8.01379'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'>
+  </path>
+</svg>

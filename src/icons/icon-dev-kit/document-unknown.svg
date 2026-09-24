@@ -1,0 +1,48 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>document object unknown unidentified mysterious</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='unknown'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          paint-order='markers stroke fill'
+          d='M 9 14.9688 L 9.01951 14.9688 M 7 9 A 2 2 0 0 1 9 7 A 2 2 0 0 1 11 9 A 1.61803 1.61803 0 0 1 10.1056 10.4472 L 9.48869 10.7557 A 0.884056 0.884056 0 0 0 9 11.5464 L 9 12 M 13 6 C 13 5.35971, 12.7456 4.74565, 12.2929 4.29289 L 10.7071 2.70711 C 10.2544 2.25435, 9.64029 2, 9 2 L 5 2 C 3.89543 2, 3 2.89543, 3 4 L 3 13 C 3 14.1046, 3.89543 15, 5 15 L 6 15'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          class='transparent-fill foreground-stroke'
+          gpa:stroke='foreground'>
+  </path>
+</svg>

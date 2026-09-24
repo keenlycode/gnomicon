@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state6 empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="satnav" fill="none" fill-opacity="0.372549" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1.99999" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 5.92881393 2.25187802 C 3.71862555 5.67807388, 2.29561591 8.66816044, 1.3221004 11.2903519 C 0.46522662 13.5983658, 2.53431797 15.8320427, 4.73634672 14.7310314 L 6.95704794 13.6206808 C 7.61360168 13.2924042, 8.38639927 13.2924042, 9.04295254 13.6206808 L 11.2636528 14.7310314 C 13.465683 15.8320456, 15.5347757 13.5983667, 14.6779013 11.2903519 C 13.7043839 8.66816044, 12.4406996 5.56988287, 10.071187 2.25187802 C 8.96746731 0.706350684, 6.95831966 0.655955374, 5.92881393 2.25187802 Z" class="transparent-fill foreground-stroke" gpa:stroke-minwidth='25%' gpa:stroke-maxwidth='150%' gpa:stroke="foreground" gpa:fill="none" gpa:states="outline state6">
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>navigation satnav satellite gps glonass arrow directions</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

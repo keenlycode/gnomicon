@@ -1,0 +1,48 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>anniversary ring marriage heart gnome-maps</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='rings'
+          style=''
+          fill='none'
+          fill-rule='nonzero'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 8 5.44194 C 5.625 4.19397, 4.62691 3.13583, 5.16031 1.98438 C 5.80113 0.601044, 7.53125 1.04603, 8 1.54688 C 8.35938 1.06413, 10.1768 0.497898, 10.8839 2 C 11.4203 3.13949, 10.3594 4.22802, 8 5.44194 Z M 9.96472 7.1363 C 11.62 6.69278, 13.3738 7.35289, 14.3259 8.77772 C 15.2779 10.2025, 15.2166 12.0755, 14.1734 13.435 C 13.1302 14.7946, 11.3369 15.3385, 9.71424 14.7877 C 8.09155 14.2369, 7 12.7136, 7 11 M 5 15 C 3.38215 15, 1.92361 14.0254, 1.30448 12.5307 C 0.685358 11.036, 1.02758 9.31557, 2.17157 8.17157 C 3.31556 7.02758, 5.03604 6.68536, 6.53073 7.30448 C 8.02543 7.92361, 9 9.38215, 9 11'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:states='outline'>
+  </path>
+</svg>

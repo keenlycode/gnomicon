@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="wheelchair" fill="none" fill-opacity="0.698039" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 10 10 L 14 8 L 13 13 M 4 4 L 7 2 L 11 5 L 8.32337952 7.76615334 M 14.0275145 2 C 14.0275145 2.55073071, 13.5810595 2.99718642, 13.0303278 2.9971869 C 12.4795971 2.99718642, 12.0331421 2.55073071, 12.0331421 2 C 12.0331421 1.44926918, 12.4795971 1.00281346, 13.0303278 1.0028131 C 13.5810595 1.00281346, 14.0275145 1.44926918, 14.0275145 2 Z M 4.59471703 7.28969479 C 5.03580904 7.12145472, 5.51447153 7.0293107, 6.01465511 7.0293107 C 8.21570015 7.0293107, 9.99999905 8.81361008, 10 11.0146551 C 10 11.7233486, 9.81501865 12.3888378, 9.49070644 12.9654741 M 7.53727341 14.698801 C 7.0681572 14.8928957, 6.55391359 15, 6.01465511 15 C 3.81360984 15, 2.02931046 13.2157001, 2.02931046 11.0146551 C 2.02931046 10.2734432, 2.23165631 9.57949257, 2.58412218 8.98502731" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>wheelchair accessibility disabled a11y</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

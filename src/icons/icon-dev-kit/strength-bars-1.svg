@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline filled empty">
+<path visibility="hidden" d="M 1.49247706 14 C 1.21633482 13.9958448, 0.995845377 13.7686195, 1 13.4924774 L 1 11.5075226 C 1.00000024 11.2272253, 1.2272259 11, 1.50752294 11 C 1.78366518 11.0041552, 2.00415468 11.2313805, 2 11.5075226 L 2 13.4924774 C 1.99999976 13.7727747, 1.7727741 14, 1.49247706 14 Z M 5.49247694 14 C 5.21633482 13.9958448, 4.99584532 13.7686195, 5 13.4924774 L 5 8.50752258 C 5 8.2272253, 5.22722578 8, 5.50752306 8 C 5.78366518 8.00415516, 6.00415468 8.23138046, 6 8.50752258 L 6 13.4924774 C 6 13.7727747, 5.77277422 14, 5.49247694 14 Z M 9.49247742 14 C 9.2163353 13.9958458, 8.99584579 13.7686195, 9 13.4924774 L 9 5.50752306 C 9 5.22722578, 9.2272253 5, 9.50752258 5 C 9.7836647 5.00415468, 10.0041552 5.23138046, 10 5.50752306 L 10 13.4924774 C 10 13.7727747, 9.7727747 14, 9.49247742 14 Z M 14 13.4924774 L 14 2.50752306 C 14 2.22722602, 13.7727747 2.00000024, 13.4924774 2 C 13.2163353 2.00415468, 12.9958448 2.23138046, 13 2.50752306 L 13 13.4924774 C 13 13.7727747, 13.2272253 14, 13.5075226 14 C 13.7836647 13.9958458, 14.0041542 13.7686195, 14 13.4924774 Z" id="fill" gpa:states="filled" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill-rule="nonzero" fill="rgb(0,0,0)" class="foreground-stroke foreground-fill" gpa:stroke="foreground" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path d="M 1.49247706 14 C 1.21633482 13.9958448, 0.995845377 13.7686195, 1 13.4924774 L 1 11.5075226 C 1.00000024 11.2272253, 1.2272259 11, 1.50752294 11 C 1.78366518 11.0041552, 2.00415468 11.2313805, 2 11.5075226 L 2 13.4924774 C 1.99999976 13.7727747, 1.7727741 14, 1.49247706 14 Z M 5.49247694 14 C 5.21633482 13.9958448, 4.99584532 13.7686195, 5 13.4924774 L 5 8.50752258 C 5 8.2272253, 5.22722578 8, 5.50752306 8 C 5.78366518 8.00415516, 6.00415468 8.23138046, 6 8.50752258 L 6 13.4924774 C 6 13.7727747, 5.77277422 14, 5.49247694 14 Z M 9.49247742 14 C 9.2163353 13.9958458, 8.99584579 13.7686195, 9 13.4924774 L 9 5.50752306 C 9 5.22722578, 9.2272253 5, 9.50752258 5 C 9.7836647 5.00415468, 10.0041552 5.23138046, 10 5.50752306 L 10 13.4924774 C 10 13.7727747, 9.7727747 14, 9.49247742 14 Z M 14 13.4924774 L 14 2.50752306 C 14 2.22722602, 13.7727747 2.00000024, 13.4924774 2 C 13.2163353 2.00415468, 12.9958448 2.23138046, 13 2.50752306 L 13 13.4924774 C 13 13.7727747, 13.2272253 14, 13.5075226 14 C 13.7836647 13.9958458, 14.0041542 13.7686195, 14 13.4924774 Z" id="stroke" gpa:states="outline" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill-rule="nonzero" fill-opacity="0.25" fill="rgb(0,0,0)" class="foreground-stroke foreground-fill" gpa:stroke="foreground" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>strength-bars-1 network-cellular-signal-excellent</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,29 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline filled empty">
+<path d="M 11 4 C 11 5.65685415, 9.65685463 7, 8 7 C 6.34314585 7, 5 5.65685415, 5 4 C 5 2.34314585, 6.34314585 1, 8 1 C 9.65685463 1, 11 2.34314585, 11 4 Z" id="top" gpa:states="outline filled" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path visibility="hidden" d="M 15 11 C 15 12.6568546, 13.6568546 14, 12 14 C 10.3431454 14, 9 12.6568546, 9 11 C 9 9.34314537, 10.3431454 8, 12 8 C 13.6568546 8, 15 9.34314537, 15 11 Z" id="bottom-right" gpa:states="filled" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill-rule="nonzero" fill="rgb(0,0,0)" class="foreground-stroke foreground-fill" gpa:stroke="foreground" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path visibility="hidden" d="M 7 11 C 7 12.6568546, 5.65685415 14, 4 14 C 2.34314585 14, 1 12.6568546, 1 11 C 1 9.34314537, 2.34314585 8, 4 8 C 5.65685415 8, 7 9.34314537, 7 11 Z" id="bottom-left" gpa:states="filled" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill-rule="nonzero" fill-opacity="0.5" fill="rgb(0,0,0)" class="foreground-stroke foreground-fill" gpa:stroke="foreground" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path d="M 15 11 C 15 12.6568546, 13.6568546 14, 12 14 C 10.3431454 14, 9 12.6568546, 9 11 C 9 9.34314537, 10.3431454 8, 12 8 C 13.6568546 8, 15 9.34314537, 15 11 Z" id="bottom-right-force-outline" gpa:states="outline" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill-rule="nonzero" fill-opacity="0.5" fill="rgb(0,0,0)" class="foreground-stroke foreground-fill" gpa:stroke="foreground" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path d="M 7 11 C 7 12.6568546, 5.65685415 14, 4 14 C 2.34314585 14, 1 12.6568546, 1 11 C 1 9.34314537, 2.34314585 8, 4 8 C 5.65685415 8, 7 9.34314537, 7 11 Z" id="bottom-left-force-outline" gpa:states="outline" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill-rule="nonzero" fill-opacity="0.25" fill="rgb(0,0,0)" class="foreground-stroke foreground-fill" gpa:stroke="foreground" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>preferences-color camera photography pictures color colorimeter-colorhug</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

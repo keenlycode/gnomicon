@@ -1,0 +1,103 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline state1 empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>globe clock-world timezones earth world adw offline network-offline</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title>globe-no</title>
+  <path
+          id='outline'
+          class='transparent-fill foreground-stroke'
+          style=''
+          fill='none'
+          fill-rule='nonzero'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          d='M 8 15 C 4.13401 15, 1 11.866, 1 8 C 1 4.13401, 4.13401 1, 8 1 C 11.866 1, 15 4.13401, 15 8'
+          gpa:stroke='foreground'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'>
+  </path>
+  <path
+          id='detail1'
+          class='transparent-fill'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='1'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          stroke-dashoffset='22.5589'
+          d='M 8.00299 15 C 6.06161 15, 4.48781 11.8619, 4.48781 7.99092 C 4.48781 4.11991, 6.06161 0.981835, 8.00299 0.981835 C 9.94437 0.981836, 11.5182 4.11991, 11.5182 7.99092 M 13.7903 4.04813 C 12.2869 4.98682, 10.2054 5.51991, 8.02674 5.52424 C 5.84805 5.52858, 3.76063 5.00378, 2.24676 4.0711 M 8.02674 10.5007 C 5.84805 10.4964, 3.76063 11.0212, 2.24676 11.9539'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='200%'
+          gpa:stroke='foreground'
+          gpa:states='outline state1'>
+  </path>
+  <path
+          id='detail2'
+          class='transparent-fill'
+          visibility='hidden'
+          fill='none'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='0'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          stroke-dashoffset='22.5589'
+          d='M 1 8 L 15 8 M 8.00299 0.981835 L 8 15'
+          gpa:stroke-minwidth='0.25'
+          gpa:stroke-maxwidth='0'
+          gpa:stroke='foreground'
+          gpa:states='state1'>
+  </path>
+  <path
+          id='x'
+          class='transparent-fill'
+          style='stroke-width:2;stroke-dasharray:none'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(0,0,0)'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M 15 11 L 11 15 M 15 15 L 11 11'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          gpa:states='outline state1'>
+  </path>
+</svg>

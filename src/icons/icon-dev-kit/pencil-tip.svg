@@ -1,0 +1,67 @@
+<svg gpa:rendering="symbolic"
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+        xmlns:cc='http://creativecommons.org/ns#'
+        xmlns:dc='http://purl.org/dc/elements/1.1/'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state-names='outline empty'
+        gpa:state='0'
+        id='svg1'
+        width='16'
+        height='16'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license
+                rdf:resource='https://creativecommons.org/publicdomain/zero/1.0/'/>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>pencil edit document write document-edit inkscape</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+          id='pencil'
+          opacity='1'
+          fill='none'
+          stroke='rgb(0,0,0)'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          paint-order='stroke fill markers'
+          d='M 1 14.1349 A 0.93497 0.93497 40.8619 0 0 2 15 L 14 15 A 1 1 135 0 0 15 14 A 4.52237 4.52237 75.8627 0 0 14.4924 11.9849 L 9.49186 1.98373 A 1.66795 1.66795 0 0 0 6.50814 1.98373 L 1.50756 11.9849 A 4.80766 4.80766 103.283 0 0 1 14.1349 Z'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='150%'
+          class='transparent-fill foreground-stroke'
+          gpa:stroke='foreground'>
+  </path>
+  <path visibility="hidden"
+          id='graphite tip'
+          opacity='1'
+          fill='rgb(0,0,0)' gpa:fill='foreground'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          stroke-opacity='1'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          stroke-dasharray='none'
+          paint-order='stroke fill markers'
+          d='M 8 1.0625 A 1.66795 1.66795 0 0 0 6.50781 1.98438 L 4 7 L 12 7 L 9.49219 1.98438 A 1.66795 1.66795 0 0 0 8 1.0625 Z'
+          class='foreground foreground-fill'
+          gpa:states='tip'>
+  </path>
+</svg>

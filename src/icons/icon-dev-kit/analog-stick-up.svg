@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>controller input analog stick up</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="O" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 11.9708 3.50181 C 13.2152 4.60118, 14 6.20895, 14 8 C 14 11.3137, 11.3137 14, 8 14 C 4.68629 14, 2 11.3137, 2 8 C 2 6.23136, 2.76525 4.64146, 3.98271 3.54333" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="path6" fill="rgb(0,0,0)" gpa:fill="foreground" fill-opacity="1" fill-rule="nonzero" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 6.81726 3.23532 L 9.18274 3.23532 C 9.29474 3.23532, 9.39713 3.17204, 9.44721 3.07187 C 9.4973 2.9717, 9.48649 2.85182, 9.41929 2.76222 L 8.35482 1.34293 C 8.27106 1.23125, 8.1396 1.16552, 8 1.16552 C 7.8604 1.16552, 7.72894 1.23125, 7.64518 1.34293 L 6.58071 2.76222 C 6.51351 2.85182, 6.5027 2.9717, 6.55279 3.07187 C 6.60287 3.17204, 6.70526 3.23532, 6.81726 3.23532 Z" gpa:stroke-minwidth="50%" gpa:stroke-maxwidth="150%" class="foreground foreground-fill foreground-stroke" gpa:states="outline">
+    </path>
+  <path id="analog" opacity="0.25" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-linecap="round" stroke-linejoin="round" paint-order="stroke fill markers" d="M 11.5074 8 C 11.5074 9.93708, 9.93708 11.5074, 8 11.5074 C 6.06292 11.5074, 4.49261 9.93708, 4.49261 8 C 4.49261 6.06292, 6.06292 4.49261, 8 4.49261 C 9.93708 4.49261, 11.5074 6.06292, 11.5074 8 Z" class="transparent-fill foreground-stroke" gpa:states="outline">
+    </path>
+</svg>

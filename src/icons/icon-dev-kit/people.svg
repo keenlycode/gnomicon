@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>people shuman person user account system-users</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="people" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" d="M 5 8 L 3.86099 8 C 2.31459 8, 1.06099 9.2536, 1.06099 10.8 M 4.83967 6.36644 C 3.85147 5.93407, 3.16099 4.94767, 3.16099 3.8 C 3.16099 2.2536, 4.41459 1, 5.96099 1 C 7.02239 1, 7.94587 1.5906, 8.42072 2.4611 M 15 15 A 2.8 2.8 0 0 0 12.2 12.2 L 8 12.2 A 2.8 2.8 0 0 0 5.2 15 M 12.9 8 C 12.9 9.5464, 11.6464 10.8, 10.1 10.8 C 8.5536 10.8, 7.3 9.5464, 7.3 8 C 7.3 6.4536, 8.5536 5.2, 10.1 5.2 C 11.6464 5.2, 12.9 6.4536, 12.9 8 Z" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

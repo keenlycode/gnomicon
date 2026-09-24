@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <path id="experiment" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 11 2 L 14 2 L 14 3 C 14 4.65685415, 12.6568546 6, 11 6 L 8 6 L 8 5 C 8 3.34314585, 9.34314537 2, 11 2 Z M 8 9 L 8 4 C 8 2.34314585, 6.65685415 1, 5 1 L 2 1 L 2 2 C 2 3.65685415, 3.34314585 5, 5 5 L 8 5 M 4 9 L 12 9 M 6 9 L 6 13 C 6 14.1045694, 6.89543056 15, 8 15 C 9.10456944 15, 10 14.1045694, 10 13 L 10 9" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>flower testtube green experiment settings-experimental chemistry glass green leaf lab</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

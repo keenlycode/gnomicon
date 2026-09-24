@@ -1,0 +1,22 @@
+<svg gpa:rendering="symbolic" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" gpa:version="1" gpa:state-names="outline empty" gpa:state="0" width="16" height="16">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:description>patch bandage</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>patch bandage</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="patch" class="transparent-fill foreground-stroke" fill="none" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 14.1312 1.89305 C 15.3064 3.06827, 15.3064 4.96049, 14.1312 6.1357 L 6.12563 14.1412 C 4.95042 15.3164, 3.0582 15.3164, 1.88298 14.1412 C 0.707771 12.966, 0.707771 11.0738, 1.88298 9.89859 L 9.88852 1.89305 C 11.0637 0.717838, 12.9559 0.717838, 14.1312 1.89305 Z M 14.1312 14.1412 C 15.3064 12.966, 15.3064 11.0738, 14.1312 9.89859 L 6.1256 1.89303 C 4.95039 0.717817, 3.05817 0.717817, 1.88296 1.89303 C 0.70775 3.06824, 0.70775 4.96046, 1.88296 6.13567 L 9.88852 14.1412 C 11.0637 15.3164, 12.9559 15.3164, 14.1312 14.1412 Z" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

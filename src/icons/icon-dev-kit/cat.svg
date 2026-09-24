@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="cat" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="22.5589" d="M 1 11.2048693 C 1.05657303 13.3574352, 2.84743404 15.0565729, 5 15 L 11 15 C 13.2091389 15, 15 13.2091389, 15 11 C 14.9821739 10.277564, 14.776124 9.57228565, 14.4022179 8.95388031 L 11 3 L 8.83845043 6.20905209 C 8.65057468 6.48797417, 8.33629608 6.65520811, 8 6.65520811 C 7.6637044 6.65520811, 7.34942532 6.48797417, 7.16154957 6.20905209 L 5 3 L 1.59778249 8.95388031 C 1.2060498 9.63941288, 0.999999881 10.415307, 1 11.2048693 Z" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="face" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="22.5589" d="M 9.58876228 10.5139456 C 9.59953499 11.1008034, 10.0840101 11.567812, 10.670867 11.5570393 L 11.0066566 11.5570393 C 11.6042871 11.5570393, 12.0887623 11.0725641, 12.0887623 10.4749336 M 4.00665712 10.5139437 C 4.01742792 11.1008024, 4.50190353 11.567812, 5.08876181 11.5570393 L 5.42455196 11.5570393 C 6.02218199 11.5570393, 6.50665712 11.0725641, 6.50665712 10.4749336 M 1.52048075 10.999999 C 1.52048075 9.07180595, 3.0814805 7.51950598, 5.02048016 7.51950598 L 10.9928341 7.51950598 C 12.9318342 7.51950598, 14.4928341 9.07180595, 14.4928341 10.999999" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>cat sleeping cat-sleeping</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

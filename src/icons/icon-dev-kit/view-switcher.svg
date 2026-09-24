@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+  <defs id="defs1" fill="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke="none" class="foreground foreground-fill" gpa:states="none" gpa:animation-repeat="0" gpa:animation-segment="0" gpa:fill="foreground">
+    </defs>
+  <path id="viewswitch" fill="none" stroke="url(&quot;#gpa:foreground&quot;) rgb(0,0,0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M 4 15 L 6 13 L 4 11 M 1 10 L 1 11 C 1 12.1045694, 1.89543104 13, 3 13 L 6 13 M 11 1 L 9 3 L 11 5 M 14 6 L 14 5 C 14 3.89543056, 13.1045694 3, 12 3 L 9 3 M 13.3269806 13 L 14.6730194 13 C 14.854167 13, 15 13.145833, 15 13.3269806 L 15 14.6730194 C 15 14.854167, 14.854167 15, 14.6730194 15 L 13.3269806 15 C 13.145833 15, 13 14.854167, 13 14.6730194 L 13 13.3269806 C 13 13.145833, 13.145833 13, 13.3269806 13 Z M 9.32698059 13 L 10.6730194 13 C 10.854167 13, 11 13.145833, 11 13.3269806 L 11 14.6730194 C 11 14.854167, 10.854167 15, 10.6730194 15 L 9.32698059 15 C 9.14583302 15, 9 14.854167, 9 14.6730194 L 9 13.3269806 C 9 13.145833, 9.14583302 13, 9.32698059 13 Z M 13.3269806 9 L 14.6730194 9 C 14.854167 9, 15 9.14583302, 15 9.32698059 L 15 10.6730194 C 15 10.854167, 14.854167 11, 14.6730194 11 L 13.3269806 11 C 13.145833 11, 13 10.854167, 13 10.6730194 L 13 9.32698059 C 13 9.14583302, 13.145833 9, 13.3269806 9 Z M 9.32698059 9 L 10.6730194 9 C 10.854167 9, 11 9.14583302, 11 9.32698059 L 11 10.6730194 C 11 10.854167, 10.854167 11, 10.6730194 11 L 9.32698059 11 C 9.14583302 11, 9 10.854167, 9 10.6730194 L 9 9.32698059 C 9 9.14583302, 9.14583302 9, 9.32698059 9 Z M 1 7 L 5 7 M 1 4 L 5 4 M 1 1 L 5 1" class="transparent-fill foreground-stroke" gpa:stroke="foreground" gpa:fill="none" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>adw widget-view-switcher list grid</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,25 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline state1 empty">
+<path d="M 15 8 C 15 11.8659945, 11.8659945 15, 8 15 C 4.13400698 15, 1 11.8659945, 1 8 C 1 4.13400698, 4.13400698 1, 8 1 C 11.8659945 1, 15 4.13400698, 15 8 Z" id="path2" gpa:states="outline state1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path visibility="hidden" d="M 4 6 L 4 7 C 4 7.55228472, 4.44771528 8, 5 8 L 5.95169973 8 C 6.32436132 8, 6.67453623 7.82172775, 6.89378691 7.52038765 L 8 6 L 9.18225288 7.53059578 C 9.41092205 7.82664108, 9.76387882 8, 10.1379547 8 L 11 8 C 11.5522852 8, 12 7.55228472, 12 7 L 12 6 M 1.25517237 6 L 14.705163 5.98982811" id="full" gpa:states="state1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill-rule="nonzero" fill-opacity="0.959459" fill="rgb(0,0,0)" class="foreground-stroke foreground-fill" gpa:stroke="foreground" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <path d="M 4 6 L 4 7 C 4 7.55228472, 4.44771528 8, 5 8 L 5.95169973 8 C 6.32436132 8, 6.67453623 7.82172775, 6.89378691 7.52038765 L 8 6 L 9.18225288 7.53059578 C 9.41092205 7.82664108, 9.76387882 8, 10.1379547 8 L 11 8 C 11.5522852 8, 12 7.55228472, 12 7 L 12 6 M 1.25517237 6 L 14.705163 5.98982811" id="semi" gpa:states="outline" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill-rule="nonzero" fill-opacity="0.25" fill="rgb(0,0,0)" class="foreground-stroke foreground-fill" gpa:stroke="foreground" gpa:fill="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>face emote smiley face-cool</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

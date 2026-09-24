@@ -1,0 +1,21 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>graphics pentagon star polygon ngon inkscape</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="penta" fill="none" fill-opacity="0" fill-rule="nonzero" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" paint-order="stroke fill markers" d="M 10.4263 14.9692 L 5.58532 14.9842 C 4.22962 14.9884, 3.01608 14.1441, 2.54864 12.8716 L 1.18943 9.17122 C 0.720318 7.89409, 1.08578 6.45995, 2.1089 5.56308 L 6.26261 1.92193 C 7.23588 1.06875, 8.68934 1.06426, 9.66787 1.91139 L 13.8438 5.5266 C 14.8725 6.41713, 15.2468 7.84898, 14.7857 9.12903 L 13.4497 12.8377 C 12.9902 14.1132, 11.782 14.965, 10.4263 14.9692 Z" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+  </path>
+</svg>

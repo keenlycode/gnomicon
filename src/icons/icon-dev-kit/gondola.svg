@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="16" height="16" gpa:version="1" gpa:state="0" gpa:state-names="outline empty">
+<path d="M 11.8999996 13.3000002 L 13.6999998 10.8999996 C 13.8947334 10.6403551, 14 10.3245554, 14 10 C 14 9.6754446, 13.8947334 9.35964489, 13.6999998 9.10000038 L 11.8999996 6.69999981 C 11.333437 5.94458246, 10.444272 5.5, 9.5 5.5 L 7.5 5.5 C 6.55572796 5.5, 5.66656303 5.94458246, 5.0999999 6.69999981 L 3.29999995 9.10000038 C 3.10526681 9.35964489, 3 9.6754446, 3 10 C 3 10.3245554, 3.10526681 10.6403551, 3.29999995 10.8999996 L 5.0999999 13.3000002 C 5.66656303 14.055418, 6.55572796 14.5, 7.5 14.5 L 9.5 14.5 C 10.444272 14.5, 11.333437 14.055418, 11.8999996 13.3000002 Z" id="path1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path d="M 1 4 L 7.50594521 2.60586882 M 9.45108604 2.18905306 L 15 1 M 9.5 2.5 C 9.5 3.05228472, 9.05228519 3.5, 8.5 3.5 C 7.94771528 3.5, 7.5 3.05228472, 7.5 2.5 C 7.5 1.94771528, 7.94771528 1.5, 8.5 1.5 C 9.05228519 1.5, 9.5 1.94771528, 9.5 2.5 Z M 8.5 3.5 L 8.5 10.5 M 3 10.5 L 14 10.5" id="path5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0,0,0)" fill="none" class="foreground-stroke transparent-fill" gpa:states="outline" gpa:stroke="foreground" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>transport transit wirecar gondola</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wartybix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

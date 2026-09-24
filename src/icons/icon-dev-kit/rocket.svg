@@ -1,0 +1,23 @@
+<svg gpa:rendering="symbolic" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpa="https://www.gtk.org/grappa" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" gpa:version="1" gpa:state="0" id="svg1" width="16" height="16" gpa:state-names="outline empty">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"></cc:license>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>rocket space launch execute</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="rocket" fill="none" fill-opacity="0.372549" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3.1" paint-order="markers fill stroke" d="M 7 12 L 7 15 C 9.76142 15, 12 12.7614, 12 10 L 12 9.24444 M 4 9 L 1 9 C 1 6.23858, 3.23858 4, 6 4 L 6.75557 4 M 15 1 L 14 1 C 9.29835 1, 5.20003 4.19986, 4.05971 8.76114 L 4 9 Q 6.5 9.5, 7 12 L 7.23886 11.9403 C 11.8001 10.8, 15 6.70165, 15 2 Z" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="150%" >
+    </path>
+  <path id="window" fill="none" stroke="rgb(0,0,0)" gpa:stroke="foreground" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" d="M 11.5 5.5 C 11.5 6.03752, 11.0375 6.5, 10.5 6.5 C 9.96248 6.5, 9.5 6.03752, 9.5 5.5 C 9.5 4.96248, 9.96248 4.5, 10.5 4.5 C 11.0375 4.5, 11.5 4.96248, 11.5 5.5 Z M 1 15 L 1 13 C 1 11.8954, 1.89543 11, 3 11 C 4.10457 11, 5 11.8954, 5 13 C 5 14.1046, 4.10457 15, 3 15 Z" class="transparent-fill foreground-stroke" gpa:states="outline" gpa:stroke-minwidth="25%" gpa:stroke-maxwidth="200%" >
+    </path>
+</svg>
